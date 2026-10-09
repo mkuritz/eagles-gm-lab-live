@@ -1,0 +1,2257 @@
+{
+ "_note": "Hand-maintained cap data (no free live source). Extracted from snapshot 2026-10-07. Figures in $M.",
+ "data": {
+  "YEARS": [
+   2026,
+   2027,
+   2028,
+   2029,
+   2030
+  ],
+  "LEAGUE_CAP": {
+   "2026": 301.2,
+   "2027": 323,
+   "2028": 355,
+   "2029": 375,
+   "2030": 397.48
+  },
+  "CARRYOVER_2026": 15.423,
+  "SPOTRAC_COMMITTED": {
+   "2026": 299.847,
+   "2027": 291.611,
+   "2028": 228.121,
+   "2029": 193.339,
+   "2030": 171.636
+  },
+  "CONTRACTS": [
+   {
+    "id": "hurts",
+    "name": "Jalen Hurts",
+    "pos": "QB",
+    "age": 28,
+    "end": 2028,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 31.972,
+     "2027": 42.133,
+     "2028": 47.549,
+     "2029": 38.374,
+     "2030": 30.108
+    },
+    "base": {
+     "2027": 30,
+     "2028": 36
+    },
+    "restructurable": true,
+    "core": true
+   },
+   {
+    "id": "mailata",
+    "name": "Jordan Mailata",
+    "pos": "LT",
+    "age": 29,
+    "end": 2028,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 15.855,
+     "2027": 18.324,
+     "2028": 19.657,
+     "2029": 13.734,
+     "2030": 10.093
+    },
+    "base": {
+     "2027": 13.5,
+     "2028": 15
+    },
+    "restructurable": true,
+    "core": true
+   },
+   {
+    "id": "dsmith",
+    "name": "DeVonta Smith",
+    "pos": "WR",
+    "age": 28,
+    "end": 2028,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 10.727,
+     "2027": 14.77,
+     "2028": 20.072,
+     "2029": 12.861,
+     "2030": 10.577
+    },
+    "base": {
+     "2027": 10,
+     "2028": 15.5
+    },
+    "restructurable": true,
+    "core": true
+   },
+   {
+    "id": "barkley",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "age": 29,
+    "end": 2028,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 9.881,
+     "2027": 13.057,
+     "2028": 17.364,
+     "2029": 12.399,
+     "2030": 9.283
+    },
+    "base": {
+     "2027": 9,
+     "2028": 13
+    },
+    "restructurable": true,
+    "core": true
+   },
+   {
+    "id": "dickerson",
+    "name": "Landon Dickerson",
+    "pos": "G",
+    "age": 28,
+    "end": 2028,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 9.455,
+     "2027": 17.295,
+     "2028": 17.425,
+     "2029": 10.867,
+     "2030": 10.867
+    },
+    "base": {
+     "2027": 12.5,
+     "2028": 12.5
+    },
+    "restructurable": true,
+    "core": true
+   },
+   {
+    "id": "baun",
+    "name": "Zack Baun",
+    "pos": "LB",
+    "age": 30,
+    "end": 2027,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 7.538,
+     "2027": 11.799,
+     "2028": 6.232,
+     "2029": 9.204,
+     "2030": 5.988
+    },
+    "base": {
+     "2027": 8
+    },
+    "restructurable": true,
+    "core": false
+   },
+   {
+    "id": "carter",
+    "name": "Jalen Carter",
+    "pos": "DL",
+    "age": 25,
+    "end": 2031,
+    "voidThrough": 2032,
+    "prov": "V",
+    "hits": {
+     "2026": 9.21,
+     "2027": 9.099,
+     "2028": 15.641,
+     "2029": 22.364,
+     "2030": 29.546
+    },
+    "base": {},
+    "restructurable": false,
+    "core": true,
+    "signed": "4y/$152M ext (Jul 2026)"
+   },
+   {
+    "id": "greenard",
+    "name": "Jonathan Greenard",
+    "pos": "EDGE",
+    "age": 29,
+    "end": 2029,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 6.278,
+     "2027": 11.139,
+     "2028": 15.796,
+     "2029": 20.204,
+     "2030": 44.433
+    },
+    "base": {},
+    "restructurable": false,
+    "core": true,
+    "signed": "4y/$98M ext (Apr 2026)"
+   },
+   {
+    "id": "davis",
+    "name": "Jordan Davis",
+    "pos": "DL",
+    "age": 26,
+    "end": 2029,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 5.072,
+     "2027": 8.553,
+     "2028": 13.937,
+     "2029": 18.88,
+     "2030": 16.945
+    },
+    "base": {
+     "2027": 5.5,
+     "2028": 10.5
+    },
+    "restructurable": true,
+    "core": true
+   },
+   {
+    "id": "goedert",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "age": 31,
+    "end": 2026,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 10.231,
+     "2027": 8.243,
+     "2028": 5.609,
+     "2029": 3.08,
+     "2030": 1.331
+    },
+    "base": {},
+    "restructurable": false,
+    "core": false
+   },
+   {
+    "id": "elliott",
+    "name": "Jake Elliott",
+    "pos": "K",
+    "age": 31,
+    "end": 2028,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 4.653,
+     "2027": 5.126,
+     "2028": 5.46,
+     "2029": 2.912,
+     "2030": 2.573
+    },
+    "base": {},
+    "restructurable": false,
+    "core": false
+   },
+   {
+    "id": "mitchell",
+    "name": "Quinyon Mitchell",
+    "pos": "CB",
+    "age": 25,
+    "end": 2027,
+    "voidThrough": 2027,
+    "prov": "V",
+    "hits": {
+     "2026": 4.041,
+     "2027": 4.715,
+     "2028": 0,
+     "2029": 0,
+     "2030": 0
+    },
+    "base": {},
+    "restructurable": false,
+    "core": true,
+    "option5": true
+   },
+   {
+    "id": "nsmith",
+    "name": "Nolan Smith",
+    "pos": "EDGE",
+    "age": 25,
+    "end": 2027,
+    "voidThrough": 2027,
+    "prov": "V",
+    "hits": {
+     "2026": 3.816,
+     "2027": 13.752,
+     "2028": 0,
+     "2029": 0,
+     "2030": 0
+    },
+    "base": {},
+    "restructurable": false,
+    "core": true
+   },
+   {
+    "id": "campbell",
+    "name": "Jihaad Campbell",
+    "pos": "LB",
+    "age": 22,
+    "end": 2028,
+    "voidThrough": 2028,
+    "prov": "V",
+    "hits": {
+     "2026": 3.387,
+     "2027": 4.065,
+     "2028": 4.742,
+     "2029": 0,
+     "2030": 0
+    },
+    "base": {},
+    "restructurable": false,
+    "core": true,
+    "option5": true
+   },
+   {
+    "id": "dejean",
+    "name": "Cooper DeJean",
+    "pos": "CB",
+    "age": 23,
+    "end": 2027,
+    "voidThrough": 2027,
+    "prov": "V",
+    "hits": {
+     "2026": 2.532,
+     "2027": 2.954,
+     "2028": 0,
+     "2029": 0,
+     "2030": 0
+    },
+    "base": {},
+    "restructurable": false,
+    "core": true
+   },
+   {
+    "id": "mann",
+    "name": "Braden Mann",
+    "pos": "P",
+    "age": 29,
+    "end": 2029,
+    "voidThrough": 2030,
+    "prov": "V",
+    "hits": {
+     "2026": 1.672,
+     "2027": 2.233,
+     "2028": 2.7,
+     "2029": 3.158,
+     "2030": 1.723
+    },
+    "base": {},
+    "restructurable": false,
+    "core": false
+   },
+   {
+    "id": "mukuba",
+    "name": "Andrew Mukuba",
+    "pos": "S",
+    "age": 24,
+    "end": 2028,
+    "voidThrough": 2028,
+    "prov": "V",
+    "hits": {
+     "2026": 1.627,
+     "2027": 1.953,
+     "2028": 2.278,
+     "2029": 0,
+     "2030": 0
+    },
+    "base": {},
+    "restructurable": false,
+    "core": true
+   }
+  ],
+  "DEAD_MONEY": [
+   {
+    "id": "dm_johnson",
+    "name": "Lane Johnson",
+    "reason": "Retirement — post-June 1, 2027 split",
+    "prov": "V",
+    "hits": {
+     "2026": 0,
+     "2027": 16.614,
+     "2028": 26.276
+    }
+   },
+   {
+    "id": "dm_jurgens",
+    "name": "Cam Jurgens",
+    "reason": "Traded to BAL (post-June 1)",
+    "prov": "V",
+    "hits": {
+     "2026": 4.576,
+     "2027": 14.926
+    }
+   },
+   {
+    "id": "dm_brown",
+    "name": "A.J. Brown",
+    "reason": "Traded to NE (June 1)",
+    "prov": "D",
+    "hits": {
+     "2026": 23.393,
+     "2027": 22.706
+    }
+   },
+   {
+    "id": "dm_huff",
+    "name": "Bryce Huff",
+    "reason": "Traded to SF (2025)",
+    "prov": "D",
+    "hits": {
+     "2026": 10.7
+    }
+   },
+   {
+    "id": "dm_slay",
+    "name": "Darius Slay",
+    "reason": "Post-June 1 release (2025)",
+    "prov": "D",
+    "hits": {
+     "2026": 6.2
+    }
+   },
+   {
+    "id": "dm_bradberry",
+    "name": "James Bradberry",
+    "reason": "Release (2025)",
+    "prov": "D",
+    "hits": {
+     "2026": 4.4
+    }
+   },
+   {
+    "id": "dm_graham",
+    "name": "Brandon Graham",
+    "reason": "Retirement void",
+    "prov": "D",
+    "hits": {
+     "2026": 2.9
+    }
+   },
+   {
+    "id": "dm_other",
+    "name": "Other (releases, voids)",
+    "reason": "Aggregated small charges",
+    "prov": "D",
+    "hits": {
+     "2026": 4.734,
+     "2027": 3.1
+    }
+   }
+  ],
+  "EXTENSIONS": [
+   {
+    "id": "ext_nsmith",
+    "name": "Nolan Smith",
+    "pos": "EDGE",
+    "type": "Extension",
+    "apy": 22,
+    "prov": "E",
+    "defaultOn": true,
+    "hits": {
+     "2027": -3,
+     "2028": 12,
+     "2029": 20,
+     "2030": 24
+    },
+    "note": "Market: Greenard/Hendrickson tier"
+   },
+   {
+    "id": "ext_dejean",
+    "name": "Cooper DeJean",
+    "pos": "CB/S",
+    "type": "Extension",
+    "apy": 19,
+    "prov": "E",
+    "defaultOn": true,
+    "hits": {
+     "2028": 10,
+     "2029": 17,
+     "2030": 21
+    },
+    "note": "Nickel/safety premium"
+   },
+   {
+    "id": "ext_mitchell",
+    "name": "Quinyon Mitchell",
+    "pos": "CB",
+    "type": "5th-year option",
+    "apy": 14.3,
+    "prov": "E",
+    "defaultOn": true,
+    "hits": {
+     "2028": 14.3
+    },
+    "note": "Option exercised May 2027"
+   },
+   {
+    "id": "ext_campbell",
+    "name": "Jihaad Campbell",
+    "pos": "LB",
+    "type": "5th-year option",
+    "apy": 13,
+    "prov": "E",
+    "defaultOn": false,
+    "hits": {
+     "2029": 13
+    },
+    "note": "Decision May 2028"
+   },
+   {
+    "id": "ext_hurts",
+    "name": "Jalen Hurts",
+    "pos": "QB",
+    "type": "Re-do / extension",
+    "apy": 60,
+    "prov": "E",
+    "defaultOn": false,
+    "hits": {
+     "2028": -12,
+     "2029": 24,
+     "2030": 38
+    },
+    "note": "Replaces 2029 UFA + $30.1M void. Keeps QB."
+   },
+   {
+    "id": "ext_elliott",
+    "name": "Jake Elliott",
+    "pos": "K",
+    "type": "Extension",
+    "apy": 5,
+    "prov": "E",
+    "defaultOn": false,
+    "hits": {
+     "2029": 4,
+     "2030": 5
+    },
+    "note": "Only veteran specialist worth extending"
+   },
+   {
+    "id": "ext_mukuba",
+    "name": "Andrew Mukuba",
+    "pos": "S",
+    "type": "Extension",
+    "apy": 12,
+    "prov": "E",
+    "defaultOn": false,
+    "hits": {
+     "2029": 9,
+     "2030": 13
+    },
+    "note": "Decision 2028 offseason"
+   },
+   {
+    "id": "ext_woolen",
+    "name": "Tariq Woolen",
+    "pos": "CB",
+    "type": "Re-sign",
+    "apy": 16,
+    "prov": "E",
+    "defaultOn": false,
+    "hits": {
+     "2027": 9,
+     "2028": 16,
+     "2029": 18
+    },
+    "note": "One-year prove-it ends 2026"
+   },
+   {
+    "id": "ext_goedert",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "type": "Re-sign",
+    "apy": 9,
+    "prov": "E",
+    "defaultOn": false,
+    "hits": {
+     "2027": 5,
+     "2028": 9
+    },
+    "note": "Age 32 in 2027"
+   }
+  ],
+  "CUT_CANDIDATES": [
+   {
+    "id": "cut_barkley",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "age": 30,
+    "year": 2028,
+    "hit": 17.364,
+    "pre": 21.682,
+    "post": 9.283,
+    "postNext": 12.399,
+    "prov": "D",
+    "note": "Age-31 RB with $17.4M hit"
+   },
+   {
+    "id": "cut_goedert",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "age": 31,
+    "year": 2027,
+    "hit": 8.243,
+    "pre": 10.02,
+    "post": 5.609,
+    "postNext": 4.411,
+    "prov": "D",
+    "note": "UFA after 2026; voids accelerate"
+   },
+   {
+    "id": "cut_baun",
+    "name": "Zack Baun",
+    "pos": "LB",
+    "age": 30,
+    "year": 2027,
+    "hit": 11.799,
+    "pre": 21.424,
+    "post": 6.232,
+    "postNext": 15.192,
+    "prov": "D",
+    "note": "Pre-June 1 is punitive"
+   },
+   {
+    "id": "cut_dsmith",
+    "name": "DeVonta Smith",
+    "pos": "WR",
+    "age": 29,
+    "year": 2028,
+    "hit": 20.072,
+    "pre": 23.438,
+    "post": 12.861,
+    "postNext": 10.577,
+    "prov": "D",
+    "note": "Only if a WR1 is drafted in 2028"
+   },
+   {
+    "id": "cut_dickerson",
+    "name": "Landon Dickerson",
+    "pos": "G",
+    "age": 29,
+    "year": 2028,
+    "hit": 17.425,
+    "pre": 21.734,
+    "post": 10.867,
+    "postNext": 10.867,
+    "prov": "D",
+    "note": "Injury history; guard market resets"
+   },
+   {
+    "id": "cut_elliott",
+    "name": "Jake Elliott",
+    "pos": "K",
+    "age": 32,
+    "year": 2028,
+    "hit": 5.46,
+    "pre": 5.485,
+    "post": 2.912,
+    "postNext": 2.573,
+    "prov": "D",
+    "note": "No real savings before 2029"
+   },
+   {
+    "id": "cut_mann",
+    "name": "Braden Mann",
+    "pos": "P",
+    "age": 30,
+    "year": 2028,
+    "hit": 2.7,
+    "pre": 1.2,
+    "post": 0.6,
+    "postNext": 0.6,
+    "prov": "E",
+    "note": "Rookie punter saves ~$1.5M"
+   },
+   {
+    "id": "cut_steen",
+    "name": "Tyler Steen",
+    "pos": "G/RT",
+    "age": 26,
+    "year": 2026,
+    "hit": 3.97,
+    "pre": 0.3,
+    "post": 0.3,
+    "postNext": 0,
+    "prov": "D",
+    "note": "In-season release option; UFA 2027"
+   },
+   {
+    "id": "cut_ojomo",
+    "name": "Moro Ojomo",
+    "pos": "DL",
+    "age": 25,
+    "year": 2026,
+    "hit": 3.693,
+    "pre": 0.02,
+    "post": 0.02,
+    "postNext": 0,
+    "prov": "D",
+    "note": "RFA/UFA 2027; no dead money"
+   },
+   {
+    "id": "cut_carterii",
+    "name": "Michael Carter II",
+    "pos": "CB",
+    "age": 27,
+    "year": 2026,
+    "hit": 2.765,
+    "pre": 0.82,
+    "post": 0.82,
+    "postNext": 0,
+    "prov": "V",
+    "note": "Renegotiated 1-yr $2.77M; void 2027"
+   },
+   {
+    "id": "cut_dalton",
+    "name": "Andy Dalton",
+    "pos": "QB",
+    "age": 39,
+    "year": 2026,
+    "hit": 4,
+    "pre": 1,
+    "post": 1,
+    "postNext": 0,
+    "prov": "D",
+    "note": "Expiring; backup QB on min deal 2027"
+   },
+   {
+    "id": "cut_woolen",
+    "name": "Tariq Woolen",
+    "pos": "CB",
+    "age": 27,
+    "year": 2026,
+    "hit": 3.408,
+    "pre": 2.4,
+    "post": 2.4,
+    "postNext": 0,
+    "prov": "D",
+    "note": "Prove-it deal; voids 2027"
+   },
+   {
+    "id": "cut_mbrown",
+    "name": "Marquise Brown",
+    "pos": "WR",
+    "age": 29,
+    "year": 2026,
+    "hit": 2.04,
+    "pre": 1,
+    "post": 1,
+    "postNext": 0,
+    "prov": "D",
+    "note": "One-year deal"
+   },
+   {
+    "id": "cut_ebiketie",
+    "name": "Arnold Ebiketie",
+    "pos": "EDGE",
+    "age": 27,
+    "year": 2026,
+    "hit": 1.9,
+    "pre": 0.9,
+    "post": 0.9,
+    "postNext": 0,
+    "prov": "D",
+    "note": "One-year deal"
+   },
+   {
+    "id": "cut_davis",
+    "name": "Jordan Davis",
+    "pos": "DL",
+    "age": 27,
+    "year": 2028,
+    "hit": 13.937,
+    "pre": 29.5,
+    "post": 8.8,
+    "postNext": 20.7,
+    "prov": "E",
+    "note": "Only post-June 1 is survivable"
+   }
+  ],
+  "ADJUSTMENTS": [
+   {
+    "id": "johnson",
+    "label": "Lane Johnson retirement (post-June 1, 2027 split)",
+    "prov": "V",
+    "spotrac": {
+     "2026": 20.299,
+     "2027": 21.09,
+     "2028": 0,
+     "2029": 22.822,
+     "2030": 7.471
+    },
+    "adjusted": {
+     "2026": 20.299,
+     "2027": 16.614,
+     "2028": 26.276,
+     "2029": 0,
+     "2030": 0
+    }
+   },
+   {
+    "id": "jurgens",
+    "label": "Cam Jurgens trade to Baltimore",
+    "prov": "V",
+    "spotrac": {
+     "2026": 5.921,
+     "2027": 8.614,
+     "2028": 11.748,
+     "2029": 15.741,
+     "2030": 11.157
+    },
+    "adjusted": {
+     "2026": 4.576,
+     "2027": 14.926,
+     "2028": 0,
+     "2029": 0,
+     "2030": 0
+    }
+   },
+   {
+    "id": "carter_ext",
+    "label": "Jalen Carter extension (4y/$152M, Jul 28) replaces $27.1M option year",
+    "prov": "V",
+    "spotrac": {
+     "2026": 0,
+     "2027": 27.127,
+     "2028": 0,
+     "2029": 0,
+     "2030": 0
+    },
+    "adjusted": {
+     "2026": 0,
+     "2027": 9.099,
+     "2028": 15.641,
+     "2029": 22.364,
+     "2030": 29.546
+    }
+   },
+   {
+    "id": "greenard",
+    "label": "Jonathan Greenard trade + 4y/$98M extension (Apr 24); 2030 is a void charge",
+    "prov": "V",
+    "spotrac": {
+     "2026": 0,
+     "2027": 0,
+     "2028": 0,
+     "2029": 0,
+     "2030": 0
+    },
+    "adjusted": {
+     "2026": 0,
+     "2027": 11.139,
+     "2028": 15.796,
+     "2029": 20.204,
+     "2030": 44.433
+    }
+   },
+   {
+    "id": "ajbrown",
+    "label": "A.J. Brown trade to New England (Jun 1): $27.2M dead in 2027 replaces $133M of 2027–29 hits",
+    "prov": "D",
+    "spotrac": {
+     "2026": 0,
+     "2027": 22.706,
+     "2028": 54.6,
+     "2029": 55.8,
+     "2030": 0
+    },
+    "adjusted": {
+     "2026": 0,
+     "2027": 27.2,
+     "2028": 0,
+     "2029": 0,
+     "2030": 0
+    }
+   },
+   {
+    "id": "rookies26",
+    "label": "2026 draft class + Wicks extension (net of roster-fill slots they replace)",
+    "prov": "E",
+    "spotrac": {
+     "2026": 0,
+     "2027": 0,
+     "2028": 0,
+     "2029": 0,
+     "2030": 0
+    },
+    "adjusted": {
+     "2026": 0,
+     "2027": 7.2,
+     "2028": 5.5,
+     "2029": 7,
+     "2030": 0
+    }
+   }
+  ],
+  "ROOKIE_SLOT": {
+   "1": 3.4,
+   "2": 1.6,
+   "3": 1.25,
+   "4": 1.1,
+   "5": 1,
+   "6": 0.95,
+   "7": 0.9
+  },
+  "VET_COST": {
+   "OT": 22,
+   "G": 17,
+   "C": 15,
+   "G/C": 16,
+   "WR": 25,
+   "RB": 12,
+   "TE": 12,
+   "EDGE": 24,
+   "DL": 20,
+   "LB": 12,
+   "CB": 18,
+   "S": 12,
+   "QB": 45,
+   "K": 5,
+   "P": 3
+  },
+  "DRAFT_PICKS": [
+   {
+    "year": 2027,
+    "round": 1,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 2,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 3,
+    "source": "Own → MIN (Greenard)",
+    "status": "Traded",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 3,
+    "source": "Compensatory (Jaelan Phillips)",
+    "status": "Projected",
+    "prov": "E"
+   },
+   {
+    "year": 2027,
+    "round": 4,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 5,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 5,
+    "source": "From NE (A.J. Brown) — better of NE/CHI",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 5,
+    "source": "From BAL (Jurgens)",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 6,
+    "source": "Own → GB (Wicks)",
+    "status": "Traded",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 7,
+    "source": "From DAL (2026 R1 swap)",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2027,
+    "round": 7,
+    "source": "From NYJ/BAL (better) — one to CAR, one to BAL",
+    "status": "Traded",
+    "prov": "D"
+   },
+   {
+    "year": 2028,
+    "round": 1,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2028,
+    "round": 1,
+    "source": "From NE (A.J. Brown)",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2028,
+    "round": 2,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2028,
+    "round": 2,
+    "source": "From BAL (Jurgens)",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2028,
+    "round": 3,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2028,
+    "round": 4,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2028,
+    "round": 5,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2028,
+    "round": 6,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2028,
+    "round": 7,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2029,
+    "round": 1,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2029,
+    "round": 2,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2029,
+    "round": 3,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2029,
+    "round": 4,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2029,
+    "round": 5,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2029,
+    "round": 6,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   },
+   {
+    "year": 2029,
+    "round": 7,
+    "source": "Own",
+    "status": "Owned",
+    "prov": "V"
+   }
+  ],
+  "PICK_VALUES": [
+   {
+    "id": "p1",
+    "label": "2028 1st (late)",
+    "value": 620,
+    "year": 2028,
+    "round": 1,
+    "slotCost": 3.6
+   },
+   {
+    "id": "p2e",
+    "label": "2028 2nd (early)",
+    "value": 480,
+    "year": 2028,
+    "round": 2,
+    "slotCost": 2
+   },
+   {
+    "id": "p2",
+    "label": "2028 2nd (late)",
+    "value": 300,
+    "year": 2028,
+    "round": 2,
+    "slotCost": 1.6
+   },
+   {
+    "id": "p3",
+    "label": "2028 3rd",
+    "value": 180,
+    "year": 2028,
+    "round": 3,
+    "slotCost": 1.3
+   },
+   {
+    "id": "p4",
+    "label": "2028 4th",
+    "value": 70,
+    "year": 2028,
+    "round": 4,
+    "slotCost": 1.15
+   },
+   {
+    "id": "p5",
+    "label": "2027 5th",
+    "value": 35,
+    "year": 2027,
+    "round": 5,
+    "slotCost": 1.05
+   },
+   {
+    "id": "p27_2",
+    "label": "2027 2nd",
+    "value": 320,
+    "year": 2027,
+    "round": 2,
+    "slotCost": 1.6
+   },
+   {
+    "id": "p27_3",
+    "label": "2027 3rd",
+    "value": 190,
+    "year": 2027,
+    "round": 3,
+    "slotCost": 1.3
+   },
+   {
+    "id": "swap",
+    "label": "Pick swap / conditional",
+    "value": 40,
+    "year": 2028,
+    "round": 0,
+    "slotCost": 0
+   }
+  ],
+  "SPOTRAC_SPACE_2026": 16.776,
+  "SPOTRAC_DEAD_2026": 52.327
+ },
+ "league": {
+  "TEAM_CAP": [
+   {
+    "abbr": "ARI",
+    "space26": 41.4,
+    "space26all": 13.3,
+    "dead26": 73.3,
+    "space27": 173.8,
+    "pick27": 9,
+    "needs": [
+     "QB",
+     "CB",
+     "OL"
+    ]
+   },
+   {
+    "abbr": "ATL",
+    "space26": 15,
+    "space26all": -1.1,
+    "dead26": 24,
+    "space27": 127.6,
+    "pick27": 17,
+    "needs": [
+     "EDGE",
+     "OL",
+     "LB"
+    ]
+   },
+   {
+    "abbr": "BAL",
+    "space26": 30.5,
+    "space26all": 26.1,
+    "dead26": 18,
+    "space27": -23.7,
+    "pick27": 29,
+    "needs": [
+     "OL",
+     "EDGE",
+     "CB"
+    ]
+   },
+   {
+    "abbr": "BUF",
+    "space26": 13.2,
+    "space26all": 1.3,
+    "dead26": 20,
+    "space27": -31.9,
+    "pick27": 26,
+    "needs": [
+     "CB",
+     "S",
+     "WR"
+    ]
+   },
+   {
+    "abbr": "CAR",
+    "space26": 5.1,
+    "space26all": -14,
+    "dead26": 31,
+    "space27": 28.2,
+    "pick27": 19,
+    "needs": [
+     "OL",
+     "DB",
+     "EDGE"
+    ]
+   },
+   {
+    "abbr": "CHI",
+    "space26": 1,
+    "space26all": -15.3,
+    "dead26": 22,
+    "space27": 39.1,
+    "pick27": 28,
+    "needs": [
+     "DL",
+     "EDGE",
+     "LB"
+    ]
+   },
+   {
+    "abbr": "CIN",
+    "space26": 22.7,
+    "space26all": 6.3,
+    "dead26": 15,
+    "space27": 71.7,
+    "pick27": 10,
+    "needs": [
+     "LB",
+     "DL",
+     "DB"
+    ]
+   },
+   {
+    "abbr": "CLE",
+    "space26": 22.3,
+    "space26all": 7.1,
+    "dead26": 74,
+    "space27": 84.4,
+    "pick27": 22,
+    "needs": [
+     "QB",
+     "OL",
+     "EDGE"
+    ]
+   },
+   {
+    "abbr": "DAL",
+    "space26": 16,
+    "space26all": 2.1,
+    "dead26": 25,
+    "space27": 11.7,
+    "pick27": 12,
+    "needs": [
+     "CB",
+     "WR",
+     "DL"
+    ]
+   },
+   {
+    "abbr": "DEN",
+    "space26": 19.6,
+    "space26all": -3.2,
+    "dead26": 20,
+    "space27": -14.8,
+    "pick27": 18,
+    "needs": [
+     "LB",
+     "OT",
+     "TE"
+    ]
+   },
+   {
+    "abbr": "DET",
+    "space26": 24.5,
+    "space26all": 11.5,
+    "dead26": 14,
+    "space27": 70.3,
+    "pick27": 15,
+    "needs": [
+     "CB",
+     "DL",
+     "OL"
+    ]
+   },
+   {
+    "abbr": "GB",
+    "space26": 23,
+    "space26all": -3.2,
+    "dead26": 16,
+    "space27": 51.6,
+    "pick27": 14,
+    "needs": [
+     "DB",
+     "OL",
+     "DL"
+    ]
+   },
+   {
+    "abbr": "HOU",
+    "space26": 15.9,
+    "space26all": -0.5,
+    "dead26": 66.4,
+    "space27": 29.5,
+    "pick27": 1,
+    "needs": [
+     "OL",
+     "RB",
+     "LB"
+    ]
+   },
+   {
+    "abbr": "IND",
+    "space26": 27.5,
+    "space26all": 3,
+    "dead26": 12,
+    "space27": 68.6,
+    "pick27": 11,
+    "needs": [
+     "EDGE",
+     "CB",
+     "LB"
+    ]
+   },
+   {
+    "abbr": "JAX",
+    "space26": 6.9,
+    "space26all": -5.9,
+    "dead26": 53.3,
+    "space27": 23.3,
+    "pick27": 25,
+    "needs": [
+     "S",
+     "RB",
+     "OL"
+    ]
+   },
+   {
+    "abbr": "KC",
+    "space26": 7.7,
+    "space26all": -5.2,
+    "dead26": 18,
+    "space27": 11.7,
+    "pick27": 31,
+    "needs": [
+     "WR",
+     "TE",
+     "DL"
+    ]
+   },
+   {
+    "abbr": "LV",
+    "space26": 24.3,
+    "space26all": 10.6,
+    "dead26": 52,
+    "space27": 100.6,
+    "pick27": 23,
+    "needs": [
+     "CB",
+     "DL",
+     "OL"
+    ]
+   },
+   {
+    "abbr": "LAC",
+    "space26": 49.9,
+    "space26all": 37.5,
+    "dead26": 12,
+    "space27": 142.6,
+    "pick27": 4,
+    "needs": [
+     "OL",
+     "EDGE",
+     "DL"
+    ]
+   },
+   {
+    "abbr": "LAR",
+    "space26": 28.3,
+    "space26all": 17.3,
+    "dead26": 10,
+    "space27": 132.9,
+    "pick27": 21,
+    "needs": [
+     "OL",
+     "LB",
+     "S"
+    ]
+   },
+   {
+    "abbr": "MIA",
+    "space26": 2,
+    "space26all": -18.4,
+    "dead26": 179.2,
+    "space27": 147.4,
+    "pick27": 5,
+    "needs": [
+     "EDGE",
+     "WR",
+     "CB"
+    ]
+   },
+   {
+    "abbr": "MIN",
+    "space26": 5.5,
+    "space26all": -5.5,
+    "dead26": 24,
+    "space27": 52.7,
+    "pick27": 30,
+    "needs": [
+     "QB",
+     "S",
+     "CB"
+    ]
+   },
+   {
+    "abbr": "NE",
+    "space26": 36.1,
+    "space26all": 15.9,
+    "dead26": 10,
+    "space27": 69.6,
+    "pick27": 20,
+    "needs": [
+     "TE",
+     "EDGE",
+     "LB"
+    ]
+   },
+   {
+    "abbr": "NO",
+    "space26": 13.2,
+    "space26all": -5,
+    "dead26": 114,
+    "space27": 67.6,
+    "pick27": 7,
+    "needs": [
+     "EDGE",
+     "CB",
+     "LB"
+    ]
+   },
+   {
+    "abbr": "NYG",
+    "space26": 4,
+    "space26all": -23.1,
+    "dead26": 30,
+    "space27": 50.8,
+    "pick27": 27,
+    "needs": [
+     "DL",
+     "CB",
+     "OL"
+    ]
+   },
+   {
+    "abbr": "NYJ",
+    "space26": 47.6,
+    "space26all": 26.1,
+    "dead26": 104.2,
+    "space27": 150.8,
+    "pick27": 6,
+    "needs": [
+     "QB",
+     "DL",
+     "DB"
+    ]
+   },
+   {
+    "abbr": "PHI",
+    "space26": 33.1,
+    "space26all": 16.8,
+    "dead26": 52.3,
+    "space27": 50.8,
+    "pick27": 16,
+    "needs": [
+     "OL",
+     "TE",
+     "EDGE"
+    ]
+   },
+   {
+    "abbr": "PIT",
+    "space26": 30.3,
+    "space26all": 12.3,
+    "dead26": 20,
+    "space27": 66.7,
+    "pick27": 13,
+    "needs": [
+     "QB",
+     "CB",
+     "DL"
+    ]
+   },
+   {
+    "abbr": "SF",
+    "space26": 29.1,
+    "space26all": 8.1,
+    "dead26": 20,
+    "space27": -7.6,
+    "pick27": 32,
+    "needs": [
+     "OT",
+     "OL",
+     "EDGE"
+    ]
+   },
+   {
+    "abbr": "SEA",
+    "space26": 33.6,
+    "space26all": 13.8,
+    "dead26": 12,
+    "space27": 67.4,
+    "pick27": 24,
+    "needs": [
+     "OL",
+     "WR",
+     "TE"
+    ]
+   },
+   {
+    "abbr": "TB",
+    "space26": 15,
+    "space26all": 4,
+    "dead26": 18,
+    "space27": 75.6,
+    "pick27": 3,
+    "needs": [
+     "CB",
+     "LB",
+     "TE"
+    ]
+   },
+   {
+    "abbr": "TEN",
+    "space26": 64,
+    "space26all": 41.9,
+    "dead26": 26,
+    "space27": 69.1,
+    "pick27": 2,
+    "needs": [
+     "OL",
+     "EDGE",
+     "CB"
+    ]
+   },
+   {
+    "abbr": "WAS",
+    "space26": 50.4,
+    "space26all": 30,
+    "dead26": 25,
+    "space27": 112.9,
+    "pick27": 8,
+    "needs": [
+     "EDGE",
+     "DB",
+     "LB"
+    ]
+   }
+  ],
+  "PLAYER_CAP": [
+   {
+    "id": "hurts",
+    "name": "Jalen Hurts",
+    "thru": 2028,
+    "apy": 51,
+    "hits": null,
+    "base26": 1.215,
+    "deadPre": 117.207,
+    "contractId": "hurts"
+   },
+   {
+    "id": "dalton",
+    "name": "Andy Dalton",
+    "thru": 2026,
+    "apy": 4,
+    "hits": {
+     "2026": 4
+    },
+    "base26": 3,
+    "deadPre": 1
+   },
+   {
+    "id": "mckee",
+    "name": "Tanner McKee",
+    "thru": 2026,
+    "apy": 1,
+    "hits": {
+     "2026": 1.192
+    },
+    "base26": 1.145,
+    "deadPre": 0.047
+   },
+   {
+    "id": "payton",
+    "name": "Cole Payton",
+    "thru": 2029,
+    "apy": 1,
+    "hits": {
+     "2026": 0.98,
+     "2027": 1.07,
+     "2028": 1.16,
+     "2029": 1.25
+    },
+    "base26": 0.84,
+    "deadPre": 0.56
+   },
+   {
+    "id": "barkley",
+    "name": "Saquon Barkley",
+    "thru": 2028,
+    "apy": 20.6,
+    "hits": null,
+    "base26": 1.3,
+    "deadPre": 38.789,
+    "contractId": "barkley"
+   },
+   {
+    "id": "shipley",
+    "name": "Will Shipley",
+    "thru": 2027,
+    "apy": 1.1,
+    "hits": {
+     "2026": 1.254,
+     "2027": 1.369
+    },
+    "base26": 1.075,
+    "deadPre": 0.358
+   },
+   {
+    "id": "pierce",
+    "name": "Dameon Pierce",
+    "thru": 2026,
+    "apy": 1,
+    "hits": {
+     "2026": 1.03
+    },
+    "base26": 1.03,
+    "deadPre": 0
+   },
+   {
+    "id": "bigsby",
+    "name": "Tank Bigsby",
+    "thru": 2026,
+    "apy": 1.4,
+    "hits": {
+     "2026": 1.485
+    },
+    "base26": 1.255,
+    "deadPre": 0.231
+   },
+   {
+    "id": "dsmith",
+    "name": "DeVonta Smith",
+    "thru": 2028,
+    "apy": 25,
+    "hits": null,
+    "base26": 1.215,
+    "deadPre": 35.348,
+    "contractId": "dsmith"
+   },
+   {
+    "id": "lemon",
+    "name": "Makai Lemon",
+    "thru": 2029,
+    "apy": 3.9,
+    "hits": {
+     "2026": 3.9,
+     "2027": 4.88,
+     "2028": 5.85,
+     "2029": 6.83
+    },
+    "base26": 0.84,
+    "deadPre": 12.3
+   },
+   {
+    "id": "wicks",
+    "name": "Dontayvion Wicks",
+    "thru": 2027,
+    "apy": 3.5,
+    "hits": {
+     "2026": 1.2,
+     "2027": 3.5
+    },
+    "base26": 1.1,
+    "deadPre": 0.2
+   },
+   {
+    "id": "hbrown",
+    "name": "Marquise Brown",
+    "thru": 2026,
+    "apy": 6.5,
+    "hits": {
+     "2026": 3.54,
+     "2027": 2.96
+    },
+    "base26": 1.17,
+    "deadPre": 5.92
+   },
+   {
+    "id": "emoore",
+    "name": "Elijah Moore",
+    "thru": 2026,
+    "apy": 2,
+    "hits": {
+     "2026": 2
+    },
+    "base26": 1.2,
+    "deadPre": 0.8
+   },
+   {
+    "id": "cooper",
+    "name": "Darius Cooper",
+    "thru": 2027,
+    "apy": 1,
+    "hits": {
+     "2026": 1.01,
+     "2027": 1.125
+    },
+    "base26": 1,
+    "deadPre": 0.01
+   },
+   {
+    "id": "covey",
+    "name": "Britain Covey",
+    "thru": 2026,
+    "apy": 1.2,
+    "hits": {
+     "2026": 1.215
+    },
+    "base26": 1.215,
+    "deadPre": 0
+   },
+   {
+    "id": "goedert",
+    "name": "Dallas Goedert",
+    "thru": 2026,
+    "apy": 7,
+    "hits": null,
+    "base26": 1.2,
+    "deadPre": 14.3,
+    "contractId": "goedert"
+   },
+   {
+    "id": "mundt",
+    "name": "Johnny Mundt",
+    "thru": 2026,
+    "apy": 1.5,
+    "hits": {
+     "2026": 1.5,
+     "2027": 0.16
+    },
+    "base26": 1.17,
+    "deadPre": 0.49
+   },
+   {
+    "id": "ejenkins",
+    "name": "E.J. Jenkins",
+    "thru": 2027,
+    "apy": 1,
+    "hits": {
+     "2026": 1.025,
+     "2027": 1.14
+    },
+    "base26": 0.985,
+    "deadPre": 0.04
+   },
+   {
+    "id": "stowers",
+    "name": "Eli Stowers",
+    "thru": 2029,
+    "apy": 1.9,
+    "hits": {
+     "2026": 1.579,
+     "2027": 1.974,
+     "2028": 2.369,
+     "2029": 2.763
+    },
+    "base26": 0.84,
+    "deadPre": 2.95
+   },
+   {
+    "id": "mailata",
+    "name": "Jordan Mailata",
+    "thru": 2028,
+    "apy": 22,
+    "hits": null,
+    "base26": 1.3,
+    "deadPre": 33.539,
+    "contractId": "mailata"
+   },
+   {
+    "id": "fjohnson",
+    "name": "Fred Johnson",
+    "thru": 2026,
+    "apy": 1.4,
+    "hits": {
+     "2026": 1.34
+    },
+    "base26": 1.17,
+    "deadPre": 0.17
+   },
+   {
+    "id": "mbell",
+    "name": "Markel Bell",
+    "thru": 2029,
+    "apy": 1.3,
+    "hits": {
+     "2026": 1.315,
+     "2027": 1.47,
+     "2028": 1.63,
+     "2029": 1.79
+    },
+    "base26": 0.84,
+    "deadPre": 1.43
+   },
+   {
+    "id": "dickerson",
+    "name": "Landon Dickerson",
+    "thru": 2028,
+    "apy": 21,
+    "hits": null,
+    "base26": 1.215,
+    "deadPre": 27.513,
+    "contractId": "dickerson"
+   },
+   {
+    "id": "kendall",
+    "name": "Drew Kendall",
+    "thru": 2028,
+    "apy": 1.1,
+    "hits": {
+     "2026": 1.094,
+     "2027": 1.209,
+     "2028": 1.32
+    },
+    "base26": 1,
+    "deadPre": 0.266
+   },
+   {
+    "id": "steen",
+    "name": "Tyler Steen",
+    "thru": 2026,
+    "apy": 4,
+    "hits": {
+     "2026": 3.97
+    },
+    "base26": 3.624,
+    "deadPre": 0.296
+   },
+   {
+    "id": "lampkin",
+    "name": "Willie Lampkin",
+    "thru": 2027,
+    "apy": 1,
+    "hits": {
+     "2026": 1.005,
+     "2027": 1.12
+    },
+    "base26": 1,
+    "deadPre": 0
+   },
+   {
+    "id": "mmorris",
+    "name": "Micah Morris",
+    "thru": 2029,
+    "apy": 0.9,
+    "hits": {
+     "2026": 0.9,
+     "2027": 1,
+     "2028": 1.1,
+     "2029": 1.2
+    },
+    "base26": 0.84,
+    "deadPre": 0.2
+   },
+   {
+    "id": "carter",
+    "name": "Jalen Carter",
+    "thru": 2031,
+    "apy": 38,
+    "hits": null,
+    "base26": 1.145,
+    "deadPre": 44.065,
+    "contractId": "carter"
+   },
+   {
+    "id": "davis",
+    "name": "Jordan Davis",
+    "thru": 2029,
+    "apy": 26,
+    "hits": null,
+    "base26": 1.2,
+    "deadPre": 33.866,
+    "contractId": "davis"
+   },
+   {
+    "id": "ojomo",
+    "name": "Moro Ojomo",
+    "thru": 2026,
+    "apy": 3.7,
+    "hits": {
+     "2026": 3.693
+    },
+    "base26": 3.674,
+    "deadPre": 0.019
+   },
+   {
+    "id": "byoung",
+    "name": "Byron Young",
+    "thru": 2026,
+    "apy": 1.5,
+    "hits": {
+     "2026": 1.523
+    },
+    "base26": 1.523,
+    "deadPre": 0
+   },
+   {
+    "id": "trobinson",
+    "name": "Ty Robinson",
+    "thru": 2028,
+    "apy": 1.3,
+    "hits": {
+     "2026": 1.264,
+     "2027": 1.379,
+     "2028": 1.49
+    },
+    "base26": 1,
+    "deadPre": 0.777
+   },
+   {
+    "id": "greenard",
+    "name": "Jonathan Greenard",
+    "thru": 2029,
+    "apy": 24.5,
+    "hits": null,
+    "base26": 1.215,
+    "deadPre": 50,
+    "contractId": "greenard"
+   },
+   {
+    "id": "nsmith",
+    "name": "Nolan Smith",
+    "thru": 2027,
+    "apy": 3.8,
+    "hits": null,
+    "base26": 2.385,
+    "deadPre": 3.816,
+    "contractId": "nsmith"
+   },
+   {
+    "id": "hunt",
+    "name": "Jalyx Hunt",
+    "thru": 2027,
+    "apy": 1.5,
+    "hits": {
+     "2026": 1.536,
+     "2027": 1.792
+    },
+    "base26": 1.08,
+    "deadPre": 0.458
+   },
+   {
+    "id": "ebiketie",
+    "name": "Arnold Ebiketie",
+    "thru": 2026,
+    "apy": 4.3,
+    "hits": {
+     "2026": 1.9,
+     "2027": 2.4
+    },
+    "base26": 1.17,
+    "deadPre": 3.3
+   },
+   {
+    "id": "epenesa",
+    "name": "A.J. Epenesa",
+    "thru": 2026,
+    "apy": 1.3,
+    "hits": {
+     "2026": 1.3
+    },
+    "base26": 1.17,
+    "deadPre": 0.13
+   },
+   {
+    "id": "baun",
+    "name": "Zack Baun",
+    "thru": 2027,
+    "apy": 17,
+    "hits": null,
+    "base26": 1.215,
+    "deadPre": 29.864,
+    "contractId": "baun"
+   },
+   {
+    "id": "campbell",
+    "name": "Jihaad Campbell",
+    "thru": 2028,
+    "apy": 3.4,
+    "hits": null,
+    "base26": 1.005,
+    "deadPre": 12.194,
+    "contractId": "campbell"
+   },
+   {
+    "id": "mondon",
+    "name": "Smael Mondon Jr.",
+    "thru": 2028,
+    "apy": 1.1,
+    "hits": {
+     "2026": 1.104,
+     "2027": 1.219,
+     "2028": 1.33
+    },
+    "base26": 1,
+    "deadPre": 0.297
+   },
+   {
+    "id": "trotter",
+    "name": "Jeremiah Trotter Jr.",
+    "thru": 2027,
+    "apy": 1.1,
+    "hits": {
+     "2026": 1.157,
+     "2027": 1.272
+    },
+    "base26": 1.075,
+    "deadPre": 0.164
+   },
+   {
+    "id": "mitchell",
+    "name": "Quinyon Mitchell",
+    "thru": 2027,
+    "apy": 4,
+    "hits": null,
+    "base26": 1.075,
+    "deadPre": 8.756,
+    "contractId": "mitchell"
+   },
+   {
+    "id": "woolen",
+    "name": "Tariq Woolen",
+    "thru": 2026,
+    "apy": 12,
+    "hits": {
+     "2026": 3.408,
+     "2027": 8.592
+    },
+    "base26": 1.17,
+    "deadPre": 11
+   },
+   {
+    "id": "dejean",
+    "name": "Cooper DeJean",
+    "thru": 2027,
+    "apy": 2.5,
+    "hits": null,
+    "base26": 1.639,
+    "deadPre": 3.672,
+    "contractId": "dejean"
+   },
+   {
+    "id": "jjones",
+    "name": "Jonathan Jones",
+    "thru": 2026,
+    "apy": 1.6,
+    "hits": {
+     "2026": 1.6,
+     "2027": 0.56
+    },
+    "base26": 1.17,
+    "deadPre": 1
+   },
+   {
+    "id": "ringo",
+    "name": "Kelee Ringo",
+    "thru": 2026,
+    "apy": 1.3,
+    "hits": {
+     "2026": 1.35
+    },
+    "base26": 1.145,
+    "deadPre": 0.205
+   },
+   {
+    "id": "mcwilliams",
+    "name": "Mac McWilliams",
+    "thru": 2028,
+    "apy": 1.1,
+    "hits": {
+     "2026": 1.116,
+     "2027": 1.231,
+     "2028": 1.35
+    },
+    "base26": 1,
+    "deadPre": 0.333
+   },
+   {
+    "id": "kmoore",
+    "name": "Kenny Moore II",
+    "thru": 2026,
+    "apy": 1,
+    "hits": {
+     "2026": 1
+    },
+    "base26": 1,
+    "deadPre": 0
+   },
+   {
+    "id": "mukuba",
+    "name": "Andrew Mukuba",
+    "thru": 2028,
+    "apy": 1.9,
+    "hits": null,
+    "base26": 1.165,
+    "deadPre": 2.894,
+    "contractId": "mukuba"
+   },
+   {
+    "id": "epps",
+    "name": "Marcus Epps",
+    "thru": 2026,
+    "apy": 1.2,
+    "hits": {
+     "2026": 1.17
+    },
+    "base26": 1.17,
+    "deadPre": 0
+   },
+   {
+    "id": "carterii",
+    "name": "Michael Carter II",
+    "thru": 2026,
+    "apy": 2.8,
+    "hits": {
+     "2026": 2.765,
+     "2027": 0.82
+    },
+    "base26": 1.17,
+    "deadPre": 0.82
+   },
+   {
+    "id": "elliott",
+    "name": "Jake Elliott",
+    "thru": 2028,
+    "apy": 6,
+    "hits": null,
+    "base26": 1.3,
+    "deadPre": 6.469,
+    "contractId": "elliott"
+   },
+   {
+    "id": "mann",
+    "name": "Braden Mann",
+    "thru": 2029,
+    "apy": 3.5,
+    "hits": null,
+    "base26": 1.2,
+    "deadPre": 3.5,
+    "contractId": "mann"
+   },
+   {
+    "id": "underwood",
+    "name": "Rocco Underwood",
+    "thru": 2026,
+    "apy": 1,
+    "hits": {
+     "2026": 1
+    },
+    "base26": 1,
+    "deadPre": 0
+   }
+  ],
+  "RESIGN_MARKET": {
+   "woolen": 14,
+   "goedert": 8,
+   "steen": 6,
+   "ojomo": 7,
+   "dalton": 3,
+   "mckee": 2,
+   "carterii": 3,
+   "hbrown": 4,
+   "mundt": 1.5,
+   "ebiketie": 5.5,
+   "epenesa": 2,
+   "jjones": 1.5,
+   "epps": 1.5,
+   "ringo": 1.5,
+   "byoung": 2,
+   "fjohnson": 2.5,
+   "emoore": 2,
+   "pierce": 1.2,
+   "covey": 1.2,
+   "kmoore": 1.2,
+   "underwood": 1.2,
+   "bigsby": 1.5
+  },
+  "R1_OWNERS_2027": {
+   "IND": "NYJ",
+   "DAL": "NYJ",
+   "GB": "DAL",
+   "LAR": "CLE"
+  }
+ }
+}

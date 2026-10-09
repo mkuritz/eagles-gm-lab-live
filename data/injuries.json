@@ -1,0 +1,104 @@
+{
+ "data": {
+  "players": [
+   {
+    "gameStatus": "",
+    "gsisId": "00-0034351",
+    "injury": "Knee",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "practice": "Limited Participation in Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0034844",
+    "injury": "Hamstring",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "practice": "Did Not Participate In Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0034951",
+    "injury": "Knee",
+    "name": "Fred Johnson",
+    "pos": "T",
+    "practice": "Limited Participation in Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0034993",
+    "injury": "Groin",
+    "name": "Marcus Epps",
+    "pos": "S",
+    "practice": "Did Not Participate In Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0035662",
+    "injury": "Ankle",
+    "name": "Marquise Brown",
+    "pos": "WR",
+    "practice": "Did Not Participate In Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0036224",
+    "injury": "Ankle",
+    "name": "Jonathan Greenard",
+    "pos": "LB",
+    "practice": "Did Not Participate In Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0036418",
+    "injury": "Concussion",
+    "name": "Zack Baun",
+    "pos": "LB",
+    "practice": "Limited Participation in Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0036912",
+    "injury": "Hamstring",
+    "name": "DeVonta Smith",
+    "pos": "WR",
+    "practice": "Did Not Participate In Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0038393",
+    "injury": "Hamstring",
+    "name": "Dontayvion Wicks",
+    "pos": "WR",
+    "practice": "Limited Participation in Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0039888",
+    "injury": "Knee",
+    "name": "Quinyon Mitchell",
+    "pos": "CB",
+    "practice": "Full Participation in Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0040587",
+    "injury": "Knee",
+    "name": "Drew Kendall",
+    "pos": "C",
+    "practice": "Did Not Participate In Practice"
+   },
+   {
+    "gameStatus": "",
+    "gsisId": "00-0040708",
+    "injury": "Knee",
+    "name": "Jihaad Campbell",
+    "pos": "LB",
+    "practice": "Limited Participation in Practice"
+   }
+  ],
+  "week": 5
+ },
+ "updated": "2026-10-09T15:29:56-04:00"
+}

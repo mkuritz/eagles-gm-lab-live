@@ -1,0 +1,743 @@
+{
+ "data": [
+  {
+   "depthOrder": null,
+   "depthPos": "DB",
+   "espnId": null,
+   "injury": "IR",
+   "name": "Andre' Sam",
+   "pos": "DB",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "FS",
+   "espnId": null,
+   "injury": null,
+   "name": "Andrew Mukuba",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "FS",
+   "espnId": null,
+   "injury": "PUP",
+   "name": "Tucker Large",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "K",
+   "espnId": 3050478,
+   "injury": null,
+   "name": "Jake Elliott",
+   "pos": "K",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "LCB",
+   "espnId": null,
+   "injury": null,
+   "name": "Quinyon Mitchell",
+   "pos": "CB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "LCB",
+   "espnId": null,
+   "injury": "IR",
+   "name": "Jakorian Bennett",
+   "pos": "DB",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "LCB",
+   "espnId": 2971027,
+   "injury": null,
+   "name": "Jonathan Jones",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "LDE",
+   "espnId": null,
+   "injury": null,
+   "name": "Moro Ojomo",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "LILB",
+   "espnId": 3917657,
+   "injury": "Questionable",
+   "name": "Zack Baun",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "LILB",
+   "espnId": null,
+   "injury": null,
+   "name": "Smael Mondon",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "LOLB",
+   "espnId": 3916409,
+   "injury": "Questionable",
+   "name": "Jonathan Greenard",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "LOLB",
+   "espnId": null,
+   "injury": null,
+   "name": "Nolan Smith",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "LS",
+   "espnId": null,
+   "injury": null,
+   "name": "Rocco Underwood",
+   "pos": "LS",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "LWR",
+   "espnId": null,
+   "injury": "Questionable",
+   "name": "DeVonta Smith",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 6,
+   "depthPos": "LWR",
+   "espnId": null,
+   "injury": null,
+   "name": "Elijah Moore",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "NB",
+   "espnId": null,
+   "injury": null,
+   "name": "Cooper DeJean",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "NB",
+   "espnId": null,
+   "injury": null,
+   "name": "Mac McWilliams",
+   "pos": "CB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "NT",
+   "espnId": null,
+   "injury": null,
+   "name": "Jordan Davis",
+   "pos": "DL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "NT",
+   "espnId": null,
+   "injury": null,
+   "name": "Ty Robinson",
+   "pos": "DT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": null,
+   "injury": "Questionable",
+   "name": "Drew Kendall",
+   "pos": "C",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": 3915106,
+   "injury": "Questionable",
+   "name": "Fred Johnson",
+   "pos": "T",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": 4334215,
+   "injury": null,
+   "name": "Jordan Mailata",
+   "pos": "T",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": null,
+   "injury": "IR",
+   "name": "Landon Dickerson",
+   "pos": "OL",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": null,
+   "injury": null,
+   "name": "Markel Bell",
+   "pos": "OT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": null,
+   "injury": null,
+   "name": "Micah Morris",
+   "pos": "G",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": null,
+   "injury": null,
+   "name": "Tyler Steen",
+   "pos": "OL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": null,
+   "injury": null,
+   "name": "Willie Lampkin",
+   "pos": "OL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "P",
+   "espnId": 4035239,
+   "injury": null,
+   "name": "Braden Mann",
+   "pos": "P",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "QB",
+   "espnId": 4040715,
+   "injury": null,
+   "name": "Jalen Hurts",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "QB",
+   "espnId": 14012,
+   "injury": null,
+   "name": "Andy Dalton",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "QB",
+   "espnId": null,
+   "injury": null,
+   "name": "Tanner McKee",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "QB",
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Payton",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "RB",
+   "espnId": null,
+   "injury": null,
+   "name": "Will Shipley",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "RB",
+   "espnId": 3929630,
+   "injury": "Questionable",
+   "name": "Saquon Barkley",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "RB",
+   "espnId": null,
+   "injury": null,
+   "name": "Dameon Pierce",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "RB",
+   "espnId": null,
+   "injury": "IR",
+   "name": "Tank Bigsby",
+   "pos": "RB",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "RCB",
+   "espnId": null,
+   "injury": null,
+   "name": "Riq Woolen",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "RCB",
+   "espnId": null,
+   "injury": null,
+   "name": "Kelee Ringo",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "RCB",
+   "espnId": 4218312,
+   "injury": null,
+   "name": "Kenny Moore",
+   "pos": "CB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "RDE",
+   "espnId": null,
+   "injury": null,
+   "name": "Jalen Carter",
+   "pos": "DL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "RDE",
+   "espnId": null,
+   "injury": null,
+   "name": "Byron Young",
+   "pos": "DL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "RILB",
+   "espnId": null,
+   "injury": "Questionable",
+   "name": "Jihaad Campbell",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "RILB",
+   "espnId": null,
+   "injury": null,
+   "name": "Jeremiah Trotter",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "ROLB",
+   "espnId": null,
+   "injury": null,
+   "name": "Jalyx Hunt",
+   "pos": "DL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "ROLB",
+   "espnId": null,
+   "injury": null,
+   "name": "Arnold Ebiketie",
+   "pos": "DL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "ROLB",
+   "espnId": 4240585,
+   "injury": null,
+   "name": "A.J. Epenesa",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "RWR",
+   "espnId": null,
+   "injury": "Questionable",
+   "name": "Dontayvion Wicks",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "RWR",
+   "espnId": null,
+   "injury": null,
+   "name": "Darius Cooper",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "SS",
+   "espnId": 3139368,
+   "injury": "Questionable",
+   "name": "Marcus Epps",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "SS",
+   "espnId": null,
+   "injury": null,
+   "name": "Michael Carter",
+   "pos": "CB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "SWR",
+   "espnId": null,
+   "injury": null,
+   "name": "Makai Lemon",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 5,
+   "depthPos": "SWR",
+   "espnId": 4241372,
+   "injury": "Questionable",
+   "name": "Marquise Brown",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 7,
+   "depthPos": "SWR",
+   "espnId": null,
+   "injury": null,
+   "name": "Britain Covey",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 1,
+   "depthPos": "TE",
+   "espnId": 3121023,
+   "injury": "Questionable",
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "TE",
+   "espnId": 3052096,
+   "injury": null,
+   "name": "Johnny Mundt",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "TE",
+   "espnId": null,
+   "injury": null,
+   "name": "E.J. Jenkins",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 6,
+   "depthPos": "TE",
+   "espnId": null,
+   "injury": "IR",
+   "name": "Grant Calcaterra",
+   "pos": "TE",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": 7,
+   "depthPos": "TE",
+   "espnId": null,
+   "injury": "IR",
+   "name": "Eli Stowers",
+   "pos": "TE",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": 9,
+   "depthPos": null,
+   "espnId": null,
+   "injury": "IR",
+   "name": "Johnny Wilson",
+   "pos": "WR",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": null,
+   "pos": "DEF",
+   "status": null
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": 4371989,
+   "injury": null,
+   "name": "Arryn Siposs",
+   "pos": "P",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": 14962,
+   "injury": null,
+   "name": "Brandon Brooks",
+   "pos": "G",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Carson Steele",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Charles Walker",
+   "pos": "DT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Wisniewski",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": 4423369,
+   "injury": null,
+   "name": "Duplicate Player",
+   "pos": "CB",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Erik Ezukanma",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Gabe Hall",
+   "pos": "DT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Jacob Sykes",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Jake Majors",
+   "pos": "OL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "James Brockermeyer",
+   "pos": "C",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Jaydon Blue",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "John Ojukwu",
+   "pos": "OT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Joshua Weru",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": 3914151,
+   "injury": null,
+   "name": "Josiah Deguara",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Keyshawn James-Newby",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Kiran Amegadjie",
+   "pos": "OL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Mason Reiger",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Shaun Wade",
+   "pos": "CB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Uar Bernard",
+   "pos": "DT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Xavier Gipson",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": 15835,
+   "injury": null,
+   "name": "Zach Ertz",
+   "pos": "TE",
+   "status": "Active"
+  }
+ ],
+ "updated": "2026-10-09T15:30:00-04:00"
+}

@@ -1,0 +1,362 @@
+{
+ "data": [
+  {
+   "completed": true,
+   "date": "2026-09-13T20:25Z",
+   "name": "WSH @ PHI",
+   "status": "Final",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": "24",
+     "winner": true
+    },
+    {
+     "abbr": "WSH",
+     "homeAway": "away",
+     "score": "22",
+     "winner": false
+    }
+   ],
+   "week": 1
+  },
+  {
+   "completed": true,
+   "date": "2026-09-20T17:00Z",
+   "name": "PHI @ TEN",
+   "status": "Final",
+   "teams": [
+    {
+     "abbr": "TEN",
+     "homeAway": "home",
+     "score": "20",
+     "winner": false
+    },
+    {
+     "abbr": "PHI",
+     "homeAway": "away",
+     "score": "24",
+     "winner": true
+    }
+   ],
+   "week": 2
+  },
+  {
+   "completed": true,
+   "date": "2026-09-29T00:15Z",
+   "name": "PHI @ CHI",
+   "status": "Final",
+   "teams": [
+    {
+     "abbr": "CHI",
+     "homeAway": "home",
+     "score": "27",
+     "winner": true
+    },
+    {
+     "abbr": "PHI",
+     "homeAway": "away",
+     "score": "7",
+     "winner": false
+    }
+   ],
+   "week": 3
+  },
+  {
+   "completed": true,
+   "date": "2026-10-04T17:00Z",
+   "name": "LAR @ PHI",
+   "status": "Final",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": "20",
+     "winner": false
+    },
+    {
+     "abbr": "LAR",
+     "homeAway": "away",
+     "score": "24",
+     "winner": true
+    }
+   ],
+   "week": 4
+  },
+  {
+   "completed": false,
+   "date": "2026-10-11T13:30Z",
+   "name": "PHI VS JAX",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "JAX",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "PHI",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 5
+  },
+  {
+   "completed": false,
+   "date": "2026-10-18T17:00Z",
+   "name": "CAR @ PHI",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "CAR",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 6
+  },
+  {
+   "completed": false,
+   "date": "2026-10-27T00:15Z",
+   "name": "DAL @ PHI",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "DAL",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 7
+  },
+  {
+   "completed": false,
+   "date": "2026-11-02T01:20Z",
+   "name": "PHI @ WSH",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "WSH",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "PHI",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 8
+  },
+  {
+   "completed": false,
+   "date": "2026-11-08T18:00Z",
+   "name": "NYG @ PHI",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "NYG",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 9
+  },
+  {
+   "completed": false,
+   "date": "2026-11-22T21:25Z",
+   "name": "PIT @ PHI",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "PIT",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 11
+  },
+  {
+   "completed": false,
+   "date": "2026-11-26T21:30Z",
+   "name": "PHI @ DAL",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "DAL",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "PHI",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 12
+  },
+  {
+   "completed": false,
+   "date": "2026-12-06T21:05Z",
+   "name": "PHI @ ARI",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "ARI",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "PHI",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 13
+  },
+  {
+   "completed": false,
+   "date": "2026-12-13T18:00Z",
+   "name": "IND @ PHI",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "IND",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 14
+  },
+  {
+   "completed": false,
+   "date": "2026-12-19T22:00Z",
+   "name": "SEA @ PHI",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "SEA",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 15
+  },
+  {
+   "completed": false,
+   "date": "2026-12-25T01:15Z",
+   "name": "HOU @ PHI",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "PHI",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "HOU",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 16
+  },
+  {
+   "completed": false,
+   "date": "2027-01-04T01:20Z",
+   "name": "PHI @ SF",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "SF",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "PHI",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 17
+  },
+  {
+   "completed": false,
+   "date": "2027-01-10T05:00Z",
+   "name": "PHI @ NYG",
+   "status": "Scheduled",
+   "teams": [
+    {
+     "abbr": "NYG",
+     "homeAway": "home",
+     "score": null,
+     "winner": null
+    },
+    {
+     "abbr": "PHI",
+     "homeAway": "away",
+     "score": null,
+     "winner": null
+    }
+   ],
+   "week": 18
+  }
+ ],
+ "updated": "2026-10-09T15:29:55-04:00"
+}

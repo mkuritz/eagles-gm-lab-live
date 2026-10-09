@@ -1,0 +1,38 @@
+name: Update live data
+
+on:
+  schedule:
+    - cron: "0 11 * * *"        # daily ~7:00 AM ET (6:00 AM during EST)
+    - cron: "0 */3 * * 0,1,4"   # every 3h on Sun/Mon/Thu game days (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyarrow==17.*
+      - name: Fetch data
+        run: python scripts/fetch_data.py
+      - name: Commit if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898475+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # meta.json always records the run time; commit only if a real data file changed
+          if git diff --cached --quiet -- data/ ':!data/meta.json'; then
+            echo "No data changes"; exit 0
+          fi
+          git commit -m "Update live data $(TZ=America/New_York date '+%Y-%m-%d %H:%M %Z')"
+          git push
