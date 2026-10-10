@@ -7,10 +7,10 @@
     "injury": "Knee",
     "name": "Dallas Goedert",
     "pos": "TE",
-    "practice": "Limited Participation in Practice"
+    "practice": "Full Participation in Practice"
    },
    {
-    "gameStatus": "",
+    "gameStatus": "Out",
     "gsisId": "00-0034844",
     "injury": "Hamstring",
     "name": "Saquon Barkley",
@@ -23,10 +23,10 @@
     "injury": "Knee",
     "name": "Fred Johnson",
     "pos": "T",
-    "practice": "Limited Participation in Practice"
+    "practice": "Full Participation in Practice"
    },
    {
-    "gameStatus": "",
+    "gameStatus": "Out",
     "gsisId": "00-0034993",
     "injury": "Groin",
     "name": "Marcus Epps",
@@ -34,7 +34,7 @@
     "practice": "Did Not Participate In Practice"
    },
    {
-    "gameStatus": "",
+    "gameStatus": "Out",
     "gsisId": "00-0035662",
     "injury": "Ankle",
     "name": "Marquise Brown",
@@ -43,6 +43,14 @@
    },
    {
     "gameStatus": "",
+    "gsisId": "00-0036192",
+    "injury": "Back",
+    "name": "A.J. Epenesa",
+    "pos": "DE",
+    "practice": "Limited Participation in Practice"
+   },
+   {
+    "gameStatus": "Questionable",
     "gsisId": "00-0036224",
     "injury": "Ankle",
     "name": "Jonathan Greenard",
@@ -51,14 +59,22 @@
    },
    {
     "gameStatus": "",
+    "gsisId": "00-0036389",
+    "injury": "Calf",
+    "name": "Jalen Hurts",
+    "pos": "QB",
+    "practice": "Full Participation in Practice"
+   },
+   {
+    "gameStatus": "",
     "gsisId": "00-0036418",
     "injury": "Concussion",
     "name": "Zack Baun",
     "pos": "LB",
-    "practice": "Limited Participation in Practice"
+    "practice": "Full Participation in Practice"
    },
    {
-    "gameStatus": "",
+    "gameStatus": "Out",
     "gsisId": "00-0036912",
     "injury": "Hamstring",
     "name": "DeVonta Smith",
@@ -75,6 +91,14 @@
    },
    {
     "gameStatus": "",
+    "gsisId": "00-0038498",
+    "injury": "Toe",
+    "name": "E.J. Jenkins",
+    "pos": "TE",
+    "practice": "Full Participation in Practice"
+   },
+   {
+    "gameStatus": "",
     "gsisId": "00-0039888",
     "injury": "Knee",
     "name": "Quinyon Mitchell",
@@ -82,7 +106,7 @@
     "practice": "Full Participation in Practice"
    },
    {
-    "gameStatus": "",
+    "gameStatus": "Out",
     "gsisId": "00-0040587",
     "injury": "Knee",
     "name": "Drew Kendall",
@@ -95,10 +119,10 @@
     "injury": "Knee",
     "name": "Jihaad Campbell",
     "pos": "LB",
-    "practice": "Limited Participation in Practice"
+    "practice": "Full Participation in Practice"
    }
   ],
   "week": 5
  },
- "updated": "2026-10-09T15:29:56-04:00"
+ "updated": "2026-10-10T12:10:27-04:00"
 }

@@ -533,6 +533,20 @@
    "years": 1
   },
   {
+   "apy": 1.215,
+   "apy_cap_pct": 0.004,
+   "gsis_id": "00-0037258",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 10152,
+   "player": "Dameon Pierce",
+   "position": "RB",
+   "team": "Eagles",
+   "value": 1.215,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
    "apy": 1.19,
    "apy_cap_pct": 0.004,
    "gsis_id": "00-0040891",
@@ -757,7 +771,7 @@
    "years": 4
   },
   {
-   "apy": 0.347,
+   "apy": 0.401,
    "apy_cap_pct": 0.001,
    "gsis_id": "00-0030061",
    "guaranteed": 0.0,
@@ -766,26 +780,12 @@
    "player": "Zach Ertz",
    "position": "TE",
    "team": "Eagles",
-   "value": 0.347,
+   "value": 0.401,
    "year_signed": 2026,
    "years": 1
   },
   {
-   "apy": 0.33,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0037258",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 10152,
-   "player": "Dameon Pierce",
-   "position": "RB",
-   "team": "Eagles",
-   "value": 0.33,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.33,
+   "apy": 0.361,
    "apy_cap_pct": 0.001,
    "gsis_id": "00-0036332",
    "guaranteed": 0.0,
@@ -794,7 +794,7 @@
    "player": "Josiah Deguara",
    "position": "TE",
    "team": "Eagles",
-   "value": 0.33,
+   "value": 0.361,
    "year_signed": 2026,
    "years": 1
   },
@@ -823,34 +823,6 @@
    "position": "WR",
    "team": "Eagles",
    "value": 0.33,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.29,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0037312",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 10264,
-   "player": "Chance Campbell",
-   "position": "LB",
-   "team": "Eagles",
-   "value": 0.29,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.247,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0038908",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 11092,
-   "player": "Anfernee Orji",
-   "position": "LB",
-   "team": "Eagles",
-   "value": 0.247,
    "year_signed": 2026,
    "years": 1
   },
@@ -1009,5 +981,5 @@
    "years": 1
   }
  ],
- "updated": "2026-10-09T15:29:59-04:00"
+ "updated": "2026-10-10T12:10:31-04:00"
 }
