@@ -344,6 +344,14 @@ body.offline .offline-banner { display: inline-block; }
 .wire-row .tag { white-space: nowrap; }
 .wire-date { color: var(--text-3); font-size: var(--t-xs); padding-top: 2px; }
 .mkt { display: inline-grid; place-items: center; min-width: 36px; height: 30px; padding: 0 6px; clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%); background: var(--surface-3); color: var(--text); font-family: var(--display); font-weight: 800; font-size: 17px; flex: none; }
+.ps { display:inline-flex; flex-direction:column; align-items:center; justify-content:center; min-width:46px; height:38px; padding:0 6px; border-radius:9px; background:var(--surface-3); color:var(--text); font-family:var(--display); font-weight:800; font-size:16px; line-height:1; flex:none; border:1px solid transparent }
+.ps small { font:600 9px/1 system-ui,sans-serif; opacity:.8; margin-top:3px; letter-spacing:.02em }
+.ps.t1 { background:var(--accent); color:var(--accent-ink) } .ps.t2 { background:var(--brand-2); color:#fff } .ps.na { opacity:.6 }
+.pcard2.compact .ps { height:30px; min-width:40px; font-size:14px }
+.tier-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px }
+.tier-col h3 { margin:0 0 2px; font-family:var(--display) } .pz-row { display:flex; align-items:center; gap:10px; padding:8px 0; border-top:1px solid var(--line, rgba(255,255,255,.08)) }
+.pz-row .grow { flex:1; min-width:0 } .pz-bar { height:6px; border-radius:4px; background:var(--surface-3); overflow:hidden; margin-top:4px } .pz-bar i { display:block; height:100%; background:var(--accent) }
+.sl-mark { display:inline-flex; align-items:center; gap:6px; margin-top:8px; font:700 11px/1 system-ui,sans-serif; letter-spacing:.08em; text-transform:uppercase; color:#cfd8dc; text-decoration:none; opacity:.85 } .sl-mark:hover { opacity:1 }
 .mkt.solid { background: var(--brand-2); color: #fff; } .mkt.elite { background: var(--accent); color: var(--accent-ink); }
 .pcard2 { display: grid; grid-template-columns: 36px 1fr auto; gap: 10px; align-items: center; width: 100%; text-align: left; padding: 8px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); margin-top: 6px; transition: border-color .15s, background .15s; }
 .pcard2:hover { border-color: var(--accent); background: var(--surface-3); }
@@ -987,7 +995,9 @@ const LEAGUE = (() => {
 /* ============================================================
    FRANCHISE MODEL — depth chart, positional needs, two-sided trade machine,
    free-agency re-sign costs, draft order. Pure functions over DATA + LEAGUE + state.
-   No performance ratings are invented: the "MKT" badge is a Contract Market Tier
+   Player badges show a stat-based Performance Score (data/performance.json, built by
+   scripts/performance.py from nflverse). The internal "MKT" contract tier still feeds trade value only.
+   Formerly: the "MKT" badge was a Contract Market Tier
    (APY vs positional top-of-market, age-adjusted) and is labeled as such in the UI.
    ============================================================ */
 const Franchise = (() => {
@@ -1747,8 +1757,13 @@ const Charts = (() => {
 })();
 
 /* ---------------- Logo ---------------- */
+const PERF = { by: {}, meta: null };
+const perfKey = (n) => String(n || '').toLowerCase().replace(/[^a-z ]/g, '').replace(/\b(jr|sr|ii|iii|iv|v)\b/g, '').replace(/\s+/g, ' ').trim();
+window.PERF = PERF;
+const SL_MARK = `<a class="sl-mark" href="https://mkuritz.github.io/sports-labs/" title="Sports Labs — all suites"><svg width="16" height="16" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0b1220"/><path d="M9 21c2 2 4.5 3 7 3 3.3 0 6-1.6 6-4.4 0-5.6-12-3.4-12-8.6C10 8.6 12.6 7 15.6 7c2.2 0 4.2.8 5.6 2.2" stroke="#22d3ee" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>A Sports Labs product</a>`;
 const LOGO = `<svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-label="Eagles GM Lab" role="img"><rect x="1" y="1" width="32" height="32" rx="8" fill="#004c54"/><path d="M8 22 L17 9 L26 22" stroke="#a5acaf" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22 H22" stroke="#2cc1b0" stroke-width="2.6" stroke-linecap="round"/><circle cx="17" cy="26" r="1.8" fill="#2cc1b0"/></svg>`;
 const ICONS = {
+  puzzle: '<svg class="ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h5v2a1.5 1.5 0 1 0 3 0V4h4v5h-2a1.5 1.5 0 1 0 0 3h2v4H4z"/></svg>',
   hub: '<svg class="ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9.5 10 4l7 5.5V16a1 1 0 0 1-1 1h-4v-5H8v5H4a1 1 0 0 1-1-1z"/></svg>',
   depth: '<svg class="ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="14" height="14" rx="2"/><path d="M3 8h14M3 13h14M8 3v14"/></svg>',
   trademachine: '<svg class="ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h10l-2.5-2.5M16 14H6l2.5 2.5"/><circle cx="10" cy="10" r="1.5"/></svg>',
@@ -1776,13 +1791,23 @@ const FranchiseUI = (ctx) => {
   const urgCls = (u) => u === 'Critical' ? 'crit' : u === 'High' ? 'med' : u === 'Medium' ? 'hi' : 'low';
   const statusCls = (s) => s === 'Contender' ? 'hi' : s === 'Seller' ? 'crit' : 'med';
   const mkt = (v, title = 'Contract Market Tier — APY vs positional top of market, age-adjusted. Not a performance rating.') => `<span class="mkt ${v >= 85 ? 'elite' : v >= 70 ? 'solid' : ''}" title="${esc(title)}">${v}</span>`;
+  const perf = (p) => PERF.by[perfKey(p.name)] || null;
+  const scoreBadge = (p) => { const r = perf(p); if (!r || r.score == null) return `<span class="ps na" title="${esc(r && r.note ? r.note : 'No qualifying stats sample')}">—<small>${r && r.pos === 'OL' ? 'OL n/a' : 'no data'}</small></span>`; const t = tierOf(p); return `<span class="ps ${t.k === 'Cornerstone' ? 't1' : t.k === 'Core' ? 't2' : ''}" title="Performance Score ${r.score} (estimate) · ${r.rank ? `#${r.rank} of ${r.of} ${r.pos}` : 'unranked (small sample)'} · Current ${r.current} / Talent ${r.talent} · injury risk ${r.injuryRisk}">${Math.round(r.score)}<small>${r.rank ? `#${r.rank} ${r.pos}` : 'small n'}</small></span>`; };
+  const tierOf = (p) => { const r = perf(p); const sc = r && r.score != null ? r.score : null; const age = p.age || 30; const thru = p.thru || 2026;
+    if (sc == null) return { k: p.core ? 'Core' : 'Depth', why: r && r.pos === 'OL' ? 'OL: no free blocking stats — tier from role/contract (estimate)' : 'No qualifying stats sample' };
+    if (!r.rank) return { k: r.suppressed ? 'Contributor' : 'Depth', why: r.suppressed ? 'Strong per-snap history, small/availability-limited sample (estimate)' : 'Unranked: below minimum stat sample' };
+    const pct = r.pct != null ? r.pct : 50; const control = thru >= 2027;
+    if (pct >= 85 && age <= 29 && control) return { k: 'Cornerstone', why: `Top-15% ${r.pos}, age ${age}, controlled thru ${thru}` };
+    if (pct >= 70 || (pct >= 60 && age <= 25)) return { k: 'Core', why: `${pct}th pct ${r.pos}${age <= 25 ? ', young' : ''}${!control ? ', expiring' : ''}` };
+    if (pct >= 40 || (r.suppressed)) return { k: 'Contributor', why: r.suppressed ? 'Strong per-snap history, availability-limited' : `${pct}th pct ${r.pos}` };
+    return { k: 'Depth', why: `${pct}th pct ${r.pos}` }; };
   const teamChip = (t, small) => `<span class="team-chip ${small ? 'sm' : ''}" style="--team:${t.color}"><i></i>${t.abbr}</span>`;
   const initials = (name) => name.split(' ').filter(Boolean).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
   const ptags = (p) => [p.rookie ? `<span class="tag">${p.rookie} rookie</span>` : '', p.expiring && !p.resigned ? '<span class="tag med">Expiring</span>' : '', p.resigned ? '<span class="tag hi">Re-signed</span>' : '', p.status === 'inj' ? '<span class="tag crit">Injured</span>' : '', p.status === 'ir' ? '<span class="tag crit">IR</span>' : '', p.core ? '<span class="tag hi">Core</span>' : '', p.acquiredFrom ? `<span class="tag">via ${p.acquiredFrom}</span>` : ''].filter(Boolean).join(' ');
   const pcard = (p, { compact = false, action = 'player' } = {}) => `<button class="pcard2 ${p.status === 'inj' || p.status === 'ir' ? 'inj' : ''} ${compact ? 'compact' : ''}" data-action="${action}" data-id="${p.id}" aria-label="${esc(p.name)} details">
       <span class="avatar">${initials(p.name)}</span>
       <span class="pinfo"><span class="pname">${esc(p.name)}</span><span class="pmeta">${p.pos} · ${p.age} · thru ${p.thru}${p.hit26 ? ` · ${fm(p.hit26)}` : ''}</span>${compact ? '' : `<span class="ptags">${ptags(p)}</span>`}</span>
-      ${mkt(p.mkt)}
+      ${scoreBadge(p)}
     </button>`;
   const meter = (pct, verdict) => `<div class="meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}" aria-label="Partner acceptance likelihood"><div class="meter-fill ${pct >= 75 ? 'ok' : pct >= 50 ? 'warn' : pct >= 25 ? 'low' : 'bad'}" style="width:${pct}%"></div><span class="meter-txt">${verdict} · ${pct}%</span></div>`;
   const needBar = (n) => `<div class="need-row"><span class="need-pos">${n.group.id}</span><div class="need-bar"><div class="need-fill ${urgCls(n.urgency)}" style="width:${n.score}%"></div></div><span class="need-score num">${n.score}</span><span class="tag ${urgCls(n.urgency)}">${n.urgency}</span><span class="need-why small muted">${esc(n.why.join(' · ') || 'Settled')}</span></div>`;
@@ -1790,6 +1815,18 @@ const FranchiseUI = (ctx) => {
 
   /* ---------- views ---------- */
   const views = {
+    puzzle() {
+      const s = S(); const rs = Fz.roster(s); const order = ['Cornerstone', 'Core', 'Contributor', 'Depth'];
+      const desc = { Cornerstone: 'Top-15% at position, ≤29, under control 2027+', Core: '70th+ percentile, or 60th+ and ≤25', Contributor: '40th+ percentile or availability-suppressed talent', Depth: 'Below 40th percentile or no qualifying sample' };
+      const tiers = Object.fromEntries(order.map((k) => [k, []])); rs.forEach((p) => tiers[tierOf(p).k].push(p));
+      order.forEach((k) => tiers[k].sort((a, b) => ((perf(b) || {}).score || 0) - ((perf(a) || {}).score || 0)));
+      const row = (p) => { const r = perf(p); const t = tierOf(p); return `<button class="pz-row" data-action="player" data-id="${p.id}" style="width:100%;background:none;border-left:0;border-right:0;border-bottom:0;color:inherit;text-align:left;cursor:pointer">${scoreBadge(p)}<span class="grow"><b>${esc(p.name)}</b> <span class="muted small">${p.pos} · ${p.age} · thru ${p.thru}</span>${r && r.score != null ? `<div class="pz-bar"><i style="width:${r.pct || 0}%"></i></div>` : ''}<div class="small muted">${esc(t.why)}${r && r.injuryRisk === 'High' ? ' · <span class="tag crit">Injury risk</span>' : ''}${r && r.suppressed ? ' · <span class="tag hi">Talent > totals</span>' : ''}</div></span></button>`; };
+      const m = PERF.meta;
+      return `<div class="card" style="margin-bottom:14px"><div class="card-head"><h2>Core pieces of the Super Bowl puzzle</h2><span class="sub">Tiers from stat-based Performance Score + age + contract · no subjective ratings</span></div>
+        <p class="small" style="margin:0;color:var(--text-2);line-height:1.6">${m ? esc(m.method) : 'Performance data not loaded — scores unavailable.'} Ranks are vs league players at the same position with a minimum ${m ? m.window.join('–') : ''} sample. OL have no free per-player blocking data, so they show availability only. ${m ? `Data: nflverse (PFR snaps & advanced defense, NFL stats) · updated ${esc(LIVE.fmtET(m.updated))}.` : ''}</p></div>
+      <div class="tier-grid">${order.map((k) => `<div class="card tier-col"><h3>${k} <span class="muted small">${tiers[k].length}</span></h3><div class="small muted" style="margin-bottom:6px">${desc[k]}</div>${tiers[k].map(row).join('') || '<div class="small muted">None</div>'}</div>`).join('')}</div>
+      ${m ? `<div class="card" style="margin-top:14px"><div class="card-head"><h2>League leaders by position</h2><span class="sub">Top 5 Performance Scores · context for the ranks above</span></div><div class="tier-grid">${Object.entries(m.leaders).map(([pos, l]) => `<div><b>${pos}</b> <span class="muted small">(${m.poolSize[pos]} ranked)</span>${l.slice(0, 5).map((x) => `<div class="small" style="padding:3px 0">#${x.rank} ${esc(x.name)} <span class="muted">${x.team}</span> <b class="num">${x.score}</b></div>`).join('')}</div>`).join('')}</div></div>` : ''}`;
+    },
     hub() {
       const s = S(); const c = C(); const sum = Fz.summary(s, c); const y = c.years; const phi = sum.team;
       const tile = (id, title, kpi, sub, icon) => `<button class="tile" data-action="module" data-id="${id}"><span class="tile-ico">${ICONS[id] || ''}</span><span class="tile-title">${title}</span><span class="tile-kpi">${kpi}</span><span class="tile-sub">${sub}</span></button>`;
@@ -1841,7 +1878,7 @@ const FranchiseUI = (ctx) => {
       const sides = [['OFF', 'Offense'], ['DEF', 'Defense'], ['ST', 'Special teams']];
       return `
       <div class="row between" style="margin-bottom:14px;flex-wrap:wrap;gap:10px"><div class="seg" role="tablist">${sides.map(([id, l]) => `<button role="tab" data-action="depthSide" data-val="${id}" aria-pressed="${side === id}">${l}</button>`).join('')}</div>
-        <span class="small muted">${Fz.roster(s).filter((p) => p.status !== 'ir').length}/53 active · ${LEAGUE.DEPARTED.length} departed this year · <b>MKT</b> = contract market tier (not a performance rating)</span></div>
+        <span class="small muted">${Fz.roster(s).filter((p) => p.status !== 'ir').length}/53 active · ${LEAGUE.DEPARTED.length} departed this year · Badge = stat-based <b>Performance Score</b> &amp; league rank at position (estimate) · <a href="#puzzle">methodology</a></span></div>
       <div class="depth-grid">${dc.map(({ group: g, players, starters, backups }) => { const n = ns.find((x) => x.group.id === g.id); return `<div class="card depth-col"><div class="depth-head"><div><div class="depth-pos">${g.id}</div><div class="small muted">${esc(g.label)} · ${players.length}/${g.depth}</div></div><span class="tag ${urgCls(n.urgency)}" title="${esc(n.why.join(' · '))}">Need ${n.score}</span></div>
         <div class="depth-label">Starters</div>${starters.length ? starters.map((p) => pcard(p)).join('') : '<div class="empty small">Open slot</div>'}
         ${Array.from({ length: Math.max(0, g.starters - starters.length) }).map(() => '<div class="empty small">Open starting slot</div>').join('')}
@@ -1962,13 +1999,19 @@ const FranchiseUI = (ctx) => {
     if (!p) return ctx.toast('Player not found', 'error');
     const hits = Fz.hitsOf(p); const cut = DATA.CUT_CANDIDATES.find((c) => c.id === Fz.cutIdFor(p)); const send = Fz.sendEffect(p);
     const g = Fz.GROUP(p.grp);
-    ctx.modal(`<div class="row between"><h3 style="margin:0">${esc(p.name)} <span class="muted" style="font-weight:400">${p.pos} · ${p.age} · ${p.exp} yrs</span></h3>${mkt(p.mkt || Fz.marketTier(p))}</div>
+    ctx.modal(`<div class="row between"><h3 style="margin:0">${esc(p.name)} <span class="muted" style="font-weight:400">${p.pos} · ${p.age} · ${p.exp} yrs</span></h3>${scoreBadge(p)}</div>
       <div class="small muted" style="margin:4px 0 12px">${esc(p.acq || '')} · thru ${p.thru} · APY ${fm(p.apy)} · ${ptags(p)} ${U.prov(p.prov)}</div>
+      ${perfBlock(p)}
       ${p.inj ? `<div class="alert critical" style="margin-bottom:12px"><div class="bar"></div><div><b>Injury</b><span>${esc(p.inj)}</span></div></div>` : ''}
       <div class="table-wrap"><table class="tight"><thead><tr><th>Cap</th>${Fz.YEARS.map((y) => `<th class="num">${y}</th>`).join('')}</tr></thead><tbody><tr><td>Cap hit</td>${Fz.YEARS.map((y) => `<td class="num">${hits[y] ? fm(hits[y]) : '—'}</td>`).join('')}</tr><tr><td>Trade now (PHI Δ)</td>${Fz.YEARS.map((y) => `<td class="num ${U.cls(-send.delta[y])}">${send.delta[y] ? fm(-send.delta[y], { plus: true }) : '—'}</td>`).join('')}</tr></tbody></table></div>
       <div class="stats" style="margin-top:12px"><div class="stat"><div class="stat-label">Dead if cut now</div><div class="stat-value neg">${fm(p.deadPre || 0)}</div></div><div class="stat"><div class="stat-label">Trade value</div><div class="stat-value">${p.value || Fz.playerTradeValue(p)} pts</div><div class="stat-sub">≈ pick #${nearestPick(p.value || Fz.playerTradeValue(p))}</div></div><div class="stat"><div class="stat-label">Market tier basis</div><div class="stat-value">${Math.round(Math.min(1, p.apy / g.marketTop) * 100)}%</div><div class="stat-sub">of ${g.id} top APY ${fm(g.marketTop, { digits: 0 })}</div></div></div>
       <div class="row between" style="margin-top:16px"><span class="row">${p.status !== 'ir' ? `<button class="btn" data-action="tmShop" data-id="${p.id}">Shop in Trade Machine</button>` : ''}${cut ? `<button class="btn" data-action="goCut" data-id="${cut.id}">Cut simulator</button>` : ''}${p.expiring ? `<button class="btn" data-action="goResign" data-id="${p.id}">Re-sign</button>` : ''}</span><button class="btn ghost" data-action="closeModal">Close</button></div>`);
   }
+  function perfBlock(p) { const r = perf(p); if (!r) return '<p class="small muted">No nflverse stat sample matched for this player.</p>'; if (r.score == null) return `<p class="small muted">${esc(r.note || '')} · ${r.gp}/${r.teamG} games over ${r.seasons.join('–')} · injury risk ${r.injuryRisk}</p>`;
+    const mt = (arr) => arr.length ? arr.map((m) => `<tr><td>${esc(m.m)}</td><td class="num">${m.v}</td><td class="num">${m.pct}</td></tr>`).join('') : '<tr><td colspan="3" class="muted">Sample too small</td></tr>';
+    return `<div class="card tight" style="margin-bottom:12px"><div class="row between"><b>Performance Score ${r.score} <span class="muted small">(estimate)</span></b><span class="small">${r.rank ? `#${r.rank} of ${r.of} ${r.pos} · ${r.pct}th pct` : 'Unranked — below min sample'}</span></div>
+      <div class="small muted" style="margin:4px 0 8px">Current ${r.current} (this season, ${r.sampleCur} ${r.unit.replace('_', ' ')}) · Talent ${r.talent} (${r.window ? '' : ''}${r.seasons.join('/')} rates, ${r.sampleWin} ${r.unit.replace('_', ' ')}, sample weight ${r.shrink}) · Availability ${r.gp}/${r.teamG} games → injury risk <b>${r.injuryRisk}</b>${r.suppressed ? ' · <span class="tag hi">Availability-suppressed talent</span>' : ''} · Tier: <b>${tierOf(p).k}</b></div>
+      <div class="grid" style="grid-template-columns:1fr 1fr;gap:10px"><div class="table-wrap"><table class="tight"><thead><tr><th>This season</th><th class="num">Value</th><th class="num">Pctl</th></tr></thead><tbody>${mt(r.metricsCur)}</tbody></table></div><div class="table-wrap"><table class="tight"><thead><tr><th>3-season</th><th class="num">Value</th><th class="num">Pctl</th></tr></thead><tbody>${mt(r.metricsWin)}</tbody></table></div></div></div>`; }
   function nearestPick(v) { let best = 256; for (let o = 1; o <= 256; o++) { if (Fz.pickValue(o) <= v) { best = o; break; } } return best; }
 
   /* ---------- actions ---------- */
@@ -2031,6 +2074,7 @@ const FranchiseUI = (ctx) => {
 const App = (() => {
   const MODULES = [
     { id: 'hub', label: 'Franchise Hub', title: 'Franchise Hub', group: 'Franchise' },
+    { id: 'puzzle', label: 'Super Bowl Puzzle', title: 'Core Pieces of the Super Bowl Puzzle', group: 'Franchise' },
     { id: 'depth', label: 'Depth Chart', title: 'Depth Chart & Positional Needs', group: 'Franchise' },
     { id: 'trademachine', label: 'Trade Machine', title: 'Trade Machine', group: 'Franchise' },
     { id: 'freeagency', label: 'Free Agency', title: 'Free Agency — 2027 Class', group: 'Franchise' },
@@ -2117,7 +2161,7 @@ const App = (() => {
       <aside class="sidebar" id="sidebar" aria-label="Modules">
         <div class="brand">${LOGO}<div><div class="brand-name">Eagles GM Lab</div><div class="brand-sub">Franchise Mode · Live</div></div></div>
         <nav class="nav" id="nav"></nav>
-        <div class="sidebar-foot">Snapshot <b>${DATA.SNAPSHOT}</b> · after Week 4<br>Spotrac · OTC · NFL.com · Tankathon · SN<br>Adjusted for Johnson (R/R), Jurgens (BAL), Carter &amp; Greenard deals, A.J. Brown (NE).<br><span class="muted">v${Model.SCHEMA_VERSION}.0 · <a href="#" data-action="shortcuts">Shortcuts</a></span></div>
+        <div class="sidebar-foot">Snapshot <b>${DATA.SNAPSHOT}</b> · after Week 4<br>Spotrac · OTC · NFL.com · Tankathon · SN<br>Adjusted for Johnson (R/R), Jurgens (BAL), Carter &amp; Greenard deals, A.J. Brown (NE).<br>${SL_MARK}<br><span class="muted">v${Model.SCHEMA_VERSION}.0 · <a href="#" data-action="shortcuts">Shortcuts</a></span></div>
       </aside>
       <div class="scrim" data-action="closeSidebar"></div>
       <header class="header">
@@ -2748,7 +2792,7 @@ const LIVE = (() => {
   }
 
   async function load() {
-    const names = ['meta.json', 'cap_manual.json', 'standings.json', 'roster.json', 'injuries.json', 'schedule.json', 'depth.json', 'contracts.json', 'sleeper_depth.json'];
+    const names = ['meta.json', 'cap_manual.json', 'standings.json', 'roster.json', 'injuries.json', 'schedule.json', 'depth.json', 'contracts.json', 'sleeper_depth.json', 'performance.json'];
     const res = await Promise.allSettled(names.map((n) => getJson(n)));
     const got = {}; res.forEach((r, i) => { status.sources[names[i]] = r.status === 'fulfilled'; if (r.status === 'fulfilled') got[names[i]] = r.value; else console.warn('[live] could not load', names[i], r.reason && r.reason.message); });
     if (got['cap_manual.json']) step('cap', () => applyCap(got['cap_manual.json']));
@@ -2759,6 +2803,7 @@ const LIVE = (() => {
     status.depth = got['depth.json'] ? got['depth.json'].data : null;
     status.sleeperDepth = got['sleeper_depth.json'] ? got['sleeper_depth.json'].data : null;
     status.contracts = got['contracts.json'] ? got['contracts.json'].data : null;
+    if (got['performance.json']) step('performance', () => { const pd = got['performance.json'].data; PERF.meta = { season: pd.season, window: pd.window, method: pd.method, poolSize: pd.poolSize, leaders: pd.leaders, updated: got['performance.json'].updated }; pd.phi.forEach((r) => { if (r.team === 'PHI' || !PERF.by[perfKey(r.name)]) PERF.by[perfKey(r.name)] = r; }); PERF.by['tariq woolen'] = PERF.by['riq woolen']; });
     const meta = got['meta.json'];
     status.ok = ['standings', 'roster', 'injuries'].some((k) => status.merged[k]);
     status.updated = meta && (meta.lastRun || meta.updated) || null;
