@@ -7,7 +7,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
    "injury": "Out",
-   "injuryDate": "2026-10-09T15:32Z",
+   "injuryDate": "2026-10-11T12:03Z",
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -46,7 +46,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241372.png",
    "injury": "Out",
-   "injuryDate": "2026-10-10T00:53Z",
+   "injuryDate": "2026-10-11T12:03Z",
    "jersey": "0",
    "name": "Hollywood Brown",
    "pos": "WR",
@@ -163,7 +163,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4567802.png",
    "injury": "Out",
-   "injuryDate": "2026-10-10T02:24Z",
+   "injuryDate": "2026-10-11T12:03Z",
    "jersey": "66",
    "name": "Drew Kendall",
    "pos": "C",
@@ -332,7 +332,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Out",
-   "injuryDate": "2026-10-09T15:34Z",
+   "injuryDate": "2026-10-11T12:03Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -396,8 +396,8 @@
    "exp": 4,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372051.png",
-   "injury": "Out",
-   "injuryDate": "2026-10-02T01:14Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-10-11T05:31Z",
    "jersey": "59",
    "name": "Chance Campbell",
    "pos": "LB",
@@ -501,7 +501,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139368.png",
    "injury": "Out",
-   "injuryDate": "2026-10-10T01:14Z",
+   "injuryDate": "2026-10-11T12:03Z",
    "jersey": "29",
    "name": "Marcus Epps",
    "pos": "S",
@@ -513,8 +513,8 @@
    "exp": 7,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3916409.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-10T01:11Z",
+   "injury": "Out",
+   "injuryDate": "2026-10-11T12:06Z",
    "jersey": "52",
    "name": "Jonathan Greenard",
    "pos": "LB",
@@ -859,7 +859,7 @@
    "status": "Practice Squad"
   },
   {
-   "age": 21,
+   "age": 22,
    "espnId": "5344966",
    "exp": 0,
    "group": "practiceSquad",
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-11T01:10:15-04:00"
+ "updated": "2026-10-11T08:28:41-04:00"
 }
