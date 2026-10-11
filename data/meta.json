@@ -1,39 +1,39 @@
 {
- "lastRun": "2026-10-11T08:28:45-04:00",
+ "lastRun": "2026-10-11T12:36:52-04:00",
  "sources": {
   "contracts.json": {
    "error": null,
    "label": "nflverse contracts (Over The Cap)",
    "lastChange": "2026-10-10T12:10:31-04:00",
-   "lastSuccess": "2026-10-11T08:28:45-04:00",
+   "lastSuccess": "2026-10-11T12:36:52-04:00",
    "ok": true
   },
   "depth.json": {
    "error": null,
    "label": "nflverse depth charts",
-   "lastChange": "2026-10-11T08:28:44-04:00",
-   "lastSuccess": "2026-10-11T08:28:44-04:00",
+   "lastChange": "2026-10-11T12:36:51-04:00",
+   "lastSuccess": "2026-10-11T12:36:51-04:00",
    "ok": true
   },
   "injuries.json": {
    "error": null,
    "label": "nflverse injuries (official report)",
    "lastChange": "2026-10-10T12:10:27-04:00",
-   "lastSuccess": "2026-10-11T08:28:41-04:00",
+   "lastSuccess": "2026-10-11T12:36:49-04:00",
    "ok": true
   },
   "roster.json": {
    "error": null,
    "label": "ESPN team roster",
-   "lastChange": "2026-10-11T08:28:41-04:00",
-   "lastSuccess": "2026-10-11T08:28:41-04:00",
+   "lastChange": "2026-10-11T12:36:49-04:00",
+   "lastSuccess": "2026-10-11T12:36:49-04:00",
    "ok": true
   },
   "schedule.json": {
    "error": null,
    "label": "ESPN team schedule",
-   "lastChange": "2026-10-09T15:29:55-04:00",
-   "lastSuccess": "2026-10-11T08:28:41-04:00",
+   "lastChange": "2026-10-11T12:36:49-04:00",
+   "lastSuccess": "2026-10-11T12:36:49-04:00",
    "ok": true
   },
   "sleeper_depth.json": {
@@ -47,10 +47,10 @@
    "error": null,
    "label": "ESPN standings",
    "lastChange": "2026-10-09T15:29:54-04:00",
-   "lastSuccess": "2026-10-11T08:28:41-04:00",
+   "lastSuccess": "2026-10-11T12:36:49-04:00",
    "ok": true
   }
  },
  "timezone": "America/New_York",
- "updated": "2026-10-11T08:28:44-04:00"
+ "updated": "2026-10-11T12:36:51-04:00"
 }

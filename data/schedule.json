@@ -88,7 +88,7 @@
    "completed": false,
    "date": "2026-10-11T13:30Z",
    "name": "PHI VS JAX",
-   "status": "Scheduled",
+   "status": "In Progress",
    "teams": [
     {
      "abbr": "JAX",
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-10-09T15:29:55-04:00"
+ "updated": "2026-10-11T12:36:49-04:00"
 }
