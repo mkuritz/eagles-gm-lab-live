@@ -318,7 +318,7 @@
    "exp": 3,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431545.png",
-   "injury": "Out",
+   "injury": "Questionable",
    "injuryDate": "2026-10-11T15:53Z",
    "jersey": "28",
    "name": "Will Shipley",
@@ -527,7 +527,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4571162.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-11T16:29Z",
+   "injuryDate": "2026-10-11T17:37Z",
    "jersey": "58",
    "name": "Jalyx Hunt",
    "pos": "LB",
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-11T12:36:49-04:00"
+ "updated": "2026-10-11T15:26:00-04:00"
 }

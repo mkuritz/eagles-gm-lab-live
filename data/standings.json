@@ -17,12 +17,12 @@
    "conf": "AFC",
    "l": 1,
    "name": "Jacksonville Jaguars",
-   "pa": 53,
-   "pf": 104,
+   "pa": 70,
+   "pf": 123,
    "seed": "2",
-   "streak": "W2",
+   "streak": "W3",
    "t": 0,
-   "w": 3
+   "w": 4
   },
   {
    "abbr": "BUF",
@@ -169,24 +169,24 @@
    "w": 0
   },
   {
-   "abbr": "TEN",
-   "conf": "AFC",
-   "l": 4,
-   "name": "Tennessee Titans",
-   "pa": 83,
-   "pf": 55,
-   "seed": "15",
-   "streak": "L4",
-   "t": 0,
-   "w": 0
-  },
-  {
    "abbr": "HOU",
    "conf": "AFC",
    "l": 4,
    "name": "Houston Texans",
    "pa": 109,
    "pf": 84,
+   "seed": "15",
+   "streak": "L4",
+   "t": 0,
+   "w": 0
+  },
+  {
+   "abbr": "TEN",
+   "conf": "AFC",
+   "l": 4,
+   "name": "Tennessee Titans",
+   "pa": 83,
+   "pf": 55,
    "seed": "16",
    "streak": "L4",
    "t": 0,
@@ -315,12 +315,12 @@
   {
    "abbr": "PHI",
    "conf": "NFC",
-   "l": 2,
+   "l": 3,
    "name": "Philadelphia Eagles",
-   "pa": 93,
-   "pf": 75,
+   "pa": 112,
+   "pf": 92,
    "seed": "11",
-   "streak": "L2",
+   "streak": "L3",
    "t": 0,
    "w": 2
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-09T15:29:54-04:00"
+ "updated": "2026-10-11T15:26:00-04:00"
 }

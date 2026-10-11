@@ -85,22 +85,22 @@
    "week": 4
   },
   {
-   "completed": false,
+   "completed": true,
    "date": "2026-10-11T13:30Z",
    "name": "PHI VS JAX",
-   "status": "In Progress",
+   "status": "Final",
    "teams": [
     {
      "abbr": "JAX",
      "homeAway": "home",
-     "score": null,
-     "winner": null
+     "score": "19",
+     "winner": true
     },
     {
      "abbr": "PHI",
      "homeAway": "away",
-     "score": null,
-     "winner": null
+     "score": "17",
+     "winner": false
     }
    ],
    "week": 5
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-10-11T12:36:49-04:00"
+ "updated": "2026-10-11T15:26:00-04:00"
 }
