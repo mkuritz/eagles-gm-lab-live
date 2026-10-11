@@ -274,6 +274,19 @@
    "status": "Active"
   },
   {
+   "age": 27,
+   "espnId": "4240015",
+   "exp": 2,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240015.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "67",
+   "name": "John Ojukwu",
+   "pos": "OT",
+   "status": "Active"
+  },
+  {
    "age": 23,
    "espnId": "4879250",
    "exp": 0,
@@ -937,19 +950,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 27,
-   "espnId": "4240015",
-   "exp": 2,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240015.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "67",
-   "name": "John Ojukwu",
-   "pos": "OT",
-   "status": "Practice Squad"
-  },
-  {
    "age": 26,
    "espnId": "4567535",
    "exp": null,
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-10T12:10:27-04:00"
+ "updated": "2026-10-11T01:10:15-04:00"
 }

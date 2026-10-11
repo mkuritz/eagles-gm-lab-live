@@ -210,6 +210,15 @@
   {
    "depthOrder": null,
    "depthPos": "OL",
+   "espnId": null,
+   "injury": null,
+   "name": "John Ojukwu",
+   "pos": "OT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
    "espnId": 4334215,
    "injury": null,
    "name": "Jordan Mailata",
@@ -507,6 +516,15 @@
   {
    "depthOrder": 2,
    "depthPos": "TE",
+   "espnId": 15835,
+   "injury": null,
+   "name": "Zach Ertz",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "TE",
    "espnId": 3052096,
    "injury": null,
    "name": "Johnny Mundt",
@@ -514,7 +532,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 4,
    "depthPos": "TE",
    "espnId": null,
    "injury": null,
@@ -557,15 +575,6 @@
    "name": null,
    "pos": "DEF",
    "status": null
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": 14012,
-   "injury": null,
-   "name": "Andy Dalton",
-   "pos": "QB",
-   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -662,15 +671,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "John Ojukwu",
-   "pos": "OT",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Joshua Weru",
    "pos": "DE",
    "status": "Active"
@@ -728,16 +728,7 @@
    "name": "Xavier Gipson",
    "pos": "WR",
    "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": 15835,
-   "injury": null,
-   "name": "Zach Ertz",
-   "pos": "TE",
-   "status": "Active"
   }
  ],
- "updated": "2026-10-10T12:10:31-04:00"
+ "updated": "2026-10-11T01:10:19-04:00"
 }
