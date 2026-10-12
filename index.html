@@ -2195,7 +2195,7 @@ const App = (() => {
       if (m.id === 'qa' && lastQA) badge = `<span class="badge ${lastQA.failed ? 'bad' : 'ok'}">${lastQA.passed}/${lastQA.total}</span>`;
       if (m.id === 'scenarios' && saved.length) badge = `<span class="badge">${saved.length}</span>`;
       return `<button class="nav-btn" data-action="module" data-id="${m.id}" ${state.ui.module === m.id ? 'aria-current="page"' : ''}>${ICONS[m.id] || ''}<span>${m.label}</span>${badge}</button>`;
-    }).join('')).join('');
+    }).join('')).join('')+ `<div class="nav-label">Strategy</div><a class="nav-btn" href="planner.html" style="text-decoration:none">${ICONS.scenarios || ''}<span>Strategy Planner</span><span class="badge ok">New</span></a>`;
     els.scenarioSeg.innerHTML = Object.keys(DATA.SCENARIOS).map((k) => `<button data-action="scenario" data-id="${k}" aria-pressed="${state.scenario === k}" title="${U.esc(DATA.SCENARIOS[k].desc)}">${DATA.SCENARIOS[k].label}</button>`).join('');
     const sel = document.getElementById('scenarioSelect'); if (sel) sel.innerHTML = Object.keys(DATA.SCENARIOS).map((k) => `<option value="${k}" ${state.scenario === k ? 'selected' : ''}>${DATA.SCENARIOS[k].label}</option>`).join('');
   }
