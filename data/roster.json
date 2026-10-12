@@ -157,6 +157,19 @@
    "status": "Active"
   },
   {
+   "age": 36,
+   "espnId": "15797",
+   "exp": 14,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15797.png",
+   "injury": "Reserve-Ret",
+   "injuryDate": "2026-10-11T12:47Z",
+   "jersey": "65",
+   "name": "Lane Johnson",
+   "pos": "OT",
+   "status": "Active"
+  },
+  {
    "age": 24,
    "espnId": "4567802",
    "exp": 2,
@@ -1015,5 +1028,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-11T15:26:00-04:00"
+ "updated": "2026-10-11T20:22:33-04:00"
 }
