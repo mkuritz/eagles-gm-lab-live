@@ -18,3 +18,10 @@ vs league peers with a minimum sample, and blends **50% Current** (this season) 
 as injury risk. OL get no score (no free blocking data). All scores are estimates from public stats.
 The "Super Bowl Puzzle" view tiers players (Cornerstone / Core / Contributor / Depth) from percentile + age + contract.
 Part of [Sports Labs](https://mkuritz.github.io/sports-labs/).
+
+## Cross-check sources (added Oct 2026)
+`scripts/eagles_xcheck.py` → `data/xcheck.json`, shown on `sources.html`. All free and keyless, and the step is `continue-on-error`.
+- nflverse Next Gen Stats (receiving, rushing, passing) and PFR advanced stats: efficiency beyond the box score
+- nflverse snap counts: snap-share trend over the last 3 games vs the season
+- ffopportunity (ffverse) expected points: whether production matches usage
+- Depth-chart agreement between ESPN/nflverse and Sleeper, the two existing sources, now compared with each other
