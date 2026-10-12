@@ -743,6 +743,20 @@
    "years": 4
   },
   {
+   "apy": 1.005,
+   "apy_cap_pct": 0.003,
+   "gsis_id": "00-0039325",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 11920,
+   "player": "Carson Steele",
+   "position": "RB",
+   "team": "Eagles",
+   "value": 1.005,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
    "apy": 0.993,
    "apy_cap_pct": 0.004,
    "gsis_id": "00-0040024",
@@ -769,6 +783,20 @@
    "value": 3.918,
    "year_signed": 2023,
    "years": 4
+  },
+  {
+   "apy": 0.885,
+   "apy_cap_pct": 0.003,
+   "gsis_id": "00-0040422",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 12787,
+   "player": "Jake Majors",
+   "position": "C",
+   "team": "Eagles",
+   "value": 0.885,
+   "year_signed": 2026,
+   "years": 1
   },
   {
    "apy": 0.401,
@@ -829,12 +857,12 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0039325",
+   "gsis_id": "00-0040905",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 11920,
-   "player": "Carson Steele",
-   "position": "RB",
+   "otc_id": 13388,
+   "player": "Cole Wisniewski",
+   "position": "S",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -843,12 +871,12 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0040905",
+   "gsis_id": "00-0038092",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 13388,
-   "player": "Cole Wisniewski",
-   "position": "S",
+   "otc_id": 10170,
+   "player": "Erik Ezukanma",
+   "position": "WR",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -871,11 +899,11 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0040422",
+   "gsis_id": "00-0041186",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 12787,
-   "player": "Jake Majors",
+   "otc_id": 13727,
+   "player": "James Brockermeyer",
    "position": "C",
    "team": "Eagles",
    "value": 0.247,
@@ -981,5 +1009,5 @@
    "years": 1
   }
  ],
- "updated": "2026-10-10T12:10:31-04:00"
+ "updated": "2026-10-12T16:13:47-04:00"
 }
