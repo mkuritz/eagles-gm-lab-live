@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 ET = ZoneInfo("America/New_York")
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 DATA = os.path.join(ROOT, "data")
-SEASON = int(os.environ.get("SEASON", "2026"))
+SEASON = int(os.environ.get("SEASON") or (lambda d: d.year if d.month >= 3 else d.year - 1)(__import__("datetime").date.today()))  # derived from date
 UA = {"User-Agent": "eagles-gm-lab-live/1.0 (personal demo; github.com/mkuritz)"}
 ESPN = "https://site.api.espn.com/apis"
 NFLV = "https://github.com/nflverse/nflverse-data/releases/download"
