@@ -13,28 +13,28 @@
    "w": 4
   },
   {
-   "abbr": "JAX",
+   "abbr": "BAL",
    "conf": "AFC",
    "l": 1,
-   "name": "Jacksonville Jaguars",
-   "pa": 70,
-   "pf": 123,
+   "name": "Baltimore Ravens",
+   "pa": 119,
+   "pf": 146,
    "seed": "2",
    "streak": "W3",
    "t": 0,
    "w": 4
   },
   {
-   "abbr": "BAL",
+   "abbr": "JAX",
    "conf": "AFC",
    "l": 1,
-   "name": "Baltimore Ravens",
-   "pa": 96,
-   "pf": 116,
+   "name": "Jacksonville Jaguars",
+   "pa": 70,
+   "pf": 123,
    "seed": "3",
-   "streak": "W2",
+   "streak": "W3",
    "t": 0,
-   "w": 3
+   "w": 4
   },
   {
    "abbr": "BUF",
@@ -303,12 +303,12 @@
   {
    "abbr": "ATL",
    "conf": "NFC",
-   "l": 2,
+   "l": 3,
    "name": "Atlanta Falcons",
-   "pa": 92,
-   "pf": 96,
+   "pa": 122,
+   "pf": 119,
    "seed": "10",
-   "streak": "W2",
+   "streak": "L1",
    "t": 0,
    "w": 2
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-11T20:22:33-04:00"
+ "updated": "2026-10-12T03:32:54-04:00"
 }

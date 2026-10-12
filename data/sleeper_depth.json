@@ -103,7 +103,7 @@
    "depthOrder": 1,
    "depthPos": "LOLB",
    "espnId": 3916409,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Jonathan Greenard",
    "pos": "DE",
    "status": "Active"
@@ -256,7 +256,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Tyler Steen",
    "pos": "OL",
    "status": "Active"
@@ -310,7 +310,7 @@
    "depthOrder": 1,
    "depthPos": "RB",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Will Shipley",
    "pos": "RB",
    "status": "Active"
@@ -418,7 +418,7 @@
    "depthOrder": 1,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Jalyx Hunt",
    "pos": "DL",
    "status": "Active"
@@ -472,7 +472,7 @@
    "depthOrder": 2,
    "depthPos": "SS",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Michael Carter",
    "pos": "CB",
    "status": "Active"
@@ -730,5 +730,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-11T01:10:19-04:00"
+ "updated": "2026-10-12T03:32:58-04:00"
 }
