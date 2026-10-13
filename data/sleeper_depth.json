@@ -127,20 +127,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
-   "depthPos": "LWR",
-   "espnId": null,
-   "injury": null,
-   "name": "Elijah Moore",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 7,
+   "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
    "injury": "Out",
    "name": "DeVonta Smith",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 5,
+   "depthPos": "LWR",
+   "espnId": null,
+   "injury": null,
+   "name": "Elijah Moore",
    "pos": "WR",
    "status": "Active"
   },
@@ -205,15 +205,6 @@
    "injury": null,
    "name": "Jake Majors",
    "pos": "OL",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": "OL",
-   "espnId": null,
-   "injury": null,
-   "name": "John Ojukwu",
-   "pos": "OT",
    "status": "Active"
   },
   {
@@ -309,9 +300,9 @@
   {
    "depthOrder": 1,
    "depthPos": "RB",
-   "espnId": null,
+   "espnId": 3929630,
    "injury": "Out",
-   "name": "Will Shipley",
+   "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
   },
@@ -327,9 +318,9 @@
   {
    "depthOrder": 3,
    "depthPos": "RB",
-   "espnId": 3929630,
-   "injury": "Out",
-   "name": "Saquon Barkley",
+   "espnId": null,
+   "injury": null,
+   "name": "Carson Steele",
    "pos": "RB",
    "status": "Active"
   },
@@ -346,8 +337,8 @@
    "depthOrder": 5,
    "depthPos": "RB",
    "espnId": null,
-   "injury": null,
-   "name": "Carson Steele",
+   "injury": "Out",
+   "name": "Will Shipley",
    "pos": "RB",
    "status": "Active"
   },
@@ -442,7 +433,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -451,7 +442,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 4,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -478,20 +469,11 @@
    "status": "Active"
   },
   {
-   "depthOrder": 2,
+   "depthOrder": 3,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
    "name": "Makai Lemon",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 5,
-   "depthPos": "SWR",
-   "espnId": null,
-   "injury": null,
-   "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
   },
@@ -501,6 +483,15 @@
    "espnId": 4241372,
    "injury": "Out",
    "name": "Marquise Brown",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 7,
+   "depthPos": "SWR",
+   "espnId": null,
+   "injury": null,
+   "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
   },
@@ -516,15 +507,6 @@
   {
    "depthOrder": 2,
    "depthPos": "TE",
-   "espnId": 15835,
-   "injury": null,
-   "name": "Zach Ertz",
-   "pos": "TE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "TE",
    "espnId": 3052096,
    "injury": null,
    "name": "Johnny Mundt",
@@ -532,7 +514,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 3,
    "depthPos": "TE",
    "espnId": null,
    "injury": null,
@@ -671,6 +653,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "John Ojukwu",
+   "pos": "OT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Joshua Weru",
    "pos": "DE",
    "status": "Active"
@@ -728,7 +719,16 @@
    "name": "Xavier Gipson",
    "pos": "WR",
    "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": 15835,
+   "injury": null,
+   "name": "Zach Ertz",
+   "pos": "TE",
+   "status": "Active"
   }
  ],
- "updated": "2026-10-12T03:32:58-04:00"
+ "updated": "2026-10-13T14:06:31-04:00"
 }

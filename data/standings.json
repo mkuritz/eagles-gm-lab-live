@@ -41,12 +41,12 @@
    "conf": "AFC",
    "l": 1,
    "name": "Buffalo Bills",
-   "pa": 107,
-   "pf": 127,
+   "pa": 141,
+   "pf": 164,
    "seed": "4",
-   "streak": "L1",
+   "streak": "W1",
    "t": 0,
-   "w": 3
+   "w": 4
   },
   {
    "abbr": "NE",
@@ -241,26 +241,26 @@
    "w": 3
   },
   {
-   "abbr": "CHI",
-   "conf": "NFC",
-   "l": 2,
-   "name": "Chicago Bears",
-   "pa": 96,
-   "pf": 119,
-   "seed": "6",
-   "streak": "L1",
-   "t": 0,
-   "w": 3
-  },
-  {
    "abbr": "DET",
    "conf": "NFC",
    "l": 2,
    "name": "Detroit Lions",
    "pa": 148,
    "pf": 164,
-   "seed": "7",
+   "seed": "6",
    "streak": "W1",
+   "t": 0,
+   "w": 3
+  },
+  {
+   "abbr": "CHI",
+   "conf": "NFC",
+   "l": 2,
+   "name": "Chicago Bears",
+   "pa": 96,
+   "pf": 119,
+   "seed": "7",
+   "streak": "L1",
    "t": 0,
    "w": 3
   },
@@ -291,12 +291,12 @@
   {
    "abbr": "LAR",
    "conf": "NFC",
-   "l": 2,
+   "l": 3,
    "name": "Los Angeles Rams",
-   "pa": 83,
-   "pf": 85,
+   "pa": 120,
+   "pf": 119,
    "seed": "9",
-   "streak": "W1",
+   "streak": "L1",
    "t": 0,
    "w": 2
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-12T03:32:54-04:00"
+ "updated": "2026-10-13T14:06:27-04:00"
 }
