@@ -103,7 +103,7 @@
    "depthOrder": 1,
    "depthPos": "LOLB",
    "espnId": 3916409,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Jonathan Greenard",
    "pos": "DE",
    "status": "Active"
@@ -130,7 +130,7 @@
    "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
@@ -184,7 +184,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Drew Kendall",
    "pos": "C",
    "status": "Active"
@@ -247,7 +247,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Tyler Steen",
    "pos": "OL",
    "status": "Active"
@@ -301,7 +301,7 @@
    "depthOrder": 1,
    "depthPos": "RB",
    "espnId": 3929630,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
@@ -337,7 +337,7 @@
    "depthOrder": 5,
    "depthPos": "RB",
    "espnId": null,
-   "injury": "Out",
+   "injury": "Doubtful",
    "name": "Will Shipley",
    "pos": "RB",
    "status": "Active"
@@ -409,7 +409,7 @@
    "depthOrder": 1,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Doubtful",
    "name": "Jalyx Hunt",
    "pos": "DL",
    "status": "Active"
@@ -454,7 +454,7 @@
    "depthOrder": 1,
    "depthPos": "SS",
    "espnId": 3139368,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Marcus Epps",
    "pos": "DB",
    "status": "Active"
@@ -481,7 +481,7 @@
    "depthOrder": 6,
    "depthPos": "SWR",
    "espnId": 4241372,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Marquise Brown",
    "pos": "WR",
    "status": "Active"
@@ -523,7 +523,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 6,
+   "depthOrder": 5,
    "depthPos": "TE",
    "espnId": null,
    "injury": "IR",
@@ -532,7 +532,7 @@
    "status": "Inactive"
   },
   {
-   "depthOrder": 7,
+   "depthOrder": 6,
    "depthPos": "TE",
    "espnId": null,
    "injury": "IR",
@@ -723,12 +723,30 @@
   {
    "depthOrder": null,
    "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Xavier Truss",
+   "pos": "OT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
    "espnId": 15835,
    "injury": null,
    "name": "Zach Ertz",
    "pos": "TE",
    "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Zion Wilson",
+   "pos": "DT",
+   "status": "Active"
   }
  ],
- "updated": "2026-10-13T14:06:31-04:00"
+ "updated": "2026-10-14T11:47:46-04:00"
 }

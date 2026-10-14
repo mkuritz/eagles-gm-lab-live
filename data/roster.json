@@ -79,19 +79,6 @@
    "status": "Active"
   },
   {
-   "age": 29,
-   "espnId": "3914151",
-   "exp": 6,
-   "group": "offense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3914151.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "45",
-   "name": "Josiah Deguara",
-   "pos": "TE",
-   "status": "Active"
-  },
-  {
    "age": 35,
    "espnId": "15835",
    "exp": 14,
@@ -540,7 +527,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4571162.png",
    "injury": "Doubtful",
-   "injuryDate": "2026-10-13T15:31Z",
+   "injuryDate": "2026-10-13T20:28Z",
    "jersey": "58",
    "name": "Jalyx Hunt",
    "pos": "LB",
@@ -989,16 +976,16 @@
    "status": "Practice Squad"
   },
   {
-   "age": 28,
-   "espnId": "4241995",
-   "exp": 4,
+   "age": 25,
+   "espnId": "4427080",
+   "exp": null,
    "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241995.png",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4427080.png",
    "injury": null,
    "injuryDate": null,
-   "jersey": "30",
-   "name": "Shaun Wade",
-   "pos": "CB",
+   "jersey": null,
+   "name": "Xavier Truss",
+   "pos": "OT",
    "status": "Practice Squad"
   },
   {
@@ -1015,6 +1002,19 @@
    "status": "Practice Squad"
   },
   {
+   "age": 23,
+   "espnId": "4872850",
+   "exp": 0,
+   "group": "practiceSquad",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4872850.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "79",
+   "name": "Zion Wilson",
+   "pos": "DT",
+   "status": "Practice Squad"
+  },
+  {
    "age": 24,
    "espnId": "4693345",
    "exp": 0,
@@ -1028,5 +1028,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-13T14:06:26-04:00"
+ "updated": "2026-10-14T11:47:42-04:00"
 }
