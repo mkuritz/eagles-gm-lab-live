@@ -7,7 +7,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-14T22:24Z",
+   "injuryDate": "2026-10-15T18:25Z",
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -110,8 +110,8 @@
    "exp": 7,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-10-15T17:11Z",
    "jersey": "1",
    "name": "Jalen Hurts",
    "pos": "QB",
@@ -332,7 +332,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-14T22:27Z",
+   "injuryDate": "2026-10-15T18:20Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -1015,6 +1015,19 @@
    "status": "Practice Squad"
   },
   {
+   "age": 25,
+   "espnId": "4579554",
+   "exp": 2,
+   "group": "practiceSquad",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4579554.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": null,
+   "name": "Ian Wheeler",
+   "pos": "RB",
+   "status": "Practice Squad"
+  },
+  {
    "age": 23,
    "espnId": "4872850",
    "exp": 0,
@@ -1041,5 +1054,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-15T00:05:44-04:00"
+ "updated": "2026-10-15T17:09:55-04:00"
 }
