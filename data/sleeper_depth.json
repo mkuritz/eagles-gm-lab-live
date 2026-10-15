@@ -247,7 +247,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Tyler Steen",
    "pos": "OL",
    "status": "Active"
@@ -427,7 +427,7 @@
    "depthOrder": 3,
    "depthPos": "ROLB",
    "espnId": 4240585,
-   "injury": null,
+   "injury": "Questionable",
    "name": "A.J. Epenesa",
    "pos": "DE",
    "status": "Active"
@@ -436,7 +436,7 @@
    "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
@@ -517,7 +517,7 @@
    "depthOrder": 3,
    "depthPos": "TE",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "E.J. Jenkins",
    "pos": "TE",
    "status": "Active"
@@ -597,6 +597,15 @@
   {
    "depthOrder": null,
    "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Dean Clark",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
    "espnId": 4423369,
    "injury": null,
    "name": "Duplicate Player",
@@ -669,15 +678,6 @@
   {
    "depthOrder": null,
    "depthPos": null,
-   "espnId": 3914151,
-   "injury": null,
-   "name": "Josiah Deguara",
-   "pos": "TE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
    "espnId": null,
    "injury": null,
    "name": "Keyshawn James-Newby",
@@ -700,15 +700,6 @@
    "injury": null,
    "name": "Mason Reiger",
    "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Shaun Wade",
-   "pos": "CB",
    "status": "Active"
   },
   {
@@ -748,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-14T11:47:46-04:00"
+ "updated": "2026-10-15T00:05:47-04:00"
 }
