@@ -17,7 +17,7 @@ vs league peers with a minimum sample, and blends **50% Current** (this season) 
 (3-season rates shrunk toward the position median by sample size). Availability is reported separately
 as injury risk. OL get no score (no free blocking data). All scores are estimates from public stats.
 The "Super Bowl Puzzle" view tiers players (Cornerstone / Core / Contributor / Depth) from percentile + age + contract.
-Part of [Sports Labs](https://mkuritz.github.io/sports-labs/).
+Part of [Sports Labs](https://sportslabshq.com/).
 
 ## Cross-check sources (added Oct 2026)
 `scripts/eagles_xcheck.py` → `data/xcheck.json`, shown on `sources.html`. All free and keyless, and the step is `continue-on-error`.
