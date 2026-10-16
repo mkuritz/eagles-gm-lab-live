@@ -49,6 +49,18 @@
    "w": 4
   },
   {
+   "abbr": "DEN",
+   "conf": "AFC",
+   "l": 2,
+   "name": "Denver Broncos",
+   "pa": 125,
+   "pf": 114,
+   "seed": "6",
+   "streak": "W2",
+   "t": 0,
+   "w": 4
+  },
+  {
    "abbr": "NE",
    "conf": "AFC",
    "l": 2,
@@ -57,18 +69,6 @@
    "pf": 110,
    "seed": "5",
    "streak": "W2",
-   "t": 0,
-   "w": 3
-  },
-  {
-   "abbr": "DEN",
-   "conf": "AFC",
-   "l": 2,
-   "name": "Denver Broncos",
-   "pa": 111,
-   "pf": 97,
-   "seed": "6",
-   "streak": "W1",
    "t": 0,
    "w": 3
   },
@@ -265,18 +265,6 @@
    "w": 3
   },
   {
-   "abbr": "SEA",
-   "conf": "NFC",
-   "l": 2,
-   "name": "Seattle Seahawks",
-   "pa": 105,
-   "pf": 134,
-   "seed": "8",
-   "streak": "L1",
-   "t": 0,
-   "w": 3
-  },
-  {
    "abbr": "CAR",
    "conf": "NFC",
    "l": 2,
@@ -287,6 +275,18 @@
    "streak": "W1",
    "t": 0,
    "w": 2
+  },
+  {
+   "abbr": "SEA",
+   "conf": "NFC",
+   "l": 3,
+   "name": "Seattle Seahawks",
+   "pa": 122,
+   "pf": 148,
+   "seed": "8",
+   "streak": "L2",
+   "t": 0,
+   "w": 3
   },
   {
    "abbr": "LAR",
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-13T14:06:27-04:00"
+ "updated": "2026-10-16T08:22:28-04:00"
 }

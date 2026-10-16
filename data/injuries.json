@@ -23,7 +23,7 @@
     "injury": "Groin",
     "name": "Marcus Epps",
     "pos": "S",
-    "practice": "Limited Participation in Practice"
+    "practice": "Full Participation in Practice"
    },
    {
     "gameStatus": "",
@@ -39,7 +39,7 @@
     "injury": "Back",
     "name": "A.J. Epenesa",
     "pos": "LB",
-    "practice": "Limited Participation in Practice"
+    "practice": "Did Not Participate In Practice"
    },
    {
     "gameStatus": "",
@@ -55,7 +55,7 @@
     "injury": "Calf",
     "name": "Jalen Hurts",
     "pos": "QB",
-    "practice": "Full Participation in Practice"
+    "practice": "Did Not Participate In Practice"
    },
    {
     "gameStatus": "",
@@ -79,7 +79,7 @@
     "injury": "Hamstring",
     "name": "DeVonta Smith",
     "pos": "WR",
-    "practice": "Did Not Participate In Practice"
+    "practice": "Limited Participation in Practice"
    },
    {
     "gameStatus": "",
@@ -119,7 +119,7 @@
     "injury": "Hamstring",
     "name": "Dontayvion Wicks",
     "pos": "WR",
-    "practice": "Limited Participation in Practice"
+    "practice": "Did Not Participate In Practice"
    },
    {
     "gameStatus": "",
@@ -167,7 +167,7 @@
     "injury": "Knee",
     "name": "Drew Kendall",
     "pos": "C",
-    "practice": "Did Not Participate In Practice"
+    "practice": "Limited Participation in Practice"
    },
    {
     "gameStatus": "",
@@ -196,5 +196,5 @@
   ],
   "week": 6
  },
- "updated": "2026-10-15T07:11:41-04:00"
+ "updated": "2026-10-16T08:22:28-04:00"
 }

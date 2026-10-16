@@ -127,7 +127,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 3,
    "depthPos": "LWR",
    "espnId": null,
    "injury": "Questionable",
@@ -273,18 +273,18 @@
   {
    "depthOrder": 1,
    "depthPos": "QB",
-   "espnId": 4040715,
+   "espnId": null,
    "injury": null,
-   "name": "Jalen Hurts",
+   "name": "Tanner McKee",
    "pos": "QB",
    "status": "Active"
   },
   {
    "depthOrder": 2,
    "depthPos": "QB",
-   "espnId": null,
-   "injury": null,
-   "name": "Tanner McKee",
+   "espnId": 4040715,
+   "injury": "Out",
+   "name": "Jalen Hurts",
    "pos": "QB",
    "status": "Active"
   },
@@ -300,18 +300,18 @@
   {
    "depthOrder": 1,
    "depthPos": "RB",
-   "espnId": 3929630,
-   "injury": "Questionable",
-   "name": "Saquon Barkley",
+   "espnId": null,
+   "injury": null,
+   "name": "Dameon Pierce",
    "pos": "RB",
    "status": "Active"
   },
   {
    "depthOrder": 2,
    "depthPos": "RB",
-   "espnId": null,
-   "injury": null,
-   "name": "Dameon Pierce",
+   "espnId": 3929630,
+   "injury": "Questionable",
+   "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
   },
@@ -433,7 +433,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 2,
+   "depthOrder": 1,
    "depthPos": "RWR",
    "espnId": null,
    "injury": "Questionable",
@@ -442,7 +442,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -454,7 +454,7 @@
    "depthOrder": 1,
    "depthPos": "SS",
    "espnId": 3139368,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Marcus Epps",
    "pos": "DB",
    "status": "Active"
@@ -469,7 +469,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 4,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -635,6 +635,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Ian Wheeler",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Jacob Sykes",
    "pos": "DE",
    "status": "Active"
@@ -739,5 +748,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-15T00:05:47-04:00"
+ "updated": "2026-10-16T08:22:33-04:00"
 }

@@ -7,7 +7,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-15T18:25Z",
+   "injuryDate": "2026-10-15T21:32Z",
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -319,7 +319,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431545.png",
    "injury": "Doubtful",
-   "injuryDate": "2026-10-14T23:13Z",
+   "injuryDate": "2026-10-15T21:53Z",
    "jersey": "28",
    "name": "Will Shipley",
    "pos": "RB",
@@ -332,7 +332,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-15T18:20Z",
+   "injuryDate": "2026-10-15T21:39Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -371,7 +371,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-14T22:47Z",
+   "injuryDate": "2026-10-15T21:46Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -500,8 +500,8 @@
    "exp": 8,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139368.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-15T00:28Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "29",
    "name": "Marcus Epps",
    "pos": "S",
@@ -1054,5 +1054,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-15T17:09:55-04:00"
+ "updated": "2026-10-16T08:22:28-04:00"
 }
