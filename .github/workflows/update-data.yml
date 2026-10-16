@@ -2,8 +2,8 @@ name: Update live data
 
 on:
   schedule:
-    - cron: "0 11 * * *"        # daily ~7:00 AM ET (6:00 AM during EST)
-    - cron: "0 */3 * * 0,1,4"   # every 3h on Sun/Mon/Thu game days (UTC)
+    # Primary schedule lives in the Cloudflare sl-scheduler (7 AM daily + every 3h on game days). Sparse daily backup:
+    - cron: "0 14 * * *"   # ~10 AM ET
   workflow_dispatch:
 
 permissions:
