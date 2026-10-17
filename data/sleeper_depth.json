@@ -103,7 +103,7 @@
    "depthOrder": 1,
    "depthPos": "LOLB",
    "espnId": 3916409,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jonathan Greenard",
    "pos": "DE",
    "status": "Active"
@@ -130,7 +130,7 @@
    "depthOrder": 3,
    "depthPos": "LWR",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
@@ -247,7 +247,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Tyler Steen",
    "pos": "OL",
    "status": "Active"
@@ -298,6 +298,15 @@
    "status": "Active"
   },
   {
+   "depthOrder": 3,
+   "depthPos": "QB",
+   "espnId": null,
+   "injury": null,
+   "name": "Joe Milton",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
    "depthOrder": 1,
    "depthPos": "RB",
    "espnId": null,
@@ -309,18 +318,18 @@
   {
    "depthOrder": 2,
    "depthPos": "RB",
-   "espnId": 3929630,
-   "injury": "Questionable",
-   "name": "Saquon Barkley",
+   "espnId": null,
+   "injury": null,
+   "name": "Carson Steele",
    "pos": "RB",
    "status": "Active"
   },
   {
    "depthOrder": 3,
    "depthPos": "RB",
-   "espnId": null,
-   "injury": null,
-   "name": "Carson Steele",
+   "espnId": 3929630,
+   "injury": "Out",
+   "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
   },
@@ -337,10 +346,10 @@
    "depthOrder": 5,
    "depthPos": "RB",
    "espnId": null,
-   "injury": "Doubtful",
+   "injury": "IR",
    "name": "Will Shipley",
    "pos": "RB",
-   "status": "Active"
+   "status": "Inactive"
   },
   {
    "depthOrder": 1,
@@ -409,7 +418,7 @@
    "depthOrder": 1,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": "Doubtful",
+   "injury": "Out",
    "name": "Jalyx Hunt",
    "pos": "DL",
    "status": "Active"
@@ -427,7 +436,7 @@
    "depthOrder": 3,
    "depthPos": "ROLB",
    "espnId": 4240585,
-   "injury": "Questionable",
+   "injury": "Doubtful",
    "name": "A.J. Epenesa",
    "pos": "DE",
    "status": "Active"
@@ -436,7 +445,7 @@
    "depthOrder": 1,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
@@ -463,7 +472,7 @@
    "depthOrder": 2,
    "depthPos": "SS",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Michael Carter",
    "pos": "CB",
    "status": "Active"
@@ -481,7 +490,7 @@
    "depthOrder": 6,
    "depthPos": "SWR",
    "espnId": 4241372,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Marquise Brown",
    "pos": "WR",
    "status": "Active"
@@ -517,7 +526,7 @@
    "depthOrder": 3,
    "depthPos": "TE",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "E.J. Jenkins",
    "pos": "TE",
    "status": "Active"
@@ -748,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-16T08:22:33-04:00"
+ "updated": "2026-10-17T07:00:50-04:00"
 }
