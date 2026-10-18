@@ -127,7 +127,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
    "injury": null,
@@ -283,19 +283,10 @@
    "depthOrder": 2,
    "depthPos": "QB",
    "espnId": 4040715,
-   "injury": "Out",
+   "injury": "IR",
    "name": "Jalen Hurts",
    "pos": "QB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "QB",
-   "espnId": null,
-   "injury": null,
-   "name": "Cole Payton",
-   "pos": "QB",
-   "status": "Active"
+   "status": "Inactive"
   },
   {
    "depthOrder": 3,
@@ -303,6 +294,15 @@
    "espnId": null,
    "injury": null,
    "name": "Joe Milton",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "QB",
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Payton",
    "pos": "QB",
    "status": "Active"
   },
@@ -327,6 +327,15 @@
   {
    "depthOrder": 3,
    "depthPos": "RB",
+   "espnId": null,
+   "injury": null,
+   "name": "Jaydon Blue",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "RB",
    "espnId": 3929630,
    "injury": "Out",
    "name": "Saquon Barkley",
@@ -334,7 +343,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 5,
    "depthPos": "RB",
    "espnId": null,
    "injury": "IR",
@@ -343,7 +352,7 @@
    "status": "Inactive"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 6,
    "depthPos": "RB",
    "espnId": null,
    "injury": "IR",
@@ -442,7 +451,16 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 4,
+   "depthPos": "ROLB",
+   "espnId": null,
+   "injury": null,
+   "name": "Keyshawn James-Newby",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -451,7 +469,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 2,
+   "depthOrder": 3,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -475,6 +493,15 @@
    "injury": "Out",
    "name": "Michael Carter",
    "pos": "CB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "SS",
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Wisniewski",
+   "pos": "DB",
    "status": "Active"
   },
   {
@@ -599,15 +626,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Cole Wisniewski",
-   "pos": "DB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Dean Clark",
    "pos": "DB",
    "status": "Active"
@@ -671,15 +689,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Jaydon Blue",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "John Ojukwu",
    "pos": "OT",
    "status": "Active"
@@ -690,15 +699,6 @@
    "espnId": null,
    "injury": null,
    "name": "Joshua Weru",
-   "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Keyshawn James-Newby",
    "pos": "DE",
    "status": "Active"
   },
@@ -757,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-17T07:00:50-04:00"
+ "updated": "2026-10-18T07:00:55-04:00"
 }

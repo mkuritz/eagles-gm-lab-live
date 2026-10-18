@@ -40,6 +40,19 @@
    "status": "Active"
   },
   {
+   "age": 22,
+   "espnId": "4685279",
+   "exp": 2,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "30",
+   "name": "Jaydon Blue",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
    "age": 29,
    "espnId": "4241372",
    "exp": 8,
@@ -105,19 +118,6 @@
    "status": "Active"
   },
   {
-   "age": 28,
-   "espnId": "4040715",
-   "exp": 7,
-   "group": "offense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
-   "injury": "Out",
-   "injuryDate": "2026-10-17T14:10Z",
-   "jersey": "1",
-   "name": "Jalen Hurts",
-   "pos": "QB",
-   "status": "Active"
-  },
-  {
    "age": 27,
    "espnId": "4248557",
    "exp": 2,
@@ -149,8 +149,8 @@
    "exp": 14,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15797.png",
-   "injury": "Reserve-Ret",
-   "injuryDate": "2026-10-11T12:47Z",
+   "injury": "Out",
+   "injuryDate": "2026-10-17T19:13Z",
    "jersey": "65",
    "name": "Lane Johnson",
    "pos": "OT",
@@ -534,6 +534,19 @@
    "status": "Active"
   },
   {
+   "age": 24,
+   "espnId": "5165139",
+   "exp": 0,
+   "group": "defense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5165139.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "50",
+   "name": "Keyshawn James-Newby",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
    "age": 33,
    "espnId": "2971027",
    "exp": 11,
@@ -677,6 +690,19 @@
    "status": "Active"
   },
   {
+   "age": 24,
+   "espnId": "4693345",
+   "exp": 0,
+   "group": "defense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4693345.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "21",
+   "name": "Cole Wisniewski",
+   "pos": "S",
+   "status": "Active"
+  },
+  {
    "age": 27,
    "espnId": "4245185",
    "exp": 5,
@@ -748,7 +774,7 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686911.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-15T01:04Z",
+   "injuryDate": "2026-10-18T03:01Z",
    "jersey": "23",
    "name": "Jakorian Bennett",
    "pos": "CB",
@@ -761,7 +787,7 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241374.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-17T02:16Z",
+   "injuryDate": "2026-10-18T02:34Z",
    "jersey": "81",
    "name": "Grant Calcaterra",
    "pos": "TE",
@@ -787,10 +813,23 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035624.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-17T04:35Z",
+   "injuryDate": "2026-10-18T02:58Z",
    "jersey": "69",
    "name": "Landon Dickerson",
    "pos": "G",
+   "status": "Day-To-Day"
+  },
+  {
+   "age": 28,
+   "espnId": "4040715",
+   "exp": 7,
+   "group": "injuredReserveOrOut",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
+   "injury": "Injured Reserve",
+   "injuryDate": "2026-10-17T20:02Z",
+   "jersey": "1",
+   "name": "Jalen Hurts",
+   "pos": "QB",
    "status": "Day-To-Day"
   },
   {
@@ -839,7 +878,7 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431574.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-17T02:18Z",
+   "injuryDate": "2026-10-18T02:36Z",
    "jersey": "87",
    "name": "Eli Stowers",
    "pos": "TE",
@@ -882,19 +921,6 @@
    "jersey": "93",
    "name": "Uar Bernard",
    "pos": "DT",
-   "status": "Practice Squad"
-  },
-  {
-   "age": 22,
-   "espnId": "4685279",
-   "exp": 2,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": null,
-   "name": "Jaydon Blue",
-   "pos": "RB",
    "status": "Practice Squad"
   },
   {
@@ -960,19 +986,6 @@
    "jersey": "96",
    "name": "Gabe Hall",
    "pos": "DT",
-   "status": "Practice Squad"
-  },
-  {
-   "age": 24,
-   "espnId": "5165139",
-   "exp": 0,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5165139.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "50",
-   "name": "Keyshawn James-Newby",
-   "pos": "LB",
    "status": "Practice Squad"
   },
   {
@@ -1052,20 +1065,7 @@
    "name": "Zion Wilson",
    "pos": "DT",
    "status": "Practice Squad"
-  },
-  {
-   "age": 24,
-   "espnId": "4693345",
-   "exp": 0,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4693345.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "21",
-   "name": "Cole Wisniewski",
-   "pos": "S",
-   "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-17T12:52:48-04:00"
+ "updated": "2026-10-18T07:00:51-04:00"
 }

@@ -82,7 +82,7 @@
     "practice": "Full Participation in Practice"
    },
    {
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0037002",
     "injury": "Knee",
     "name": "Landon Dickerson",
@@ -90,7 +90,7 @@
     "practice": "Limited Participation in Practice"
    },
    {
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0037086",
     "injury": "Back",
     "name": "Grant Calcaterra",
@@ -138,7 +138,7 @@
     "practice": "Full Participation in Practice"
    },
    {
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0039072",
     "injury": "Knee",
     "name": "Jakorian Bennett",
@@ -194,7 +194,7 @@
     "practice": "Full Participation in Practice"
    },
    {
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0041483",
     "injury": "Quadricep",
     "name": "Eli Stowers",
@@ -204,5 +204,5 @@
   ],
   "week": 6
  },
- "updated": "2026-10-17T07:00:47-04:00"
+ "updated": "2026-10-18T07:00:52-04:00"
 }
