@@ -13,18 +13,6 @@
    "w": 4
   },
   {
-   "abbr": "BAL",
-   "conf": "AFC",
-   "l": 1,
-   "name": "Baltimore Ravens",
-   "pa": 119,
-   "pf": 146,
-   "seed": "2",
-   "streak": "W3",
-   "t": 0,
-   "w": 4
-  },
-  {
    "abbr": "BUF",
    "conf": "AFC",
    "l": 1,
@@ -33,6 +21,18 @@
    "pf": 164,
    "seed": "4",
    "streak": "W1",
+   "t": 0,
+   "w": 4
+  },
+  {
+   "abbr": "BAL",
+   "conf": "AFC",
+   "l": 2,
+   "name": "Baltimore Ravens",
+   "pa": 132,
+   "pf": 156,
+   "seed": "2",
+   "streak": "L1",
    "t": 0,
    "w": 4
   },
@@ -61,6 +61,18 @@
    "w": 4
   },
   {
+   "abbr": "CLE",
+   "conf": "AFC",
+   "l": 2,
+   "name": "Cleveland Browns",
+   "pa": 122,
+   "pf": 106,
+   "seed": "8",
+   "streak": "W1",
+   "t": 0,
+   "w": 4
+  },
+  {
    "abbr": "NE",
    "conf": "AFC",
    "l": 2,
@@ -81,18 +93,6 @@
    "pf": 132,
    "seed": "7",
    "streak": "L2",
-   "t": 0,
-   "w": 3
-  },
-  {
-   "abbr": "CLE",
-   "conf": "AFC",
-   "l": 2,
-   "name": "Cleveland Browns",
-   "pa": 112,
-   "pf": 93,
-   "seed": "8",
-   "streak": "L1",
    "t": 0,
    "w": 3
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-18T13:00:36-04:00"
+ "updated": "2026-10-18T16:00:37-04:00"
 }

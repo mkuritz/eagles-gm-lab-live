@@ -344,8 +344,8 @@
    "exp": 2,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4714365.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-10-18T17:43Z",
    "jersey": "34",
    "name": "Carson Steele",
    "pos": "RB",
@@ -370,8 +370,8 @@
    "exp": 4,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-10-18T19:52Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -669,8 +669,8 @@
    "exp": 4,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426331.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-10-18T18:22Z",
    "jersey": "3",
    "name": "Nolan Smith Jr.",
    "pos": "LB",
@@ -1067,5 +1067,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-18T13:00:36-04:00"
+ "updated": "2026-10-18T16:00:36-04:00"
 }
