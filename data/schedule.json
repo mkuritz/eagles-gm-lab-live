@@ -109,7 +109,7 @@
    "completed": false,
    "date": "2026-10-18T17:00Z",
    "name": "CAR @ PHI",
-   "status": "Scheduled",
+   "status": "In Progress",
    "teams": [
     {
      "abbr": "PHI",
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-10-11T15:26:00-04:00"
+ "updated": "2026-10-18T13:06:08-04:00"
 }
