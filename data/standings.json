@@ -25,18 +25,6 @@
    "w": 4
   },
   {
-   "abbr": "JAX",
-   "conf": "AFC",
-   "l": 1,
-   "name": "Jacksonville Jaguars",
-   "pa": 70,
-   "pf": 123,
-   "seed": "3",
-   "streak": "W3",
-   "t": 0,
-   "w": 4
-  },
-  {
    "abbr": "BUF",
    "conf": "AFC",
    "l": 1,
@@ -45,6 +33,18 @@
    "pf": 164,
    "seed": "4",
    "streak": "W1",
+   "t": 0,
+   "w": 4
+  },
+  {
+   "abbr": "JAX",
+   "conf": "AFC",
+   "l": 2,
+   "name": "Jacksonville Jaguars",
+   "pa": 104,
+   "pf": 154,
+   "seed": "3",
+   "streak": "L1",
    "t": 0,
    "w": 4
   },
@@ -149,12 +149,12 @@
    "conf": "AFC",
    "l": 4,
    "name": "Houston Texans",
-   "pa": 112,
-   "pf": 110,
+   "pa": 143,
+   "pf": 144,
    "seed": "13",
-   "streak": "W1",
+   "streak": "W2",
    "t": 0,
-   "w": 1
+   "w": 2
   },
   {
    "abbr": "MIA",
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-16T08:22:28-04:00"
+ "updated": "2026-10-18T13:00:36-04:00"
 }
