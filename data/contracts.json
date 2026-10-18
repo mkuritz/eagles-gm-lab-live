@@ -799,8 +799,8 @@
    "years": 1
   },
   {
-   "apy": 0.401,
-   "apy_cap_pct": 0.001,
+   "apy": 0.455,
+   "apy_cap_pct": 0.002,
    "gsis_id": "00-0030061",
    "guaranteed": 0.0,
    "is_active": true,
@@ -808,35 +808,7 @@
    "player": "Zach Ertz",
    "position": "TE",
    "team": "Eagles",
-   "value": 0.401,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.361,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0036332",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 8834,
-   "player": "Josiah Deguara",
-   "position": "TE",
-   "team": "Eagles",
-   "value": 0.361,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.33,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0036559",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 9624,
-   "player": "Shaun Wade",
-   "position": "CB",
-   "team": "Eagles",
-   "value": 0.33,
+   "value": 0.455,
    "year_signed": 2026,
    "years": 1
   },
@@ -851,6 +823,20 @@
    "position": "WR",
    "team": "Eagles",
    "value": 0.33,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 0.297,
+   "apy_cap_pct": 0.001,
+   "gsis_id": "00-0038852",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 11366,
+   "player": "John Ojukwu",
+   "position": "RT",
+   "team": "Eagles",
+   "value": 0.297,
    "year_signed": 2026,
    "years": 1
   },
@@ -927,20 +913,6 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0038852",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 11366,
-   "player": "John Ojukwu",
-   "position": "RT",
-   "team": "Eagles",
-   "value": 0.247,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.247,
-   "apy_cap_pct": 0.001,
    "gsis_id": "00-0040926",
    "guaranteed": 0.0,
    "is_active": true,
@@ -1009,5 +981,5 @@
    "years": 1
   }
  ],
- "updated": "2026-10-12T16:13:47-04:00"
+ "updated": "2026-10-18T10:00:38-04:00"
 }
