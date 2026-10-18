@@ -106,22 +106,22 @@
    "week": 5
   },
   {
-   "completed": false,
+   "completed": true,
    "date": "2026-10-18T17:00Z",
    "name": "CAR @ PHI",
-   "status": "In Progress",
+   "status": "Final",
    "teams": [
     {
      "abbr": "PHI",
      "homeAway": "home",
-     "score": null,
-     "winner": null
+     "score": "14",
+     "winner": false
     },
     {
      "abbr": "CAR",
      "homeAway": "away",
-     "score": null,
-     "winner": null
+     "score": "25",
+     "winner": true
     }
    ],
    "week": 6
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-10-18T13:06:08-04:00"
+ "updated": "2026-10-18T19:00:35-04:00"
 }

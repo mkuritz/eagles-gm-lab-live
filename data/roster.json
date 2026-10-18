@@ -370,8 +370,8 @@
    "exp": 4,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-18T19:52Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -1067,5 +1067,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-18T16:00:36-04:00"
+ "updated": "2026-10-18T19:00:35-04:00"
 }
