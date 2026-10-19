@@ -5,24 +5,24 @@
    "conf": "AFC",
    "l": 0,
    "name": "Kansas City Chiefs",
-   "pa": 77,
-   "pf": 118,
+   "pa": 83,
+   "pf": 140,
    "seed": "1",
-   "streak": "W4",
+   "streak": "W5",
    "t": 0,
-   "w": 4
+   "w": 5
   },
   {
    "abbr": "BUF",
    "conf": "AFC",
    "l": 1,
    "name": "Buffalo Bills",
-   "pa": 141,
-   "pf": 164,
+   "pa": 171,
+   "pf": 197,
    "seed": "2",
-   "streak": "W1",
+   "streak": "W2",
    "t": 0,
-   "w": 4
+   "w": 5
   },
   {
    "abbr": "JAX",
@@ -111,12 +111,12 @@
   {
    "abbr": "LV",
    "conf": "AFC",
-   "l": 2,
+   "l": 3,
    "name": "Las Vegas Raiders",
-   "pa": 129,
-   "pf": 132,
+   "pa": 162,
+   "pf": 162,
    "seed": "10",
-   "streak": "L2",
+   "streak": "L3",
    "t": 0,
    "w": 3
   },
@@ -183,26 +183,14 @@
   {
    "abbr": "LAC",
    "conf": "AFC",
-   "l": 5,
+   "l": 6,
    "name": "Los Angeles Chargers",
-   "pa": 129,
-   "pf": 84,
+   "pa": 151,
+   "pf": 90,
    "seed": "16",
-   "streak": "L5",
+   "streak": "L6",
    "t": 0,
    "w": 0
-  },
-  {
-   "abbr": "MIN",
-   "conf": "NFC",
-   "l": 0,
-   "name": "Minnesota Vikings",
-   "pa": 64,
-   "pf": 109,
-   "seed": "1",
-   "streak": "W5",
-   "t": 0,
-   "w": 5
   },
   {
    "abbr": "SF",
@@ -211,6 +199,18 @@
    "name": "San Francisco 49ers",
    "pa": 93,
    "pf": 154,
+   "seed": "1",
+   "streak": "W5",
+   "t": 0,
+   "w": 5
+  },
+  {
+   "abbr": "MIN",
+   "conf": "NFC",
+   "l": 0,
+   "name": "Minnesota Vikings",
+   "pa": 64,
+   "pf": 109,
    "seed": "2",
    "streak": "W5",
    "t": 0,
@@ -289,25 +289,13 @@
    "w": 3
   },
   {
-   "abbr": "LAR",
-   "conf": "NFC",
-   "l": 3,
-   "name": "Los Angeles Rams",
-   "pa": 120,
-   "pf": 119,
-   "seed": "9",
-   "streak": "L1",
-   "t": 0,
-   "w": 2
-  },
-  {
    "abbr": "DAL",
    "conf": "NFC",
    "l": 3,
    "name": "Dallas Cowboys",
    "pa": 136,
    "pf": 138,
-   "seed": "10",
+   "seed": "9",
    "streak": "L1",
    "t": 0,
    "w": 2
@@ -319,7 +307,7 @@
    "name": "Atlanta Falcons",
    "pa": 153,
    "pf": 142,
-   "seed": "11",
+   "seed": "10",
    "streak": "L2",
    "t": 0,
    "w": 2
@@ -331,7 +319,7 @@
    "name": "New Orleans Saints",
    "pa": 178,
    "pf": 152,
-   "seed": "12",
+   "seed": "11",
    "streak": "W1",
    "t": 0,
    "w": 2
@@ -343,8 +331,32 @@
    "name": "Philadelphia Eagles",
    "pa": 137,
    "pf": 106,
-   "seed": "13",
+   "seed": "12",
    "streak": "L4",
+   "t": 0,
+   "w": 2
+  },
+  {
+   "abbr": "ARI",
+   "conf": "NFC",
+   "l": 4,
+   "name": "Arizona Cardinals",
+   "pa": 178,
+   "pf": 126,
+   "seed": "13",
+   "streak": "W1",
+   "t": 0,
+   "w": 2
+  },
+  {
+   "abbr": "LAR",
+   "conf": "NFC",
+   "l": 4,
+   "name": "Los Angeles Rams",
+   "pa": 138,
+   "pf": 135,
+   "seed": "14",
+   "streak": "L2",
    "t": 0,
    "w": 2
   },
@@ -355,21 +367,9 @@
    "name": "Washington Commanders",
    "pa": 149,
    "pf": 115,
-   "seed": "14",
+   "seed": "15",
    "streak": "-",
    "t": 1,
-   "w": 1
-  },
-  {
-   "abbr": "ARI",
-   "conf": "NFC",
-   "l": 4,
-   "name": "Arizona Cardinals",
-   "pa": 162,
-   "pf": 108,
-   "seed": "15",
-   "streak": "L4",
-   "t": 0,
    "w": 1
   },
   {
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-18T19:00:35-04:00"
+ "updated": "2026-10-18T22:00:34-04:00"
 }
