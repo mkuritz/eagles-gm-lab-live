@@ -673,6 +673,20 @@
    "years": 2
   },
   {
+   "apy": 1.075,
+   "apy_cap_pct": 0.004,
+   "gsis_id": "00-0039398",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 11801,
+   "player": "Joe Milton III",
+   "position": "QB",
+   "team": "Eagles",
+   "value": 1.075,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
    "apy": 1.062,
    "apy_cap_pct": 0.004,
    "gsis_id": "00-0039267",
@@ -757,6 +771,20 @@
    "years": 1
   },
   {
+   "apy": 1.005,
+   "apy_cap_pct": 0.003,
+   "gsis_id": "00-0040586",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 12509,
+   "player": "Jaydon Blue",
+   "position": "RB",
+   "team": "Eagles",
+   "value": 1.005,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
    "apy": 0.993,
    "apy_cap_pct": 0.004,
    "gsis_id": "00-0040024",
@@ -799,7 +827,7 @@
    "years": 1
   },
   {
-   "apy": 0.455,
+   "apy": 0.514,
    "apy_cap_pct": 0.002,
    "gsis_id": "00-0030061",
    "guaranteed": 0.0,
@@ -808,7 +836,7 @@
    "player": "Zach Ertz",
    "position": "TE",
    "team": "Eagles",
-   "value": 0.455,
+   "value": 0.514,
    "year_signed": 2026,
    "years": 1
   },
@@ -857,6 +885,20 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
+   "gsis_id": "00-0040396",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 12661,
+   "player": "Dean Clark",
+   "position": "S",
+   "team": "Eagles",
+   "value": 0.247,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 0.247,
+   "apy_cap_pct": 0.001,
    "gsis_id": "00-0038092",
    "guaranteed": 0.0,
    "is_active": true,
@@ -885,12 +927,12 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0041186",
+   "gsis_id": "00-0039466",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 13727,
-   "player": "James Brockermeyer",
-   "position": "C",
+   "otc_id": 12007,
+   "player": "Ian Wheeler",
+   "position": "RB",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -899,12 +941,12 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0040586",
+   "gsis_id": "00-0041186",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 12509,
-   "player": "Jaydon Blue",
-   "position": "RB",
+   "otc_id": 13727,
+   "player": "James Brockermeyer",
+   "position": "C",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -979,7 +1021,21 @@
    "value": 0.247,
    "year_signed": 2026,
    "years": 1
+  },
+  {
+   "apy": 0.247,
+   "apy_cap_pct": 0.001,
+   "gsis_id": "00-0041540",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 13847,
+   "player": "Zion Wilson",
+   "position": "IDL",
+   "team": "Eagles",
+   "value": 0.247,
+   "year_signed": 2026,
+   "years": 1
   }
  ],
- "updated": "2026-10-18T10:00:38-04:00"
+ "updated": "2026-10-19T13:01:10-04:00"
 }
