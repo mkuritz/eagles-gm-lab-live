@@ -6,8 +6,7 @@ on:
     - cron: "0 14 * * *"   # ~10 AM ET
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}   # least privilege by default; write scope granted per job below
 
 concurrency:
   group: update-data
@@ -15,6 +14,8 @@ concurrency:
 
 jobs:
   update:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
