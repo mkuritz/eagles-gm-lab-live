@@ -112,7 +112,7 @@
    "depthOrder": 2,
    "depthPos": "LOLB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Nolan Smith",
    "pos": "LB",
    "status": "Active"
@@ -166,7 +166,7 @@
    "depthOrder": 1,
    "depthPos": "NT",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Jordan Davis",
    "pos": "DL",
    "status": "Active"
@@ -184,7 +184,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Drew Kendall",
    "pos": "C",
    "status": "Active"
@@ -292,7 +292,7 @@
    "depthOrder": 3,
    "depthPos": "QB",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Joe Milton",
    "pos": "QB",
    "status": "Active"
@@ -319,7 +319,7 @@
    "depthOrder": 2,
    "depthPos": "RB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Carson Steele",
    "pos": "RB",
    "status": "Active"
@@ -445,7 +445,7 @@
    "depthOrder": 3,
    "depthPos": "ROLB",
    "espnId": 4240585,
-   "injury": "Doubtful",
+   "injury": "Out",
    "name": "A.J. Epenesa",
    "pos": "DE",
    "status": "Active"
@@ -463,13 +463,13 @@
    "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 4,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -505,10 +505,10 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 3,
    "depthPos": "SWR",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Makai Lemon",
    "pos": "WR",
    "status": "Active"
@@ -516,18 +516,18 @@
   {
    "depthOrder": 6,
    "depthPos": "SWR",
-   "espnId": 4241372,
+   "espnId": null,
    "injury": null,
-   "name": "Marquise Brown",
+   "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
   },
   {
    "depthOrder": 7,
    "depthPos": "SWR",
-   "espnId": null,
-   "injury": null,
-   "name": "Britain Covey",
+   "espnId": 4241372,
+   "injury": "Out",
+   "name": "Marquise Brown",
    "pos": "WR",
    "status": "Active"
   },
@@ -757,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-18T07:00:55-04:00"
+ "updated": "2026-10-19T07:01:09-04:00"
 }
