@@ -24,13 +24,13 @@
    },
    {
     "espnId": "4714365",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": null,
     "injury": null,
     "name": "Carson Steele",
     "pos": "RB",
     "practice": "",
-    "statusDate": "2026-10-18T17:43Z"
+    "statusDate": "2026-10-20T22:17Z"
    },
    {
     "espnId": "4372051",
@@ -205,5 +205,5 @@
   ],
   "week": 6
  },
- "updated": "2026-10-20T13:29:25-04:00"
+ "updated": "2026-10-20T19:14:43-04:00"
 }
