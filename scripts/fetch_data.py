@@ -114,6 +114,33 @@ def nflverse_injuries():
         "gameStatus": r["report_status"], "practice": r["practice_status"]} for r in rows if r["week"] and int(r["week"]) == wk]}
 
 
+def espn_injuries():
+    """Same-day injury statuses from ESPN's PHI roster (re-checked every run), with body part / practice notes from the
+    official weekly report (nflverse) when the same player is on it. Players no longer on the ESPN roster are dropped."""
+    j = jget(f"{ESPN}/site/v2/sports/football/nfl/teams/phi/roster?enable=injuries")
+    try: R = nflverse_injuries(); rep = {norm(p["name"]): p for p in R["players"]}; wk = R["week"]
+    except Exception: rep, wk = {}, None
+    out = []
+    for g in j["athletes"]:
+        for a in g["items"]:
+            inj = (a.get("injuries") or [{}])[0]
+            if not inj.get("status"): continue
+            r = rep.get(norm(a.get("fullName") or a.get("displayName")), {})
+            st = "IR" if inj["status"] == "Injured Reserve" else inj["status"]
+            out.append({"name": a.get("fullName") or a.get("displayName"), "pos": (a.get("position") or {}).get("abbreviation"), "espnId": a["id"],
+                        "gsisId": r.get("gsisId"), "injury": r.get("injury"), "gameStatus": st, "statusDate": inj.get("date"),
+                        "practice": r.get("practice") or ""})
+    if not out and not j.get("athletes"): raise ValueError("empty ESPN roster")
+    out.sort(key=lambda x: x["name"] or "")
+    return {"live": True, "week": wk, "players": out}
+
+
+def norm(s):
+    import re, unicodedata
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z]", "", re.sub(r"\b(jr|sr|ii|iii|iv)\b\.?", "", s))
+
+
 def nflverse_depth():
     rows = nflverse_csv(f"{NFLV}/depth_charts/depth_charts_{SEASON}.csv")
     if not rows:
@@ -165,7 +192,7 @@ SOURCES = [
     ("roster.json", "ESPN team roster", espn_roster),
     ("standings.json", "ESPN standings", espn_standings),
     ("schedule.json", "ESPN team schedule", espn_schedule),
-    ("injuries.json", "nflverse injuries (official report)", nflverse_injuries),
+    ("injuries.json", "ESPN same-day injury statuses (+ official report notes)", espn_injuries),
     ("depth.json", "nflverse depth charts", nflverse_depth),
     ("contracts.json", "nflverse contracts (Over The Cap)", nflverse_contracts),
     ("sleeper_depth.json", "Sleeper players (depth backup, max 1/day)", sleeper_depth),

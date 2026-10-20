@@ -2781,7 +2781,7 @@ const LIVE = (() => {
       if (!r.gameStatus && /full/i.test(r.practice || '')) return;
       const p = ix[norm(r.name)]; const old = LEAGUE.INJURIES.find((i) => norm(i.name) === norm(r.name));
       const c = cur[norm(r.name)];   // current roster designation (e.g. placed on IR after the report) wins over last week's game status
-      const text = c ? `${c.injury} (league feed, ${String(c.injuryDate || '').slice(0, 10)}) · Wk ${inj.week} report: ${label(r)}` : `Wk ${inj.week}: ${label(r)}`;
+      const text = inj.live ? `Current: ${label(r)}${r.statusDate ? ` (as of ${String(r.statusDate).slice(5, 10).replace('-', '/')})` : ''}` : c ? `${c.injury} (league feed, ${String(c.injuryDate || '').slice(0, 10)}) · Wk ${inj.week} report: ${label(r)}` : `Wk ${inj.week}: ${label(r)}`;
       out.push({ id: p ? p.id : norm(r.name).replace(/ /g, '_'), name: r.name, pos: r.pos, status: text, impact: old ? old.impact : '', prov: 'L' });
       seen.add(norm(r.name)); if (p && p.status !== 'ir') p.inj = `Live — ${text}`;
     });
