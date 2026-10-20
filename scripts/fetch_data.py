@@ -204,7 +204,9 @@ def main():
     meta_p = path("meta.json")
     meta = json.load(open(meta_p)) if os.path.exists(meta_p) else {"sources": {}}
     ok_any = False
+    only = {x for x in os.environ.get("ONLY", "").split(",") if x}   # e.g. ONLY=injuries.json for the hourly injury refresh
     for fname, label, fn in SOURCES:
+        if only and fname not in only: continue
         s = meta["sources"].setdefault(fname, {})
         s["label"] = label
         try:

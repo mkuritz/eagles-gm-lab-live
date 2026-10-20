@@ -4,7 +4,13 @@ on:
   schedule:
     # Primary schedule lives in the Cloudflare sl-scheduler (7 AM daily + every 3h on game days). Sparse daily backup:
     - cron: "0 14 * * *"   # ~10 AM ET
+    # Hourly same-day injury statuses only (ESPN PHI roster), ~10 AM-7 PM ET; light run, no stats/performance rebuild
+    - cron: "5 15-23 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "full = everything; injuries = same-day injury statuses only"
+        default: full
 
 permissions: {}   # least privilege by default; write scope granted per job below
 
@@ -23,12 +29,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Pick mode
+        id: m
+        run: |
+          if [ "${{ github.event.schedule }}" = "5 15-23 * * *" ] || [ "${{ inputs.mode }}" = "injuries" ]; then echo "light=1" >> $GITHUB_OUTPUT; fi
       - run: pip install pyarrow==17.*
+        if: steps.m.outputs.light != '1'
       - name: Fetch data
+        env:
+          ONLY: ${{ steps.m.outputs.light == '1' && 'injuries.json' || '' }}
         run: python scripts/fetch_data.py
       - name: Performance scores (nflverse)
+        if: steps.m.outputs.light != '1'
         run: python scripts/performance.py || echo "performance step failed; keeping previous file"
       - name: Cross-check free sources (optional)
+        if: steps.m.outputs.light != '1'
         continue-on-error: true
         timeout-minutes: 4
         run: python scripts/eagles_xcheck.py

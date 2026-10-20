@@ -19,7 +19,7 @@ input{background:#0e1428;border:1px solid var(--line);color:var(--tx);border-rad
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const pill=s=>`<span class="pill ${s==='ok'||s==='agree'?'ok':s==='failed'||s==='blocked'||s==='disagree'?'bad':'warn'}">${esc(s)}</span>`;
-const NEU=[[/Pro[- ]Football[- ]Reference|\bPFR\b/g,'stats reference'],[/Next Gen Stats|\bNGS\b/g,'tracking data'],[/\bnflverse\b|\bffverse\b|\bnflreadr\b/gi,'open stats feed'],[/\bSleeper\b/g,'second depth source'],[/\bESPN\b/g,'league feed'],[/\bYahoo( Sports)?\b/g,'analyst consensus']];
+const NEU=[[/Pro[- ]Football[- ]Reference|\bPFR\b/g,'stats reference'],[/Next Gen Stats|\bNGS\b/g,'tracking data'],[/\bnflverse\b|\bffverse\b|\bnflreadr\b/gi,'open stats feed'],[/\bffopportunity\b/gi,'expected points model'],[/\bSleeper\b/g,'second depth source'],[/\bESPN\b/g,'league feed'],[/\bYahoo( Sports)?\b/g,'analyst consensus']];
 fetch('data/xcheck.json?'+Date.now()).then(r=>r.text()).then(t=>{NEU.forEach(([a,b])=>t=t.replace(a,b));return JSON.parse(t)}).then(d=>{(d.sources||[]).forEach(s=>delete s.url);
  if(d.title)document.getElementById('ttl').textContent=d.title;
  document.getElementById('gen').textContent='Updated '+new Date(d.generated).toLocaleString([], {dateStyle:'medium',timeStyle:'short'});
