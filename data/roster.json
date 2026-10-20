@@ -6,8 +6,8 @@
    "exp": 9,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
-   "injury": "Out",
-   "injuryDate": "2026-10-19T17:14Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-10-20T16:10Z",
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -435,8 +435,8 @@
    "exp": 6,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240456.png",
-   "injury": "Out",
-   "injuryDate": "2026-10-19T17:14Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-10-20T16:10Z",
    "jersey": "35",
    "name": "Michael Carter II",
    "pos": "CB",
@@ -487,8 +487,8 @@
    "exp": 7,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240585.png",
-   "injury": "Out",
-   "injuryDate": "2026-10-19T17:14Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-10-20T16:10Z",
    "jersey": "57",
    "name": "AJ Epenesa",
    "pos": "DE",
@@ -526,8 +526,8 @@
    "exp": 3,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4571162.png",
-   "injury": "Out",
-   "injuryDate": "2026-10-19T17:14Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-10-20T16:10Z",
    "jersey": "58",
    "name": "Jalyx Hunt",
    "pos": "LB",
@@ -1067,5 +1067,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-19T15:41:17-04:00"
+ "updated": "2026-10-20T14:22:44-04:00"
 }
