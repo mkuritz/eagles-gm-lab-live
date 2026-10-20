@@ -413,8 +413,8 @@ tr.total td { border-top: 1px solid var(--border-strong); }
 <script>
 /* ============================================================
    DATA LAYER — Philadelphia Eagles Assistant GM Decision Lab
-   Snapshot: Oct 7, 2026. Sources: Spotrac team yearly table,
-   Over the Cap, NFL.com (2026 cap), Eagles Wire (Johnson/Jurgens
+   Snapshot: Oct 7, 2026. Sources: cap tracker team yearly table,
+   cap tracker, NFL.com (2026 cap), Eagles Wire (Johnson/Jurgens
    treatment), PhillyVoice (pick inventories). Figures in $M.
    provenance: V = verified from source, D = derived from sources,
    E = model estimate (scouting / projection).
@@ -422,16 +422,16 @@ tr.total td { border-top: 1px solid var(--border-strong); }
 const DATA = (() => {
   const YEARS = [2026, 2027, 2028, 2029, 2030];
 
-  // League cap. 2026 official (NFL.com). 2027–2030 Spotrac projections.
+  // League cap. 2026 official (NFL.com). 2027–2030 cap tracker projections.
   const LEAGUE_CAP = { 2026: 301.2, 2027: 323.0, 2028: 355.0, 2029: 375.0, 2030: 397.48 };
-  const CARRYOVER_2026 = 15.423; // Spotrac adjusted cap 316.623 − 301.2
+  const CARRYOVER_2026 = 15.423; // cap tracker adjusted cap 316.623 − 301.2
 
-  // Spotrac committed liabilities (players under contract + listed dead cap), pre-adjustment
+  // cap tracker committed liabilities (players under contract + listed dead cap), pre-adjustment
   const SPOTRAC_COMMITTED = { 2026: 299.847, 2027: 291.611, 2028: 228.121, 2029: 193.339, 2030: 171.636 };
   const SPOTRAC_SPACE_2026 = 16.776;
   const SPOTRAC_DEAD_2026 = 52.327;
 
-  // Spotrac still carries both players as active. Adjust to the processed state:
+  // cap tracker still carries both players as active. Adjust to the processed state:
   // Johnson → reserve/retired, processed post-June 1, 2027. Jurgens → traded to BAL (post-June 1).
   const ADJUSTMENTS = [
     { id: 'johnson', label: 'Lane Johnson retirement (post-June 1, 2027 split)', prov: 'V',
@@ -440,7 +440,7 @@ const DATA = (() => {
     { id: 'jurgens', label: 'Cam Jurgens trade to Baltimore', prov: 'V',
       spotrac: { 2026: 5.921, 2027: 8.614, 2028: 11.748, 2029: 15.741, 2030: 11.157 },
       adjusted: { 2026: 4.576, 2027: 14.926, 2028: 0, 2029: 0, 2030: 0 } },
-    // Spotrac's 2027+ columns still reflect the March 2026 book. Reconcile to contracts signed since:
+    // the cap tracker's 2027+ columns still reflect the March 2026 book. Reconcile to contracts signed since:
     { id: 'carter_ext', label: 'Jalen Carter extension (4y/$152M, Jul 28) replaces $27.1M option year', prov: 'V',
       spotrac: { 2026: 0, 2027: 27.127, 2028: 0, 2029: 0, 2030: 0 },
       adjusted: { 2026: 0, 2027: 9.099, 2028: 15.641, 2029: 22.364, 2030: 29.546 } },
@@ -455,7 +455,7 @@ const DATA = (() => {
       adjusted: { 2026: 0, 2027: 7.2, 2028: 5.5, 2029: 7.0, 2030: 0 } },
   ];
 
-  // Core contracts (Spotrac cap hits). base = estimated base salary (restructure ceiling). voidThrough = last void year.
+  // Core contracts (cap tracker cap hits). base = estimated base salary (restructure ceiling). voidThrough = last void year.
   const CONTRACTS = [
     { id: 'hurts', name: 'Jalen Hurts', pos: 'QB', age: 28, end: 2028, voidThrough: 2030, prov: 'V',
       hits: { 2026: 31.972, 2027: 42.133, 2028: 47.549, 2029: 38.374, 2030: 30.108 }, base: { 2027: 30.0, 2028: 36.0 }, restructurable: true, core: true },
@@ -493,7 +493,7 @@ const DATA = (() => {
       hits: { 2026: 1.627, 2027: 1.953, 2028: 2.278, 2029: 0, 2030: 0 }, base: {}, restructurable: false, core: true },
   ];
 
-  // Dead money ledger by year (adjusted state). prov V from Spotrac/Eagles Wire; D derived; E estimate.
+  // Dead money ledger by year (adjusted state). prov V from cap tracker/Eagles Wire; D derived; E estimate.
   const DEAD_MONEY = [
     { id: 'dm_johnson', name: 'Lane Johnson', reason: 'Retirement — post-June 1, 2027 split', prov: 'V', hits: { 2026: 0, 2027: 16.614, 2028: 26.276 } },
     { id: 'dm_jurgens', name: 'Cam Jurgens', reason: 'Traded to BAL (post-June 1)', prov: 'V', hits: { 2026: 4.576, 2027: 14.926 } },
@@ -506,7 +506,7 @@ const DATA = (() => {
   ];
 
   // Projection assumptions per year (model). Editable in Custom scenario.
-  // playersUnderContract: approximate count on Spotrac table used to size roster fill.
+  // playersUnderContract: approximate count on cap tracker table used to size roster fill.
   const ASSUMPTIONS = {
     2026: { rookiePool: 0, rosterFill: 0, reserve: 0, practiceSquad: 0, extensions: 0, underContract: 71 },
     2027: { rookiePool: 11.5, rosterFill: 17.6, reserve: 6.0, practiceSquad: 4.5, extensions: 0, underContract: 27 },
@@ -554,7 +554,7 @@ const DATA = (() => {
     { id: 'tr_goedert', name: 'Dallas Goedert', pos: 'TE', age: 31, year: 2026, hit: 10.231, pre: 14.300, post: 10.231, postNext: 8.243, marketValue: 90, prov: 'D', note: 'Deadline deal: cap relief lands 2027' },
     { id: 'tr_barkley', name: 'Saquon Barkley', pos: 'RB', age: 30, year: 2027, hit: 13.057, pre: 30.965, post: 9.283, postNext: 21.682, marketValue: 260, prov: 'D' },
     { id: 'tr_davis', name: 'Jordan Davis', pos: 'DL', age: 26, year: 2027, hit: 8.553, pre: 38.300, post: 5.500, postNext: 32.800, marketValue: 320, prov: 'E' },
-    { id: 'tr_greenard', name: 'Jonathan Greenard', pos: 'EDGE', age: 30, year: 2027, hit: 11.139, pre: 18.812, post: 4.703, postNext: 14.109, marketValue: 340, prov: 'V', note: 'OTC: trade pre-June 1 2027 leaves $18.8M dead' },
+    { id: 'tr_greenard', name: 'Jonathan Greenard', pos: 'EDGE', age: 30, year: 2027, hit: 11.139, pre: 18.812, post: 4.703, postNext: 14.109, marketValue: 340, prov: 'V', note: 'cap tracker: trade pre-June 1 2027 leaves $18.8M dead' },
     { id: 'tr_dsmith', name: 'DeVonta Smith', pos: 'WR', age: 28, year: 2027, hit: 14.770, pre: 33.438, post: 10.577, postNext: 22.861, marketValue: 420, prov: 'D' },
   ];
   // Pick values on a Jimmy Johnson-style scale (approximate round midpoints, late-first baseline for PHI)
@@ -678,7 +678,7 @@ const DATA = (() => {
       ];
 
   const SCENARIOS = {
-    base: { label: 'Base', desc: 'Spotrac book reconciled to signed deals; three default extensions; no restructures', capGrowth: 0, extScale: 1.0, restructureBias: 0 },
+    base: { label: 'Base', desc: 'cap tracker book reconciled to signed deals; three default extensions; no restructures', capGrowth: 0, extScale: 1.0, restructureBias: 0 },
     conservative: { label: 'Conservative', desc: 'Cap +4%/yr below projection; extensions at top of market', capGrowth: -0.04, extScale: 1.15, restructureBias: 0 },
     aggressive: { label: 'Aggressive', desc: 'Cap on projection; restructures used; extensions smoothed', capGrowth: 0.0, extScale: 0.85, restructureBias: 0.6 },
     custom: { label: 'Custom', desc: 'Your levers only', capGrowth: 0, extScale: 1.0, restructureBias: 0 },
@@ -687,7 +687,7 @@ const DATA = (() => {
   return { YEARS, LEAGUE_CAP, CARRYOVER_2026, SPOTRAC_COMMITTED, SPOTRAC_SPACE_2026, SPOTRAC_DEAD_2026, ADJUSTMENTS, CONTRACTS, DEAD_MONEY, ASSUMPTIONS, EXTENSIONS, CUT_CANDIDATES, TRADE_PLAYERS, PICK_VALUES, DRAFT_PICKS, ROOKIE_SLOT, VET_COST, PROSPECTS, NEEDS, RISKS, LEVERS_2028, SCENARIOS,
     SNAPSHOT: 'Oct 7, 2026', TARGET_SPACE_2028: 40,
     SOURCES: [
-      { label: 'Spotrac — Eagles multi-year cap', url: 'https://www.spotrac.com/nfl/philadelphia-eagles/yearly' },
+      { label: 'Eagles multi-year cap', url: 'https://www.spotrac.com/nfl/philadelphia-eagles/yearly' },
       { label: 'NFL.com — 2026 cap set at $301.2M', url: 'https://www.nfl.com/news/nfl-announces-2026-salary-cap-set-at-301-2-million-per-team' },
       { label: 'Eagles Wire — Johnson retirement cap fallout', url: 'https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/10/07/lane-johnson-retirement-eagles-salary-cap-dead-money/92136744007/' },
       { label: 'Eagles Wire — Jurgens trade cap impact', url: 'https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/10/07/eagles-salary-cap-cam-jurgens-trade-dead-money/92144183007/' },
@@ -696,17 +696,17 @@ const DATA = (() => {
       { label: 'Over The Cap — Jalen Carter contract', url: 'https://overthecap.com/player/jalen-carter/10833' },
       { label: 'Over The Cap — Jonathan Greenard contract', url: 'https://overthecap.com/player/jonathan-greenard/8830' },
       { label: 'Eagles Wire — A.J. Brown trade cap impact', url: 'https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/06/02/eagles-salary-cap-impact-aj-brown-trade-patriots/90347571007/' },
-      { label: 'Spotrac — Eagles 2026 cap table', url: 'https://www.spotrac.com/nfl/philadelphia-eagles/cap/_/year/2026' },
-      { label: 'Spotrac — Eagles contracts', url: 'https://www.spotrac.com/nfl/philadelphia-eagles/contracts/1000' },
-      { label: 'Spotrac — league cap space 2026', url: 'https://www.spotrac.com/nfl/cap/_/year/2026' },
-      { label: 'Spotrac — league cap space 2027', url: 'https://www.spotrac.com/nfl/cap/_/year/2027' },
-      { label: 'Spotrac — 2027 free agents', url: 'https://www.spotrac.com/nfl/free-agents/available/_/year/2027' },
-      { label: 'Spotrac — 2026 cap-hit rankings', url: 'https://www.spotrac.com/nfl/rankings/player/_/year/2026/sort/cap_total' },
+      { label: 'Eagles 2026 cap table', url: 'https://www.spotrac.com/nfl/philadelphia-eagles/cap/_/year/2026' },
+      { label: 'Eagles contracts', url: 'https://www.spotrac.com/nfl/philadelphia-eagles/contracts/1000' },
+      { label: 'league cap space 2026', url: 'https://www.spotrac.com/nfl/cap/_/year/2026' },
+      { label: 'league cap space 2027', url: 'https://www.spotrac.com/nfl/cap/_/year/2027' },
+      { label: '2027 free agents', url: 'https://www.spotrac.com/nfl/free-agents/available/_/year/2027' },
+      { label: '2026 cap-hit rankings', url: 'https://www.spotrac.com/nfl/rankings/player/_/year/2026/sort/cap_total' },
       { label: 'NFL.com — 2026 standings', url: 'https://www.nfl.com/standings/league/2026/reg' },
       { label: 'Tankathon — 2027 draft order', url: 'https://www.tankathon.com/nfl' },
       { label: 'Sporting News — 2027 big board top 100', url: 'https://www.sportingnews.com/us/nfl/news/nfl-draft-prospects-2027-rankings-big-board/1c4f3363393ab0c666ae56db' },
       { label: 'Yahoo Sports — every team\'s 2027 needs', url: 'https://sports.yahoo.com/articles/2027-nfl-draft-every-teams-073631176.html' },
-      { label: 'ESPN — 2026 trade deadline candidates', url: 'https://www.espn.com/nfl/story/_/id/50077145/2026-trade-deadline-early-look-players-teams-predictions' },
+      { label: 'league feed — 2026 trade deadline candidates', url: 'https://www.espn.com/nfl/story/_/id/50077145/2026-trade-deadline-early-look-players-teams-predictions' },
       { label: 'NFL Trade Rumors — midseason trade block', url: 'https://nfltraderumors.co/2026-nfl-midseason-trade-block/' },
       { label: 'Eagles — official depth chart', url: 'https://www.philadelphiaeagles.com/team/depth-chart' },
       { label: 'Eagles — 2026 transactions', url: 'https://www.philadelphiaeagles.com/team/transactions/2026' },
@@ -718,9 +718,9 @@ const DATA = (() => {
 /* ============================================================
    LEAGUE DATA — Franchise-mode layer. Snapshot Oct 7, 2026 (after Week 4).
    prov: V = verified from source, D = derived from verified figures, E = estimate.
-   Sources: NFL.com standings, Spotrac (cap space 2026/2027, 2027 UFAs, cap-hit
+   Sources: NFL.com standings, cap tracker (cap space 2026/2027, 2027 UFAs, cap-hit
    rankings, Eagles cap table/contracts), Tankathon (2027 order), Sporting News
-   (2027 big board), Yahoo Sports (team needs), ESPN / NFL Trade Rumors (trade
+   (2027 big board), Yahoo Sports (team needs), league feed / NFL Trade Rumors (trade
    block), Eagles official depth chart + transactions, Over The Cap (Carter, Greenard).
    ============================================================ */
 const LEAGUE = (() => {
@@ -787,7 +787,7 @@ const LEAGUE = (() => {
   const GROUP_OF = { QB: 'QB', RB: 'RB', WR: 'WR', TE: 'TE', LT: 'OT', RT: 'OT', OT: 'OT', T: 'OT', G: 'IOL', C: 'IOL', 'G/C': 'IOL', 'C/G': 'IOL', IOL: 'IOL', OL: 'IOL', DT: 'DL', DL: 'DL', iDL: 'DL', EDGE: 'EDGE', ED: 'EDGE', OLB: 'EDGE', DE: 'EDGE', LB: 'LB', ILB: 'LB', CB: 'CB', NCB: 'CB', DB: 'CB', S: 'S', FS: 'S', SS: 'S', K: 'ST', P: 'ST', LS: 'ST' };
   const NEED_GROUPS = { OL: ['OT', 'IOL'], iOL: ['IOL'], OT: ['OT'], DL: ['DL'], iDL: ['DL'], DB: ['CB', 'S'], EDGE: ['EDGE'], Edge: ['EDGE'] };
 
-  // ---------------- Eagles roster (53 + IR). hits $M. deadPre = Spotrac/OTC dead cap if cut now (pre-June 1 basis).
+  // ---------------- Eagles roster (53 + IR). hits $M. deadPre = public cap trackers dead cap if cut now (pre-June 1 basis).
   // contractId links to DATA.CONTRACTS for the big deals (hits sourced there). depth = order within group.
   const P = (id, name, pos, grp, age, exp, depth, thru, apy, hits, base26, deadPre, extra = {}) =>
     ({ id, name, pos, grp, age, exp, depth, thru, apy, hits, base26, deadPre, status: 'active', prov: 'V', ...extra });
@@ -876,64 +876,64 @@ const LEAGUE = (() => {
   // ---------------- Trade block (partner-side assets). hit26 = 2026 cap hit $M; thru = contract end.
   const B = (id, name, team, pos, age, apy, hit26, thru, src, note, extra = {}) => ({ id, name, team, pos, grp: GROUP_OF[pos] || pos, age, apy, hit26, thru, src, note, prov: extra.prov || 'D', ...extra });
   const TRADE_BLOCK = [
-    B('harrison', 'Marvin Harrison Jr.', 'ARI', 'WR', 24, 8.9, 9.1, 2027, 'ESPN', 'Cardinals at 1-3; ESPN lists him among deadline candidates', { rookieR1: true, option5: true }),
+    B('harrison', 'Marvin Harrison Jr.', 'ARI', 'WR', 24, 8.9, 9.1, 2027, 'league feed', 'Cardinals at 1-3; league feed lists him among deadline candidates', { rookieR1: true, option5: true }),
     B('sweat', 'Josh Sweat', 'ARI', 'EDGE', 29, 19.1, 15.2, 2028, 'NFLTR', 'Requested a trade; 2 years left after 2026'),
     B('minshew', 'Gardner Minshew', 'ARI', 'QB', 30, 3.5, 3.5, 2026, 'NFLTR', 'Backup rental'),
-    B('mack', 'Khalil Mack', 'LAC', 'EDGE', 35, 18.0, 18.0, 2026, 'ESPN', '1-yr $18M; ~$8M salary remaining'),
-    B('james', 'Derwin James', 'LAC', 'S', 30, 19.1, 24.6, 2026, 'Spotrac FA', 'Expiring; 0-4 Chargers'),
-    B('pollard', 'Tony Pollard', 'TEN', 'RB', 29, 6.74, 8.0, 2026, 'ESPN', '$6.74M expiring; 0-4 Titans'),
-    B('dmoore', 'Dan Moore Jr.', 'TEN', 'LT', 28, 20.5, 26.3, 2028, 'Spotrac rankings', 'Titans could sell OL; Eagles need a RT body', { prov: 'E' }),
-    B('nixon', 'Keisean Nixon', 'GB', 'CB', 29, 4.3, 6.0, 2026, 'ESPN', '$4.3M expiring; return specialist'),
-    B('watson', 'Christian Watson', 'GB', 'WR', 27, 11.0, 11.0, 2026, 'Spotrac FA', 'Expiring deal'),
-    B('payne', 'Daron Payne', 'WAS', 'DT', 29, 22.5, 27.95, 2026, 'ESPN', 'Deal voids after 2026; 1-3 Commanders'),
-    B('luvu', 'Frankie Luvu', 'WAS', 'LB', 30, 10.3, 10.3, 2026, 'Spotrac FA', 'Expiring'),
-    B('jeudy', 'Jerry Jeudy', 'CLE', 'WR', 27, 17.5, 15.7, 2027, 'ESPN', '2027 money (~$23M) non-guaranteed'),
+    B('mack', 'Khalil Mack', 'LAC', 'EDGE', 35, 18.0, 18.0, 2026, 'league feed', '1-yr $18M; ~$8M salary remaining'),
+    B('james', 'Derwin James', 'LAC', 'S', 30, 19.1, 24.6, 2026, 'cap tracker FA', 'Expiring; 0-4 Chargers'),
+    B('pollard', 'Tony Pollard', 'TEN', 'RB', 29, 6.74, 8.0, 2026, 'league feed', '$6.74M expiring; 0-4 Titans'),
+    B('dmoore', 'Dan Moore Jr.', 'TEN', 'LT', 28, 20.5, 26.3, 2028, 'cap tracker rankings', 'Titans could sell OL; Eagles need a RT body', { prov: 'E' }),
+    B('nixon', 'Keisean Nixon', 'GB', 'CB', 29, 4.3, 6.0, 2026, 'league feed', '$4.3M expiring; return specialist'),
+    B('watson', 'Christian Watson', 'GB', 'WR', 27, 11.0, 11.0, 2026, 'cap tracker FA', 'Expiring deal'),
+    B('payne', 'Daron Payne', 'WAS', 'DT', 29, 22.5, 27.95, 2026, 'league feed', 'Deal voids after 2026; 1-3 Commanders'),
+    B('luvu', 'Frankie Luvu', 'WAS', 'LB', 30, 10.3, 10.3, 2026, 'cap tracker FA', 'Expiring'),
+    B('jeudy', 'Jerry Jeudy', 'CLE', 'WR', 27, 17.5, 15.7, 2027, 'league feed', '2027 money (~$23M) non-guaranteed'),
     B('dawand', 'Dawand Jones', 'CLE', 'RT', 25, 1.4, 1.4, 2026, 'NFLTR', 'Young RT on rookie deal; expiring'),
-    B('crosby', 'Maxx Crosby', 'LV', 'EDGE', 29, 35.5, 35.79, 2029, 'ESPN', 'ESPN: unlikely to move, but price everything'),
-    B('koonce', 'Malcolm Koonce', 'LV', 'EDGE', 28, 11.0, 11.0, 2026, 'Spotrac FA', 'Expiring'),
+    B('crosby', 'Maxx Crosby', 'LV', 'EDGE', 29, 35.5, 35.79, 2029, 'league feed', 'league feed: unlikely to move, but price everything'),
+    B('koonce', 'Malcolm Koonce', 'LV', 'EDGE', 28, 11.0, 11.0, 2026, 'cap tracker FA', 'Expiring'),
     B('little', 'Walker Little', 'JAX', 'OT', 27, 10.0, 11.0, 2027, 'NFLTR', '$11M salary; swing tackle / RT'),
     B('bthomas', 'Brian Thomas Jr.', 'JAX', 'WR', 24, 5.5, 5.5, 2027, 'NFLTR', 'Rookie deal; speculative', { rookieR1: true, option5: true }),
-    B('walker', 'Travon Walker', 'JAX', 'EDGE', 26, 9.3, 9.3, 2026, 'Spotrac FA', '5th-year option season'),
+    B('walker', 'Travon Walker', 'JAX', 'EDGE', 26, 9.3, 9.3, 2026, 'cap tracker FA', '5th-year option season'),
     B('ajackson', 'Austin Jackson', 'MIA', 'OT', 27, 1.3, 1.3, 2026, 'NFLTR', '0-4 Dolphins; cheap RT flyer'),
-    B('uche', 'Josh Uche', 'MIA', 'EDGE', 28, 1.3, 1.3, 2026, 'ESPN', 'Rotational rusher on a minimum deal'),
+    B('uche', 'Josh Uche', 'MIA', 'EDGE', 28, 1.3, 1.3, 2026, 'league feed', 'Rotational rusher on a minimum deal'),
     B('schmitz', 'John Michael Schmitz', 'NYG', 'C', 27, 2.0, 2.0, 2026, 'NFLTR', 'Center depth; expiring'),
     B('singletary', 'Devin Singletary', 'NYG', 'RB', 29, 5.5, 5.5, 2026, 'NFLTR', 'Expiring'),
     B('teller', 'Wyatt Teller', 'HOU', 'G', 32, 6.0, 6.0, 2027, 'NFLTR', '0-4 Texans; veteran guard'),
     B('mcdonald', 'Will McDonald IV', 'NYJ', 'EDGE', 27, 3.9, 3.9, 2027, 'NFLTR', 'Rookie deal; Jets rebuilding', { rookieR1: true, option5: true }),
-    B('hall', 'Breece Hall', 'NYJ', 'RB', 25, 14.3, 14.3, 2026, 'Spotrac FA', 'Expiring; 1-3 Jets'),
-    B('nelson', 'Quenton Nelson', 'IND', 'G', 30, 20.0, 24.2, 2026, 'Spotrac FA', 'Expiring; elite guard'),
-    B('buckner', 'DeForest Buckner', 'IND', 'DT', 33, 23.0, 26.6, 2026, 'Spotrac FA', 'Expiring'),
-    B('onwenu', 'Mike Onwenu', 'NE', 'G', 29, 19.0, 25.0, 2026, 'Spotrac FA', 'Expiring; G/RT flexibility'),
-    B('henry', 'Hunter Henry', 'NE', 'TE', 32, 9.0, 9.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('jmoore', 'Jaylon Moore', 'KC', 'RT', 29, 15.0, 18.7, 2026, 'Spotrac FA', 'Expiring RT; 4-0 Chiefs unlikely sellers'),
-    B('fulton', 'Kristian Fulton', 'KC', 'CB', 28, 10.0, 10.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('oneill', "Brian O'Neill", 'MIN', 'RT', 31, 18.5, 23.1, 2026, 'Spotrac FA', 'Expiring RT; 4-0 Vikings'),
-    B('hockenson', 'T.J. Hockenson', 'MIN', 'TE', 29, 16.5, 16.5, 2026, 'Spotrac FA', 'Expiring'),
-    B('vanginkel', 'Andrew Van Ginkel', 'MIN', 'EDGE', 31, 23.0, 19.25, 2026, 'Spotrac FA', 'Expiring'),
-    B('dotson', 'Kevin Dotson', 'LAR', 'G', 30, 16.0, 16.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('pitts', 'Kyle Pitts', 'ATL', 'TE', 26, 15.0, 15.0, 2026, 'Spotrac FA', 'Expiring; TE need fit'),
-    B('bates', 'Jessie Bates', 'ATL', 'S', 29, 16.0, 16.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('engram', 'Evan Engram', 'DEN', 'TE', 32, 11.5, 11.5, 2026, 'Spotrac FA', 'Expiring'),
-    B('powers', 'Ben Powers', 'DEN', 'G', 30, 13.0, 13.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('humphrey', 'Marlon Humphrey', 'BAL', 'CB', 30, 19.5, 26.3, 2026, 'Spotrac FA', 'Expiring; BAL at −$23.7M for 2027'),
-    B('hobbs', 'Nate Hobbs', 'SF', 'CB', 27, 12.0, 12.0, 2026, 'Spotrac FA', 'Expiring; 4-0 49ers'),
-    B('nwosu', 'Uchenna Nwosu', 'SEA', 'EDGE', 30, 15.0, 20.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('lwilliams', 'Leonard Williams', 'SEA', 'DT', 32, 21.5, 29.6, 2026, 'Spotrac FA', 'Expiring'),
-    B('vea', 'Vita Vea', 'TB', 'DT', 32, 17.8, 22.2, 2026, 'Spotrac FA', 'Expiring; 0-4 Bucs'),
-    B('godwin', 'Chris Godwin', 'TB', 'WR', 30, 22.0, 33.7, 2026, 'Spotrac FA', 'Club option year; 0-4 Bucs'),
-    B('queen', 'Patrick Queen', 'PIT', 'LB', 27, 13.7, 13.7, 2026, 'Spotrac FA', 'Expiring'),
-    B('pickens', 'George Pickens', 'DAL', 'WR', 26, 27.3, 27.3, 2026, 'Spotrac FA', 'Franchise-tag year; division rival'),
-    B('taylor', 'Jonathan Taylor', 'IND', 'RB', 28, 14.0, 14.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('collins', 'Maliek Collins', 'CLE', 'DT', 31, 10.0, 10.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('delpit', 'Grant Delpit', 'CLE', 'S', 28, 12.0, 12.0, 2026, 'Spotrac FA', 'Expiring'),
-    B('armstead', 'Arik Armstead', 'JAX', 'EDGE', 33, 14.5, 14.5, 2026, 'Spotrac FA', 'Expiring'),
-    B('kamara', 'Alvin Kamara', 'NO', 'RB', 31, 12.3, 12.3, 2026, 'Spotrac FA', 'Expiring; 1-3 Saints'),
-    B('alshaair', 'Azeez Al-Shaair', 'HOU', 'LB', 29, 11.3, 11.3, 2026, 'Spotrac FA', 'Expiring; 0-4 Texans'),
-    B('hamilton', 'DaVon Hamilton', 'JAX', 'DT', 29, 11.5, 11.5, 2026, 'Spotrac FA', 'Expiring'),
-    B('chinn', 'Jeremy Chinn', 'LV', 'S', 28, 8.1, 8.1, 2026, 'Spotrac FA', 'Expiring'),
+    B('hall', 'Breece Hall', 'NYJ', 'RB', 25, 14.3, 14.3, 2026, 'cap tracker FA', 'Expiring; 1-3 Jets'),
+    B('nelson', 'Quenton Nelson', 'IND', 'G', 30, 20.0, 24.2, 2026, 'cap tracker FA', 'Expiring; elite guard'),
+    B('buckner', 'DeForest Buckner', 'IND', 'DT', 33, 23.0, 26.6, 2026, 'cap tracker FA', 'Expiring'),
+    B('onwenu', 'Mike Onwenu', 'NE', 'G', 29, 19.0, 25.0, 2026, 'cap tracker FA', 'Expiring; G/RT flexibility'),
+    B('henry', 'Hunter Henry', 'NE', 'TE', 32, 9.0, 9.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('jmoore', 'Jaylon Moore', 'KC', 'RT', 29, 15.0, 18.7, 2026, 'cap tracker FA', 'Expiring RT; 4-0 Chiefs unlikely sellers'),
+    B('fulton', 'Kristian Fulton', 'KC', 'CB', 28, 10.0, 10.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('oneill', "Brian O'Neill", 'MIN', 'RT', 31, 18.5, 23.1, 2026, 'cap tracker FA', 'Expiring RT; 4-0 Vikings'),
+    B('hockenson', 'T.J. Hockenson', 'MIN', 'TE', 29, 16.5, 16.5, 2026, 'cap tracker FA', 'Expiring'),
+    B('vanginkel', 'Andrew Van Ginkel', 'MIN', 'EDGE', 31, 23.0, 19.25, 2026, 'cap tracker FA', 'Expiring'),
+    B('dotson', 'Kevin Dotson', 'LAR', 'G', 30, 16.0, 16.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('pitts', 'Kyle Pitts', 'ATL', 'TE', 26, 15.0, 15.0, 2026, 'cap tracker FA', 'Expiring; TE need fit'),
+    B('bates', 'Jessie Bates', 'ATL', 'S', 29, 16.0, 16.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('engram', 'Evan Engram', 'DEN', 'TE', 32, 11.5, 11.5, 2026, 'cap tracker FA', 'Expiring'),
+    B('powers', 'Ben Powers', 'DEN', 'G', 30, 13.0, 13.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('humphrey', 'Marlon Humphrey', 'BAL', 'CB', 30, 19.5, 26.3, 2026, 'cap tracker FA', 'Expiring; BAL at −$23.7M for 2027'),
+    B('hobbs', 'Nate Hobbs', 'SF', 'CB', 27, 12.0, 12.0, 2026, 'cap tracker FA', 'Expiring; 4-0 49ers'),
+    B('nwosu', 'Uchenna Nwosu', 'SEA', 'EDGE', 30, 15.0, 20.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('lwilliams', 'Leonard Williams', 'SEA', 'DT', 32, 21.5, 29.6, 2026, 'cap tracker FA', 'Expiring'),
+    B('vea', 'Vita Vea', 'TB', 'DT', 32, 17.8, 22.2, 2026, 'cap tracker FA', 'Expiring; 0-4 Bucs'),
+    B('godwin', 'Chris Godwin', 'TB', 'WR', 30, 22.0, 33.7, 2026, 'cap tracker FA', 'Club option year; 0-4 Bucs'),
+    B('queen', 'Patrick Queen', 'PIT', 'LB', 27, 13.7, 13.7, 2026, 'cap tracker FA', 'Expiring'),
+    B('pickens', 'George Pickens', 'DAL', 'WR', 26, 27.3, 27.3, 2026, 'cap tracker FA', 'Franchise-tag year; division rival'),
+    B('taylor', 'Jonathan Taylor', 'IND', 'RB', 28, 14.0, 14.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('collins', 'Maliek Collins', 'CLE', 'DT', 31, 10.0, 10.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('delpit', 'Grant Delpit', 'CLE', 'S', 28, 12.0, 12.0, 2026, 'cap tracker FA', 'Expiring'),
+    B('armstead', 'Arik Armstead', 'JAX', 'EDGE', 33, 14.5, 14.5, 2026, 'cap tracker FA', 'Expiring'),
+    B('kamara', 'Alvin Kamara', 'NO', 'RB', 31, 12.3, 12.3, 2026, 'cap tracker FA', 'Expiring; 1-3 Saints'),
+    B('alshaair', 'Azeez Al-Shaair', 'HOU', 'LB', 29, 11.3, 11.3, 2026, 'cap tracker FA', 'Expiring; 0-4 Texans'),
+    B('hamilton', 'DaVon Hamilton', 'JAX', 'DT', 29, 11.5, 11.5, 2026, 'cap tracker FA', 'Expiring'),
+    B('chinn', 'Jeremy Chinn', 'LV', 'S', 28, 8.1, 8.1, 2026, 'cap tracker FA', 'Expiring'),
   ];
 
-  // ---------------- 2027 UFA market (Spotrac "available" list; APY of expiring deal $M). type: UFA unless noted.
+  // ---------------- 2027 UFA market (cap tracker "available" list; APY of expiring deal $M). type: UFA unless noted.
   const F = (name, pos, age, team, apy, type = 'UFA') => ({ id: 'fa_' + name.toLowerCase().replace(/[^a-z]/g, ''), name, pos, grp: GROUP_OF[pos] || pos, age, team, apy, type });
   const FA_MARKET_2027 = [
     F('Kyler Murray', 'QB', 30, 'MIN', 46.1), F('Deshaun Watson', 'QB', 31, 'CLE', 46.0), F('Matthew Stafford', 'QB', 39, 'LAR', 42.0), F('Baker Mayfield', 'QB', 32, 'TB', 33.3),
@@ -1424,7 +1424,7 @@ const Model = (() => {
     const deadByYear = {}; DATA.YEARS.forEach((y) => { deadByYear[y] = 0; });
     DATA.DEAD_MONEY.forEach((d) => { Object.keys(d.hits).forEach((y) => { deadByYear[y] = r1((deadByYear[y] || 0) + d.hits[y]); }); });
 
-    // adjustments to Spotrac committed
+    // adjustments to cap tracker committed
     const adjByYear = {}; DATA.YEARS.forEach((y) => { adjByYear[y] = 0; });
     DATA.ADJUSTMENTS.forEach((a) => { DATA.YEARS.forEach((y) => { adjByYear[y] = r1(adjByYear[y] + (a.adjusted[y] || 0) - (a.spotrac[y] || 0)); }); });
 
@@ -1941,11 +1941,11 @@ const FranchiseUI = (ctx) => {
       let body = '';
       if (tab === 'pending') {
         body = `<div class="table-wrap"><table><thead><tr><th>Re-sign</th><th>Player</th><th>MKT</th><th>Role</th><th class="num">2026 hit</th><th class="num">Market est.</th><th>Years</th><th style="min-width:180px">APY</th><th class="num">2027 line</th></tr></thead><tbody>${pend.map((p) => `<tr class="${p.on ? 'selected' : ''}"><td><label class="check"><input type="checkbox" data-action="faToggle" data-id="${p.id}" ${p.on ? 'checked' : ''} aria-label="Re-sign ${esc(p.name)}"></label></td><td><b>${esc(p.name)}</b><div class="small muted">${p.pos} · ${p.age} · ${esc(p.acq || '')}</div></td><td>${mkt(p.mkt)}</td><td><span class="tag ${p.priority === 'Priority' ? 'crit' : p.priority === 'Starter' ? 'med' : ''}">${p.priority}</span></td><td class="num">${fm(p.hit26)}</td><td class="num">${fm(p.market)}</td><td><select data-action="faYears" data-id="${p.id}" aria-label="Years for ${esc(p.name)}" ${p.on ? '' : 'disabled'}>${[1, 2, 3, 4, 5].map((y) => `<option value="${y}" ${p.years === y ? 'selected' : ''}>${y} yr</option>`).join('')}</select></td><td><div class="row"><input type="range" min="1.2" max="${Math.max(10, Math.ceil(p.market * 2))}" step="0.1" value="${p.apy}" data-action="faApy" data-id="${p.id}" aria-label="APY for ${esc(p.name)}" ${p.on ? '' : 'disabled'}><span class="num small" data-bind="fa_apy_${p.id}">${fm(p.apy)}</span></div></td><td class="num ${p.on ? 'neg' : 'muted'}">${p.on ? fm(-(Math.max(0, p.apy - Model.MIN_SALARY)), { plus: true }) : '—'}</td></tr>`).join('')}</tbody></table></div>
-        <p class="small muted" style="margin:12px 0 0">Market estimates are our projections (E) from the player's role and the 2027 Spotrac market. A re-sign adds APY above the $1.2M roster-fill slot it replaces, for each contract year from 2027.</p>`;
+        <p class="small muted" style="margin:12px 0 0">Market estimates are our projections (E) from the player's role and the 2027 cap tracker market. A re-sign adds APY above the $1.2M roster-fill slot it replaces, for each contract year from 2027.</p>`;
       } else if (tab === 'market') {
         const pos = s.ui.faPos; const groups = ['All', ...LEAGUE.GROUPS.map((g) => g.id)];
         const list = LEAGUE.FA_MARKET_2027.filter((f) => pos === 'All' || f.grp === pos).map((f) => ({ ...f, fit: Fz.faFit(f, s), block: LEAGUE.TRADE_BLOCK.find((b) => b.name === f.name) }));
-        body = `<div class="row between" style="margin-bottom:12px"><div class="field" style="flex-direction:row;align-items:center;gap:8px"><span>Position</span><select data-action="faPos" aria-label="Filter position group">${groups.map((g) => `<option ${g === pos ? 'selected' : ''}>${g}</option>`).join('')}</select></div><span class="small muted">${list.length} players · Spotrac 2027 UFA list · APY of expiring deal</span></div>
+        body = `<div class="row between" style="margin-bottom:12px"><div class="field" style="flex-direction:row;align-items:center;gap:8px"><span>Position</span><select data-action="faPos" aria-label="Filter position group">${groups.map((g) => `<option ${g === pos ? 'selected' : ''}>${g}</option>`).join('')}</select></div><span class="small muted">${list.length} players · cap tracker 2027 UFA list · APY of expiring deal</span></div>
         <div class="table-wrap"><table><thead><tr><th>Player</th><th>Pos</th><th class="num">Age 2027</th><th>Team</th><th>Type</th><th class="num">APY</th><th>Eagles fit</th><th></th></tr></thead><tbody>${list.map((f) => { const t = Fz.team(f.team); return `<tr><td><b>${esc(f.name)}</b></td><td>${f.pos}</td><td class="num">${f.age}</td><td>${t ? teamChip(t, true) : ''} ${f.team}</td><td><span class="tag ${f.type === 'UFA' ? '' : 'med'}">${f.type}</span></td><td class="num">${fm(f.apy)}</td><td><span class="tag ${f.fit === 'High' ? 'hi' : f.fit === 'Medium' ? 'med' : 'low'}">${f.fit}</span></td><td class="right">${f.block ? `<button class="btn sm" data-action="tmTarget" data-id="${f.block.id}" data-team="${f.block.team}">Trade for now</button>` : f.team === 'PHI' ? '<span class="small muted">Own FA</span>' : ''}</td></tr>`; }).join('')}</tbody></table></div>`;
       } else {
         const rs = c.resignByYear; const on = pend.filter((p) => p.on);
@@ -1969,13 +1969,13 @@ const FranchiseUI = (ctx) => {
         const ts = LEAGUE.TEAMS.slice().sort((a, b) => { const x = keyFn(a), y = keyFn(b); return x < y ? -1 : x > y ? 1 : 0; });
         const th = (k, l, num) => `<th class="${num ? 'num' : ''} sortable" data-action="leagueSort" data-id="${k}" aria-sort="${sort === k ? 'descending' : 'none'}">${l}${sort === k ? ' ▾' : ''}</th>`;
         body = `<div class="table-wrap"><table><thead><tr>${th('name', 'Team')}${th('record', 'Record', true)}<th>Status</th>${th('space26', '2026 space (Top-51)', true)}<th class="num">All-in 2026</th>${th('dead26', 'Dead 2026', true)}${th('space27', '2027 space', true)}${th('pick27', 'R1 slot', true)}<th>Needs</th><th></th></tr></thead><tbody>${ts.map((t) => `<tr class="${t.abbr === 'PHI' ? 'selected' : ''}"><td>${teamChip(t, true)} ${esc(t.name)}</td><td class="num">${t.w}-${t.l}</td><td><span class="tag ${statusCls(Fz.teamStatus(t))}">${Fz.teamStatus(t)}</span></td><td class="num ${U.cls(t.space26)}">${fm(t.space26)}</td><td class="num ${U.cls(t.space26all)}">${fm(t.space26all)}</td><td class="num">${fm(t.dead26)}</td><td class="num ${U.cls(t.space27)}">${fm(t.space27)}</td><td class="num">#${t.pick27}${LEAGUE.R1_OWNERS_2027[t.abbr] ? ` <span class="muted small">→ ${LEAGUE.R1_OWNERS_2027[t.abbr]}</span>` : ''}</td><td class="small">${t.needs.join(' · ')}</td><td class="right">${openBtn(t)}</td></tr>`).join('')}</tbody></table></div>
-        <p class="small muted" style="margin:12px 0 0">Cap space per Spotrac (Top-51 and all-in); 2027 space is projected against a $323M cap. Dead money rounded. Status derived from record: ≥.750 contender, ≤.250 seller.</p>`;
+        <p class="small muted" style="margin:12px 0 0">Cap space per public cap trackers (Top-51 and all-in); 2027 space is projected against a $323M cap. Dead money rounded. Status derived from record: ≥.750 contender, ≤.250 seller.</p>`;
       } else {
         const roster = Fz.roster(s).filter((p) => p.status !== 'ir');
         const ts = LEAGUE.TEAMS.filter((t) => t.abbr !== 'PHI').map((t) => { const fits = roster.filter((p) => t.needs.some((n) => (LEAGUE.NEED_GROUPS[n] || [LEAGUE.GROUP_OF[n] || n]).includes(p.grp)) && (p.expiring || p.age >= 29 || p.value >= 200)).sort((a, b) => b.value - a.value).slice(0, 3); return { t, fits }; }).sort((a, b) => Fz.winPct(a.t) - Fz.winPct(b.t));
         body = `<div class="table-wrap"><table><thead><tr><th>Team</th><th>Status</th><th>2027 needs (Yahoo)</th><th>Eagles assets that fit</th><th>Trade block names</th><th></th></tr></thead><tbody>${ts.map(({ t, fits }) => `<tr><td>${teamChip(t, true)} ${esc(t.name)} <span class="muted small">${t.w}-${t.l}</span></td><td><span class="tag ${statusCls(Fz.teamStatus(t))}">${Fz.teamStatus(t)}</span></td><td>${t.needs.map((n) => `<span class="tag">${n}</span>`).join(' ')}</td><td class="small">${fits.map((p) => `<button class="link-btn" data-action="tmShopTo" data-id="${p.id}" data-team="${t.abbr}">${esc(p.name)}</button>`).join(', ') || '<span class="muted">—</span>'}</td><td class="small">${LEAGUE.TRADE_BLOCK.filter((b) => b.team === t.abbr).map((b) => esc(b.name)).join(', ') || '<span class="muted">—</span>'}</td><td class="right">${openBtn(t)}</td></tr>`).join('')}</tbody></table></div>`;
       }
-      return `<div class="row between" style="margin-bottom:14px"><div class="seg" role="tablist">${views.map(([id, l]) => `<button role="tab" data-action="leagueView" data-val="${id}" aria-pressed="${view === id}">${l}</button>`).join('')}</div><span class="small muted">After Week 4 · NFL.com standings · Spotrac cap tables</span></div>${body}`;
+      return `<div class="row between" style="margin-bottom:14px"><div class="seg" role="tablist">${views.map(([id, l]) => `<button role="tab" data-action="leagueView" data-val="${id}" aria-pressed="${view === id}">${l}</button>`).join('')}</div><span class="small muted">After Week 4 · NFL.com standings · cap tracker cap tables</span></div>${body}`;
     },
   };
 
@@ -2162,7 +2162,7 @@ const App = (() => {
       <aside class="sidebar" id="sidebar" aria-label="Modules">
         <div class="brand">${LOGO}<div><div class="brand-name">Eagles GM Lab</div><div class="brand-sub">Franchise Mode · Live</div></div></div>
         <nav class="nav" id="nav"></nav>
-        <div class="sidebar-foot"><a href="sources.html">Data sources &amp; cross-check →</a> · <a href="planner.html">Strategy Planner</a><br>Snapshot <b>${DATA.SNAPSHOT}</b> · after Week 4<br>Spotrac · OTC · NFL.com · Tankathon · SN<br>Adjusted for Johnson (R/R), Jurgens (BAL), Carter &amp; Greenard deals, A.J. Brown (NE).<br>${SL_MARK}<br><span class="muted">v${Model.SCHEMA_VERSION}.0 · <a href="#" data-action="shortcuts">Shortcuts</a></span></div>
+        <div class="sidebar-foot"><a href="sources.html">Data sources &amp; cross-check →</a> · <a href="planner.html">Strategy Planner</a><br>Snapshot <b>${DATA.SNAPSHOT}</b> · after Week 4<br>cap tracker · cap tracker · NFL.com · Tankathon · SN<br>Adjusted for Johnson (R/R), Jurgens (BAL), Carter &amp; Greenard deals, A.J. Brown (NE).<br>${SL_MARK}<br><span class="muted">v${Model.SCHEMA_VERSION}.0 · <a href="#" data-action="shortcuts">Shortcuts</a></span></div>
       </aside>
       <div class="scrim" data-action="closeSidebar"></div>
       <header class="header">
@@ -2282,7 +2282,7 @@ const App = (() => {
       const kpi = (label, value, cls, delta) => `<div class="card kpi"><div class="kpi-label">${label}</div><div class="kpi-value ${cls || ''}">${value}</div><div class="kpi-delta">${delta || ''}</div></div>`;
       return `
       <div class="grid kpis" style="margin-bottom:16px">
-        ${kpi('2026 cap space (adjusted)', U.fm(y[2026].space), U.cls(y[2026].space), `Spotrac listed ${U.fm(DATA.SPOTRAC_SPACE_2026)} pre-moves`)}
+        ${kpi('2026 cap space (adjusted)', U.fm(y[2026].space), U.cls(y[2026].space), `cap tracker listed ${U.fm(DATA.SPOTRAC_SPACE_2026)} pre-moves`)}
         ${kpi('2027 projected space', U.fm(y[2027].space), y[2027].space < 0 ? 'neg' : y[2027].space < 20 ? 'warn' : 'pos', `Cap ${U.fm(y[2027].leagueCap, { digits: 0 })} + ${U.fm(y[2027].carryover)} carry`)}
         ${kpi('2028 projected space', U.fm(y[2028].space), y[2028].space < 0 ? 'neg' : y[2028].space < 20 ? 'warn' : 'pos', `Target ${U.fm(DATA.TARGET_SPACE_2028, { digits: 0 })} · ${U.fm(computed.calc2028.surplus, { plus: true })}`)}
         ${kpi('2026 dead money', U.fm(d[2026]), 'warn', `${U.fm(d[2027])} in 2027 · ${U.fm(d[2028])} in 2028`)}
@@ -2294,7 +2294,7 @@ const App = (() => {
           <div class="card"><div class="card-head"><h2>Year-by-year derivation</h2><span class="sub">$M · negative = savings</span></div>
             <div class="table-wrap"><table class="sticky-col"><thead><tr><th>Line</th>${DATA.YEARS.map((yr) => `<th class="num">${yr}</th>`).join('')}</tr></thead><tbody>
               ${[['League cap', 'leagueCap'], ['Carryover in', 'carryover'], ['Available', 'available']].map(([l, k]) => `<tr><td>${l}</td>${DATA.YEARS.map((yr) => `<td class="num">${U.fm(y[yr][k])}</td>`).join('')}</tr>`).join('')}
-              ${[['Committed (Spotrac, adjusted)', 'committed'], ['Rookie pool', 'rookiePool'], ['Roster fill to 51', 'rosterFill'], ['In-season reserve', 'reserve'], ['Practice squad', 'practiceSquad'], ['Extensions & options', 'extensions'], ['Restructure savings', 'restructureSavings'], ['Restructure proration', 'restructurePush'], ['Cuts (net)', 'cuts'], ['Trades (net)', 'trades'], ['2028 levers', 'levers']].map(([l, k]) => `<tr><td class="muted">${l}</td>${DATA.YEARS.map((yr) => { const v = y[yr].lines[k]; return `<td class="num ${v < 0 ? 'pos' : ''}">${v ? U.fm(v) : '—'}</td>`; }).join('')}</tr>`).join('')}
+              ${[['Committed (cap tracker, adjusted)', 'committed'], ['Rookie pool', 'rookiePool'], ['Roster fill to 51', 'rosterFill'], ['In-season reserve', 'reserve'], ['Practice squad', 'practiceSquad'], ['Extensions & options', 'extensions'], ['Restructure savings', 'restructureSavings'], ['Restructure proration', 'restructurePush'], ['Cuts (net)', 'cuts'], ['Trades (net)', 'trades'], ['2028 levers', 'levers']].map(([l, k]) => `<tr><td class="muted">${l}</td>${DATA.YEARS.map((yr) => { const v = y[yr].lines[k]; return `<td class="num ${v < 0 ? 'pos' : ''}">${v ? U.fm(v) : '—'}</td>`; }).join('')}</tr>`).join('')}
             </tbody><tfoot><tr><td>Total obligations</td>${DATA.YEARS.map((yr) => `<td class="num" data-bind="oblig${yr}">${U.fm(y[yr].obligations)}</td>`).join('')}</tr><tr><td>Projected space</td>${DATA.YEARS.map((yr) => `<td class="num ${y[yr].space < 0 ? 'neg' : 'pos'}" data-bind="space${yr}">${U.fm(y[yr].space)}</td>`).join('')}</tr></tfoot></table></div>
           </div>
         </div>
@@ -2473,7 +2473,7 @@ const App = (() => {
         <div class="stack">
           <div class="card"><div class="card-head"><h2>Parameters</h2></div>
             ${ctl('sims', 'Simulations', 50, 2000, 50, m.sims, 'mcSims', 'More runs tighten the percentile estimate.')}
-            ${ctl('capVar', 'League cap variance', 0, 15, 0.5, `±${m.capVar}%`, 'mcCapVar', 'Std. dev. of annual cap growth around Spotrac projections.')}
+            ${ctl('capVar', 'League cap variance', 0, 15, 0.5, `±${m.capVar}%`, 'mcCapVar', 'Std. dev. of annual cap growth around cap tracker projections.')}
             ${ctl('spendVar', 'Spending variance', 0, 25, 1, `±$${m.spendVar}M`, 'mcSpendVar', 'Std. dev. of roster/injury spend per year.')}
             <div class="control"><label for="mc_seed">Seed</label><span></span><input id="mc_seed" type="number" value="${m.seed}" data-action="mcSeed" aria-label="Random seed" style="grid-column:1/-1"><span class="hint">Same seed + same inputs = identical result (reproducible for review).</span></div>
             <div class="row" style="margin-top:14px"><button class="btn primary" data-action="mcRun">Run simulation</button><button class="btn ghost" data-action="mcReseed">New seed</button></div>
@@ -2525,18 +2525,18 @@ const App = (() => {
       const counts = { V: 0, D: 0, E: 0 };
       [].concat(DATA.CONTRACTS, DATA.DEAD_MONEY, DATA.CUT_CANDIDATES, DATA.TRADE_PLAYERS, DATA.DRAFT_PICKS, DATA.EXTENSIONS, DATA.ADJUSTMENTS).forEach((x) => { counts[x.prov] = (counts[x.prov] || 0) + 1; });
       return `<div class="grid sidebar-right"><div class="stack">
-        <div class="card"><div class="card-head"><h2>Spotrac → adjusted committed</h2><span class="sub">Why the dashboard differs from the public page</span></div>
+        <div class="card"><div class="card-head"><h2>cap tracker → adjusted committed</h2><span class="sub">Why the dashboard differs from the public page</span></div>
           <div class="table-wrap"><table><thead><tr><th>Line</th>${DATA.YEARS.map((y) => `<th class="num">${y}</th>`).join('')}</tr></thead><tbody>
-            <tr><td>Spotrac committed (as listed)</td>${DATA.YEARS.map((y) => `<td class="num">${U.fm(DATA.SPOTRAC_COMMITTED[y])}</td>`).join('')}</tr>
+            <tr><td>cap tracker committed (as listed)</td>${DATA.YEARS.map((y) => `<td class="num">${U.fm(DATA.SPOTRAC_COMMITTED[y])}</td>`).join('')}</tr>
             ${DATA.ADJUSTMENTS.map((a) => `<tr><td class="small">${U.esc(a.label)} ${U.prov(a.prov)}</td>${DATA.YEARS.map((y) => { const v = Model.r1((a.adjusted[y] || 0) - (a.spotrac[y] || 0)); return `<td class="num ${v < 0 ? 'pos' : v > 0 ? 'neg' : 'muted'}">${v ? U.fm(v, { plus: true }) : '—'}</td>`; }).join('')}</tr>`).join('')}
           </tbody><tfoot><tr><td>Adjusted committed</td>${DATA.YEARS.map((y) => `<td class="num">${U.fm(computed.years[y].lines.committed)}</td>`).join('')}</tr></tfoot></table></div>
-          <p class="small muted" style="margin:10px 0 0">Spotrac's 2028 cell for Johnson is blank (UFA); Over the Cap carried a $17.5M void. Under a post-June 1, 2027 split the 2028 charge becomes $26.3M and 2029–30 go to zero. Jurgens' 2026 charge drops to $4.58M and 2027 rises to $14.93M; Baltimore assumes the remaining cash.</p>
+          <p class="small muted" style="margin:10px 0 0">the cap tracker's 2028 cell for Johnson is blank (UFA); cap tracker carried a $17.5M void. Under a post-June 1, 2027 split the 2028 charge becomes $26.3M and 2029–30 go to zero. Jurgens' 2026 charge drops to $4.58M and 2027 rises to $14.93M; Baltimore assumes the remaining cash.</p>
         </div>
         <div class="card"><div class="card-head"><h2>Sources</h2><span class="sub">Snapshot ${DATA.SNAPSHOT}</span></div><ul style="margin:0;padding-left:18px;line-height:1.9;font-size:var(--t-sm)">${DATA.SOURCES.map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener">${U.esc(s.label)}</a></li>`).join('')}</ul></div>
       </div><div class="stack">
-        <div class="card tight"><div class="card-head"><h2>Provenance legend</h2></div><div class="stack" style="gap:8px;font-size:var(--t-sm)"><div>${U.prov('V')} <b>Verified</b> — taken directly from Spotrac, NFL.com or beat reporting. ${counts.V} records.</div><div>${U.prov('D')} <b>Derived</b> — computed from verified contract terms (e.g., dead money under a June 1 split). ${counts.D} records.</div><div>${U.prov('E')} <b>Estimate</b> — model judgement: extension prices, prospect grades, roster fill. ${counts.E} records.</div></div></div>
+        <div class="card tight"><div class="card-head"><h2>Provenance legend</h2></div><div class="stack" style="gap:8px;font-size:var(--t-sm)"><div>${U.prov('V')} <b>Verified</b> — taken directly from cap tracker, NFL.com or beat reporting. ${counts.V} records.</div><div>${U.prov('D')} <b>Derived</b> — computed from verified contract terms (e.g., dead money under a June 1 split). ${counts.D} records.</div><div>${U.prov('E')} <b>Estimate</b> — model judgement: extension prices, prospect grades, roster fill. ${counts.E} records.</div></div></div>
         <div class="card tight"><div class="card-head"><h2>Export data</h2></div><div class="row"><button class="btn sm" data-action="exportCsv" data-id="contracts">Contracts CSV</button><button class="btn sm" data-action="exportCsv" data-id="dead">Dead money CSV</button><button class="btn sm" data-action="exportCsv" data-id="projection">Projection CSV</button><button class="btn sm" data-action="exportCsv" data-id="picks">Picks CSV</button></div></div>
-        <div class="card tight"><div class="card-head"><h2>Refresh checklist</h2></div><ol class="small" style="margin:0;padding-left:18px;color:var(--text-2);line-height:1.7"><li>Re-pull Spotrac yearly table; update <code>SPOTRAC_COMMITTED</code>.</li><li>Confirm Johnson processing date; if processed early, 2027 jumps to $42.9M.</li><li>Replace 2027 cap projection when the league sets it (Feb/Mar 2027).</li><li>Re-grade prospects after the combine.</li></ol></div>
+        <div class="card tight"><div class="card-head"><h2>Refresh checklist</h2></div><ol class="small" style="margin:0;padding-left:18px;color:var(--text-2);line-height:1.7"><li>Re-pull cap tracker yearly table; update <code>SPOTRAC_COMMITTED</code>.</li><li>Confirm Johnson processing date; if processed early, 2027 jumps to $42.9M.</li><li>Replace 2027 cap projection when the league sets it (Feb/Mar 2027).</li><li>Re-grade prospects after the combine.</li></ol></div>
       </div></div>`;
     },
 
@@ -2786,7 +2786,7 @@ const LIVE = (() => {
     (roster || []).forEach((r) => {
       if (seen.has(norm(r.name)) || !/injured reserve|^out$/i.test(r.injury || '')) return;
       const old = LEAGUE.INJURIES.find((i) => norm(i.name) === norm(r.name)); const p = ix[norm(r.name)];
-      out.push({ id: p ? p.id : norm(r.name).replace(/ /g, '_'), name: r.name, pos: r.pos, status: `${r.injury} (ESPN, ${String(r.injuryDate || '').slice(0, 10)})`, impact: old ? old.impact : '', prov: 'L' });
+      out.push({ id: p ? p.id : norm(r.name).replace(/ /g, '_'), name: r.name, pos: r.pos, status: `${r.injury} (league feed, ${String(r.injuryDate || '').slice(0, 10)})`, impact: old ? old.impact : '', prov: 'L' });
       seen.add(norm(r.name));
     });
     if (out.length) replaceArr(LEAGUE.INJURIES, out);
@@ -2846,14 +2846,14 @@ window.QA = (() => {
 
   /* ---------------- 1. Model math ---------------- */
   group('Model — cap math', (t) => {
-    t('Default state computes 2026 adjusted space of $18.12M (Spotrac $16.78M + Jurgens relief)', () => { const c = Model.compute(Model.defaultState()); near(c.years[2026].space, 18.121, '2026 space', 0.002); });
-    t('Adjustments reconcile Spotrac book to signed deals (Johnson, Jurgens, Carter, Greenard, Brown) every year', () => { const c = Model.compute(Model.defaultState()); DATA.YEARS.forEach((y) => { const exp = DATA.ADJUSTMENTS.reduce((a, x) => a + (x.adjusted[y] || 0) - (x.spotrac[y] || 0), 0); near(c.adjByYear[y], exp, `${y} adj`, 0.002); }); near(c.adjByYear[2026], -1.345, '2026 adj = Jurgens relief only', 0.002); assert(c.adjByYear[2028] < 0, '2028 lighter once Brown\'s $54.6M leaves'); });
-    t('2028 committed includes Johnson $26.28M post-June 1 charge and Carter/Greenard extension years', () => { const c = Model.compute(Model.defaultState()); const adj = DATA.ADJUSTMENTS.reduce((a, x) => a + (x.adjusted[2028] || 0) - (x.spotrac[2028] || 0), 0); near(c.years[2028].lines.committed, 228.121 + adj, '2028 committed', 0.002); assert(DATA.ADJUSTMENTS.find((a) => a.id === 'johnson').adjusted[2028] === 26.276, 'Johnson 2028'); assert(DATA.CONTRACTS.find((x) => x.id === 'carter').hits[2028] === 15.641, 'Carter 2028 per OTC'); });
+    t('Default state computes 2026 adjusted space of $18.12M (cap tracker $16.78M + Jurgens relief)', () => { const c = Model.compute(Model.defaultState()); near(c.years[2026].space, 18.121, '2026 space', 0.002); });
+    t('Adjustments reconcile cap tracker book to signed deals (Johnson, Jurgens, Carter, Greenard, Brown) every year', () => { const c = Model.compute(Model.defaultState()); DATA.YEARS.forEach((y) => { const exp = DATA.ADJUSTMENTS.reduce((a, x) => a + (x.adjusted[y] || 0) - (x.spotrac[y] || 0), 0); near(c.adjByYear[y], exp, `${y} adj`, 0.002); }); near(c.adjByYear[2026], -1.345, '2026 adj = Jurgens relief only', 0.002); assert(c.adjByYear[2028] < 0, '2028 lighter once Brown\'s $54.6M leaves'); });
+    t('2028 committed includes Johnson $26.28M post-June 1 charge and Carter/Greenard extension years', () => { const c = Model.compute(Model.defaultState()); const adj = DATA.ADJUSTMENTS.reduce((a, x) => a + (x.adjusted[2028] || 0) - (x.spotrac[2028] || 0), 0); near(c.years[2028].lines.committed, 228.121 + adj, '2028 committed', 0.002); assert(DATA.ADJUSTMENTS.find((a) => a.id === 'johnson').adjusted[2028] === 26.276, 'Johnson 2028'); assert(DATA.CONTRACTS.find((x) => x.id === 'carter').hits[2028] === 15.641, 'Carter 2028 per cap tracker'); });
     t('Space = available − obligations for every year', () => { const c = Model.compute(Model.defaultState()); DATA.YEARS.forEach((y) => near(c.years[y].space, c.years[y].available - c.years[y].obligations, `${y}`, 0.002)); });
     t('Carryover rolls clamp(prior space − in-season spend, 0, maxCarry) forward', () => { const s = Model.defaultState(); const c = Model.compute(s); const cl = (v) => Math.min(s.custom.maxCarry, Math.max(0, v)); near(c.years[2027].carryover, cl(c.years[2026].space - s.custom.inSeason2026), 'carry 2027', 0.002); near(c.years[2028].carryover, cl(c.years[2027].space), 'carry 2028', 0.002); assert(c.years[2030].carryover <= s.custom.maxCarry + 0.001, 'capped'); s.custom.maxCarry = 100; const c2 = Model.compute(s); assert(c2.years[2030].carryover > c.years[2030].carryover, 'higher cap → more carry'); });
     t('Disabling carryover zeroes all carry after 2026', () => { const s = Model.defaultState(); s.custom.rollCarryover = false; const c = Model.compute(s); eq(c.years[2027].carryover, 0, '2027'); eq(c.years[2028].carryover, 0, '2028'); eq(c.years[2026].carryover, DATA.CARRYOVER_2026, '2026 unchanged'); });
     t('2028 calculator total equals projection and reconciles to base + components', () => { const s = Model.defaultState(); s.levers.lv_rookie = 5; s.restructures.mailata = { 2028: 6 }; s.cuts.cut_barkley.on = true; const c = Model.compute(s); const k = c.calc2028; near(k.total, c.years[2028].space, 'total=space', 0.002); near(k.base + k.restructures + k.levers + k.cuts + k.trades, k.total, 'reconcile', 0.01); });
-    t('Dead money ledger: 2026 total ≈ Spotrac $52.3M + Jurgens $4.58M', () => { const c = Model.compute(Model.defaultState()); near(c.deadByYear[2026], DATA.SPOTRAC_DEAD_2026 + 4.576, '2026 dead', 0.01); assert(c.deadByYear[2027] > 50, '2027 dead > 50'); near(c.deadByYear[2028], 26.276, '2028 dead = Johnson only', 0.002); });
+    t('Dead money ledger: 2026 total ≈ cap tracker $52.3M + Jurgens $4.58M', () => { const c = Model.compute(Model.defaultState()); near(c.deadByYear[2026], DATA.SPOTRAC_DEAD_2026 + 4.576, '2026 dead', 0.01); assert(c.deadByYear[2027] > 50, '2027 dead > 50'); near(c.deadByYear[2028], 26.276, '2028 dead = Johnson only', 0.002); });
     t('Alerts flag over-the-cap years as critical', () => { const s = Model.defaultState(); s.scenario = 'custom'; s.custom.capGrowth = -0.1; s.custom.extScale = 1.5; const c = Model.compute(s); assert(c.warnings.length > 0 && c.alerts.some((a) => a.level === 'critical'), 'expected critical alert'); });
   });
 
@@ -2938,7 +2938,7 @@ window.QA = (() => {
     t('Custom assumptions sliders are disabled unless Custom scenario is active', () => { click($('[data-action="scenarioTab"][data-id="assumptions"]')); assert($('#cu_cap').disabled, 'disabled on base'); click($('#scenarioSeg [data-id="custom"]')); assert(!$('#cu_cap').disabled, 'enabled on custom'); fire($('#cu_cap'), 'input', { value: '-0.05' }); eq(text('[data-bind="customCapGrowth"]'), '-5.0%', 'bound'); click($('#scenarioSeg [data-id="base"]')); });
     t('Notes textarea updates state and memo export includes it', () => { click($('[data-action="scenarioTab"][data-id="notes"]')); fire($('textarea[data-action="notes"]'), 'input', { value: 'QA note' }); eq(App.getState().notes, 'QA note', 'notes'); App.set((s) => { s.notes = ''; }); });
     t('Risk register sorted by probability descending', () => { click($('[data-action="scenarioTab"][data-id="risk"]')); const probs = $$('#main tbody tr td:nth-child(2)').map((td) => parseInt(td.textContent, 10)); assert(probs.length === DATA.RISKS.length && probs.every((p, i) => i === 0 || probs[i - 1] >= p), 'sorted'); });
-    t('Data module reconciles Spotrac to adjusted committed and lists sources', () => { App.setModule('data'); assert($('#main').textContent.includes('Adjusted committed'), 'adjusted row'); eq($$('#main a[target="_blank"]').length, DATA.SOURCES.length, 'sources'); });
+    t('Data module reconciles cap tracker to adjusted committed and lists sources', () => { App.setModule('data'); assert($('#main').textContent.includes('Adjusted committed'), 'adjusted row'); eq($$('#main a[target="_blank"]').length, DATA.SOURCES.length, 'sources'); });
     t('Keyboard: ? opens shortcuts, Escape closes, digit jumps module', () => { document.dispatchEvent(new KeyboardEvent('keydown', { key: '?', bubbles: true })); assert($('#modal').classList.contains('open'), 'opened'); document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true })); assert(!$('#modal').classList.contains('open'), 'closed'); document.dispatchEvent(new KeyboardEvent('keydown', { key: '1', bubbles: true })); eq(App.getState().ui.module, 'hub', 'digit 1 → Franchise Hub'); document.dispatchEvent(new KeyboardEvent('keydown', { key: '7', bubbles: true })); eq(App.getState().ui.module, 'overview', 'digit 7 → Cap Overview'); });
     t('Scenario bracket keys cycle scenarios', () => { document.dispatchEvent(new KeyboardEvent('keydown', { key: ']', bubbles: true })); eq(App.getState().scenario, 'conservative', 'next'); document.dispatchEvent(new KeyboardEvent('keydown', { key: '[', bubbles: true })); eq(App.getState().scenario, 'base', 'prev'); });
   });
