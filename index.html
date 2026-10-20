@@ -2771,15 +2771,17 @@ const LIVE = (() => {
   function rosterIndex() { const ix = {}; LEAGUE.ROSTER.forEach((p) => { ix[norm(p.name)] = p; }); return ix; }
   function applyRoster(rows) {
     const ix = rosterIndex();
-    rows.forEach((r) => { const p = ix[norm(r.name)]; if (!p) return; p.espnId = r.espnId; if (r.age) p.age = r.age; if (r.exp != null) p.exp = r.exp; if (r.headshot) p.headshot = r.headshot; p.liveStatus = r.status; p.liveGroup = r.group; p.liveInjury = r.injury || null; p.liveProv = 'L'; });
+    rows.forEach((r) => { const p = ix[norm(r.name)]; if (!p) return; p.espnId = r.espnId; if (r.age) p.age = r.age; if (r.exp != null) p.exp = r.exp; if (r.headshot) p.headshot = r.headshot; p.liveStatus = /injured reserve/i.test(r.injury || '') ? 'Injured Reserve' : r.status; p.liveGroup = r.group; p.liveInjury = r.injury || null; p.liveProv = 'L'; });
   }
   function applyInjuries(inj, roster) {
     const ix = rosterIndex(); const out = []; const seen = new Set();
     const label = (r) => [r.gameStatus, r.injury, r.practice].filter(Boolean).join(' · ');
+    const cur = {}; (roster || []).forEach((r) => { if (/injured reserve|^out$|suspen|physically unable/i.test(r.injury || '')) cur[norm(r.name)] = r; });
     (inj && inj.players || []).forEach((r) => {
       if (!r.gameStatus && /full/i.test(r.practice || '')) return;
       const p = ix[norm(r.name)]; const old = LEAGUE.INJURIES.find((i) => norm(i.name) === norm(r.name));
-      const text = `Wk ${inj.week}: ${label(r)}`;
+      const c = cur[norm(r.name)];   // current roster designation (e.g. placed on IR after the report) wins over last week's game status
+      const text = c ? `${c.injury} (league feed, ${String(c.injuryDate || '').slice(0, 10)}) · Wk ${inj.week} report: ${label(r)}` : `Wk ${inj.week}: ${label(r)}`;
       out.push({ id: p ? p.id : norm(r.name).replace(/ /g, '_'), name: r.name, pos: r.pos, status: text, impact: old ? old.impact : '', prov: 'L' });
       seen.add(norm(r.name)); if (p && p.status !== 'ir') p.inj = `Live — ${text}`;
     });

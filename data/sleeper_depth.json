@@ -451,15 +451,6 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
-   "depthPos": "ROLB",
-   "espnId": null,
-   "injury": null,
-   "name": "Keyshawn James-Newby",
-   "pos": "DE",
-   "status": "Active"
-  },
-  {
    "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
@@ -493,15 +484,6 @@
    "injury": "Out",
    "name": "Michael Carter",
    "pos": "CB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "SS",
-   "espnId": null,
-   "injury": null,
-   "name": "Cole Wisniewski",
-   "pos": "DB",
    "status": "Active"
   },
   {
@@ -626,6 +608,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Cole Wisniewski",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Dean Clark",
    "pos": "DB",
    "status": "Active"
@@ -707,6 +698,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Keyshawn James-Newby",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Kiran Amegadjie",
    "pos": "OL",
    "status": "Active"
@@ -757,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-19T07:01:09-04:00"
+ "updated": "2026-10-20T01:30:08-04:00"
 }
