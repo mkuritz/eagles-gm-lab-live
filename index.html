@@ -1134,7 +1134,7 @@ const Franchise = (() => {
       if (injured) why.push(`${injured} starter injured`);
       if (thin) why.push(`depth ${players.length}/${g.depth}`);
       if (backupsExpiring) why.push(`${backupsExpiring} backup${backupsExpiring > 1 ? 's' : ''} expiring`);
-      if (consensus) why.push('analyst consensus need (Yahoo)');
+      if (consensus) why.push('analyst consensus need');
       return { group: g, score, urgency, why, starters, count: players.length, expiring, holes };
     }).sort((a, b) => b.score - a.score);
   }
