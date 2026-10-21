@@ -40,19 +40,6 @@
    "status": "Active"
   },
   {
-   "age": 22,
-   "espnId": "4685279",
-   "exp": 2,
-   "group": "offense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "30",
-   "name": "Jaydon Blue",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
    "age": 29,
    "espnId": "4241372",
    "exp": 8,
@@ -336,19 +323,6 @@
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "age": 23,
-   "espnId": "4714365",
-   "exp": 2,
-   "group": "offense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4714365.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-18T17:43Z",
-   "jersey": "34",
-   "name": "Carson Steele",
-   "pos": "RB",
    "status": "Active"
   },
   {
@@ -924,19 +898,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 24,
-   "espnId": "4567783",
-   "exp": 0,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4567783.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "64",
-   "name": "James Brockermeyer",
-   "pos": "C",
-   "status": "Practice Squad"
-  },
-  {
    "age": 25,
    "espnId": "4426921",
    "exp": 2,
@@ -986,6 +947,19 @@
    "jersey": "96",
    "name": "Gabe Hall",
    "pos": "DT",
+   "status": "Practice Squad"
+  },
+  {
+   "age": 28,
+   "espnId": "4241555",
+   "exp": 6,
+   "group": "practiceSquad",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241555.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "38",
+   "name": "Elijah Mitchell",
+   "pos": "RB",
    "status": "Practice Squad"
   },
   {
@@ -1041,19 +1015,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 25,
-   "espnId": "4579554",
-   "exp": 2,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4579554.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": null,
-   "name": "Ian Wheeler",
-   "pos": "RB",
-   "status": "Practice Squad"
-  },
-  {
    "age": 23,
    "espnId": "4872850",
    "exp": 0,
@@ -1067,5 +1028,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-20T14:22:44-04:00"
+ "updated": "2026-10-21T07:00:39-04:00"
 }
