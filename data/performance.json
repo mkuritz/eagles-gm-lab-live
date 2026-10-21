@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T07:00:46-04:00",
+ "updated": "2026-10-21T14:26:40-04:00",
  "data": {
   "season": 2026,
   "window": [
@@ -12,10 +12,10 @@
     "name": "Quinyon Mitchell",
     "team": "PHI",
     "pos": "CB",
-    "score": 78.3,
-    "current": 71.9,
-    "talent": 84.7,
-    "currentRaw": 68,
+    "score": 76.9,
+    "current": 69.4,
+    "talent": 84.4,
+    "currentRaw": 65,
     "talentRaw": 89,
     "sampleCur": 382,
     "sampleWin": 2323,
@@ -36,18 +36,18 @@
     "metricsCur": [
      {
       "m": "Yds allowed/target",
-      "v": 6.357,
-      "pct": 68
+      "v": 6.25,
+      "pct": 63
      },
      {
       "m": "Comp % allowed",
-      "v": 0.607,
-      "pct": 45
+      "v": 0.583,
+      "pct": 47
      },
      {
       "m": "Passer rtg allowed",
-      "v": 67.871,
-      "pct": 82
+      "v": 76.744,
+      "pct": 65
      },
      {
       "m": "PD+INT per snap",
@@ -56,25 +56,25 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.04,
-      "pct": 70
+      "v": 0.033,
+      "pct": 73
      }
     ],
     "metricsWin": [
      {
       "m": "Yds allowed/target",
-      "v": 5.919,
+      "v": 5.917,
       "pct": 92
      },
      {
       "m": "Comp % allowed",
-      "v": 0.514,
-      "pct": 98
+      "v": 0.513,
+      "pct": 97
      },
      {
       "m": "Passer rtg allowed",
-      "v": 73.511,
-      "pct": 92
+      "v": 74.932,
+      "pct": 90
      },
      {
       "m": "PD+INT per snap",
@@ -83,25 +83,25 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.058,
-      "pct": 86
+      "v": 0.056,
+      "pct": 87
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hfhzawkrobxrfuohtp50",
-    "rank": 4,
+    "rank": 3,
     "of": 151,
-    "pct": 98,
+    "pct": 99,
     "key": "quinyon mitchell"
    },
    {
     "name": "Jakorian Bennett",
     "team": "PHI",
     "pos": "CB",
-    "score": 68.0,
-    "current": 68.0,
-    "talent": 68.0,
+    "score": 67.8,
+    "current": 67.8,
+    "talent": 67.8,
     "currentRaw": null,
-    "talentRaw": 78,
+    "talentRaw": 77,
     "sampleCur": 0,
     "sampleWin": 559,
     "unit": "def_snaps",
@@ -122,7 +122,7 @@
      {
       "m": "Yds allowed/target",
       "v": 5.241,
-      "pct": 97
+      "pct": 96
      },
      {
       "m": "Comp % allowed",
@@ -132,7 +132,7 @@
      {
       "m": "Passer rtg allowed",
       "v": 72.111,
-      "pct": 94
+      "pct": 93
      },
      {
       "m": "PD+INT per snap",
@@ -146,19 +146,19 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xmacplimntxaq6aohzpb",
-    "rank": 13,
+    "rank": 18,
     "of": 151,
-    "pct": 92,
+    "pct": 89,
     "key": "jakorian bennett"
    },
    {
     "name": "Riq Woolen",
     "team": "PHI",
     "pos": "CB",
-    "score": 64.3,
-    "current": 54.6,
+    "score": 65.7,
+    "current": 57.3,
     "talent": 74.1,
-    "currentRaw": 48,
+    "currentRaw": 52,
     "talentRaw": 78,
     "sampleCur": 355,
     "sampleWin": 2062,
@@ -179,18 +179,18 @@
     "metricsCur": [
      {
       "m": "Yds allowed/target",
-      "v": 8.038,
-      "pct": 33
+      "v": 7.618,
+      "pct": 40
      },
      {
       "m": "Comp % allowed",
-      "v": 0.577,
-      "pct": 55
+      "v": 0.559,
+      "pct": 58
      },
      {
       "m": "Passer rtg allowed",
-      "v": 101.842,
-      "pct": 25
+      "v": 94.303,
+      "pct": 31
      },
      {
       "m": "PD+INT per snap",
@@ -200,24 +200,24 @@
      {
       "m": "Missed tackle %",
       "v": 0.0,
-      "pct": 87
+      "pct": 88
      }
     ],
     "metricsWin": [
      {
       "m": "Yds allowed/target",
-      "v": 5.949,
+      "v": 5.964,
       "pct": 92
      },
      {
       "m": "Comp % allowed",
-      "v": 0.557,
-      "pct": 85
+      "v": 0.554,
+      "pct": 83
      },
      {
       "m": "Passer rtg allowed",
-      "v": 80.643,
-      "pct": 75
+      "v": 80.12,
+      "pct": 76
      },
      {
       "m": "PD+INT per snap",
@@ -226,25 +226,110 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.094,
-      "pct": 55
+      "v": 0.092,
+      "pct": 56
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/aodr0vp93fzhdsff9fzj",
-    "rank": 25,
+    "rank": 23,
     "of": 151,
-    "pct": 84,
+    "pct": 85,
     "key": "riq woolen"
+   },
+   {
+    "name": "Cooper DeJean",
+    "team": "PHI",
+    "pos": "CB",
+    "score": 54.1,
+    "current": 46.4,
+    "talent": 61.8,
+    "currentRaw": 42,
+    "talentRaw": 64,
+    "sampleCur": 426,
+    "sampleWin": 2090,
+    "unit": "def_snaps",
+    "shrink": 0.87,
+    "gp": 38,
+    "teamG": 40,
+    "availability": 0.95,
+    "injuryRisk": "Low",
+    "suppressed": false,
+    "ranked": true,
+    "snapPct": 99,
+    "seasons": [
+     2024,
+     2025,
+     2026
+    ],
+    "metricsCur": [
+     {
+      "m": "Yds allowed/target",
+      "v": 6.441,
+      "pct": 62
+     },
+     {
+      "m": "Comp % allowed",
+      "v": 0.588,
+      "pct": 44
+     },
+     {
+      "m": "Passer rtg allowed",
+      "v": 93.224,
+      "pct": 33
+     },
+     {
+      "m": "PD+INT per snap",
+      "v": 0.014,
+      "pct": 52
+     },
+     {
+      "m": "Missed tackle %",
+      "v": 0.152,
+      "pct": 19
+     }
+    ],
+    "metricsWin": [
+     {
+      "m": "Yds allowed/target",
+      "v": 6.433,
+      "pct": 82
+     },
+     {
+      "m": "Comp % allowed",
+      "v": 0.622,
+      "pct": 43
+     },
+     {
+      "m": "Passer rtg allowed",
+      "v": 78.774,
+      "pct": 82
+     },
+     {
+      "m": "PD+INT per snap",
+      "v": 0.014,
+      "pct": 67
+     },
+     {
+      "m": "Missed tackle %",
+      "v": 0.106,
+      "pct": 44
+     }
+    ],
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/aifrssmqxtoiydq9r1uo",
+    "rank": 56,
+    "of": 151,
+    "pct": 63,
+    "key": "cooper dejean"
    },
    {
     "name": "Adoree' Jackson",
     "team": "PHI",
     "pos": "CB",
-    "score": 54.3,
-    "current": 54.3,
-    "talent": 54.3,
+    "score": 53.6,
+    "current": 53.6,
+    "talent": 53.6,
     "currentRaw": null,
-    "talentRaw": 56,
+    "talentRaw": 55,
     "sampleCur": 0,
     "sampleWin": 1014,
     "unit": "def_snaps",
@@ -265,7 +350,7 @@
      {
       "m": "Yds allowed/target",
       "v": 7.41,
-      "pct": 47
+      "pct": 45
      },
      {
       "m": "Comp % allowed",
@@ -285,109 +370,24 @@
      {
       "m": "Missed tackle %",
       "v": 0.123,
-      "pct": 33
+      "pct": 31
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jtskiyzkosuajjatls72",
-    "rank": 53,
+    "rank": 57,
     "of": 151,
-    "pct": 65,
+    "pct": 63,
     "key": "adoree jackson"
-   },
-   {
-    "name": "Cooper DeJean",
-    "team": "PHI",
-    "pos": "CB",
-    "score": 52.7,
-    "current": 44.9,
-    "talent": 60.5,
-    "currentRaw": 41,
-    "talentRaw": 62,
-    "sampleCur": 426,
-    "sampleWin": 2090,
-    "unit": "def_snaps",
-    "shrink": 0.87,
-    "gp": 38,
-    "teamG": 40,
-    "availability": 0.95,
-    "injuryRisk": "Low",
-    "suppressed": false,
-    "ranked": true,
-    "snapPct": 99,
-    "seasons": [
-     2024,
-     2025,
-     2026
-    ],
-    "metricsCur": [
-     {
-      "m": "Yds allowed/target",
-      "v": 6.462,
-      "pct": 67
-     },
-     {
-      "m": "Comp % allowed",
-      "v": 0.654,
-      "pct": 29
-     },
-     {
-      "m": "Passer rtg allowed",
-      "v": 91.292,
-      "pct": 41
-     },
-     {
-      "m": "PD+INT per snap",
-      "v": 0.014,
-      "pct": 52
-     },
-     {
-      "m": "Missed tackle %",
-      "v": 0.175,
-      "pct": 14
-     }
-    ],
-    "metricsWin": [
-     {
-      "m": "Yds allowed/target",
-      "v": 6.436,
-      "pct": 82
-     },
-     {
-      "m": "Comp % allowed",
-      "v": 0.634,
-      "pct": 35
-     },
-     {
-      "m": "Passer rtg allowed",
-      "v": 77.81,
-      "pct": 84
-     },
-     {
-      "m": "PD+INT per snap",
-      "v": 0.014,
-      "pct": 67
-     },
-     {
-      "m": "Missed tackle %",
-      "v": 0.109,
-      "pct": 42
-     }
-    ],
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/aifrssmqxtoiydq9r1uo",
-    "rank": 60,
-    "of": 151,
-    "pct": 61,
-    "key": "cooper dejean"
    },
    {
     "name": "Kelee Ringo",
     "team": "PHI",
     "pos": "CB",
-    "score": 48.3,
-    "current": 48.3,
-    "talent": 48.3,
+    "score": 47.6,
+    "current": 47.6,
+    "talent": 47.6,
     "currentRaw": null,
-    "talentRaw": 47,
+    "talentRaw": 46,
     "sampleCur": 0,
     "sampleWin": 423,
     "unit": "def_snaps",
@@ -409,17 +409,17 @@
      {
       "m": "Yds allowed/target",
       "v": 9.5,
-      "pct": 7
+      "pct": 6
      },
      {
       "m": "Comp % allowed",
       "v": 0.559,
-      "pct": 84
+      "pct": 81
      },
      {
       "m": "Passer rtg allowed",
       "v": 78.968,
-      "pct": 81
+      "pct": 80
      },
      {
       "m": "PD+INT per snap",
@@ -433,20 +433,20 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tyuosakaiefa1pruil40",
-    "rank": 82,
+    "rank": 86,
     "of": 151,
-    "pct": 46,
+    "pct": 43,
     "key": "kelee ringo"
    },
    {
     "name": "Kenny Moore",
     "team": "PHI",
     "pos": "CB",
-    "score": 44.9,
-    "current": 45.3,
-    "talent": 44.5,
-    "currentRaw": 46,
-    "talentRaw": 44,
+    "score": 38.7,
+    "current": 34.1,
+    "talent": 43.2,
+    "currentRaw": 22,
+    "talentRaw": 42,
     "sampleCur": 93,
     "sampleWin": 1820,
     "unit": "def_snaps",
@@ -471,15 +471,15 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.0,
-      "pct": 87
+      "v": 0.1,
+      "pct": 39
      }
     ],
     "metricsWin": [
      {
       "m": "Yds allowed/target",
-      "v": 6.633,
-      "pct": 78
+      "v": 6.72,
+      "pct": 73
      },
      {
       "m": "Comp % allowed",
@@ -488,8 +488,8 @@
      },
      {
       "m": "Passer rtg allowed",
-      "v": 82.722,
-      "pct": 67
+      "v": 83.138,
+      "pct": 65
      },
      {
       "m": "PD+INT per snap",
@@ -498,25 +498,25 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.144,
-      "pct": 16
+      "v": 0.145,
+      "pct": 15
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mhemrhoiongplhqvrhdt",
-    "rank": 98,
+    "rank": 117,
     "of": 151,
-    "pct": 35,
+    "pct": 23,
     "key": "kenny moore"
    },
    {
     "name": "Jonathan Jones",
     "team": "PHI",
     "pos": "CB",
-    "score": 27.4,
-    "current": 27.4,
-    "talent": 27.4,
+    "score": 28.0,
+    "current": 28.0,
+    "talent": 28.0,
     "currentRaw": null,
-    "talentRaw": 22,
+    "talentRaw": 23,
     "sampleCur": 55,
     "sampleWin": 1251,
     "unit": "def_snaps",
@@ -537,18 +537,18 @@
     "metricsWin": [
      {
       "m": "Yds allowed/target",
-      "v": 8.556,
+      "v": 8.477,
       "pct": 14
      },
      {
       "m": "Comp % allowed",
-      "v": 0.667,
-      "pct": 18
+      "v": 0.661,
+      "pct": 20
      },
      {
       "m": "Passer rtg allowed",
-      "v": 96.728,
-      "pct": 14
+      "v": 96.204,
+      "pct": 16
      },
      {
       "m": "PD+INT per snap",
@@ -562,19 +562,19 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dtvgbbw3jqdekkq155hl",
-    "rank": 146,
+    "rank": 144,
     "of": 151,
-    "pct": 3,
+    "pct": 5,
     "key": "jonathan jones"
    },
    {
     "name": "Byron Young",
     "team": "PHI",
     "pos": "DL",
-    "score": 76.9,
-    "current": 74.7,
-    "talent": 79.1,
-    "currentRaw": 73,
+    "score": 77.3,
+    "current": 75.3,
+    "talent": 79.3,
+    "currentRaw": 74,
     "talentRaw": 83,
     "sampleCur": 423,
     "sampleWin": 2459,
@@ -595,8 +595,8 @@
     "metricsCur": [
      {
       "m": "Pressures/snap",
-      "v": 0.033,
-      "pct": 80
+      "v": 0.038,
+      "pct": 83
      },
      {
       "m": "Sacks/snap",
@@ -617,8 +617,8 @@
     "metricsWin": [
      {
       "m": "Pressures/snap",
-      "v": 0.033,
-      "pct": 84
+      "v": 0.034,
+      "pct": 85
      },
      {
       "m": "Sacks/snap",
@@ -637,7 +637,7 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dwybonqyn3rrvi94yw9r",
-    "rank": 24,
+    "rank": 25,
     "of": 230,
     "pct": 90,
     "key": "byron young"
@@ -690,7 +690,7 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/e6iqegrredwqev7qx81m",
-    "rank": 30,
+    "rank": 31,
     "of": 230,
     "pct": 87,
     "key": "brandon graham"
@@ -699,11 +699,11 @@
     "name": "Jalen Carter",
     "team": "PHI",
     "pos": "DL",
-    "score": 61.2,
-    "current": 59.9,
-    "talent": 62.6,
-    "currentRaw": 59,
-    "talentRaw": 65,
+    "score": 62.2,
+    "current": 61.0,
+    "talent": 63.4,
+    "currentRaw": 60,
+    "talentRaw": 66,
     "sampleCur": 360,
     "sampleWin": 1830,
     "unit": "def_snaps",
@@ -723,8 +723,8 @@
     "metricsCur": [
      {
       "m": "Pressures/snap",
-      "v": 0.022,
-      "pct": 60
+      "v": 0.028,
+      "pct": 65
      },
      {
       "m": "Sacks/snap",
@@ -745,8 +745,8 @@
     "metricsWin": [
      {
       "m": "Pressures/snap",
-      "v": 0.026,
-      "pct": 68
+      "v": 0.027,
+      "pct": 72
      },
      {
       "m": "Sacks/snap",
@@ -765,7 +765,7 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lzctlmzr184bc1mix5qs",
-    "rank": 72,
+    "rank": 71,
     "of": 230,
     "pct": 69,
     "key": "jalen carter"
@@ -774,9 +774,9 @@
     "name": "Charles Harris",
     "team": "PHI",
     "pos": "DL",
-    "score": 50.3,
-    "current": 50.3,
-    "talent": 50.3,
+    "score": 50.2,
+    "current": 50.2,
+    "talent": 50.2,
     "currentRaw": null,
     "talentRaw": 50,
     "sampleCur": 0,
@@ -798,7 +798,7 @@
      {
       "m": "Pressures/snap",
       "v": 0.017,
-      "pct": 40
+      "pct": 39
      },
      {
       "m": "Sacks/snap",
@@ -817,20 +817,20 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xssxsqkbd4osqsrbtxr5",
-    "rank": 110,
+    "rank": 109,
     "of": 230,
-    "pct": 52,
+    "pct": 53,
     "key": "charles harris"
    },
    {
     "name": "Moro Ojomo",
     "team": "PHI",
     "pos": "DL",
-    "score": 45.1,
-    "current": 44.3,
-    "talent": 46.0,
-    "currentRaw": 44,
-    "talentRaw": 45,
+    "score": 47.3,
+    "current": 47.4,
+    "talent": 47.2,
+    "currentRaw": 47,
+    "talentRaw": 47,
     "sampleCur": 264,
     "sampleWin": 1392,
     "unit": "def_snaps",
@@ -850,8 +850,8 @@
     "metricsCur": [
      {
       "m": "Pressures/snap",
-      "v": 0.023,
-      "pct": 61
+      "v": 0.034,
+      "pct": 77
      },
      {
       "m": "Sacks/snap",
@@ -872,8 +872,8 @@
     "metricsWin": [
      {
       "m": "Pressures/snap",
-      "v": 0.024,
-      "pct": 63
+      "v": 0.027,
+      "pct": 69
      },
      {
       "m": "Sacks/snap",
@@ -892,9 +892,9 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pifqoqquxxvoqwah8khm",
-    "rank": 129,
+    "rank": 117,
     "of": 230,
-    "pct": 44,
+    "pct": 49,
     "key": "moro ojomo"
    },
    {
@@ -926,7 +926,7 @@
      {
       "m": "Pressures/snap",
       "v": 0.007,
-      "pct": 8
+      "pct": 7
      },
      {
       "m": "Sacks/snap",
@@ -953,10 +953,10 @@
     "name": "Jordan Davis",
     "team": "PHI",
     "pos": "DL",
-    "score": 32.1,
-    "current": 29.2,
-    "talent": 35.1,
-    "currentRaw": 26,
+    "score": 33.0,
+    "current": 30.8,
+    "talent": 35.3,
+    "currentRaw": 28,
     "talentRaw": 32,
     "sampleCur": 204,
     "sampleWin": 1278,
@@ -977,8 +977,8 @@
     "metricsCur": [
      {
       "m": "Pressures/snap",
-      "v": 0.005,
-      "pct": 13
+      "v": 0.01,
+      "pct": 22
      },
      {
       "m": "Sacks/snap",
@@ -999,8 +999,8 @@
     "metricsWin": [
      {
       "m": "Pressures/snap",
-      "v": 0.008,
-      "pct": 11
+      "v": 0.009,
+      "pct": 12
      },
      {
       "m": "Sacks/snap",
@@ -1019,9 +1019,9 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zkvksjepfrmpdwdph1ps",
-    "rank": 178,
+    "rank": 175,
     "of": 230,
-    "pct": 23,
+    "pct": 24,
     "key": "jordan davis"
    },
    {
@@ -1077,11 +1077,11 @@
     "name": "Zack Baun",
     "team": "PHI",
     "pos": "LB",
-    "score": 63.1,
-    "current": 60.6,
-    "talent": 65.6,
-    "currentRaw": 59,
-    "talentRaw": 68,
+    "score": 62.2,
+    "current": 59.1,
+    "talent": 65.4,
+    "currentRaw": 57,
+    "talentRaw": 67,
     "sampleCur": 340,
     "sampleWin": 2317,
     "unit": "def_snaps",
@@ -1111,13 +1111,13 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.143,
-      "pct": 19
+      "v": 0.125,
+      "pct": 20
      },
      {
       "m": "Yds allowed/target",
-      "v": 4.421,
-      "pct": 87
+      "v": 5.25,
+      "pct": 77
      }
     ],
     "metricsWin": [
@@ -1133,30 +1133,100 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.082,
+      "v": 0.08,
       "pct": 55
      },
      {
       "m": "Yds allowed/target",
-      "v": 4.871,
-      "pct": 89
+      "v": 4.993,
+      "pct": 87
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dhostt4bqph1utq56oxc",
-    "rank": 14,
+    "rank": 22,
     "of": 175,
-    "pct": 93,
+    "pct": 88,
     "key": "zack baun"
+   },
+   {
+    "name": "Nolan Smith",
+    "team": "PHI",
+    "pos": "LB",
+    "score": 57.0,
+    "current": 51.5,
+    "talent": 62.5,
+    "currentRaw": 47,
+    "talentRaw": 65,
+    "sampleCur": 268,
+    "sampleWin": 1265,
+    "unit": "def_snaps",
+    "shrink": 0.81,
+    "gp": 34,
+    "teamG": 40,
+    "availability": 0.85,
+    "injuryRisk": "Low",
+    "suppressed": false,
+    "ranked": true,
+    "snapPct": 63,
+    "seasons": [
+     2024,
+     2025,
+     2026
+    ],
+    "metricsCur": [
+     {
+      "m": "Tackles/snap",
+      "v": 0.045,
+      "pct": 11
+     },
+     {
+      "m": "TFL+sacks/snap",
+      "v": 0.026,
+      "pct": 88
+     },
+     {
+      "m": "Missed tackle %",
+      "v": 0.077,
+      "pct": 41
+     }
+    ],
+    "metricsWin": [
+     {
+      "m": "Tackles/snap",
+      "v": 0.066,
+      "pct": 22
+     },
+     {
+      "m": "TFL+sacks/snap",
+      "v": 0.02,
+      "pct": 81
+     },
+     {
+      "m": "Missed tackle %",
+      "v": 0.06,
+      "pct": 77
+     },
+     {
+      "m": "Yds allowed/target",
+      "v": 5.4,
+      "pct": 82
+     }
+    ],
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mutic3dzmrlfruwqlgcb",
+    "rank": 45,
+    "of": 175,
+    "pct": 75,
+    "key": "nolan smith"
    },
    {
     "name": "A.J. Epenesa",
     "team": "PHI",
     "pos": "LB",
-    "score": 56.4,
-    "current": 56.4,
-    "talent": 56.4,
+    "score": 55.9,
+    "current": 55.9,
+    "talent": 55.9,
     "currentRaw": null,
-    "talentRaw": 58,
+    "talentRaw": 57,
     "sampleCur": 38,
     "sampleWin": 1088,
     "unit": "def_snaps",
@@ -1188,40 +1258,40 @@
      {
       "m": "Missed tackle %",
       "v": 0.095,
-      "pct": 39
+      "pct": 38
      },
      {
       "m": "Yds allowed/target",
       "v": 2.75,
-      "pct": 99
+      "pct": 97
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hprr0vl8ruh0veetztij",
-    "rank": 47,
+    "rank": 52,
     "of": 175,
-    "pct": 74,
+    "pct": 71,
     "key": "aj epenesa"
    },
    {
-    "name": "Nolan Smith",
+    "name": "Jeremiah Trotter Jr.",
     "team": "PHI",
     "pos": "LB",
-    "score": 55.5,
-    "current": 49.3,
-    "talent": 61.7,
-    "currentRaw": 44,
-    "talentRaw": 65,
-    "sampleCur": 268,
-    "sampleWin": 1265,
+    "score": 52.8,
+    "current": 52.2,
+    "talent": 53.4,
+    "currentRaw": 51,
+    "talentRaw": 57,
+    "sampleCur": 118,
+    "sampleWin": 310,
     "unit": "def_snaps",
-    "shrink": 0.81,
-    "gp": 34,
+    "shrink": 0.51,
+    "gp": 40,
     "teamG": 40,
-    "availability": 0.85,
+    "availability": 1.0,
     "injuryRisk": "Low",
     "suppressed": false,
-    "ranked": true,
-    "snapPct": 63,
+    "ranked": false,
+    "snapPct": 24,
     "seasons": [
      2024,
      2025,
@@ -1230,55 +1300,59 @@
     "metricsCur": [
      {
       "m": "Tackles/snap",
-      "v": 0.045,
-      "pct": 11
+      "v": 0.212,
+      "pct": 98
      },
      {
       "m": "TFL+sacks/snap",
-      "v": 0.026,
-      "pct": 88
+      "v": 0.004,
+      "pct": 24
      },
      {
       "m": "Missed tackle %",
-      "v": 0.1,
-      "pct": 32
+      "v": 0.087,
+      "pct": 35
+     },
+     {
+      "m": "Yds allowed/target",
+      "v": 6.889,
+      "pct": 47
      }
     ],
     "metricsWin": [
      {
       "m": "Tackles/snap",
-      "v": 0.066,
-      "pct": 22
+      "v": 0.261,
+      "pct": 100
      },
      {
       "m": "TFL+sacks/snap",
-      "v": 0.02,
-      "pct": 81
+      "v": 0.006,
+      "pct": 17
      },
      {
       "m": "Missed tackle %",
-      "v": 0.062,
-      "pct": 73
+      "v": 0.111,
+      "pct": 23
      },
      {
       "m": "Yds allowed/target",
-      "v": 5.4,
-      "pct": 82
+      "v": 5.0,
+      "pct": 87
      }
     ],
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mutic3dzmrlfruwqlgcb",
-    "rank": 57,
-    "of": 175,
-    "pct": 68,
-    "key": "nolan smith"
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fbgpf6iqljasd4h1miw2",
+    "rank": null,
+    "note": "Below minimum sample for ranking (score heavily shrunk to position median)",
+    "key": "jeremiah trotter"
    },
    {
     "name": "Jonathan Greenard",
     "team": "PHI",
     "pos": "LB",
-    "score": 52.0,
-    "current": 52.0,
-    "talent": 52.0,
+    "score": 51.9,
+    "current": 51.9,
+    "talent": 51.9,
     "currentRaw": null,
     "talentRaw": 52,
     "sampleCur": 61,
@@ -1312,18 +1386,18 @@
      {
       "m": "Missed tackle %",
       "v": 0.142,
-      "pct": 11
+      "pct": 10
      },
      {
       "m": "Yds allowed/target",
-      "v": 4.208,
-      "pct": 94
+      "v": 4.04,
+      "pct": 95
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uyfa94ubr2gdgly4cjkd",
-    "rank": 74,
+    "rank": 73,
     "of": 175,
-    "pct": 58,
+    "pct": 59,
     "key": "jonathan greenard"
    },
    {
@@ -1378,162 +1452,14 @@
     "key": "anfernee orji"
    },
    {
-    "name": "Jeremiah Trotter Jr.",
-    "team": "PHI",
-    "pos": "LB",
-    "score": 51.2,
-    "current": 50.1,
-    "talent": 52.3,
-    "currentRaw": 48,
-    "talentRaw": 54,
-    "sampleCur": 118,
-    "sampleWin": 310,
-    "unit": "def_snaps",
-    "shrink": 0.51,
-    "gp": 40,
-    "teamG": 40,
-    "availability": 1.0,
-    "injuryRisk": "Low",
-    "suppressed": false,
-    "ranked": false,
-    "snapPct": 24,
-    "seasons": [
-     2024,
-     2025,
-     2026
-    ],
-    "metricsCur": [
-     {
-      "m": "Tackles/snap",
-      "v": 0.212,
-      "pct": 98
-     },
-     {
-      "m": "TFL+sacks/snap",
-      "v": 0.004,
-      "pct": 24
-     },
-     {
-      "m": "Missed tackle %",
-      "v": 0.118,
-      "pct": 25
-     },
-     {
-      "m": "Yds allowed/target",
-      "v": 6.889,
-      "pct": 44
-     }
-    ],
-    "metricsWin": [
-     {
-      "m": "Tackles/snap",
-      "v": 0.261,
-      "pct": 100
-     },
-     {
-      "m": "TFL+sacks/snap",
-      "v": 0.006,
-      "pct": 17
-     },
-     {
-      "m": "Missed tackle %",
-      "v": 0.123,
-      "pct": 15
-     },
-     {
-      "m": "Yds allowed/target",
-      "v": 5.0,
-      "pct": 86
-     }
-    ],
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fbgpf6iqljasd4h1miw2",
-    "rank": null,
-    "note": "Below minimum sample for ranking (score heavily shrunk to position median)",
-    "key": "jeremiah trotter"
-   },
-   {
-    "name": "Jihaad Campbell",
-    "team": "PHI",
-    "pos": "LB",
-    "score": 45.8,
-    "current": 45.8,
-    "talent": 45.9,
-    "currentRaw": 46,
-    "talentRaw": 45,
-    "sampleCur": 373,
-    "sampleWin": 1083,
-    "unit": "def_snaps",
-    "shrink": 0.78,
-    "gp": 23,
-    "teamG": 23,
-    "availability": 1.0,
-    "injuryRisk": "Low",
-    "suppressed": false,
-    "ranked": true,
-    "snapPct": 87,
-    "seasons": [
-     2025,
-     2026
-    ],
-    "metricsCur": [
-     {
-      "m": "Tackles/snap",
-      "v": 0.126,
-      "pct": 71
-     },
-     {
-      "m": "TFL+sacks/snap",
-      "v": 0.005,
-      "pct": 29
-     },
-     {
-      "m": "Missed tackle %",
-      "v": 0.045,
-      "pct": 62
-     },
-     {
-      "m": "Yds allowed/target",
-      "v": 8.261,
-      "pct": 20
-     }
-    ],
-    "metricsWin": [
-     {
-      "m": "Tackles/snap",
-      "v": 0.115,
-      "pct": 55
-     },
-     {
-      "m": "TFL+sacks/snap",
-      "v": 0.004,
-      "pct": 7
-     },
-     {
-      "m": "Missed tackle %",
-      "v": 0.058,
-      "pct": 79
-     },
-     {
-      "m": "Yds allowed/target",
-      "v": 7.1,
-      "pct": 38
-     }
-    ],
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/njvl2eabvfekcqqa4jmq",
-    "rank": 111,
-    "of": 175,
-    "pct": 37,
-    "key": "jihaad campbell"
-   },
-   {
     "name": "Arnold Ebiketie",
     "team": "PHI",
     "pos": "LB",
-    "score": 45.1,
-    "current": 32.5,
-    "talent": 57.7,
-    "currentRaw": 18,
-    "talentRaw": 60,
+    "score": 48.3,
+    "current": 37.4,
+    "talent": 59.1,
+    "currentRaw": 25,
+    "talentRaw": 62,
     "sampleCur": 203,
     "sampleWin": 1130,
     "unit": "def_snaps",
@@ -1563,8 +1489,8 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.25,
-      "pct": 3
+      "v": 0.118,
+      "pct": 24
      }
     ],
     "metricsWin": [
@@ -1580,28 +1506,102 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.099,
-      "pct": 36
+      "v": 0.089,
+      "pct": 44
      },
      {
       "m": "Yds allowed/target",
       "v": 2.75,
-      "pct": 99
+      "pct": 97
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jia6cmwobjo9tbywt3ml",
-    "rank": 118,
+    "rank": 93,
     "of": 175,
-    "pct": 33,
+    "pct": 47,
     "key": "arnold ebiketie"
+   },
+   {
+    "name": "Jihaad Campbell",
+    "team": "PHI",
+    "pos": "LB",
+    "score": 47.1,
+    "current": 47.5,
+    "talent": 46.8,
+    "currentRaw": 48,
+    "talentRaw": 46,
+    "sampleCur": 373,
+    "sampleWin": 1083,
+    "unit": "def_snaps",
+    "shrink": 0.78,
+    "gp": 23,
+    "teamG": 23,
+    "availability": 1.0,
+    "injuryRisk": "Low",
+    "suppressed": false,
+    "ranked": true,
+    "snapPct": 87,
+    "seasons": [
+     2025,
+     2026
+    ],
+    "metricsCur": [
+     {
+      "m": "Tackles/snap",
+      "v": 0.126,
+      "pct": 71
+     },
+     {
+      "m": "TFL+sacks/snap",
+      "v": 0.005,
+      "pct": 29
+     },
+     {
+      "m": "Missed tackle %",
+      "v": 0.041,
+      "pct": 66
+     },
+     {
+      "m": "Yds allowed/target",
+      "v": 7.923,
+      "pct": 25
+     }
+    ],
+    "metricsWin": [
+     {
+      "m": "Tackles/snap",
+      "v": 0.115,
+      "pct": 55
+     },
+     {
+      "m": "TFL+sacks/snap",
+      "v": 0.004,
+      "pct": 7
+     },
+     {
+      "m": "Missed tackle %",
+      "v": 0.056,
+      "pct": 81
+     },
+     {
+      "m": "Yds allowed/target",
+      "v": 7.016,
+      "pct": 40
+     }
+    ],
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/njvl2eabvfekcqqa4jmq",
+    "rank": 106,
+    "of": 175,
+    "pct": 40,
+    "key": "jihaad campbell"
    },
    {
     "name": "Jalyx Hunt",
     "team": "PHI",
     "pos": "LB",
-    "score": 44.9,
-    "current": 31.8,
-    "talent": 58.1,
+    "score": 44.7,
+    "current": 31.7,
+    "talent": 57.8,
     "currentRaw": 19,
     "talentRaw": 60,
     "sampleCur": 242,
@@ -1651,18 +1651,18 @@
      {
       "m": "Missed tackle %",
       "v": 0.094,
-      "pct": 41
+      "pct": 40
      },
      {
       "m": "Yds allowed/target",
       "v": 2.25,
-      "pct": 100
+      "pct": 99
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uymi2mf5vbfkxopurlby",
-    "rank": 120,
+    "rank": 123,
     "of": 175,
-    "pct": 32,
+    "pct": 30,
     "key": "jalyx hunt"
    },
    {
@@ -1708,10 +1708,49 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sjxtproergb4cezoo1pv",
-    "rank": 124,
+    "rank": 125,
     "of": 175,
     "pct": 29,
     "key": "azeez ojulari"
+   },
+   {
+    "name": "Kiran Amegadjie",
+    "team": "CHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 0,
+    "sampleWin": 125,
+    "unit": "off_snaps",
+    "snapPct": null,
+    "gp": 6,
+    "teamG": 17,
+    "availability": 0.35,
+    "injuryRisk": "High",
+    "seasons": [
+     2024
+    ],
+    "key": "kiran amegadjie"
+   },
+   {
+    "name": "John Ojukwu",
+    "team": "TEN",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 0,
+    "sampleWin": 361,
+    "unit": "off_snaps",
+    "snapPct": null,
+    "gp": 13,
+    "teamG": 34,
+    "availability": 0.38,
+    "injuryRisk": "High",
+    "seasons": [
+     2024,
+     2025
+    ],
+    "key": "john ojukwu"
    },
    {
     "name": "Brett Toth",
@@ -1731,26 +1770,6 @@
      2025
     ],
     "key": "brett toth"
-   },
-   {
-    "name": "Drew Kendall",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 187,
-    "sampleWin": 276,
-    "unit": "off_snaps",
-    "snapPct": 75,
-    "gp": 11,
-    "teamG": 23,
-    "availability": 0.48,
-    "injuryRisk": "High",
-    "seasons": [
-     2025,
-     2026
-    ],
-    "key": "drew kendall"
    },
    {
     "name": "Landon Dickerson",
@@ -1795,106 +1814,6 @@
     "key": "tyler steen"
    },
    {
-    "name": "Fred Johnson",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 14,
-    "sampleWin": 1121,
-    "unit": "off_snaps",
-    "snapPct": 6,
-    "gp": 38,
-    "teamG": 40,
-    "availability": 0.95,
-    "injuryRisk": "Low",
-    "seasons": [
-     2024,
-     2025,
-     2026
-    ],
-    "key": "fred johnson"
-   },
-   {
-    "name": "John Ojukwu",
-    "team": "TEN",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 0,
-    "sampleWin": 361,
-    "unit": "off_snaps",
-    "snapPct": null,
-    "gp": 13,
-    "teamG": 34,
-    "availability": 0.38,
-    "injuryRisk": "High",
-    "seasons": [
-     2024,
-     2025
-    ],
-    "key": "john ojukwu"
-   },
-   {
-    "name": "Lane Johnson",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 181,
-    "sampleWin": 1568,
-    "unit": "off_snaps",
-    "snapPct": 100,
-    "gp": 28,
-    "teamG": 40,
-    "availability": 0.7,
-    "injuryRisk": "Moderate",
-    "seasons": [
-     2024,
-     2025,
-     2026
-    ],
-    "key": "lane johnson"
-   },
-   {
-    "name": "Markel Bell",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 188,
-    "sampleWin": 188,
-    "unit": "off_snaps",
-    "snapPct": 50,
-    "gp": 6,
-    "teamG": 6,
-    "availability": 1.0,
-    "injuryRisk": "Low",
-    "seasons": [
-     2026
-    ],
-    "key": "markel bell"
-   },
-   {
-    "name": "Willie Lampkin",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 128,
-    "sampleWin": 128,
-    "unit": "off_snaps",
-    "snapPct": 34,
-    "gp": 6,
-    "teamG": 6,
-    "availability": 1.0,
-    "injuryRisk": "Low",
-    "seasons": [
-     2026
-    ],
-    "key": "willie lampkin"
-   },
-   {
     "name": "Jordan Mailata",
     "team": "PHI",
     "pos": "OL",
@@ -1914,25 +1833,6 @@
      2026
     ],
     "key": "jordan mailata"
-   },
-   {
-    "name": "Jake Majors",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 126,
-    "sampleWin": 126,
-    "unit": "off_snaps",
-    "snapPct": 100,
-    "gp": 2,
-    "teamG": 6,
-    "availability": 0.33,
-    "injuryRisk": "High",
-    "seasons": [
-     2026
-    ],
-    "key": "jake majors"
    },
    {
     "name": "Cam Jurgens",
@@ -1956,6 +1856,125 @@
     "key": "cam jurgens"
    },
    {
+    "name": "Jake Majors",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 126,
+    "sampleWin": 126,
+    "unit": "off_snaps",
+    "snapPct": 100,
+    "gp": 2,
+    "teamG": 6,
+    "availability": 0.33,
+    "injuryRisk": "High",
+    "seasons": [
+     2026
+    ],
+    "key": "jake majors"
+   },
+   {
+    "name": "Markel Bell",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 188,
+    "sampleWin": 188,
+    "unit": "off_snaps",
+    "snapPct": 50,
+    "gp": 6,
+    "teamG": 6,
+    "availability": 1.0,
+    "injuryRisk": "Low",
+    "seasons": [
+     2026
+    ],
+    "key": "markel bell"
+   },
+   {
+    "name": "Lane Johnson",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 181,
+    "sampleWin": 1568,
+    "unit": "off_snaps",
+    "snapPct": 100,
+    "gp": 28,
+    "teamG": 40,
+    "availability": 0.7,
+    "injuryRisk": "Moderate",
+    "seasons": [
+     2024,
+     2025,
+     2026
+    ],
+    "key": "lane johnson"
+   },
+   {
+    "name": "Willie Lampkin",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 128,
+    "sampleWin": 128,
+    "unit": "off_snaps",
+    "snapPct": 34,
+    "gp": 6,
+    "teamG": 6,
+    "availability": 1.0,
+    "injuryRisk": "Low",
+    "seasons": [
+     2026
+    ],
+    "key": "willie lampkin"
+   },
+   {
+    "name": "Drew Kendall",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 187,
+    "sampleWin": 276,
+    "unit": "off_snaps",
+    "snapPct": 75,
+    "gp": 11,
+    "teamG": 23,
+    "availability": 0.48,
+    "injuryRisk": "High",
+    "seasons": [
+     2025,
+     2026
+    ],
+    "key": "drew kendall"
+   },
+   {
+    "name": "Fred Johnson",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 14,
+    "sampleWin": 1121,
+    "unit": "off_snaps",
+    "snapPct": 6,
+    "gp": 38,
+    "teamG": 40,
+    "availability": 0.95,
+    "injuryRisk": "Low",
+    "seasons": [
+     2024,
+     2025,
+     2026
+    ],
+    "key": "fred johnson"
+   },
+   {
     "name": "Jack Driscoll",
     "team": "PHI",
     "pos": "OL",
@@ -1973,25 +1992,6 @@
      2024
     ],
     "key": "jack driscoll"
-   },
-   {
-    "name": "Kiran Amegadjie",
-    "team": "CHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 0,
-    "sampleWin": 125,
-    "unit": "off_snaps",
-    "snapPct": null,
-    "gp": 6,
-    "teamG": 17,
-    "availability": 0.35,
-    "injuryRisk": "High",
-    "seasons": [
-     2024
-    ],
-    "key": "kiran amegadjie"
    },
    {
     "name": "Braden Mann",
@@ -2584,9 +2584,9 @@
     "name": "Dean Clark",
     "team": "NYJ",
     "pos": "S",
-    "score": 48.8,
-    "current": 48.8,
-    "talent": 48.8,
+    "score": 48.7,
+    "current": 48.7,
+    "talent": 48.7,
     "currentRaw": null,
     "talentRaw": 47,
     "sampleCur": 0,
@@ -2608,7 +2608,7 @@
      {
       "m": "Yds allowed/target",
       "v": 6.778,
-      "pct": 85
+      "pct": 84
      },
      {
       "m": "Passer rtg allowed",
@@ -2640,9 +2640,9 @@
     "name": "Marcus Epps",
     "team": "PHI",
     "pos": "S",
-    "score": 26.5,
-    "current": 25.4,
-    "talent": 27.6,
+    "score": 26.4,
+    "current": 25.2,
+    "talent": 27.7,
     "currentRaw": 23,
     "talentRaw": 15,
     "sampleCur": 119,
@@ -2670,7 +2670,7 @@
      {
       "m": "Passer rtg allowed",
       "v": 105.943,
-      "pct": 17
+      "pct": 16
      },
      {
       "m": "PD+INT per snap",
@@ -2685,7 +2685,7 @@
      {
       "m": "Missed tackle %",
       "v": 0.222,
-      "pct": 4
+      "pct": 2
      }
     ],
     "metricsWin": [
@@ -2697,7 +2697,7 @@
      {
       "m": "Passer rtg allowed",
       "v": 102.844,
-      "pct": 12
+      "pct": 13
      },
      {
       "m": "PD+INT per snap",
@@ -2716,19 +2716,19 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mlmepu3ng2uaqlo4sqhx",
-    "rank": 119,
+    "rank": 118,
     "of": 123,
-    "pct": 3,
+    "pct": 4,
     "key": "marcus epps"
    },
    {
     "name": "Andrew Mukuba",
     "team": "PHI",
     "pos": "S",
-    "score": 18.5,
-    "current": 15.6,
+    "score": 18.8,
+    "current": 16.1,
     "talent": 21.5,
-    "currentRaw": 14,
+    "currentRaw": 15,
     "talentRaw": 14,
     "sampleCur": 429,
     "sampleWin": 1101,
@@ -2748,12 +2748,12 @@
     "metricsCur": [
      {
       "m": "Yds allowed/target",
-      "v": 18.444,
+      "v": 16.0,
       "pct": 1
      },
      {
       "m": "Passer rtg allowed",
-      "v": 113.422,
+      "v": 111.846,
       "pct": 12
      },
      {
@@ -2768,20 +2768,20 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.233,
-      "pct": 3
+      "v": 0.184,
+      "pct": 6
      }
     ],
     "metricsWin": [
      {
       "m": "Yds allowed/target",
-      "v": 13.941,
+      "v": 13.579,
       "pct": 1
      },
      {
       "m": "Passer rtg allowed",
-      "v": 97.909,
-      "pct": 21
+      "v": 99.003,
+      "pct": 19
      },
      {
       "m": "PD+INT per snap",
@@ -2795,8 +2795,8 @@
      },
      {
       "m": "Missed tackle %",
-      "v": 0.163,
-      "pct": 3
+      "v": 0.148,
+      "pct": 4
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eurn0h9z78sclv1eq5jp",
@@ -2914,9 +2914,9 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wjrpv33u7yraxdjsjgrj",
-    "rank": 18,
+    "rank": 19,
     "of": 93,
-    "pct": 82,
+    "pct": 80,
     "key": "zach ertz"
    },
    {
@@ -2962,9 +2962,9 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/inpyxw55sxo96shrt4si",
-    "rank": 52,
+    "rank": 51,
     "of": 93,
-    "pct": 45,
+    "pct": 46,
     "key": "grant calcaterra"
    },
    {
@@ -3448,6 +3448,58 @@
     "key": "darius cooper"
    },
    {
+    "name": "Xavier Gipson",
+    "team": "NYG",
+    "pos": "WR",
+    "score": 38.5,
+    "current": 38.5,
+    "talent": 38.5,
+    "currentRaw": null,
+    "talentRaw": 20,
+    "sampleCur": 0,
+    "sampleWin": 191,
+    "unit": "off_snaps",
+    "shrink": 0.39,
+    "gp": 24,
+    "teamG": 34,
+    "availability": 0.71,
+    "injuryRisk": "Moderate",
+    "suppressed": false,
+    "ranked": false,
+    "snapPct": null,
+    "seasons": [
+     2024,
+     2025
+    ],
+    "metricsCur": [],
+    "metricsWin": [
+     {
+      "m": "Rec yds/snap",
+      "v": 0.236,
+      "pct": 2
+     },
+     {
+      "m": "Rec EPA/target",
+      "v": -0.273,
+      "pct": 4
+     },
+     {
+      "m": "Targets/snap",
+      "v": 0.063,
+      "pct": 7
+     },
+     {
+      "m": "Catch rate",
+      "v": 0.667,
+      "pct": 69
+     }
+    ],
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/o81mvslx374ouca313mw",
+    "rank": null,
+    "note": "Below minimum sample for ranking (score heavily shrunk to position median)",
+    "key": "xavier gipson"
+   },
+   {
     "name": "Makai Lemon",
     "team": "PHI",
     "pos": "WR",
@@ -3518,58 +3570,6 @@
     "rank": null,
     "note": "Below minimum sample for ranking (score heavily shrunk to position median)",
     "key": "makai lemon"
-   },
-   {
-    "name": "Xavier Gipson",
-    "team": "NYG",
-    "pos": "WR",
-    "score": 38.5,
-    "current": 38.5,
-    "talent": 38.5,
-    "currentRaw": null,
-    "talentRaw": 20,
-    "sampleCur": 0,
-    "sampleWin": 191,
-    "unit": "off_snaps",
-    "shrink": 0.39,
-    "gp": 24,
-    "teamG": 34,
-    "availability": 0.71,
-    "injuryRisk": "Moderate",
-    "suppressed": false,
-    "ranked": false,
-    "snapPct": null,
-    "seasons": [
-     2024,
-     2025
-    ],
-    "metricsCur": [],
-    "metricsWin": [
-     {
-      "m": "Rec yds/snap",
-      "v": 0.236,
-      "pct": 2
-     },
-     {
-      "m": "Rec EPA/target",
-      "v": -0.273,
-      "pct": 4
-     },
-     {
-      "m": "Targets/snap",
-      "v": 0.063,
-      "pct": 7
-     },
-     {
-      "m": "Catch rate",
-      "v": 0.667,
-      "pct": 69
-     }
-    ],
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/o81mvslx374ouca313mw",
-    "rank": null,
-    "note": "Below minimum sample for ranking (score heavily shrunk to position median)",
-    "key": "xavier gipson"
    },
    {
     "name": "Elijah Moore",
@@ -3930,7 +3930,7 @@
     {
      "name": "Will Anderson",
      "team": "HOU",
-     "score": 93.8,
+     "score": 93.9,
      "rank": 1
     },
     {
@@ -3940,33 +3940,33 @@
      "rank": 2
     },
     {
-     "name": "Leonard Williams",
-     "team": "SEA",
-     "score": 87.5,
+     "name": "Za'Darius Smith",
+     "team": "ATL",
+     "score": 87.3,
      "rank": 3
     },
     {
-     "name": "Za'Darius Smith",
-     "team": "ATL",
-     "score": 87.2,
+     "name": "Leonard Williams",
+     "team": "SEA",
+     "score": 87.1,
      "rank": 4
     },
     {
      "name": "Jadeveon Clowney",
      "team": "HOU",
-     "score": 85.8,
+     "score": 85.4,
      "rank": 5
     },
     {
      "name": "Aidan Hutchinson",
      "team": "DET",
-     "score": 85.6,
+     "score": 85.4,
      "rank": 6
     },
     {
      "name": "Zach Allen",
      "team": "DEN",
-     "score": 85.4,
+     "score": 85.3,
      "rank": 7
     },
     {
@@ -3978,13 +3978,13 @@
     {
      "name": "Chase Young",
      "team": "NO",
-     "score": 82.9,
+     "score": 83.9,
      "rank": 9
     },
     {
      "name": "Danielle Hunter",
      "team": "HOU",
-     "score": 82.8,
+     "score": 82.5,
      "rank": 10
     }
    ],
@@ -3992,61 +3992,61 @@
     {
      "name": "Trenton Simpson",
      "team": "BAL",
-     "score": 75.9,
+     "score": 76.5,
      "rank": 1
     },
     {
      "name": "Devin Bush Jr.",
      "team": "CHI",
-     "score": 73.3,
+     "score": 73.6,
      "rank": 2
-    },
-    {
-     "name": "Jonathon Cooper",
-     "team": "DEN",
-     "score": 70.4,
-     "rank": 3
     },
     {
      "name": "Cedric Gray",
      "team": "TEN",
-     "score": 69.9,
+     "score": 71.5,
+     "rank": 3
+    },
+    {
+     "name": "Jonathon Cooper",
+     "team": "DEN",
+     "score": 70.3,
      "rank": 4
     },
     {
      "name": "Elijah Ponder",
      "team": "NE",
-     "score": 69.7,
+     "score": 69.8,
      "rank": 5
     },
     {
      "name": "Andrew Van Ginkel",
      "team": "MIN",
-     "score": 67.6,
+     "score": 67.7,
      "rank": 6
-    },
-    {
-     "name": "Myles Garrett",
-     "team": "LA",
-     "score": 64.3,
-     "rank": 7
     },
     {
      "name": "Dondrea Tillman",
      "team": "DEN",
-     "score": 64.2,
-     "rank": 8
+     "score": 64.8,
+     "rank": 7
     },
     {
-     "name": "Omar Speights",
+     "name": "Myles Garrett",
      "team": "LA",
-     "score": 64.1,
-     "rank": 9
+     "score": 64.6,
+     "rank": 8
     },
     {
      "name": "Harold Landry",
      "team": "NE",
-     "score": 64.0,
+     "score": 64.4,
+     "rank": 9
+    },
+    {
+     "name": "Blake Cashman",
+     "team": "MIN",
+     "score": 64.3,
      "rank": 10
     }
    ],
@@ -4060,55 +4060,55 @@
     {
      "name": "James Pierre",
      "team": "MIN",
-     "score": 80.9,
+     "score": 81.0,
      "rank": 2
-    },
-    {
-     "name": "Christian Gonzalez",
-     "team": "NE",
-     "score": 80.7,
-     "rank": 3
     },
     {
      "name": "Quinyon Mitchell",
      "team": "PHI",
-     "score": 78.3,
+     "score": 76.9,
+     "rank": 3
+    },
+    {
+     "name": "Christian Gonzalez",
+     "team": "NE",
+     "score": 76.6,
      "rank": 4
     },
     {
      "name": "Renardo Green",
      "team": "SF",
-     "score": 75.8,
+     "score": 76.3,
      "rank": 5
-    },
-    {
-     "name": "Beanie Bishop",
-     "team": "PIT",
-     "score": 71.5,
-     "rank": 6
-    },
-    {
-     "name": "Brian Branch",
-     "team": "DET",
-     "score": 71.3,
-     "rank": 7
-    },
-    {
-     "name": "Kris Abrams-Draine",
-     "team": "DEN",
-     "score": 69.9,
-     "rank": 8
-    },
-    {
-     "name": "Kindle Vildor",
-     "team": "NE",
-     "score": 69.7,
-     "rank": 9
     },
     {
      "name": "Nohl Williams",
      "team": "KC",
-     "score": 69.5,
+     "score": 75.9,
+     "rank": 6
+    },
+    {
+     "name": "Jamel Dean",
+     "team": "PIT",
+     "score": 73.7,
+     "rank": 7
+    },
+    {
+     "name": "Josh Wallace",
+     "team": "LA",
+     "score": 73.0,
+     "rank": 8
+    },
+    {
+     "name": "Beanie Bishop",
+     "team": "PIT",
+     "score": 71.4,
+     "rank": 9
+    },
+    {
+     "name": "Brian Branch",
+     "team": "DET",
+     "score": 70.8,
      "rank": 10
     }
    ],
@@ -4116,49 +4116,49 @@
     {
      "name": "Evan Williams",
      "team": "GB",
-     "score": 79.3,
+     "score": 80.2,
      "rank": 1
-    },
-    {
-     "name": "DeShon Elliott",
-     "team": "PIT",
-     "score": 78.9,
-     "rank": 2
-    },
-    {
-     "name": "Julian Love",
-     "team": "SEA",
-     "score": 76.5,
-     "rank": 3
     },
     {
      "name": "Dane Belton",
      "team": "NYJ",
-     "score": 75.8,
+     "score": 78.8,
+     "rank": 2
+    },
+    {
+     "name": "DeShon Elliott",
+     "team": "PIT",
+     "score": 78.8,
+     "rank": 3
+    },
+    {
+     "name": "Julian Love",
+     "team": "SEA",
+     "score": 76.9,
      "rank": 4
     },
     {
      "name": "Kyle Hamilton",
      "team": "BAL",
-     "score": 71.2,
+     "score": 73.4,
      "rank": 5
     },
     {
      "name": "Quentin Lake",
      "team": "LA",
-     "score": 70.7,
+     "score": 72.3,
      "rank": 6
     },
     {
      "name": "Dadrion Taylor-Demerson",
      "team": "ARI",
-     "score": 70.5,
+     "score": 69.9,
      "rank": 7
     },
     {
      "name": "Derwin James",
      "team": "LAC",
-     "score": 68.6,
+     "score": 67.9,
      "rank": 8
     },
     {
@@ -4170,7 +4170,7 @@
     {
      "name": "Marcus Maye",
      "team": "LAC",
-     "score": 67.1,
+     "score": 67.2,
      "rank": 10
     }
    ],
