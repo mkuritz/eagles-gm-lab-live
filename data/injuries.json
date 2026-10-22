@@ -33,6 +33,46 @@
     "statusDate": "2026-10-11T05:31Z"
    },
    {
+    "espnId": "3121023",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "practice": "",
+    "statusDate": "2026-10-22T19:37Z"
+   },
+   {
+    "espnId": "4241478",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0036912",
+    "injury": "Hamstring",
+    "name": "DeVonta Smith",
+    "pos": "WR",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-10-22T19:32Z"
+   },
+   {
+    "espnId": "4428850",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0038393",
+    "injury": "Hamstring",
+    "name": "Dontayvion Wicks",
+    "pos": "WR",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-10-22T19:37Z"
+   },
+   {
+    "espnId": "4567802",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0040587",
+    "injury": "Knee",
+    "name": "Drew Kendall",
+    "pos": "C",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-10-22T22:53Z"
+   },
+   {
     "espnId": "4431574",
     "gameStatus": "IR",
     "gsisId": "00-0041483",
@@ -93,6 +133,16 @@
     "statusDate": "2026-08-22T21:59Z"
    },
    {
+    "espnId": "3916409",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0036224",
+    "injury": "Ankle",
+    "name": "Jonathan Greenard",
+    "pos": "LB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-10-22T22:53Z"
+   },
+   {
     "espnId": "4035624",
     "gameStatus": "IR",
     "gsisId": "00-0037002",
@@ -123,6 +173,16 @@
     "statusDate": "2026-10-20T16:10Z"
    },
    {
+    "espnId": "4362116",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Moro Ojomo",
+    "pos": "DT",
+    "practice": "",
+    "statusDate": "2026-10-22T22:54Z"
+   },
+   {
     "espnId": "4426331",
     "gameStatus": "Questionable",
     "gsisId": null,
@@ -140,7 +200,7 @@
     "name": "Saquon Barkley",
     "pos": "RB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-22T19:20Z"
+    "statusDate": "2026-10-22T22:59Z"
    },
    {
     "espnId": "4429013",
@@ -173,6 +233,16 @@
     "statusDate": "2026-05-06T04:03Z"
    },
    {
+    "espnId": "4362805",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0039001",
+    "injury": "Shoulder",
+    "name": "Tyler Steen",
+    "pos": "G",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-10-22T22:54Z"
+   },
+   {
     "espnId": "5344966",
     "gameStatus": "Out",
     "gsisId": null,
@@ -191,9 +261,19 @@
     "pos": "RB",
     "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-16T20:07Z"
+   },
+   {
+    "espnId": "4582836",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Willie Lampkin",
+    "pos": "C",
+    "practice": "",
+    "statusDate": "2026-10-22T22:44Z"
    }
   ],
   "week": 6
  },
- "updated": "2026-10-22T17:05:33-04:00"
+ "updated": "2026-10-22T19:13:05-04:00"
 }
