@@ -1,56 +1,56 @@
 {
- "lastRun": "2026-10-21T14:26:35-04:00",
+ "lastRun": "2026-10-22T07:00:43-04:00",
  "sources": {
   "contracts.json": {
    "error": null,
    "label": "nflverse contracts (Over The Cap)",
    "lastChange": "2026-10-19T13:01:10-04:00",
-   "lastSuccess": "2026-10-21T14:26:35-04:00",
+   "lastSuccess": "2026-10-22T07:00:43-04:00",
    "ok": true
   },
   "depth.json": {
    "error": null,
    "label": "nflverse depth charts",
-   "lastChange": "2026-10-21T14:26:34-04:00",
-   "lastSuccess": "2026-10-21T14:26:34-04:00",
+   "lastChange": "2026-10-22T07:00:42-04:00",
+   "lastSuccess": "2026-10-22T07:00:42-04:00",
    "ok": true
   },
   "injuries.json": {
    "error": null,
    "label": "ESPN same-day injury statuses (+ official report notes)",
    "lastChange": "2026-10-21T07:00:39-04:00",
-   "lastSuccess": "2026-10-21T14:26:32-04:00",
+   "lastSuccess": "2026-10-22T07:00:40-04:00",
    "ok": true
   },
   "roster.json": {
    "error": null,
    "label": "ESPN team roster",
    "lastChange": "2026-10-21T07:00:39-04:00",
-   "lastSuccess": "2026-10-21T14:26:31-04:00",
+   "lastSuccess": "2026-10-22T07:00:39-04:00",
    "ok": true
   },
   "schedule.json": {
    "error": null,
    "label": "ESPN team schedule",
    "lastChange": "2026-10-18T19:00:35-04:00",
-   "lastSuccess": "2026-10-21T14:26:31-04:00",
+   "lastSuccess": "2026-10-22T07:00:40-04:00",
    "ok": true
   },
   "sleeper_depth.json": {
    "error": null,
    "label": "Sleeper players (depth backup, max 1/day)",
-   "lastChange": "2026-10-21T07:00:42-04:00",
-   "lastSuccess": "2026-10-21T07:00:42-04:00",
+   "lastChange": "2026-10-22T07:00:43-04:00",
+   "lastSuccess": "2026-10-22T07:00:43-04:00",
    "ok": true
   },
   "standings.json": {
    "error": null,
    "label": "ESPN standings",
    "lastChange": "2026-10-20T01:30:04-04:00",
-   "lastSuccess": "2026-10-21T14:26:31-04:00",
+   "lastSuccess": "2026-10-22T07:00:39-04:00",
    "ok": true
   }
  },
  "timezone": "America/New_York",
- "updated": "2026-10-21T14:26:34-04:00"
+ "updated": "2026-10-22T07:00:43-04:00"
 }

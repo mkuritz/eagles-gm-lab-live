@@ -95,7 +95,7 @@
    "depthPos": "LILB",
    "espnId": null,
    "injury": null,
-   "name": "Smael Mondon",
+   "name": "Smael Mondon Jr.",
    "pos": "LB",
    "status": "Active"
   },
@@ -113,7 +113,7 @@
    "depthPos": "LOLB",
    "espnId": null,
    "injury": "Questionable",
-   "name": "Nolan Smith",
+   "name": "Nolan Smith Jr.",
    "pos": "LB",
    "status": "Active"
   },
@@ -293,16 +293,16 @@
    "depthPos": "QB",
    "espnId": null,
    "injury": null,
-   "name": "Cole Payton",
+   "name": "Joe Milton",
    "pos": "QB",
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 4,
    "depthPos": "QB",
    "espnId": null,
    "injury": null,
-   "name": "Joe Milton",
+   "name": "Cole Payton",
    "pos": "QB",
    "status": "Active"
   },
@@ -365,7 +365,7 @@
    "depthPos": "RCB",
    "espnId": 4218312,
    "injury": null,
-   "name": "Kenny Moore",
+   "name": "Kenny Moore II",
    "pos": "CB",
    "status": "Active"
   },
@@ -401,7 +401,7 @@
    "depthPos": "RILB",
    "espnId": null,
    "injury": null,
-   "name": "Jeremiah Trotter",
+   "name": "Jeremiah Trotter Jr.",
    "pos": "LB",
    "status": "Active"
   },
@@ -464,7 +464,7 @@
    "depthPos": "SS",
    "espnId": null,
    "injury": "Questionable",
-   "name": "Michael Carter",
+   "name": "Michael Carter II",
    "pos": "CB",
    "status": "Active"
   },
@@ -580,15 +580,6 @@
    "depthOrder": null,
    "depthPos": null,
    "espnId": null,
-   "injury": "Out",
-   "name": "Carson Steele",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
    "injury": null,
    "name": "Charles Walker",
    "pos": "DT",
@@ -653,35 +644,8 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Ian Wheeler",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Jacob Sykes",
    "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "James Brockermeyer",
-   "pos": "C",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Jaydon Blue",
-   "pos": "RB",
    "status": "Active"
   },
   {
@@ -766,5 +730,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-21T07:00:42-04:00"
+ "updated": "2026-10-22T07:00:43-04:00"
 }
