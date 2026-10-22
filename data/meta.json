@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-22T17:05:33-04:00",
+ "lastRun": "2026-10-22T18:05:35-04:00",
  "sources": {
   "contracts.json": {
    "error": null,
@@ -19,7 +19,7 @@
    "error": null,
    "label": "ESPN same-day injury statuses (+ official report notes)",
    "lastChange": "2026-10-22T17:05:33-04:00",
-   "lastSuccess": "2026-10-22T17:05:33-04:00",
+   "lastSuccess": "2026-10-22T18:05:35-04:00",
    "ok": true
   },
   "roster.json": {
