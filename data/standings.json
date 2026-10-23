@@ -49,25 +49,13 @@
    "w": 4
   },
   {
-   "abbr": "NE",
-   "conf": "AFC",
-   "l": 2,
-   "name": "New England Patriots",
-   "pa": 113,
-   "pf": 136,
-   "seed": "5",
-   "streak": "W3",
-   "t": 0,
-   "w": 4
-  },
-  {
    "abbr": "DEN",
    "conf": "AFC",
    "l": 2,
    "name": "Denver Broncos",
    "pa": 125,
    "pf": 114,
-   "seed": "6",
+   "seed": "5",
    "streak": "W2",
    "t": 0,
    "w": 4
@@ -79,7 +67,7 @@
    "name": "Pittsburgh Steelers",
    "pa": 128,
    "pf": 137,
-   "seed": "7",
+   "seed": "6",
    "streak": "W2",
    "t": 0,
    "w": 4
@@ -91,7 +79,7 @@
    "name": "Baltimore Ravens",
    "pa": 132,
    "pf": 156,
-   "seed": "8",
+   "seed": "7",
    "streak": "L1",
    "t": 0,
    "w": 4
@@ -103,10 +91,22 @@
    "name": "Cincinnati Bengals",
    "pa": 109,
    "pf": 128,
-   "seed": "9",
+   "seed": "8",
    "streak": "W1",
    "t": 0,
    "w": 3
+  },
+  {
+   "abbr": "NE",
+   "conf": "AFC",
+   "l": 3,
+   "name": "New England Patriots",
+   "pa": 143,
+   "pf": 160,
+   "seed": "9",
+   "streak": "L1",
+   "t": 0,
+   "w": 4
   },
   {
    "abbr": "LV",
@@ -217,26 +217,26 @@
    "w": 5
   },
   {
+   "abbr": "CHI",
+   "conf": "NFC",
+   "l": 2,
+   "name": "Chicago Bears",
+   "pa": 143,
+   "pf": 180,
+   "seed": "5",
+   "streak": "W2",
+   "t": 0,
+   "w": 5
+  },
+  {
    "abbr": "GB",
    "conf": "NFC",
    "l": 2,
    "name": "Green Bay Packers",
    "pa": 125,
    "pf": 127,
-   "seed": "5",
-   "streak": "W3",
-   "t": 0,
-   "w": 4
-  },
-  {
-   "abbr": "CHI",
-   "conf": "NFC",
-   "l": 2,
-   "name": "Chicago Bears",
-   "pa": 119,
-   "pf": 150,
    "seed": "6",
-   "streak": "W1",
+   "streak": "W3",
    "t": 0,
    "w": 4
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-20T01:30:04-04:00"
+ "updated": "2026-10-23T07:00:38-04:00"
 }

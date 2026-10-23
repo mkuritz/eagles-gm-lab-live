@@ -76,7 +76,7 @@
    "depthOrder": 1,
    "depthPos": "LDE",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Moro Ojomo",
    "pos": "DE",
    "status": "Active"
@@ -103,7 +103,7 @@
    "depthOrder": 1,
    "depthPos": "LOLB",
    "espnId": 3916409,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Jonathan Greenard",
    "pos": "DE",
    "status": "Active"
@@ -130,7 +130,7 @@
    "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
@@ -166,7 +166,7 @@
    "depthOrder": 1,
    "depthPos": "NT",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jordan Davis",
    "pos": "DL",
    "status": "Active"
@@ -184,7 +184,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Drew Kendall",
    "pos": "C",
    "status": "Active"
@@ -247,7 +247,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Tyler Steen",
    "pos": "OL",
    "status": "Active"
@@ -256,7 +256,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Willie Lampkin",
    "pos": "OL",
    "status": "Active"
@@ -436,7 +436,7 @@
    "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
@@ -499,7 +499,7 @@
    "depthOrder": 1,
    "depthPos": "TE",
    "espnId": 3121023,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Dallas Goedert",
    "pos": "TE",
    "status": "Active"
@@ -514,16 +514,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "TE",
-   "espnId": null,
-   "injury": null,
-   "name": "E.J. Jenkins",
-   "pos": "TE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 5,
+   "depthOrder": 4,
    "depthPos": "TE",
    "espnId": null,
    "injury": "IR",
@@ -532,7 +523,7 @@
    "status": "Inactive"
   },
   {
-   "depthOrder": 6,
+   "depthOrder": 5,
    "depthPos": "TE",
    "espnId": null,
    "injury": "IR",
@@ -557,6 +548,15 @@
    "name": null,
    "pos": "DEF",
    "status": null
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Anfernee Orji",
+   "pos": "LB",
+   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -617,6 +617,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "E.J. Jenkins",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Elijah Mitchell",
    "pos": "RB",
    "status": "Active"
@@ -635,6 +644,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Evan Neal",
+   "pos": "OL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Gabe Hall",
    "pos": "DT",
    "status": "Active"
@@ -646,6 +664,15 @@
    "injury": null,
    "name": "Jacob Sykes",
    "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Jaydon Blue",
+   "pos": "RB",
    "status": "Active"
   },
   {
@@ -730,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-22T07:00:43-04:00"
+ "updated": "2026-10-23T07:00:42-04:00"
 }

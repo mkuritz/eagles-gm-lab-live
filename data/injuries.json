@@ -9,7 +9,7 @@
     "injury": "Back",
     "name": "AJ Epenesa",
     "pos": "DE",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-20T16:10Z"
    },
    {
@@ -35,12 +35,12 @@
    {
     "espnId": "3121023",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0034351",
+    "injury": "Knee",
     "name": "Dallas Goedert",
     "pos": "TE",
-    "practice": "",
-    "statusDate": "2026-10-22T19:37Z"
+    "practice": "Did Not Participate In Practice",
+    "statusDate": "2026-10-22T23:20Z"
    },
    {
     "espnId": "4241478",
@@ -49,18 +49,18 @@
     "injury": "Hamstring",
     "name": "DeVonta Smith",
     "pos": "WR",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-22T19:32Z"
+    "practice": "Did Not Participate In Practice",
+    "statusDate": "2026-10-22T23:05Z"
    },
    {
     "espnId": "4428850",
     "gameStatus": "Questionable",
     "gsisId": "00-0038393",
-    "injury": "Hamstring",
+    "injury": "Ankle",
     "name": "Dontayvion Wicks",
     "pos": "WR",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-22T19:37Z"
+    "practice": "Did Not Participate In Practice",
+    "statusDate": "2026-10-22T23:14Z"
    },
    {
     "espnId": "4567802",
@@ -80,7 +80,7 @@
     "name": "Eli Stowers",
     "pos": "TE",
     "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-18T02:36Z"
+    "statusDate": "2026-10-23T01:15Z"
    },
    {
     "espnId": "4241374",
@@ -90,7 +90,7 @@
     "name": "Grant Calcaterra",
     "pos": "TE",
     "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-18T02:34Z"
+    "statusDate": "2026-10-23T01:06Z"
    },
    {
     "espnId": "4686911",
@@ -105,11 +105,11 @@
    {
     "espnId": "4040715",
     "gameStatus": "IR",
-    "gsisId": "00-0036389",
-    "injury": "Calf",
+    "gsisId": null,
+    "injury": null,
     "name": "Jalen Hurts",
     "pos": "QB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "",
     "statusDate": "2026-10-19T14:18Z"
    },
    {
@@ -119,7 +119,7 @@
     "injury": "Knee",
     "name": "Jalyx Hunt",
     "pos": "LB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-20T16:10Z"
    },
    {
@@ -139,7 +139,7 @@
     "injury": "Ankle",
     "name": "Jonathan Greenard",
     "pos": "LB",
-    "practice": "Full Participation in Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-22T22:53Z"
    },
    {
@@ -175,21 +175,21 @@
    {
     "espnId": "4362116",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0038412",
+    "injury": "Abdomen",
     "name": "Moro Ojomo",
     "pos": "DT",
-    "practice": "",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-22T22:54Z"
    },
    {
     "espnId": "4426331",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0039013",
+    "injury": "Concussion",
     "name": "Nolan Smith Jr.",
     "pos": "LB",
-    "practice": "",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-18T18:22Z"
    },
    {
@@ -199,7 +199,7 @@
     "injury": "Hamstring",
     "name": "Saquon Barkley",
     "pos": "RB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-22T22:59Z"
    },
    {
@@ -239,7 +239,7 @@
     "injury": "Shoulder",
     "name": "Tyler Steen",
     "pos": "G",
-    "practice": "Full Participation in Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-22T22:54Z"
    },
    {
@@ -255,25 +255,25 @@
    {
     "espnId": "4431545",
     "gameStatus": "IR",
-    "gsisId": "00-0039746",
-    "injury": "Foot",
+    "gsisId": null,
+    "injury": null,
     "name": "Will Shipley",
     "pos": "RB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "",
     "statusDate": "2026-10-16T20:07Z"
    },
    {
     "espnId": "4582836",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0040631",
+    "injury": "Illness",
     "name": "Willie Lampkin",
     "pos": "C",
-    "practice": "",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-22T22:44Z"
    }
   ],
-  "week": 6
+  "week": 7
  },
- "updated": "2026-10-22T19:13:05-04:00"
+ "updated": "2026-10-23T07:00:39-04:00"
 }
