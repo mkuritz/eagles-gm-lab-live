@@ -40,7 +40,7 @@
     "name": "Dallas Goedert",
     "pos": "TE",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-22T23:20Z"
+    "statusDate": "2026-10-23T18:23Z"
    },
    {
     "espnId": "4241478",
@@ -50,7 +50,7 @@
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-22T23:05Z"
+    "statusDate": "2026-10-23T18:22Z"
    },
    {
     "espnId": "4428850",
@@ -200,7 +200,7 @@
     "name": "Saquon Barkley",
     "pos": "RB",
     "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-22T22:59Z"
+    "statusDate": "2026-10-23T18:20Z"
    },
    {
     "espnId": "4429013",
@@ -275,5 +275,5 @@
   ],
   "week": 7
  },
- "updated": "2026-10-23T07:00:39-04:00"
+ "updated": "2026-10-23T15:04:21-04:00"
 }
