@@ -98,7 +98,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-22T19:37Z",
+   "injuryDate": "2026-10-22T23:20Z",
    "jersey": "88",
    "name": "Dallas Goedert",
    "pos": "TE",
@@ -306,7 +306,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-22T19:32Z",
+   "injuryDate": "2026-10-22T23:05Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -332,7 +332,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-22T19:37Z",
+   "injuryDate": "2026-10-22T23:14Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -567,7 +567,7 @@
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4218312.png",
    "injury": null,
    "injuryDate": null,
-   "jersey": "38",
+   "jersey": "23",
    "name": "Kenny Moore II",
    "pos": "CB",
    "status": "Active"
@@ -748,7 +748,7 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241374.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-18T02:34Z",
+   "injuryDate": "2026-10-23T01:06Z",
    "jersey": "81",
    "name": "Grant Calcaterra",
    "pos": "TE",
@@ -839,7 +839,7 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431574.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-18T02:36Z",
+   "injuryDate": "2026-10-23T01:15Z",
    "jersey": "87",
    "name": "Eli Stowers",
    "pos": "TE",
@@ -1041,5 +1041,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-22T19:05:39-04:00"
+ "updated": "2026-10-22T22:00:42-04:00"
 }
