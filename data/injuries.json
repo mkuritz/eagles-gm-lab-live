@@ -3,16 +3,6 @@
   "live": true,
   "players": [
    {
-    "espnId": "4240585",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0036192",
-    "injury": "Back",
-    "name": "AJ Epenesa",
-    "pos": "DE",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-20T16:10Z"
-   },
-   {
     "espnId": "4250510",
     "gameStatus": "IR",
     "gsisId": null,
@@ -61,16 +51,6 @@
     "pos": "TE",
     "practice": "Full Participation in Practice",
     "statusDate": "2026-10-23T01:15Z"
-   },
-   {
-    "espnId": "3915106",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0034951",
-    "injury": "Illness",
-    "name": "Fred Johnson",
-    "pos": "OT",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-23T22:21Z"
    },
    {
     "espnId": "4241374",
@@ -154,33 +134,23 @@
    },
    {
     "espnId": "4240456",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0036501",
     "injury": "Abdomen",
     "name": "Michael Carter II",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-20T16:10Z"
-   },
-   {
-    "espnId": "4362116",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0038412",
-    "injury": "Abdomen",
-    "name": "Moro Ojomo",
-    "pos": "DT",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-22T22:54Z"
+    "statusDate": "2026-10-24T20:20Z"
    },
    {
     "espnId": "4426331",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0039013",
     "injury": "Concussion",
     "name": "Nolan Smith Jr.",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-18T18:22Z"
+    "statusDate": "2026-10-24T20:20Z"
    },
    {
     "espnId": "3929630",
@@ -223,16 +193,6 @@
     "statusDate": "2026-05-06T04:03Z"
    },
    {
-    "espnId": "4362805",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0039001",
-    "injury": "Shoulder",
-    "name": "Tyler Steen",
-    "pos": "G",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-24T02:19Z"
-   },
-   {
     "espnId": "5344966",
     "gameStatus": "Out",
     "gsisId": null,
@@ -251,19 +211,9 @@
     "pos": "RB",
     "practice": "",
     "statusDate": "2026-10-16T20:07Z"
-   },
-   {
-    "espnId": "4582836",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0040631",
-    "injury": "Illness",
-    "name": "Willie Lampkin",
-    "pos": "C",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-24T02:22Z"
    }
   ],
   "week": 7
  },
- "updated": "2026-10-24T16:40:18-04:00"
+ "updated": "2026-10-24T17:05:43-04:00"
 }
