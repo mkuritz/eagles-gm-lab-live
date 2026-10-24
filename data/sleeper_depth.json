@@ -184,7 +184,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Drew Kendall",
    "pos": "C",
    "status": "Active"
@@ -193,7 +193,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": 3915106,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Fred Johnson",
    "pos": "T",
    "status": "Active"
@@ -309,18 +309,18 @@
   {
    "depthOrder": 1,
    "depthPos": "RB",
-   "espnId": null,
-   "injury": null,
-   "name": "Dameon Pierce",
+   "espnId": 3929630,
+   "injury": "Questionable",
+   "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
   },
   {
    "depthOrder": 2,
    "depthPos": "RB",
-   "espnId": 3929630,
-   "injury": "Questionable",
-   "name": "Saquon Barkley",
+   "espnId": null,
+   "injury": null,
+   "name": "Dameon Pierce",
    "pos": "RB",
    "status": "Active"
   },
@@ -442,7 +442,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 3,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -469,7 +469,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 4,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -480,18 +480,18 @@
   {
    "depthOrder": 6,
    "depthPos": "SWR",
-   "espnId": null,
+   "espnId": 4241372,
    "injury": null,
-   "name": "Britain Covey",
+   "name": "Marquise Brown",
    "pos": "WR",
    "status": "Active"
   },
   {
    "depthOrder": 7,
    "depthPos": "SWR",
-   "espnId": 4241372,
+   "espnId": null,
    "injury": null,
-   "name": "Marquise Brown",
+   "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
   },
@@ -611,15 +611,6 @@
    "name": "Duplicate Player",
    "pos": "CB",
    "status": "Inactive"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "E.J. Jenkins",
-   "pos": "TE",
-   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -757,5 +748,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-23T07:00:42-04:00"
+ "updated": "2026-10-24T07:00:50-04:00"
 }

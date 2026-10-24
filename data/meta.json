@@ -1,56 +1,56 @@
 {
- "lastRun": "2026-10-23T20:33:08-04:00",
+ "lastRun": "2026-10-24T07:00:50-04:00",
  "sources": {
   "contracts.json": {
    "error": null,
    "label": "nflverse contracts (Over The Cap)",
    "lastChange": "2026-10-19T13:01:10-04:00",
-   "lastSuccess": "2026-10-23T14:08:04-04:00",
+   "lastSuccess": "2026-10-24T07:00:50-04:00",
    "ok": true
   },
   "depth.json": {
    "error": null,
    "label": "nflverse depth charts",
-   "lastChange": "2026-10-23T14:08:03-04:00",
-   "lastSuccess": "2026-10-23T14:08:03-04:00",
+   "lastChange": "2026-10-24T07:00:49-04:00",
+   "lastSuccess": "2026-10-24T07:00:49-04:00",
    "ok": true
   },
   "injuries.json": {
    "error": null,
    "label": "ESPN same-day injury statuses (+ official report notes)",
-   "lastChange": "2026-10-23T20:33:08-04:00",
-   "lastSuccess": "2026-10-23T20:33:08-04:00",
+   "lastChange": "2026-10-24T07:00:47-04:00",
+   "lastSuccess": "2026-10-24T07:00:47-04:00",
    "ok": true
   },
   "roster.json": {
    "error": null,
    "label": "ESPN team roster",
-   "lastChange": "2026-10-22T22:00:42-04:00",
-   "lastSuccess": "2026-10-23T14:08:00-04:00",
+   "lastChange": "2026-10-24T07:00:46-04:00",
+   "lastSuccess": "2026-10-24T07:00:46-04:00",
    "ok": true
   },
   "schedule.json": {
    "error": null,
    "label": "ESPN team schedule",
    "lastChange": "2026-10-18T19:00:35-04:00",
-   "lastSuccess": "2026-10-23T14:08:00-04:00",
+   "lastSuccess": "2026-10-24T07:00:46-04:00",
    "ok": true
   },
   "sleeper_depth.json": {
    "error": null,
    "label": "Sleeper players (depth backup, max 1/day)",
-   "lastChange": "2026-10-23T07:00:42-04:00",
-   "lastSuccess": "2026-10-23T07:00:42-04:00",
+   "lastChange": "2026-10-24T07:00:50-04:00",
+   "lastSuccess": "2026-10-24T07:00:50-04:00",
    "ok": true
   },
   "standings.json": {
    "error": null,
    "label": "ESPN standings",
    "lastChange": "2026-10-23T07:00:38-04:00",
-   "lastSuccess": "2026-10-23T14:08:00-04:00",
+   "lastSuccess": "2026-10-24T07:00:46-04:00",
    "ok": true
   }
  },
  "timezone": "America/New_York",
- "updated": "2026-10-23T20:33:08-04:00"
+ "updated": "2026-10-24T07:00:50-04:00"
 }

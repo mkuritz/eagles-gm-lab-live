@@ -75,11 +75,11 @@
    {
     "espnId": "3915106",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0034951",
+    "injury": "Illness",
     "name": "Fred Johnson",
     "pos": "OT",
-    "practice": "",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-23T22:21Z"
    },
    {
@@ -139,7 +139,7 @@
     "injury": "Ankle",
     "name": "Jonathan Greenard",
     "pos": "LB",
-    "practice": "Limited Participation in Practice",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-22T22:53Z"
    },
    {
@@ -150,7 +150,7 @@
     "name": "Landon Dickerson",
     "pos": "G",
     "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-18T02:58Z"
+    "statusDate": "2026-10-24T02:17Z"
    },
    {
     "espnId": "15797",
@@ -240,7 +240,7 @@
     "name": "Tyler Steen",
     "pos": "G",
     "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-22T22:54Z"
+    "statusDate": "2026-10-24T02:19Z"
    },
    {
     "espnId": "5344966",
@@ -269,11 +269,11 @@
     "injury": "Illness",
     "name": "Willie Lampkin",
     "pos": "C",
-    "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-22T22:44Z"
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-10-24T02:22Z"
    }
   ],
   "week": 7
  },
- "updated": "2026-10-23T20:33:08-04:00"
+ "updated": "2026-10-24T07:00:47-04:00"
 }
