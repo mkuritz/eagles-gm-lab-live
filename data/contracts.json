@@ -771,20 +771,6 @@
    "years": 1
   },
   {
-   "apy": 1.005,
-   "apy_cap_pct": 0.003,
-   "gsis_id": "00-0040586",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 12509,
-   "player": "Jaydon Blue",
-   "position": "RB",
-   "team": "Eagles",
-   "value": 1.005,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
    "apy": 0.993,
    "apy_cap_pct": 0.004,
    "gsis_id": "00-0040024",
@@ -869,7 +855,7 @@
    "years": 1
   },
   {
-   "apy": 0.247,
+   "apy": 0.283,
    "apy_cap_pct": 0.001,
    "gsis_id": "00-0040905",
    "guaranteed": 0.0,
@@ -878,7 +864,21 @@
    "player": "Cole Wisniewski",
    "position": "S",
    "team": "Eagles",
-   "value": 0.247,
+   "value": 0.283,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 0.283,
+   "apy_cap_pct": 0.001,
+   "gsis_id": "00-0040908",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 13396,
+   "player": "Keyshawn James-Newby",
+   "position": "ED",
+   "team": "Eagles",
+   "value": 0.283,
    "year_signed": 2026,
    "years": 1
   },
@@ -927,53 +927,11 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0039466",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 12007,
-   "player": "Ian Wheeler",
-   "position": "RB",
-   "team": "Eagles",
-   "value": 0.247,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.247,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0041186",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 13727,
-   "player": "James Brockermeyer",
-   "position": "C",
-   "team": "Eagles",
-   "value": 0.247,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.247,
-   "apy_cap_pct": 0.001,
    "gsis_id": "00-0040926",
    "guaranteed": 0.0,
    "is_active": true,
    "otc_id": 13660,
    "player": "Joshua Weru",
-   "position": "ED",
-   "team": "Eagles",
-   "value": 0.247,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.247,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0040908",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 13396,
-   "player": "Keyshawn James-Newby",
    "position": "ED",
    "team": "Eagles",
    "value": 0.247,
@@ -1037,5 +995,5 @@
    "years": 1
   }
  ],
- "updated": "2026-10-19T13:01:10-04:00"
+ "updated": "2026-10-24T13:14:39-04:00"
 }
