@@ -76,7 +76,7 @@
    "depthOrder": 1,
    "depthPos": "LDE",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Moro Ojomo",
    "pos": "DE",
    "status": "Active"
@@ -112,7 +112,7 @@
    "depthOrder": 2,
    "depthPos": "LOLB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Nolan Smith Jr.",
    "pos": "LB",
    "status": "Active"
@@ -127,20 +127,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
-   "depthPos": "LWR",
-   "espnId": null,
-   "injury": "Questionable",
-   "name": "DeVonta Smith",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 5,
+   "depthOrder": 4,
    "depthPos": "LWR",
    "espnId": null,
    "injury": null,
    "name": "Elijah Moore",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 6,
+   "depthPos": "LWR",
+   "espnId": null,
+   "injury": "Out",
+   "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
   },
@@ -193,7 +193,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": 3915106,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Fred Johnson",
    "pos": "T",
    "status": "Active"
@@ -247,7 +247,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Tyler Steen",
    "pos": "OL",
    "status": "Active"
@@ -256,7 +256,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Willie Lampkin",
    "pos": "OL",
    "status": "Active"
@@ -427,7 +427,7 @@
    "depthOrder": 3,
    "depthPos": "ROLB",
    "espnId": 4240585,
-   "injury": "Questionable",
+   "injury": null,
    "name": "A.J. Epenesa",
    "pos": "DE",
    "status": "Active"
@@ -436,17 +436,17 @@
    "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": "Questionable",
-   "name": "Dontayvion Wicks",
+   "injury": null,
+   "name": "Darius Cooper",
    "pos": "WR",
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 7,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": null,
-   "name": "Darius Cooper",
+   "injury": "Out",
+   "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
   },
@@ -463,13 +463,13 @@
    "depthOrder": 2,
    "depthPos": "SS",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Michael Carter II",
    "pos": "CB",
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 1,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -478,7 +478,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 6,
+   "depthOrder": 3,
    "depthPos": "SWR",
    "espnId": 4241372,
    "injury": null,
@@ -487,7 +487,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 7,
+   "depthOrder": 5,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -499,7 +499,7 @@
    "depthOrder": 1,
    "depthPos": "TE",
    "espnId": 3121023,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Dallas Goedert",
    "pos": "TE",
    "status": "Active"
@@ -748,5 +748,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-24T07:00:50-04:00"
+ "updated": "2026-10-25T02:05:31-04:00"
 }
