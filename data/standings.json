@@ -25,26 +25,26 @@
    "w": 5
   },
   {
+   "abbr": "PIT",
+   "conf": "AFC",
+   "l": 2,
+   "name": "Pittsburgh Steelers",
+   "pa": 138,
+   "pf": 153,
+   "seed": "3",
+   "streak": "W3",
+   "t": 0,
+   "w": 5
+  },
+  {
    "abbr": "JAX",
    "conf": "AFC",
    "l": 2,
    "name": "Jacksonville Jaguars",
    "pa": 104,
    "pf": 154,
-   "seed": "3",
-   "streak": "L1",
-   "t": 0,
-   "w": 4
-  },
-  {
-   "abbr": "CLE",
-   "conf": "AFC",
-   "l": 2,
-   "name": "Cleveland Browns",
-   "pa": 122,
-   "pf": 106,
    "seed": "4",
-   "streak": "W1",
+   "streak": "L1",
    "t": 0,
    "w": 4
   },
@@ -61,14 +61,14 @@
    "w": 4
   },
   {
-   "abbr": "PIT",
+   "abbr": "CLE",
    "conf": "AFC",
    "l": 2,
-   "name": "Pittsburgh Steelers",
-   "pa": 128,
-   "pf": 137,
+   "name": "Cleveland Browns",
+   "pa": 122,
+   "pf": 106,
    "seed": "6",
-   "streak": "W2",
+   "streak": "W1",
    "t": 0,
    "w": 4
   },
@@ -301,25 +301,13 @@
    "w": 2
   },
   {
-   "abbr": "NO",
-   "conf": "NFC",
-   "l": 4,
-   "name": "New Orleans Saints",
-   "pa": 178,
-   "pf": 152,
-   "seed": "10",
-   "streak": "W1",
-   "t": 0,
-   "w": 2
-  },
-  {
    "abbr": "PHI",
    "conf": "NFC",
    "l": 4,
    "name": "Philadelphia Eagles",
    "pa": 137,
    "pf": 106,
-   "seed": "11",
+   "seed": "10",
    "streak": "L4",
    "t": 0,
    "w": 2
@@ -331,7 +319,7 @@
    "name": "Dallas Cowboys",
    "pa": 159,
    "pf": 151,
-   "seed": "12",
+   "seed": "11",
    "streak": "L2",
    "t": 0,
    "w": 2
@@ -343,7 +331,7 @@
    "name": "Arizona Cardinals",
    "pa": 178,
    "pf": 126,
-   "seed": "13",
+   "seed": "12",
    "streak": "W1",
    "t": 0,
    "w": 2
@@ -355,8 +343,20 @@
    "name": "Los Angeles Rams",
    "pa": 138,
    "pf": 135,
-   "seed": "14",
+   "seed": "13",
    "streak": "L2",
+   "t": 0,
+   "w": 2
+  },
+  {
+   "abbr": "NO",
+   "conf": "NFC",
+   "l": 5,
+   "name": "New Orleans Saints",
+   "pa": 194,
+   "pf": 162,
+   "seed": "14",
+   "streak": "L1",
    "t": 0,
    "w": 2
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-23T07:00:38-04:00"
+ "updated": "2026-10-25T13:05:46-04:00"
 }
