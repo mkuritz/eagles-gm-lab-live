@@ -282,6 +282,15 @@
   {
    "depthOrder": 2,
    "depthPos": "QB",
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Payton",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "QB",
    "espnId": 4040715,
    "injury": "IR",
    "name": "Jalen Hurts",
@@ -289,20 +298,11 @@
    "status": "Inactive"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "QB",
-   "espnId": null,
-   "injury": null,
-   "name": "Joe Milton",
-   "pos": "QB",
-   "status": "Active"
-  },
-  {
    "depthOrder": 4,
    "depthPos": "QB",
    "espnId": null,
    "injury": null,
-   "name": "Cole Payton",
+   "name": "Joe Milton",
    "pos": "QB",
    "status": "Active"
   },
@@ -433,7 +433,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 2,
+   "depthOrder": 1,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -469,7 +469,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 2,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -748,5 +748,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-25T02:05:31-04:00"
+ "updated": "2026-10-26T15:46:27-04:00"
 }
