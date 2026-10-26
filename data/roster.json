@@ -838,8 +838,8 @@
    "exp": 0,
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431574.png",
-   "injury": "Injured Reserve",
-   "injuryDate": "2026-10-24T22:14Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "87",
    "name": "Eli Stowers",
    "pos": "TE",
@@ -1041,5 +1041,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-26T10:00:51-04:00"
+ "updated": "2026-10-26T16:05:49-04:00"
 }
