@@ -43,16 +43,6 @@
     "statusDate": "2026-10-24T20:04Z"
    },
    {
-    "espnId": "4431574",
-    "gameStatus": "IR",
-    "gsisId": "00-0041483",
-    "injury": "Quadricep",
-    "name": "Eli Stowers",
-    "pos": "TE",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-24T22:14Z"
-   },
-   {
     "espnId": "4241374",
     "gameStatus": "IR",
     "gsisId": "00-0037086",
@@ -215,5 +205,5 @@
   ],
   "week": 7
  },
- "updated": "2026-10-26T10:00:52-04:00"
+ "updated": "2026-10-26T16:24:45-04:00"
 }
