@@ -6,8 +6,8 @@
    "exp": 9,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-26T13:22Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -53,6 +53,19 @@
    "status": "Active"
   },
   {
+   "age": 27,
+   "espnId": "4241374",
+   "exp": 5,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241374.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "81",
+   "name": "Grant Calcaterra",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
    "age": 24,
    "espnId": "4715355",
    "exp": 2,
@@ -76,6 +89,19 @@
    "jersey": "85",
    "name": "Britain Covey",
    "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "age": 28,
+   "espnId": "4035624",
+   "exp": 6,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035624.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "69",
+   "name": "Landon Dickerson",
+   "pos": "G",
    "status": "Active"
   },
   {
@@ -124,7 +150,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15797.png",
    "injury": "Out",
-   "injuryDate": "2026-10-18T15:34Z",
+   "injuryDate": "2026-10-26T22:53Z",
    "jersey": "65",
    "name": "Lane Johnson",
    "pos": "OT",
@@ -188,8 +214,8 @@
    "exp": 1,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430814.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-10-26T22:50Z",
    "jersey": "75",
    "name": "Jake Majors",
    "pos": "C",
@@ -219,6 +245,19 @@
    "jersey": "14",
    "name": "Joe Milton",
    "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "age": 28,
+   "espnId": "4241555",
+   "exp": 6,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241555.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "38",
+   "name": "Elijah Mitchell",
+   "pos": "RB",
    "status": "Active"
   },
   {
@@ -279,8 +318,8 @@
    "exp": 0,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4879250.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-10-26T22:50Z",
    "jersey": "18",
    "name": "Cole Payton",
    "pos": "QB",
@@ -306,7 +345,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Out",
-   "injuryDate": "2026-10-24T19:54Z",
+   "injuryDate": "2026-10-26T22:50Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -326,13 +365,26 @@
    "status": "Active"
   },
   {
+   "age": 23,
+   "espnId": "4431574",
+   "exp": 0,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431574.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "87",
+   "name": "Eli Stowers",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
    "age": 25,
    "espnId": "4428850",
    "exp": 4,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
    "injury": "Out",
-   "injuryDate": "2026-10-24T20:04Z",
+   "injuryDate": "2026-10-26T22:50Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -397,7 +449,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240456.png",
    "injury": "Out",
-   "injuryDate": "2026-10-24T22:43Z",
+   "injuryDate": "2026-10-26T22:50Z",
    "jersey": "35",
    "name": "Michael Carter II",
    "pos": "CB",
@@ -474,8 +526,8 @@
    "exp": 7,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3916409.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-24T18:21Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "52",
    "name": "Jonathan Greenard",
    "pos": "LB",
@@ -487,8 +539,8 @@
    "exp": 3,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4571162.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-20T16:10Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "58",
    "name": "Jalyx Hunt",
    "pos": "LB",
@@ -631,7 +683,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426331.png",
    "injury": "Out",
-   "injuryDate": "2026-10-24T22:31Z",
+   "injuryDate": "2026-10-26T22:50Z",
    "jersey": "3",
    "name": "Nolan Smith Jr.",
    "pos": "LB",
@@ -743,19 +795,6 @@
   },
   {
    "age": 27,
-   "espnId": "4241374",
-   "exp": 5,
-   "group": "injuredReserveOrOut",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241374.png",
-   "injury": "Injured Reserve",
-   "injuryDate": "2026-10-24T22:06Z",
-   "jersey": "81",
-   "name": "Grant Calcaterra",
-   "pos": "TE",
-   "status": "Day-To-Day"
-  },
-  {
-   "age": 27,
    "espnId": "4259590",
    "exp": 3,
    "group": "injuredReserveOrOut",
@@ -765,19 +804,6 @@
    "jersey": "41",
    "name": "Tariq Castro-Fields",
    "pos": "CB",
-   "status": "Day-To-Day"
-  },
-  {
-   "age": 28,
-   "espnId": "4035624",
-   "exp": 6,
-   "group": "injuredReserveOrOut",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035624.png",
-   "injury": "Injured Reserve",
-   "injuryDate": "2026-10-25T00:21Z",
-   "jersey": "69",
-   "name": "Landon Dickerson",
-   "pos": "G",
    "status": "Day-To-Day"
   },
   {
@@ -830,19 +856,6 @@
    "jersey": "28",
    "name": "Will Shipley",
    "pos": "RB",
-   "status": "Day-To-Day"
-  },
-  {
-   "age": 23,
-   "espnId": "4431574",
-   "exp": 0,
-   "group": "injuredReserveOrOut",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431574.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "87",
-   "name": "Eli Stowers",
-   "pos": "TE",
    "status": "Day-To-Day"
   },
   {
@@ -950,19 +963,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 28,
-   "espnId": "4241555",
-   "exp": 6,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241555.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "38",
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "status": "Practice Squad"
-  },
-  {
    "age": 26,
    "espnId": "4567134",
    "exp": null,
@@ -1041,5 +1041,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-26T16:05:49-04:00"
+ "updated": "2026-10-26T19:05:56-04:00"
 }
