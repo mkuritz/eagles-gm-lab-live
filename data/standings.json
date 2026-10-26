@@ -3,12 +3,12 @@
   {
    "abbr": "KC",
    "conf": "AFC",
-   "l": 0,
+   "l": 1,
    "name": "Kansas City Chiefs",
-   "pa": 83,
-   "pf": 140,
+   "pa": 103,
+   "pf": 143,
    "seed": "1",
-   "streak": "W5",
+   "streak": "L1",
    "t": 0,
    "w": 5
   },
@@ -265,6 +265,18 @@
    "w": 4
   },
   {
+   "abbr": "SEA",
+   "conf": "NFC",
+   "l": 3,
+   "name": "Seattle Seahawks",
+   "pa": 125,
+   "pf": 168,
+   "seed": "8",
+   "streak": "W1",
+   "t": 0,
+   "w": 4
+  },
+  {
    "abbr": "CAR",
    "conf": "NFC",
    "l": 3,
@@ -273,18 +285,6 @@
    "pf": 159,
    "seed": "4",
    "streak": "L1",
-   "t": 0,
-   "w": 3
-  },
-  {
-   "abbr": "SEA",
-   "conf": "NFC",
-   "l": 3,
-   "name": "Seattle Seahawks",
-   "pa": 122,
-   "pf": 148,
-   "seed": "8",
-   "streak": "L2",
    "t": 0,
    "w": 3
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-25T22:00:47-04:00"
+ "updated": "2026-10-26T07:00:37-04:00"
 }
