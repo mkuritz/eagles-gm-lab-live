@@ -43,26 +43,6 @@
     "statusDate": "2026-10-24T20:04Z"
    },
    {
-    "espnId": "4431574",
-    "gameStatus": "IR",
-    "gsisId": "00-0041483",
-    "injury": "Quadricep",
-    "name": "Eli Stowers",
-    "pos": "TE",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-24T22:14Z"
-   },
-   {
-    "espnId": "4241374",
-    "gameStatus": "IR",
-    "gsisId": "00-0037086",
-    "injury": "Back",
-    "name": "Grant Calcaterra",
-    "pos": "TE",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-24T22:06Z"
-   },
-   {
     "espnId": "4686911",
     "gameStatus": "IR",
     "gsisId": "00-0039072",
@@ -111,16 +91,6 @@
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-24T18:21Z"
-   },
-   {
-    "espnId": "4035624",
-    "gameStatus": "IR",
-    "gsisId": "00-0037002",
-    "injury": "Knee",
-    "name": "Landon Dickerson",
-    "pos": "G",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-25T00:21Z"
    },
    {
     "espnId": "15797",
@@ -215,5 +185,5 @@
   ],
   "week": 7
  },
- "updated": "2026-10-26T17:05:36-04:00"
+ "updated": "2026-10-26T18:05:42-04:00"
 }
