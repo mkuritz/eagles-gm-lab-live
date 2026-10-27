@@ -130,18 +130,18 @@
    "completed": false,
    "date": "2026-10-27T00:15Z",
    "name": "DAL @ PHI",
-   "status": "Scheduled",
+   "status": "Halftime",
    "teams": [
     {
      "abbr": "PHI",
      "homeAway": "home",
-     "score": null,
+     "score": "14",
      "winner": null
     },
     {
      "abbr": "DAL",
      "homeAway": "away",
-     "score": null,
+     "score": "20",
      "winner": null
     }
    ],
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-10-18T19:00:35-04:00"
+ "updated": "2026-10-26T22:00:47-04:00"
 }

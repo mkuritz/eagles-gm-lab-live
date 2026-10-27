@@ -84,8 +84,8 @@
    "exp": 5,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3926231.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-10-27T00:59Z",
    "jersey": "85",
    "name": "Britain Covey",
    "pos": "WR",
@@ -319,7 +319,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4879250.png",
    "injury": "Out",
-   "injuryDate": "2026-10-26T22:50Z",
+   "injuryDate": "2026-10-26T23:00Z",
    "jersey": "18",
    "name": "Cole Payton",
    "pos": "QB",
@@ -787,8 +787,8 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686911.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-18T03:01Z",
-   "jersey": "23",
+   "injuryDate": "2026-10-26T23:13Z",
+   "jersey": "21",
    "name": "Jakorian Bennett",
    "pos": "CB",
    "status": "Day-To-Day"
@@ -840,7 +840,7 @@
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4250510.png",
    "injury": "Injured Reserve",
    "injuryDate": "2026-09-01T03:46Z",
-   "jersey": "31",
+   "jersey": "32",
    "name": "Andre' Sam",
    "pos": "S",
    "status": "Day-To-Day"
@@ -1041,5 +1041,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-26T19:05:56-04:00"
+ "updated": "2026-10-26T22:00:47-04:00"
 }

@@ -13,6 +13,16 @@
     "statusDate": "2026-09-01T03:46Z"
    },
    {
+    "espnId": "3926231",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0037132",
+    "injury": "Shoulder",
+    "name": "Britain Covey",
+    "pos": "WR",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-10-27T00:43Z"
+   },
+   {
     "espnId": "4372051",
     "gameStatus": "Questionable",
     "gsisId": null,
@@ -175,5 +185,5 @@
   ],
   "week": 7
  },
- "updated": "2026-10-26T20:20:53-04:00"
+ "updated": "2026-10-26T22:00:47-04:00"
 }
