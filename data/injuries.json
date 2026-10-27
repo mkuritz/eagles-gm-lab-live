@@ -14,13 +14,13 @@
    },
    {
     "espnId": "3926231",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0037132",
     "injury": "Shoulder",
     "name": "Britain Covey",
     "pos": "WR",
     "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-27T00:43Z"
+    "statusDate": "2026-10-27T00:59Z"
    },
    {
     "espnId": "4372051",
@@ -133,6 +133,16 @@
     "statusDate": "2026-10-26T22:50Z"
    },
    {
+    "espnId": "3929630",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0034844",
+    "injury": "Hamstring",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-10-27T04:09Z"
+   },
+   {
     "espnId": "4429013",
     "gameStatus": "IR",
     "gsisId": null,
@@ -185,5 +195,5 @@
   ],
   "week": 7
  },
- "updated": "2026-10-26T22:00:47-04:00"
+ "updated": "2026-10-27T07:00:39-04:00"
 }

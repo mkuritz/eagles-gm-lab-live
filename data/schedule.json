@@ -127,22 +127,22 @@
    "week": 6
   },
   {
-   "completed": false,
+   "completed": true,
    "date": "2026-10-27T00:15Z",
    "name": "DAL @ PHI",
-   "status": "Halftime",
+   "status": "Final",
    "teams": [
     {
      "abbr": "PHI",
      "homeAway": "home",
-     "score": "14",
-     "winner": null
+     "score": "21",
+     "winner": false
     },
     {
      "abbr": "DAL",
      "homeAway": "away",
-     "score": "20",
-     "winner": null
+     "score": "38",
+     "winner": true
     }
    ],
    "week": 7
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-10-26T22:00:47-04:00"
+ "updated": "2026-10-27T07:00:39-04:00"
 }

@@ -6,8 +6,8 @@
    "exp": 9,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-10-27T04:09Z",
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -1041,5 +1041,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-26T22:00:47-04:00"
+ "updated": "2026-10-27T07:00:38-04:00"
 }

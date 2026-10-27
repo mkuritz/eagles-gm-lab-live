@@ -103,7 +103,7 @@
    "depthOrder": 1,
    "depthPos": "LOLB",
    "espnId": 3916409,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jonathan Greenard",
    "pos": "DE",
    "status": "Active"
@@ -115,6 +115,15 @@
    "injury": "Out",
    "name": "Nolan Smith Jr.",
    "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "LOLB",
+   "espnId": null,
+   "injury": null,
+   "name": "Keyshawn James-Newby",
+   "pos": "DE",
    "status": "Active"
   },
   {
@@ -202,7 +211,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Jake Majors",
    "pos": "OL",
    "status": "Active"
@@ -220,10 +229,10 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "IR",
+   "injury": null,
    "name": "Landon Dickerson",
    "pos": "OL",
-   "status": "Inactive"
+   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -282,15 +291,6 @@
   {
    "depthOrder": 2,
    "depthPos": "QB",
-   "espnId": null,
-   "injury": null,
-   "name": "Cole Payton",
-   "pos": "QB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "QB",
    "espnId": 4040715,
    "injury": "IR",
    "name": "Jalen Hurts",
@@ -298,11 +298,20 @@
    "status": "Inactive"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 3,
    "depthPos": "QB",
    "espnId": null,
    "injury": null,
    "name": "Joe Milton",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "QB",
+   "espnId": null,
+   "injury": "Out",
+   "name": "Cole Payton",
    "pos": "QB",
    "status": "Active"
   },
@@ -321,6 +330,15 @@
    "espnId": null,
    "injury": null,
    "name": "Dameon Pierce",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "RB",
+   "espnId": null,
+   "injury": null,
+   "name": "Elijah Mitchell",
    "pos": "RB",
    "status": "Active"
   },
@@ -409,7 +427,7 @@
    "depthOrder": 1,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jalyx Hunt",
    "pos": "DL",
    "status": "Active"
@@ -433,7 +451,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -469,7 +487,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 2,
+   "depthOrder": 1,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -490,7 +508,7 @@
    "depthOrder": 5,
    "depthPos": "SWR",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
@@ -514,22 +532,22 @@
    "status": "Active"
   },
   {
+   "depthOrder": 3,
+   "depthPos": "TE",
+   "espnId": null,
+   "injury": null,
+   "name": "Grant Calcaterra",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
    "depthOrder": 4,
    "depthPos": "TE",
    "espnId": null,
-   "injury": "IR",
-   "name": "Grant Calcaterra",
-   "pos": "TE",
-   "status": "Inactive"
-  },
-  {
-   "depthOrder": 5,
-   "depthPos": "TE",
-   "espnId": null,
-   "injury": "IR",
+   "injury": null,
    "name": "Eli Stowers",
    "pos": "TE",
-   "status": "Inactive"
+   "status": "Active"
   },
   {
    "depthOrder": 9,
@@ -617,15 +635,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Erik Ezukanma",
    "pos": "WR",
    "status": "Active"
@@ -689,15 +698,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Keyshawn James-Newby",
-   "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Kiran Amegadjie",
    "pos": "OL",
    "status": "Active"
@@ -748,5 +748,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-26T15:46:27-04:00"
+ "updated": "2026-10-27T07:00:42-04:00"
 }
