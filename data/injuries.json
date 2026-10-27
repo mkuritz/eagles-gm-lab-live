@@ -14,7 +14,7 @@
    },
    {
     "espnId": "3926231",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0037132",
     "injury": "Shoulder",
     "name": "Britain Covey",
@@ -33,44 +33,34 @@
     "statusDate": "2026-10-11T05:31Z"
    },
    {
-    "espnId": "4879250",
-    "gameStatus": "Out",
+    "espnId": "4360238",
+    "gameStatus": "Questionable",
     "gsisId": null,
     "injury": null,
-    "name": "Cole Payton",
-    "pos": "QB",
+    "name": "Dameon Pierce",
+    "pos": "RB",
     "practice": "",
-    "statusDate": "2026-10-26T23:00Z"
+    "statusDate": "2026-10-27T14:28Z"
    },
    {
     "espnId": "4241478",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0036912",
     "injury": "Hamstring",
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-26T22:50Z"
+    "statusDate": "2026-10-27T13:11Z"
    },
    {
     "espnId": "4428850",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0038393",
     "injury": "Ankle",
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-26T22:50Z"
-   },
-   {
-    "espnId": "4430814",
-    "gameStatus": "Out",
-    "gsisId": null,
-    "injury": null,
-    "name": "Jake Majors",
-    "pos": "C",
-    "practice": "",
-    "statusDate": "2026-10-26T22:50Z"
+    "statusDate": "2026-10-27T13:11Z"
    },
    {
     "espnId": "4686911",
@@ -114,23 +104,23 @@
    },
    {
     "espnId": "4240456",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0036501",
     "injury": "Abdomen",
     "name": "Michael Carter II",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-26T22:50Z"
+    "statusDate": "2026-10-27T13:11Z"
    },
    {
     "espnId": "4426331",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0039013",
     "injury": "Concussion",
     "name": "Nolan Smith Jr.",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-26T22:50Z"
+    "statusDate": "2026-10-27T13:11Z"
    },
    {
     "espnId": "3929630",
@@ -195,5 +185,5 @@
   ],
   "week": 7
  },
- "updated": "2026-10-27T07:00:39-04:00"
+ "updated": "2026-10-27T11:05:36-04:00"
 }
