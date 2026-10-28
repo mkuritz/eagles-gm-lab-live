@@ -112,7 +112,7 @@
    "depthOrder": 2,
    "depthPos": "LOLB",
    "espnId": null,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Nolan Smith Jr.",
    "pos": "LB",
    "status": "Active"
@@ -136,11 +136,11 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
-   "injury": null,
-   "name": "Elijah Moore",
+   "injury": "Questionable",
+   "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
   },
@@ -148,8 +148,8 @@
    "depthOrder": 6,
    "depthPos": "LWR",
    "espnId": null,
-   "injury": "Out",
-   "name": "DeVonta Smith",
+   "injury": null,
+   "name": "Elijah Moore",
    "pos": "WR",
    "status": "Active"
   },
@@ -211,7 +211,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Out",
+   "injury": null,
    "name": "Jake Majors",
    "pos": "OL",
    "status": "Active"
@@ -310,7 +310,7 @@
    "depthOrder": 4,
    "depthPos": "QB",
    "espnId": null,
-   "injury": "Out",
+   "injury": null,
    "name": "Cole Payton",
    "pos": "QB",
    "status": "Active"
@@ -328,7 +328,7 @@
    "depthOrder": 2,
    "depthPos": "RB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Dameon Pierce",
    "pos": "RB",
    "status": "Active"
@@ -454,17 +454,17 @@
    "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": null,
-   "name": "Darius Cooper",
+   "injury": "Questionable",
+   "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
   },
   {
-   "depthOrder": 7,
+   "depthOrder": 4,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": "Out",
-   "name": "Dontayvion Wicks",
+   "injury": null,
+   "name": "Darius Cooper",
    "pos": "WR",
    "status": "Active"
   },
@@ -481,13 +481,13 @@
    "depthOrder": 2,
    "depthPos": "SS",
    "espnId": null,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Michael Carter II",
    "pos": "CB",
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 3,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -496,7 +496,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 5,
    "depthPos": "SWR",
    "espnId": 4241372,
    "injury": null,
@@ -505,10 +505,10 @@
    "status": "Active"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 7,
    "depthPos": "SWR",
    "espnId": null,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
@@ -525,18 +525,18 @@
   {
    "depthOrder": 2,
    "depthPos": "TE",
-   "espnId": 3052096,
+   "espnId": null,
    "injury": null,
-   "name": "Johnny Mundt",
+   "name": "Grant Calcaterra",
    "pos": "TE",
    "status": "Active"
   },
   {
    "depthOrder": 3,
    "depthPos": "TE",
-   "espnId": null,
+   "espnId": 3052096,
    "injury": null,
-   "name": "Grant Calcaterra",
+   "name": "Johnny Mundt",
    "pos": "TE",
    "status": "Active"
   },
@@ -748,5 +748,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-27T07:00:42-04:00"
+ "updated": "2026-10-28T07:00:46-04:00"
 }

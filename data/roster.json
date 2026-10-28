@@ -911,19 +911,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 25,
-   "espnId": "4426921",
-   "exp": 2,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426921.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": null,
-   "name": "Dean Clark",
-   "pos": "S",
-   "status": "Practice Squad"
-  },
-  {
    "age": 26,
    "espnId": "4362186",
    "exp": 4,
@@ -1002,19 +989,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 25,
-   "espnId": "4427080",
-   "exp": null,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4427080.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": null,
-   "name": "Xavier Truss",
-   "pos": "OT",
-   "status": "Practice Squad"
-  },
-  {
    "age": 23,
    "espnId": "5344965",
    "exp": 0,
@@ -1041,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-27T15:15:23-04:00"
+ "updated": "2026-10-28T07:00:42-04:00"
 }
