@@ -83,16 +83,6 @@
     "statusDate": "2026-10-19T14:18Z"
    },
    {
-    "espnId": "4571162",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0039740",
-    "injury": "Knee",
-    "name": "Jalyx Hunt",
-    "pos": "LB",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-28T23:04Z"
-   },
-   {
     "espnId": "4686104",
     "gameStatus": "IR",
     "gsisId": null,
@@ -101,16 +91,6 @@
     "pos": "WR",
     "practice": "",
     "statusDate": "2026-08-22T21:59Z"
-   },
-   {
-    "espnId": "2971027",
-    "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
-    "name": "Jonathan Jones",
-    "pos": "CB",
-    "practice": "",
-    "statusDate": "2026-10-28T23:03Z"
    },
    {
     "espnId": "15797",
@@ -205,5 +185,5 @@
   ],
   "week": 7
  },
- "updated": "2026-10-28T19:05:40-04:00"
+ "updated": "2026-10-28T20:46:24-04:00"
 }
