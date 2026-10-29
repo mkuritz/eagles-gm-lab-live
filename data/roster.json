@@ -7,7 +7,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-29T18:19Z",
+   "injuryDate": "2026-10-29T21:50Z",
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -345,7 +345,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-29T18:22Z",
+   "injuryDate": "2026-10-29T21:55Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -513,8 +513,8 @@
    "exp": 8,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139368.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-10-29T21:46Z",
    "jersey": "29",
    "name": "Marcus Epps",
    "pos": "S",
@@ -604,8 +604,8 @@
    "exp": 2,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431573.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-28T23:04Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "42",
    "name": "Smael Mondon Jr.",
    "pos": "LB",
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-29T15:26:00-04:00"
+ "updated": "2026-10-29T19:05:45-04:00"
 }
