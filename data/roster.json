@@ -7,7 +7,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-28T23:05Z",
+   "injuryDate": "2026-10-29T18:19Z",
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -345,7 +345,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-28T23:10Z",
+   "injuryDate": "2026-10-29T18:22Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -384,7 +384,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
    "injury": "Questionable",
-   "injuryDate": "2026-10-28T23:13Z",
+   "injuryDate": "2026-10-29T18:31Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-29T07:00:38-04:00"
+ "updated": "2026-10-29T15:26:00-04:00"
 }
