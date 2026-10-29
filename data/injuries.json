@@ -50,7 +50,7 @@
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-27T13:11Z"
+    "statusDate": "2026-10-28T23:10Z"
    },
    {
     "espnId": "4428850",
@@ -60,7 +60,7 @@
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-27T13:11Z"
+    "statusDate": "2026-10-28T23:13Z"
    },
    {
     "espnId": "4686911",
@@ -83,6 +83,26 @@
     "statusDate": "2026-10-19T14:18Z"
    },
    {
+    "espnId": "4571162",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0039740",
+    "injury": "Knee",
+    "name": "Jalyx Hunt",
+    "pos": "LB",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-10-28T23:04Z"
+   },
+   {
+    "espnId": "4685287",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0040708",
+    "injury": "Wrist",
+    "name": "Jihaad Campbell",
+    "pos": "LB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-10-29T01:08Z"
+   },
+   {
     "espnId": "4686104",
     "gameStatus": "IR",
     "gsisId": null,
@@ -91,6 +111,26 @@
     "pos": "WR",
     "practice": "",
     "statusDate": "2026-08-22T21:59Z"
+   },
+   {
+    "espnId": "3916409",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0036224",
+    "injury": "Ankle",
+    "name": "Jonathan Greenard",
+    "pos": "LB",
+    "practice": "Did Not Participate In Practice",
+    "statusDate": "2026-10-28T23:03Z"
+   },
+   {
+    "espnId": "2971027",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Jonathan Jones",
+    "pos": "CB",
+    "practice": "",
+    "statusDate": "2026-10-28T23:03Z"
    },
    {
     "espnId": "15797",
@@ -110,7 +150,17 @@
     "name": "Michael Carter II",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-27T13:11Z"
+    "statusDate": "2026-10-29T01:15Z"
+   },
+   {
+    "espnId": "4362116",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0038412",
+    "injury": "Abdomen",
+    "name": "Moro Ojomo",
+    "pos": "DT",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-10-28T23:05Z"
    },
    {
     "espnId": "4426331",
@@ -120,7 +170,7 @@
     "name": "Nolan Smith Jr.",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-27T13:11Z"
+    "statusDate": "2026-10-29T01:22Z"
    },
    {
     "espnId": "3929630",
@@ -130,7 +180,17 @@
     "name": "Saquon Barkley",
     "pos": "RB",
     "practice": "Full Participation in Practice",
-    "statusDate": "2026-10-27T15:38Z"
+    "statusDate": "2026-10-28T23:05Z"
+   },
+   {
+    "espnId": "4431573",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Smael Mondon Jr.",
+    "pos": "LB",
+    "practice": "",
+    "statusDate": "2026-10-28T23:04Z"
    },
    {
     "espnId": "4429013",
@@ -185,5 +245,5 @@
   ],
   "week": 7
  },
- "updated": "2026-10-28T20:46:24-04:00"
+ "updated": "2026-10-29T07:00:38-04:00"
 }

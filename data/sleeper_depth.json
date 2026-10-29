@@ -67,7 +67,7 @@
    "depthOrder": 3,
    "depthPos": "LCB",
    "espnId": 2971027,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Jonathan Jones",
    "pos": "DB",
    "status": "Active"
@@ -76,7 +76,7 @@
    "depthOrder": 1,
    "depthPos": "LDE",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Moro Ojomo",
    "pos": "DE",
    "status": "Active"
@@ -94,7 +94,7 @@
    "depthOrder": 2,
    "depthPos": "LILB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Smael Mondon Jr.",
    "pos": "LB",
    "status": "Active"
@@ -102,19 +102,19 @@
   {
    "depthOrder": 1,
    "depthPos": "LOLB",
-   "espnId": 3916409,
-   "injury": null,
-   "name": "Jonathan Greenard",
-   "pos": "DE",
+   "espnId": null,
+   "injury": "Questionable",
+   "name": "Nolan Smith Jr.",
+   "pos": "LB",
    "status": "Active"
   },
   {
    "depthOrder": 2,
    "depthPos": "LOLB",
-   "espnId": null,
+   "espnId": 3916409,
    "injury": "Questionable",
-   "name": "Nolan Smith Jr.",
-   "pos": "LB",
+   "name": "Jonathan Greenard",
+   "pos": "DE",
    "status": "Active"
   },
   {
@@ -328,8 +328,8 @@
    "depthOrder": 2,
    "depthPos": "RB",
    "espnId": null,
-   "injury": "Questionable",
-   "name": "Dameon Pierce",
+   "injury": null,
+   "name": "Jaydon Blue",
    "pos": "RB",
    "status": "Active"
   },
@@ -353,6 +353,15 @@
   },
   {
    "depthOrder": 5,
+   "depthPos": "RB",
+   "espnId": null,
+   "injury": "IR",
+   "name": "Dameon Pierce",
+   "pos": "RB",
+   "status": "Inactive"
+  },
+  {
+   "depthOrder": 6,
    "depthPos": "RB",
    "espnId": null,
    "injury": "IR",
@@ -409,7 +418,7 @@
    "depthOrder": 1,
    "depthPos": "RILB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Jihaad Campbell",
    "pos": "LB",
    "status": "Active"
@@ -427,7 +436,7 @@
    "depthOrder": 1,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Jalyx Hunt",
    "pos": "DL",
    "status": "Active"
@@ -615,15 +624,6 @@
   {
    "depthOrder": null,
    "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Dean Clark",
-   "pos": "DB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
    "espnId": 4423369,
    "injury": null,
    "name": "Duplicate Player",
@@ -637,6 +637,15 @@
    "injury": null,
    "name": "Erik Ezukanma",
    "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Evan Beerntsen",
+   "pos": "OL",
    "status": "Active"
   },
   {
@@ -664,15 +673,6 @@
    "injury": null,
    "name": "Jacob Sykes",
    "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Jaydon Blue",
-   "pos": "RB",
    "status": "Active"
   },
   {
@@ -716,7 +716,7 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Xavier Gipson",
+   "name": "Quentin Skinner",
    "pos": "WR",
    "status": "Active"
   },
@@ -725,8 +725,17 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Xavier Truss",
-   "pos": "OT",
+   "name": "Shaun Wade",
+   "pos": "CB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Xavier Gipson",
+   "pos": "WR",
    "status": "Active"
   },
   {
@@ -748,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-28T07:00:46-04:00"
+ "updated": "2026-10-29T07:00:42-04:00"
 }
