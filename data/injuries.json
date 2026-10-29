@@ -16,10 +16,10 @@
     "espnId": "3926231",
     "gameStatus": "Questionable",
     "gsisId": "00-0037132",
-    "injury": "Shoulder",
+    "injury": "Knee",
     "name": "Britain Covey",
     "pos": "WR",
-    "practice": "Full Participation in Practice",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-27T00:59Z"
    },
    {
@@ -96,10 +96,10 @@
     "espnId": "4685287",
     "gameStatus": "Questionable",
     "gsisId": "00-0040708",
-    "injury": "Wrist",
+    "injury": "Hamstring",
     "name": "Jihaad Campbell",
     "pos": "LB",
-    "practice": "Full Participation in Practice",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-29T01:08Z"
    },
    {
@@ -119,17 +119,17 @@
     "injury": "Ankle",
     "name": "Jonathan Greenard",
     "pos": "LB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-28T23:03Z"
    },
    {
     "espnId": "2971027",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0032580",
+    "injury": "Hamstring",
     "name": "Jonathan Jones",
     "pos": "CB",
-    "practice": "",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-28T23:03Z"
    },
    {
@@ -149,17 +149,17 @@
     "injury": "Abdomen",
     "name": "Michael Carter II",
     "pos": "CB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-29T01:15Z"
    },
    {
     "espnId": "4362116",
     "gameStatus": "Questionable",
     "gsisId": "00-0038412",
-    "injury": "Abdomen",
+    "injury": "Neck",
     "name": "Moro Ojomo",
     "pos": "DT",
-    "practice": "Full Participation in Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-28T23:05Z"
    },
    {
@@ -169,7 +169,7 @@
     "injury": "Concussion",
     "name": "Nolan Smith Jr.",
     "pos": "LB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-29T01:22Z"
    },
    {
@@ -179,17 +179,17 @@
     "injury": "Hamstring",
     "name": "Saquon Barkley",
     "pos": "RB",
-    "practice": "Full Participation in Practice",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-10-28T23:05Z"
    },
    {
     "espnId": "4431573",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0040013",
+    "injury": "Knee",
     "name": "Smael Mondon Jr.",
     "pos": "LB",
-    "practice": "",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-28T23:04Z"
    },
    {
@@ -243,7 +243,7 @@
     "statusDate": "2026-10-16T20:07Z"
    }
   ],
-  "week": 7
+  "week": 8
  },
- "updated": "2026-10-29T07:00:38-04:00"
+ "updated": "2026-10-29T11:05:49-04:00"
 }
