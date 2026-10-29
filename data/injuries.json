@@ -50,7 +50,7 @@
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-28T23:10Z"
+    "statusDate": "2026-10-29T18:22Z"
    },
    {
     "espnId": "4428850",
@@ -60,7 +60,7 @@
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-28T23:13Z"
+    "statusDate": "2026-10-29T18:31Z"
    },
    {
     "espnId": "4686911",
@@ -180,7 +180,7 @@
     "name": "Saquon Barkley",
     "pos": "RB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-28T23:05Z"
+    "statusDate": "2026-10-29T18:19Z"
    },
    {
     "espnId": "4431573",
@@ -245,5 +245,5 @@
   ],
   "week": 8
  },
- "updated": "2026-10-29T11:05:49-04:00"
+ "updated": "2026-10-29T15:05:43-04:00"
 }
