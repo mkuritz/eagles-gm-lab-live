@@ -94,7 +94,7 @@
    "depthOrder": 2,
    "depthPos": "LILB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Smael Mondon Jr.",
    "pos": "LB",
    "status": "Active"
@@ -114,15 +114,6 @@
    "espnId": 3916409,
    "injury": "Questionable",
    "name": "Jonathan Greenard",
-   "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "LOLB",
-   "espnId": null,
-   "injury": null,
-   "name": "Keyshawn James-Newby",
    "pos": "DE",
    "status": "Active"
   },
@@ -334,15 +325,6 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "RB",
-   "espnId": null,
-   "injury": null,
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
    "depthOrder": 4,
    "depthPos": "RB",
    "espnId": null,
@@ -481,7 +463,7 @@
    "depthOrder": 1,
    "depthPos": "SS",
    "espnId": 3139368,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Marcus Epps",
    "pos": "DB",
    "status": "Active"
@@ -635,6 +617,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Elijah Mitchell",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Erik Ezukanma",
    "pos": "WR",
    "status": "Active"
@@ -690,6 +681,15 @@
    "espnId": null,
    "injury": null,
    "name": "Joshua Weru",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Keyshawn James-Newby",
    "pos": "DE",
    "status": "Active"
   },
@@ -757,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-29T07:00:42-04:00"
+ "updated": "2026-10-30T07:00:45-04:00"
 }

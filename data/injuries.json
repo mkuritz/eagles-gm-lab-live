@@ -145,11 +145,11 @@
    {
     "espnId": "3139368",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0034993",
+    "injury": "Jaw",
     "name": "Marcus Epps",
     "pos": "S",
-    "practice": "",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-10-29T21:46Z"
    },
    {
@@ -245,5 +245,5 @@
   ],
   "week": 8
  },
- "updated": "2026-10-29T20:47:10-04:00"
+ "updated": "2026-10-30T07:00:41-04:00"
 }

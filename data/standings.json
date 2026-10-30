@@ -241,6 +241,18 @@
    "w": 4
   },
   {
+   "abbr": "GB",
+   "conf": "NFC",
+   "l": 3,
+   "name": "Green Bay Packers",
+   "pa": 164,
+   "pf": 171,
+   "seed": "7",
+   "streak": "W1",
+   "t": 0,
+   "w": 5
+  },
+  {
    "abbr": "NYG",
    "conf": "NFC",
    "l": 2,
@@ -250,18 +262,6 @@
    "seed": "3",
    "streak": "W1",
    "t": 1,
-   "w": 4
-  },
-  {
-   "abbr": "GB",
-   "conf": "NFC",
-   "l": 3,
-   "name": "Green Bay Packers",
-   "pa": 145,
-   "pf": 144,
-   "seed": "7",
-   "streak": "L1",
-   "t": 0,
    "w": 4
   },
   {
@@ -279,12 +279,12 @@
   {
    "abbr": "CAR",
    "conf": "NFC",
-   "l": 3,
+   "l": 4,
    "name": "Carolina Panthers",
-   "pa": 166,
-   "pf": 159,
+   "pa": 193,
+   "pf": 178,
    "seed": "4",
-   "streak": "L1",
+   "streak": "L2",
    "t": 0,
    "w": 3
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-10-27T07:00:39-04:00"
+ "updated": "2026-10-30T07:00:41-04:00"
 }
