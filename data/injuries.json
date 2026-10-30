@@ -183,16 +183,6 @@
     "statusDate": "2026-10-29T01:22Z"
    },
    {
-    "espnId": "3929630",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0034844",
-    "injury": "Hamstring",
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-30T17:55Z"
-   },
-   {
     "espnId": "4429013",
     "gameStatus": "IR",
     "gsisId": null,
@@ -245,5 +235,5 @@
   ],
   "week": 8
  },
- "updated": "2026-10-30T15:00:11-04:00"
+ "updated": "2026-10-30T16:05:46-04:00"
 }
