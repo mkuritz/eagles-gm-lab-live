@@ -50,7 +50,7 @@
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-29T18:22Z"
+    "statusDate": "2026-10-29T21:55Z"
    },
    {
     "espnId": "4428850",
@@ -143,6 +143,16 @@
     "statusDate": "2026-10-26T22:53Z"
    },
    {
+    "espnId": "3139368",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Marcus Epps",
+    "pos": "S",
+    "practice": "",
+    "statusDate": "2026-10-29T21:46Z"
+   },
+   {
     "espnId": "4240456",
     "gameStatus": "Questionable",
     "gsisId": "00-0036501",
@@ -180,17 +190,7 @@
     "name": "Saquon Barkley",
     "pos": "RB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-10-29T18:19Z"
-   },
-   {
-    "espnId": "4431573",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0040013",
-    "injury": "Knee",
-    "name": "Smael Mondon Jr.",
-    "pos": "LB",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-10-28T23:04Z"
+    "statusDate": "2026-10-29T21:50Z"
    },
    {
     "espnId": "4429013",
@@ -245,5 +245,5 @@
   ],
   "week": 8
  },
- "updated": "2026-10-29T15:05:43-04:00"
+ "updated": "2026-10-29T20:47:10-04:00"
 }
