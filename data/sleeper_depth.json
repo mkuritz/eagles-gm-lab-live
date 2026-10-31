@@ -67,7 +67,7 @@
    "depthOrder": 3,
    "depthPos": "LCB",
    "espnId": 2971027,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Jonathan Jones",
    "pos": "DB",
    "status": "Active"
@@ -76,7 +76,7 @@
    "depthOrder": 1,
    "depthPos": "LDE",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Moro Ojomo",
    "pos": "DE",
    "status": "Active"
@@ -103,7 +103,7 @@
    "depthOrder": 1,
    "depthPos": "LOLB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Nolan Smith Jr.",
    "pos": "LB",
    "status": "Active"
@@ -112,7 +112,7 @@
    "depthOrder": 2,
    "depthPos": "LOLB",
    "espnId": 3916409,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jonathan Greenard",
    "pos": "DE",
    "status": "Active"
@@ -127,20 +127,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
-   "depthPos": "LWR",
-   "espnId": null,
-   "injury": "Questionable",
-   "name": "DeVonta Smith",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 6,
+   "depthOrder": 4,
    "depthPos": "LWR",
    "espnId": null,
    "injury": null,
    "name": "Elijah Moore",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 5,
+   "depthPos": "LWR",
+   "espnId": null,
+   "injury": "Out",
+   "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
   },
@@ -310,7 +310,7 @@
    "depthOrder": 1,
    "depthPos": "RB",
    "espnId": 3929630,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
@@ -400,7 +400,7 @@
    "depthOrder": 1,
    "depthPos": "RILB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Jihaad Campbell",
    "pos": "LB",
    "status": "Active"
@@ -418,7 +418,7 @@
    "depthOrder": 1,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jalyx Hunt",
    "pos": "DL",
    "status": "Active"
@@ -445,17 +445,17 @@
    "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": "Questionable",
-   "name": "Dontayvion Wicks",
+   "injury": null,
+   "name": "Darius Cooper",
    "pos": "WR",
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 6,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": null,
-   "name": "Darius Cooper",
+   "injury": "Out",
+   "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
   },
@@ -463,7 +463,7 @@
    "depthOrder": 1,
    "depthPos": "SS",
    "espnId": 3139368,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Marcus Epps",
    "pos": "DB",
    "status": "Active"
@@ -472,13 +472,13 @@
    "depthOrder": 2,
    "depthPos": "SS",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Michael Carter II",
    "pos": "CB",
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 1,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -487,7 +487,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 3,
    "depthPos": "SWR",
    "espnId": 4241372,
    "injury": null,
@@ -499,7 +499,7 @@
    "depthOrder": 7,
    "depthPos": "SWR",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
@@ -518,25 +518,25 @@
    "depthPos": "TE",
    "espnId": null,
    "injury": null,
-   "name": "Grant Calcaterra",
+   "name": "Eli Stowers",
    "pos": "TE",
    "status": "Active"
   },
   {
    "depthOrder": 3,
    "depthPos": "TE",
-   "espnId": 3052096,
+   "espnId": null,
    "injury": null,
-   "name": "Johnny Mundt",
+   "name": "Grant Calcaterra",
    "pos": "TE",
    "status": "Active"
   },
   {
    "depthOrder": 4,
    "depthPos": "TE",
-   "espnId": null,
+   "espnId": 3052096,
    "injury": null,
-   "name": "Eli Stowers",
+   "name": "Johnny Mundt",
    "pos": "TE",
    "status": "Active"
   },
@@ -757,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-30T07:00:45-04:00"
+ "updated": "2026-10-31T07:00:47-04:00"
 }
