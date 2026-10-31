@@ -745,11 +745,11 @@
   {
    "apy": 1.005,
    "apy_cap_pct": 0.003,
-   "gsis_id": "00-0039325",
+   "gsis_id": "00-0040586",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 11920,
-   "player": "Carson Steele",
+   "otc_id": 12509,
+   "player": "Jaydon Blue",
    "position": "RB",
    "team": "Eagles",
    "value": 1.005,
@@ -843,6 +843,20 @@
   {
    "apy": 0.33,
    "apy_cap_pct": 0.001,
+   "gsis_id": "00-0036559",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 9624,
+   "player": "Shaun Wade",
+   "position": "CB",
+   "team": "Eagles",
+   "value": 0.33,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 0.33,
+   "apy_cap_pct": 0.001,
    "gsis_id": "00-0038496",
    "guaranteed": 0.0,
    "is_active": true,
@@ -851,6 +865,20 @@
    "position": "WR",
    "team": "Eagles",
    "value": 0.33,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 0.318,
+   "apy_cap_pct": 0.001,
+   "gsis_id": "00-0040908",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 13396,
+   "player": "Keyshawn James-Newby",
+   "position": "ED",
+   "team": "Eagles",
+   "value": 0.318,
    "year_signed": 2026,
    "years": 1
   },
@@ -883,20 +911,6 @@
    "years": 1
   },
   {
-   "apy": 0.283,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0040908",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 13396,
-   "player": "Keyshawn James-Newby",
-   "position": "ED",
-   "team": "Eagles",
-   "value": 0.283,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
    "gsis_id": "00-0038908",
@@ -905,20 +919,6 @@
    "otc_id": 11092,
    "player": "Anfernee Orji",
    "position": "LB",
-   "team": "Eagles",
-   "value": 0.247,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.247,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0040396",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 12661,
-   "player": "Dean Clark",
-   "position": "S",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -941,12 +941,12 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0039265",
+   "gsis_id": "00-0040909",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 11995,
-   "player": "Gabe Hall",
-   "position": "IDL",
+   "otc_id": 13397,
+   "player": "Evan Beerntsen",
+   "position": "LG",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -955,12 +955,12 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0040586",
+   "gsis_id": "00-0039265",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 12509,
-   "player": "Jaydon Blue",
-   "position": "RB",
+   "otc_id": 11995,
+   "player": "Gabe Hall",
+   "position": "IDL",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -1011,6 +1011,20 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
+   "gsis_id": "00-0040406",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 12938,
+   "player": "Quentin Skinner",
+   "position": "WR",
+   "team": "Eagles",
+   "value": 0.247,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 0.247,
+   "apy_cap_pct": 0.001,
    "gsis_id": "00-0041580",
    "guaranteed": 0.0,
    "is_active": true,
@@ -1037,5 +1051,5 @@
    "years": 1
   }
  ],
- "updated": "2026-10-26T13:05:47-04:00"
+ "updated": "2026-10-31T14:16:05-04:00"
 }
