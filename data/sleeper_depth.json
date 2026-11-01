@@ -320,6 +320,15 @@
    "depthPos": "RB",
    "espnId": null,
    "injury": null,
+   "name": "Elijah Mitchell",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "RB",
+   "espnId": null,
+   "injury": null,
    "name": "Jaydon Blue",
    "pos": "RB",
    "status": "Active"
@@ -412,6 +421,15 @@
    "injury": null,
    "name": "Jeremiah Trotter Jr.",
    "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "RILB",
+   "espnId": null,
+   "injury": null,
+   "name": "Mason Reiger",
+   "pos": "DE",
    "status": "Active"
   },
   {
@@ -617,15 +635,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Erik Ezukanma",
    "pos": "WR",
    "status": "Active"
@@ -707,15 +716,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Mason Reiger",
-   "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Quentin Skinner",
    "pos": "WR",
    "status": "Active"
@@ -757,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-10-31T07:00:47-04:00"
+ "updated": "2026-11-01T07:00:45-05:00"
 }

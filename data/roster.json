@@ -652,6 +652,19 @@
   },
   {
    "age": 24,
+   "espnId": "4691903",
+   "exp": 0,
+   "group": "defense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4691903.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "90",
+   "name": "Mason Reiger",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "age": 24,
    "espnId": "4428992",
    "exp": 4,
    "group": "defense",
@@ -787,7 +800,7 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686911.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-26T23:13Z",
+   "injuryDate": "2026-11-01T03:12Z",
    "jersey": "21",
    "name": "Jakorian Bennett",
    "pos": "CB",
@@ -976,19 +989,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 24,
-   "espnId": "4691903",
-   "exp": 0,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4691903.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "90",
-   "name": "Mason Reiger",
-   "pos": "LB",
-   "status": "Practice Squad"
-  },
-  {
    "age": 23,
    "espnId": "5344965",
    "exp": 0,
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-10-31T07:00:43-04:00"
+ "updated": "2026-11-01T07:00:41-05:00"
 }
