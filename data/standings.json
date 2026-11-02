@@ -13,16 +13,16 @@
    "w": 6
   },
   {
-   "abbr": "KC",
+   "abbr": "DEN",
    "conf": "AFC",
-   "l": 1,
-   "name": "Kansas City Chiefs",
-   "pa": 103,
-   "pf": 143,
+   "l": 2,
+   "name": "Denver Broncos",
+   "pa": 165,
+   "pf": 172,
    "seed": "2",
-   "streak": "L1",
+   "streak": "W4",
    "t": 0,
-   "w": 5
+   "w": 6
   },
   {
    "abbr": "PIT",
@@ -49,14 +49,14 @@
    "w": 5
   },
   {
-   "abbr": "DEN",
+   "abbr": "KC",
    "conf": "AFC",
    "l": 2,
-   "name": "Denver Broncos",
-   "pa": 141,
-   "pf": 144,
+   "name": "Kansas City Chiefs",
+   "pa": 131,
+   "pf": 167,
    "seed": "5",
-   "streak": "W3",
+   "streak": "L2",
    "t": 0,
    "w": 5
   },
@@ -73,28 +73,28 @@
    "w": 5
   },
   {
+   "abbr": "NE",
+   "conf": "AFC",
+   "l": 3,
+   "name": "New England Patriots",
+   "pa": 162,
+   "pf": 184,
+   "seed": "7",
+   "streak": "W1",
+   "t": 0,
+   "w": 5
+  },
+  {
    "abbr": "CLE",
    "conf": "AFC",
    "l": 3,
    "name": "Cleveland Browns",
    "pa": 173,
    "pf": 139,
-   "seed": "7",
-   "streak": "L1",
-   "t": 0,
-   "w": 5
-  },
-  {
-   "abbr": "NE",
-   "conf": "AFC",
-   "l": 3,
-   "name": "New England Patriots",
-   "pa": 143,
-   "pf": 160,
    "seed": "8",
    "streak": "L1",
    "t": 0,
-   "w": 4
+   "w": 5
   },
   {
    "abbr": "LV",
@@ -159,12 +159,12 @@
   {
    "abbr": "MIA",
    "conf": "AFC",
-   "l": 5,
+   "l": 6,
    "name": "Miami Dolphins",
-   "pa": 157,
-   "pf": 98,
+   "pa": 181,
+   "pf": 117,
    "seed": "14",
-   "streak": "W1",
+   "streak": "L1",
    "t": 0,
    "w": 1
   },
@@ -385,5 +385,5 @@
    "w": 1
   }
  ],
- "updated": "2026-11-01T19:05:50-05:00"
+ "updated": "2026-11-01T22:01:05-05:00"
 }
