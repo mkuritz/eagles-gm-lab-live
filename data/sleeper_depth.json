@@ -202,7 +202,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Jake Majors",
    "pos": "OL",
    "status": "Active"
@@ -490,7 +490,7 @@
    "depthOrder": 2,
    "depthPos": "SS",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Michael Carter II",
    "pos": "CB",
    "status": "Active"
@@ -757,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-01T07:00:45-05:00"
+ "updated": "2026-11-02T07:00:57-05:00"
 }

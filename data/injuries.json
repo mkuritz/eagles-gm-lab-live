@@ -133,6 +133,16 @@
     "statusDate": "2026-10-26T22:53Z"
    },
    {
+    "espnId": "4240456",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0036501",
+    "injury": "Abdomen",
+    "name": "Michael Carter II",
+    "pos": "CB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-11-02T04:02Z"
+   },
+   {
     "espnId": "4429013",
     "gameStatus": "IR",
     "gsisId": null,
@@ -185,5 +195,5 @@
   ],
   "week": 8
  },
- "updated": "2026-11-01T19:05:50-05:00"
+ "updated": "2026-11-02T07:00:54-05:00"
 }
