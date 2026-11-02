@@ -85,7 +85,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3926231.png",
    "injury": "Out",
-   "injuryDate": "2026-10-31T00:11Z",
+   "injuryDate": "2026-11-01T23:55Z",
    "jersey": "85",
    "name": "Britain Covey",
    "pos": "WR",
@@ -214,8 +214,8 @@
    "exp": 1,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430814.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-11-01T23:55Z",
    "jersey": "75",
    "name": "Jake Majors",
    "pos": "C",
@@ -345,7 +345,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Out",
-   "injuryDate": "2026-10-30T20:17Z",
+   "injuryDate": "2026-11-01T23:55Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -384,7 +384,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
    "injury": "Out",
-   "injuryDate": "2026-10-30T20:19Z",
+   "injuryDate": "2026-11-01T23:55Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -423,7 +423,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685287.png",
    "injury": "Out",
-   "injuryDate": "2026-10-31T00:16Z",
+   "injuryDate": "2026-11-01T23:55Z",
    "jersey": "11",
    "name": "Jihaad Campbell",
    "pos": "LB",
@@ -566,7 +566,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2971027.png",
    "injury": "Out",
-   "injuryDate": "2026-10-30T19:55Z",
+   "injuryDate": "2026-11-01T23:55Z",
    "jersey": "31",
    "name": "Jonathan Jones",
    "pos": "CB",
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-01T07:00:41-05:00"
+ "updated": "2026-11-01T19:05:50-05:00"
 }
