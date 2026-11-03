@@ -14,13 +14,13 @@
    },
    {
     "espnId": "3926231",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0037132",
     "injury": "Knee",
     "name": "Britain Covey",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-02T19:19Z"
+    "statusDate": "2026-11-03T13:03Z"
    },
    {
     "espnId": "4372051",
@@ -44,23 +44,23 @@
    },
    {
     "espnId": "4241478",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0036912",
     "injury": "Hamstring",
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-02T19:19Z"
+    "statusDate": "2026-11-03T13:03Z"
    },
    {
     "espnId": "4428850",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0038393",
     "injury": "Ankle",
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-02T19:19Z"
+    "statusDate": "2026-11-03T13:03Z"
    },
    {
     "espnId": "4686911",
@@ -84,13 +84,13 @@
    },
    {
     "espnId": "4685287",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0040708",
     "injury": "Hamstring",
     "name": "Jihaad Campbell",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-02T19:19Z"
+    "statusDate": "2026-11-03T13:03Z"
    },
    {
     "espnId": "4686104",
@@ -104,13 +104,13 @@
    },
    {
     "espnId": "2971027",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0032580",
     "injury": "Hamstring",
     "name": "Jonathan Jones",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-02T19:19Z"
+    "statusDate": "2026-11-03T13:03Z"
    },
    {
     "espnId": "15797",
@@ -185,5 +185,5 @@
   ],
   "week": 8
  },
- "updated": "2026-11-02T15:05:46-05:00"
+ "updated": "2026-11-03T11:05:39-05:00"
 }
