@@ -127,20 +127,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
-   "depthPos": "LWR",
-   "espnId": null,
-   "injury": null,
-   "name": "Elijah Moore",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 5,
+   "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
    "injury": "Out",
    "name": "DeVonta Smith",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 6,
+   "depthPos": "LWR",
+   "espnId": null,
+   "injury": null,
+   "name": "Elijah Moore",
    "pos": "WR",
    "status": "Active"
   },
@@ -320,15 +320,6 @@
    "depthPos": "RB",
    "espnId": null,
    "injury": null,
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "RB",
-   "espnId": null,
-   "injury": null,
    "name": "Jaydon Blue",
    "pos": "RB",
    "status": "Active"
@@ -424,15 +415,6 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "RILB",
-   "espnId": null,
-   "injury": null,
-   "name": "Mason Reiger",
-   "pos": "DE",
-   "status": "Active"
-  },
-  {
    "depthOrder": 1,
    "depthPos": "ROLB",
    "espnId": null,
@@ -460,7 +442,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 2,
+   "depthOrder": 3,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -469,7 +451,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 6,
+   "depthOrder": 4,
    "depthPos": "RWR",
    "espnId": null,
    "injury": "Out",
@@ -496,7 +478,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 2,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -505,7 +487,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 5,
    "depthPos": "SWR",
    "espnId": 4241372,
    "injury": null,
@@ -635,6 +617,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Elijah Mitchell",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Erik Ezukanma",
    "pos": "WR",
    "status": "Active"
@@ -716,6 +707,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Mason Reiger",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Quentin Skinner",
    "pos": "WR",
    "status": "Active"
@@ -757,5 +757,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-02T07:00:57-05:00"
+ "updated": "2026-11-03T07:00:50-05:00"
 }
