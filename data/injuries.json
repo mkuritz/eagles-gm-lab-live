@@ -63,16 +63,6 @@
     "statusDate": "2026-11-03T13:03Z"
    },
    {
-    "espnId": "4686911",
-    "gameStatus": "IR",
-    "gsisId": "00-0039072",
-    "injury": "Knee",
-    "name": "Jakorian Bennett",
-    "pos": "CB",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-11-01T03:12Z"
-   },
-   {
     "espnId": "4040715",
     "gameStatus": "IR",
     "gsisId": null,
@@ -185,5 +175,5 @@
   ],
   "week": 8
  },
- "updated": "2026-11-03T11:05:39-05:00"
+ "updated": "2026-11-03T19:05:45-05:00"
 }
