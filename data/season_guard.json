@@ -1,20 +1,12 @@
 {
- "generated": "2026-11-03T20:12:46-05:00",
+ "generated": "2026-11-04T07:00:56-05:00",
  "seasons": {
   "nfl": 2026,
   "mlb": 2026,
   "nhl": 20262027
  },
- "checked": 78,
- "conflicts": [
-  {
-   "src": "roster.json",
-   "sport": "nfl",
-   "player": "Jakorian Bennett",
-   "team": "PHI",
-   "why": "not on PHI live 2026 roster for 2026-11-03"
-  }
- ],
+ "checked": 77,
+ "conflicts": [],
  "unverified": [],
  "stale": [],
  "notes": []

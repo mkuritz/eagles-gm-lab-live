@@ -807,19 +807,6 @@
    "status": "Active"
   },
   {
-   "age": 26,
-   "espnId": "4686911",
-   "exp": 4,
-   "group": "injuredReserveOrOut",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686911.png",
-   "injury": "Injured Reserve",
-   "injuryDate": "2026-11-01T03:12Z",
-   "jersey": "21",
-   "name": "Jakorian Bennett",
-   "pos": "CB",
-   "status": "Day-To-Day"
-  },
-  {
    "age": 27,
    "espnId": "4259590",
    "exp": 3,
@@ -1015,5 +1002,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-03T15:26:03-05:00"
+ "updated": "2026-11-04T07:00:44-05:00"
 }
