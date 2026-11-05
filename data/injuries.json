@@ -65,12 +65,12 @@
    {
     "espnId": "3050478",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0033787",
+    "injury": "Ankle",
     "name": "Jake Elliott",
     "pos": "PK",
-    "practice": "",
-    "statusDate": "2026-11-04T23:17Z"
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-05T02:44Z"
    },
    {
     "espnId": "4040715",
@@ -100,7 +100,7 @@
     "name": "Jihaad Campbell",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-03T13:03Z"
+    "statusDate": "2026-11-05T02:51Z"
    },
    {
     "espnId": "4686104",
@@ -119,7 +119,7 @@
     "injury": "Ankle",
     "name": "Jonathan Greenard",
     "pos": "LB",
-    "practice": "Full Participation in Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-04T23:18Z"
    },
    {
@@ -149,7 +149,7 @@
     "injury": "Abdomen",
     "name": "Michael Carter II",
     "pos": "CB",
-    "practice": "Full Participation in Practice",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-11-02T04:02Z"
    },
    {
@@ -159,7 +159,7 @@
     "injury": "Hamstring",
     "name": "Saquon Barkley",
     "pos": "RB",
-    "practice": "Limited Participation in Practice",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-11-04T23:20Z"
    },
    {
@@ -213,7 +213,7 @@
     "statusDate": "2026-10-16T20:07Z"
    }
   ],
-  "week": 8
+  "week": 9
  },
- "updated": "2026-11-04T21:13:20-05:00"
+ "updated": "2026-11-05T07:00:46-05:00"
 }
