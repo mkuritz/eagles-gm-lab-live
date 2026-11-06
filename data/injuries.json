@@ -50,7 +50,7 @@
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-05T19:29Z"
+    "statusDate": "2026-11-05T22:38Z"
    },
    {
     "espnId": "4428850",
@@ -60,7 +60,7 @@
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-05T19:33Z"
+    "statusDate": "2026-11-05T22:48Z"
    },
    {
     "espnId": "3050478",
@@ -160,7 +160,7 @@
     "name": "Saquon Barkley",
     "pos": "RB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-05T19:27Z"
+    "statusDate": "2026-11-05T22:33Z"
    },
    {
     "espnId": "4429013",
@@ -171,6 +171,16 @@
     "pos": "RB",
     "practice": "",
     "statusDate": "2026-10-06T23:17Z"
+   },
+   {
+    "espnId": "4685201",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0038400",
+    "injury": "Chest",
+    "name": "Tanner McKee",
+    "pos": "QB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-11-05T23:51Z"
    },
    {
     "espnId": "4259590",
@@ -215,5 +225,5 @@
   ],
   "week": 9
  },
- "updated": "2026-11-05T15:56:48-05:00"
+ "updated": "2026-11-05T19:06:17-05:00"
 }
