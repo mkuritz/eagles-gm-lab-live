@@ -127,7 +127,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 3,
    "depthPos": "LWR",
    "espnId": null,
    "injury": "Questionable",
@@ -282,20 +282,20 @@
   {
    "depthOrder": 2,
    "depthPos": "QB",
-   "espnId": null,
-   "injury": null,
-   "name": "Tanner McKee",
-   "pos": "QB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "QB",
    "espnId": 4040715,
    "injury": "IR",
    "name": "Jalen Hurts",
    "pos": "QB",
    "status": "Inactive"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "QB",
+   "espnId": null,
+   "injury": "Questionable",
+   "name": "Tanner McKee",
+   "pos": "QB",
+   "status": "Active"
   },
   {
    "depthOrder": 4,
@@ -433,20 +433,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "RWR",
-   "espnId": null,
-   "injury": "Questionable",
-   "name": "Dontayvion Wicks",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 4,
+   "depthOrder": 1,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
    "name": "Darius Cooper",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 5,
+   "depthPos": "RWR",
+   "espnId": null,
+   "injury": "Questionable",
+   "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
   },
@@ -478,7 +478,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 4,
    "depthPos": "SWR",
    "espnId": 4241372,
    "injury": null,
@@ -748,5 +748,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-05T07:00:50-05:00"
+ "updated": "2026-11-06T07:00:58-05:00"
 }

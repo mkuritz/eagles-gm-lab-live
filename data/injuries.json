@@ -159,7 +159,7 @@
     "injury": "Hamstring",
     "name": "Saquon Barkley",
     "pos": "RB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-05T22:33Z"
    },
    {
@@ -176,10 +176,10 @@
     "espnId": "4685201",
     "gameStatus": "Questionable",
     "gsisId": "00-0038400",
-    "injury": "Chest",
+    "injury": "Rib",
     "name": "Tanner McKee",
     "pos": "QB",
-    "practice": "Full Participation in Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-05T23:51Z"
    },
    {
@@ -225,5 +225,5 @@
   ],
   "week": 9
  },
- "updated": "2026-11-05T21:13:08-05:00"
+ "updated": "2026-11-06T07:00:55-05:00"
 }

@@ -25,28 +25,28 @@
    "w": 6
   },
   {
+   "abbr": "JAX",
+   "conf": "AFC",
+   "l": 2,
+   "name": "Jacksonville Jaguars",
+   "pa": 121,
+   "pf": 229,
+   "seed": "3",
+   "streak": "W2",
+   "t": 0,
+   "w": 6
+  },
+  {
    "abbr": "PIT",
    "conf": "AFC",
    "l": 2,
    "name": "Pittsburgh Steelers",
    "pa": 144,
    "pf": 180,
-   "seed": "3",
+   "seed": "4",
    "streak": "W4",
    "t": 0,
    "w": 6
-  },
-  {
-   "abbr": "JAX",
-   "conf": "AFC",
-   "l": 2,
-   "name": "Jacksonville Jaguars",
-   "pa": 111,
-   "pf": 196,
-   "seed": "4",
-   "streak": "W1",
-   "t": 0,
-   "w": 5
   },
   {
    "abbr": "KC",
@@ -111,12 +111,12 @@
   {
    "abbr": "BAL",
    "conf": "AFC",
-   "l": 4,
+   "l": 5,
    "name": "Baltimore Ravens",
-   "pa": 203,
-   "pf": 179,
+   "pa": 236,
+   "pf": 189,
    "seed": "10",
-   "streak": "L3",
+   "streak": "L4",
    "t": 0,
    "w": 4
   },
@@ -385,5 +385,5 @@
    "w": 2
   }
  ],
- "updated": "2026-11-03T07:00:46-05:00"
+ "updated": "2026-11-06T07:00:54-05:00"
 }
