@@ -14,13 +14,13 @@
    },
    {
     "espnId": "3926231",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0037132",
     "injury": "Knee",
     "name": "Britain Covey",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-03T13:03Z"
+    "statusDate": "2026-11-06T20:57Z"
    },
    {
     "espnId": "4372051",
@@ -44,23 +44,23 @@
    },
    {
     "espnId": "4241478",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0036912",
     "injury": "Hamstring",
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-06T17:32Z"
+    "statusDate": "2026-11-06T21:09Z"
    },
    {
     "espnId": "4428850",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0038393",
     "injury": "Ankle",
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-06T17:23Z"
+    "statusDate": "2026-11-06T21:02Z"
    },
    {
     "espnId": "3050478",
@@ -153,16 +153,6 @@
     "statusDate": "2026-11-02T04:02Z"
    },
    {
-    "espnId": "3929630",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0034844",
-    "injury": "Hamstring",
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-06T17:21Z"
-   },
-   {
     "espnId": "4429013",
     "gameStatus": "IR",
     "gsisId": null,
@@ -225,5 +215,5 @@
   ],
   "week": 9
  },
- "updated": "2026-11-06T15:48:45-05:00"
+ "updated": "2026-11-06T18:05:38-05:00"
 }
