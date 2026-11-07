@@ -63,6 +63,16 @@
     "statusDate": "2026-11-06T21:02Z"
    },
    {
+    "espnId": "3050478",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0033787",
+    "injury": "Ankle",
+    "name": "Jake Elliott",
+    "pos": "PK",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-06T00:22Z"
+   },
+   {
     "espnId": "4040715",
     "gameStatus": "IR",
     "gsisId": null,
@@ -73,14 +83,24 @@
     "statusDate": "2026-10-19T14:18Z"
    },
    {
+    "espnId": "4571162",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0039740",
+    "injury": "Knee",
+    "name": "Jalyx Hunt",
+    "pos": "LB",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-04T23:18Z"
+   },
+   {
     "espnId": "4685287",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0040708",
     "injury": "Hamstring",
     "name": "Jihaad Campbell",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-06T22:31Z"
+    "statusDate": "2026-11-05T02:51Z"
    },
    {
     "espnId": "4686104",
@@ -93,14 +113,24 @@
     "statusDate": "2026-08-22T21:59Z"
    },
    {
+    "espnId": "3916409",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0036224",
+    "injury": "Ankle",
+    "name": "Jonathan Greenard",
+    "pos": "LB",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-04T23:18Z"
+   },
+   {
     "espnId": "2971027",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0032580",
     "injury": "Hamstring",
     "name": "Jonathan Jones",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-06T22:32Z"
+    "statusDate": "2026-11-03T13:03Z"
    },
    {
     "espnId": "15797",
@@ -114,13 +144,13 @@
    },
    {
     "espnId": "4240456",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0036501",
     "injury": "Abdomen",
     "name": "Michael Carter II",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-06T22:32Z"
+    "statusDate": "2026-11-02T04:02Z"
    },
    {
     "espnId": "4429013",
@@ -185,5 +215,5 @@
   ],
   "week": 9
  },
- "updated": "2026-11-06T19:05:45-05:00"
+ "updated": "2026-11-06T19:50:05-05:00"
 }
