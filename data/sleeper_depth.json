@@ -40,7 +40,7 @@
    "depthOrder": 1,
    "depthPos": "K",
    "espnId": 3050478,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jake Elliott",
    "pos": "K",
    "status": "Active"
@@ -67,7 +67,7 @@
    "depthOrder": 3,
    "depthPos": "LCB",
    "espnId": 2971027,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Jonathan Jones",
    "pos": "DB",
    "status": "Active"
@@ -112,7 +112,7 @@
    "depthOrder": 2,
    "depthPos": "LOLB",
    "espnId": 3916409,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jonathan Greenard",
    "pos": "DE",
    "status": "Active"
@@ -127,20 +127,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "LWR",
-   "espnId": null,
-   "injury": "Questionable",
-   "name": "DeVonta Smith",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 6,
+   "depthOrder": 4,
    "depthPos": "LWR",
    "espnId": null,
    "injury": null,
    "name": "Elijah Moore",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 5,
+   "depthPos": "LWR",
+   "espnId": null,
+   "injury": "Out",
+   "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
   },
@@ -310,7 +310,7 @@
    "depthOrder": 1,
    "depthPos": "RB",
    "espnId": 3929630,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
@@ -335,15 +335,6 @@
   },
   {
    "depthOrder": 5,
-   "depthPos": "RB",
-   "espnId": null,
-   "injury": "IR",
-   "name": "Dameon Pierce",
-   "pos": "RB",
-   "status": "Inactive"
-  },
-  {
-   "depthOrder": 6,
    "depthPos": "RB",
    "espnId": null,
    "injury": "IR",
@@ -391,7 +382,7 @@
    "depthOrder": 1,
    "depthPos": "RILB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Jihaad Campbell",
    "pos": "LB",
    "status": "Active"
@@ -409,7 +400,7 @@
    "depthOrder": 1,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jalyx Hunt",
    "pos": "DL",
    "status": "Active"
@@ -433,7 +424,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
@@ -442,10 +433,10 @@
    "status": "Active"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 6,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
@@ -463,13 +454,13 @@
    "depthOrder": 2,
    "depthPos": "SS",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Michael Carter II",
    "pos": "CB",
    "status": "Active"
   },
   {
-   "depthOrder": 2,
+   "depthOrder": 1,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -478,7 +469,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 3,
    "depthPos": "SWR",
    "espnId": 4241372,
    "injury": null,
@@ -490,7 +481,7 @@
    "depthOrder": 7,
    "depthPos": "SWR",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
@@ -602,6 +593,15 @@
    "name": "Cole Wisniewski",
    "pos": "DB",
    "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": "Questionable",
+   "name": "Dameon Pierce",
+   "pos": "RB",
+   "status": "Inactive"
   },
   {
    "depthOrder": null,
@@ -748,5 +748,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-06T07:00:58-05:00"
+ "updated": "2026-11-07T07:00:51-05:00"
 }
