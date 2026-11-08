@@ -159,12 +159,12 @@
   {
    "abbr": "MIA",
    "conf": "AFC",
-   "l": 6,
+   "l": 7,
    "name": "Miami Dolphins",
-   "pa": 181,
-   "pf": 117,
+   "pa": 200,
+   "pf": 126,
    "seed": "14",
-   "streak": "L1",
+   "streak": "L2",
    "t": 0,
    "w": 1
   },
@@ -217,28 +217,28 @@
    "w": 6
   },
   {
+   "abbr": "DET",
+   "conf": "NFC",
+   "l": 2,
+   "name": "Detroit Lions",
+   "pa": 189,
+   "pf": 222,
+   "seed": "5",
+   "streak": "W4",
+   "t": 0,
+   "w": 6
+  },
+  {
    "abbr": "CHI",
    "conf": "NFC",
    "l": 2,
    "name": "Chicago Bears",
    "pa": 160,
    "pf": 214,
-   "seed": "5",
-   "streak": "W3",
-   "t": 0,
-   "w": 6
-  },
-  {
-   "abbr": "DET",
-   "conf": "NFC",
-   "l": 2,
-   "name": "Detroit Lions",
-   "pa": 180,
-   "pf": 203,
    "seed": "6",
    "streak": "W3",
    "t": 0,
-   "w": 5
+   "w": 6
   },
   {
    "abbr": "GB",
@@ -385,5 +385,5 @@
    "w": 2
   }
  ],
- "updated": "2026-11-08T13:05:45-05:00"
+ "updated": "2026-11-08T16:05:45-05:00"
 }

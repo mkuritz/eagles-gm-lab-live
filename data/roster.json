@@ -409,8 +409,8 @@
    "exp": 7,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3917657.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-11-08T20:21Z",
    "jersey": "53",
    "name": "Zack Baun",
    "pos": "LB",
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-08T13:05:45-05:00"
+ "updated": "2026-11-08T16:05:45-05:00"
 }
