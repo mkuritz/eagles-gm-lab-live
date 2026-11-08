@@ -172,7 +172,7 @@
    "completed": false,
    "date": "2026-11-08T18:00Z",
    "name": "NYG @ PHI",
-   "status": "Scheduled",
+   "status": "In Progress",
    "teams": [
     {
      "abbr": "PHI",
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-11-02T07:00:53-05:00"
+ "updated": "2026-11-08T13:05:45-05:00"
 }

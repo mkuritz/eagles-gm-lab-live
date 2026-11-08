@@ -20,7 +20,7 @@
     "name": "Britain Covey",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-07T01:32Z"
+    "statusDate": "2026-11-08T16:45Z"
    },
    {
     "espnId": "4372051",
@@ -50,7 +50,7 @@
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-06T21:09Z"
+    "statusDate": "2026-11-08T16:45Z"
    },
    {
     "espnId": "4428850",
@@ -60,7 +60,7 @@
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-06T21:02Z"
+    "statusDate": "2026-11-08T16:45Z"
    },
    {
     "espnId": "4040715",
@@ -80,7 +80,7 @@
     "name": "Jihaad Campbell",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-07T01:37Z"
+    "statusDate": "2026-11-08T16:45Z"
    },
    {
     "espnId": "4686104",
@@ -100,7 +100,7 @@
     "name": "Jonathan Jones",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-07T03:50Z"
+    "statusDate": "2026-11-08T16:45Z"
    },
    {
     "espnId": "15797",
@@ -120,7 +120,7 @@
     "name": "Michael Carter II",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-07T03:45Z"
+    "statusDate": "2026-11-08T16:45Z"
    },
    {
     "espnId": "4429013",
@@ -131,16 +131,6 @@
     "pos": "RB",
     "practice": "",
     "statusDate": "2026-10-06T23:17Z"
-   },
-   {
-    "espnId": "4685201",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0038400",
-    "injury": "Rib",
-    "name": "Tanner McKee",
-    "pos": "QB",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-08T12:17Z"
    },
    {
     "espnId": "4259590",
@@ -185,5 +175,5 @@
   ],
   "week": 9
  },
- "updated": "2026-11-08T11:05:47-05:00"
+ "updated": "2026-11-08T13:05:46-05:00"
 }
