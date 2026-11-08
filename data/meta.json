@@ -1,56 +1,58 @@
 {
- "lastRun": "2026-11-07T13:29:37-05:00",
+ "lastRun": "2026-11-08T07:06:18-05:00",
  "sources": {
   "contracts.json": {
-   "error": null,
+   "error": "HTTPError: HTTP Error 504: Gateway Timeout",
    "label": "nflverse contracts (Over The Cap)",
+   "lastAttempt": "2026-11-08T07:06:18-05:00",
    "lastChange": "2026-10-31T14:16:05-04:00",
    "lastSuccess": "2026-11-07T13:29:37-05:00",
-   "ok": true
+   "ok": false
   },
   "depth.json": {
-   "error": null,
+   "error": "TimeoutError: The read operation timed out",
    "label": "nflverse depth charts",
+   "lastAttempt": "2026-11-08T07:04:18-05:00",
    "lastChange": "2026-11-07T13:29:36-05:00",
    "lastSuccess": "2026-11-07T13:29:36-05:00",
-   "ok": true
+   "ok": false
   },
   "injuries.json": {
    "error": null,
    "label": "ESPN same-day injury statuses (+ official report notes)",
    "lastChange": "2026-11-07T07:00:47-05:00",
-   "lastSuccess": "2026-11-07T13:29:33-05:00",
+   "lastSuccess": "2026-11-08T07:02:18-05:00",
    "ok": true
   },
   "roster.json": {
    "error": null,
    "label": "ESPN team roster",
-   "lastChange": "2026-11-07T07:00:47-05:00",
-   "lastSuccess": "2026-11-07T13:29:33-05:00",
+   "lastChange": "2026-11-08T07:00:59-05:00",
+   "lastSuccess": "2026-11-08T07:00:59-05:00",
    "ok": true
   },
   "schedule.json": {
    "error": null,
    "label": "ESPN team schedule",
    "lastChange": "2026-11-02T07:00:53-05:00",
-   "lastSuccess": "2026-11-07T13:29:33-05:00",
+   "lastSuccess": "2026-11-08T07:00:59-05:00",
    "ok": true
   },
   "sleeper_depth.json": {
    "error": null,
    "label": "Sleeper players (depth backup, max 1/day)",
-   "lastChange": "2026-11-07T07:00:51-05:00",
-   "lastSuccess": "2026-11-07T07:00:51-05:00",
+   "lastChange": "2026-11-08T07:06:18-05:00",
+   "lastSuccess": "2026-11-08T07:06:18-05:00",
    "ok": true
   },
   "standings.json": {
    "error": null,
    "label": "ESPN standings",
    "lastChange": "2026-11-06T07:00:54-05:00",
-   "lastSuccess": "2026-11-07T13:29:33-05:00",
+   "lastSuccess": "2026-11-08T07:00:59-05:00",
    "ok": true
   }
  },
  "timezone": "America/New_York",
- "updated": "2026-11-07T13:29:36-05:00"
+ "updated": "2026-11-08T07:06:18-05:00"
 }

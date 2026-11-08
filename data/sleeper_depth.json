@@ -320,6 +320,15 @@
    "depthPos": "RB",
    "espnId": null,
    "injury": null,
+   "name": "Elijah Mitchell",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "RB",
+   "espnId": null,
+   "injury": null,
    "name": "Jaydon Blue",
    "pos": "RB",
    "status": "Active"
@@ -460,6 +469,15 @@
    "status": "Active"
   },
   {
+   "depthOrder": 3,
+   "depthPos": "SS",
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Wisniewski",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
    "depthOrder": 1,
    "depthPos": "SWR",
    "espnId": null,
@@ -588,38 +606,11 @@
   {
    "depthOrder": null,
    "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Cole Wisniewski",
-   "pos": "DB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": "Questionable",
-   "name": "Dameon Pierce",
-   "pos": "RB",
-   "status": "Inactive"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
    "espnId": 4423369,
    "injury": null,
    "name": "Duplicate Player",
    "pos": "CB",
    "status": "Inactive"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -748,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-07T07:00:51-05:00"
+ "updated": "2026-11-08T07:06:18-05:00"
 }

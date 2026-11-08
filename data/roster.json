@@ -261,6 +261,19 @@
    "status": "Active"
   },
   {
+   "age": 28,
+   "espnId": "4241555",
+   "exp": 6,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241555.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "38",
+   "name": "Elijah Mitchell",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
    "age": 26,
    "espnId": "4372414",
    "exp": 6,
@@ -937,19 +950,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 28,
-   "espnId": "4241555",
-   "exp": 6,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241555.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "38",
-   "name": "Elijah Mitchell",
-   "pos": "RB",
-   "status": "Practice Squad"
-  },
-  {
    "age": 26,
    "espnId": "4567134",
    "exp": null,
@@ -1015,5 +1015,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-07T07:00:47-05:00"
+ "updated": "2026-11-08T07:00:59-05:00"
 }
