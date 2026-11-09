@@ -98,7 +98,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3926231.png",
    "injury": "Out",
-   "injuryDate": "2026-11-08T16:45Z",
+   "injuryDate": "2026-11-09T21:32Z",
    "jersey": "85",
    "name": "Britain Covey",
    "pos": "WR",
@@ -358,7 +358,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
    "injury": "Out",
-   "injuryDate": "2026-11-08T16:45Z",
+   "injuryDate": "2026-11-09T21:32Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -397,7 +397,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
    "injury": "Out",
-   "injuryDate": "2026-11-08T16:45Z",
+   "injuryDate": "2026-11-09T21:32Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -436,7 +436,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685287.png",
    "injury": "Out",
-   "injuryDate": "2026-11-08T16:45Z",
+   "injuryDate": "2026-11-09T21:32Z",
    "jersey": "11",
    "name": "Jihaad Campbell",
    "pos": "LB",
@@ -462,23 +462,10 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240456.png",
    "injury": "Out",
-   "injuryDate": "2026-11-08T16:45Z",
+   "injuryDate": "2026-11-09T21:32Z",
    "jersey": "35",
    "name": "Michael Carter II",
    "pos": "CB",
-   "status": "Active"
-  },
-  {
-   "age": 26,
-   "espnId": "4381558",
-   "exp": 5,
-   "group": "defense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4381558.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "90",
-   "name": "Jordan Davis",
-   "pos": "DT",
    "status": "Active"
   },
   {
@@ -579,7 +566,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2971027.png",
    "injury": "Out",
-   "injuryDate": "2026-11-08T16:45Z",
+   "injuryDate": "2026-11-09T21:32Z",
    "jersey": "31",
    "name": "Jonathan Jones",
    "pos": "CB",
@@ -1015,5 +1002,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-08T16:05:45-05:00"
+ "updated": "2026-11-09T18:17:44-05:00"
 }
