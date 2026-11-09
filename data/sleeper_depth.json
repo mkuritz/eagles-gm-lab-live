@@ -85,7 +85,7 @@
    "depthOrder": 1,
    "depthPos": "LILB",
    "espnId": 3917657,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Zack Baun",
    "pos": "LB",
    "status": "Active"
@@ -292,7 +292,7 @@
    "depthOrder": 3,
    "depthPos": "QB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Tanner McKee",
    "pos": "QB",
    "status": "Active"
@@ -739,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-08T07:06:18-05:00"
+ "updated": "2026-11-09T07:00:49-05:00"
 }

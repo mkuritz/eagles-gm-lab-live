@@ -217,26 +217,26 @@
    "w": 6
   },
   {
+   "abbr": "CHI",
+   "conf": "NFC",
+   "l": 2,
+   "name": "Chicago Bears",
+   "pa": 184,
+   "pf": 241,
+   "seed": "5",
+   "streak": "W4",
+   "t": 0,
+   "w": 7
+  },
+  {
    "abbr": "DET",
    "conf": "NFC",
    "l": 2,
    "name": "Detroit Lions",
    "pa": 189,
    "pf": 222,
-   "seed": "5",
-   "streak": "W4",
-   "t": 0,
-   "w": 6
-  },
-  {
-   "abbr": "CHI",
-   "conf": "NFC",
-   "l": 2,
-   "name": "Chicago Bears",
-   "pa": 160,
-   "pf": 214,
    "seed": "6",
-   "streak": "W3",
+   "streak": "W4",
    "t": 0,
    "w": 6
   },
@@ -301,25 +301,13 @@
    "w": 4
   },
   {
-   "abbr": "TB",
-   "conf": "NFC",
-   "l": 5,
-   "name": "Tampa Bay Buccaneers",
-   "pa": 151,
-   "pf": 178,
-   "seed": "4",
-   "streak": "W2",
-   "t": 0,
-   "w": 3
-  },
-  {
    "abbr": "CAR",
    "conf": "NFC",
    "l": 5,
    "name": "Carolina Panthers",
    "pa": 219,
    "pf": 199,
-   "seed": "11",
+   "seed": "4",
    "streak": "L3",
    "t": 0,
    "w": 3
@@ -331,8 +319,20 @@
    "name": "New Orleans Saints",
    "pa": 216,
    "pf": 185,
-   "seed": "12",
+   "seed": "11",
    "streak": "W1",
+   "t": 0,
+   "w": 3
+  },
+  {
+   "abbr": "TB",
+   "conf": "NFC",
+   "l": 6,
+   "name": "Tampa Bay Buccaneers",
+   "pa": 178,
+   "pf": 202,
+   "seed": "12",
+   "streak": "L1",
    "t": 0,
    "w": 3
   },
@@ -385,5 +385,5 @@
    "w": 2
   }
  ],
- "updated": "2026-11-08T22:00:53-05:00"
+ "updated": "2026-11-09T07:00:45-05:00"
 }
