@@ -167,15 +167,6 @@
    "depthPos": "NT",
    "espnId": null,
    "injury": null,
-   "name": "Jordan Davis",
-   "pos": "DL",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 2,
-   "depthPos": "NT",
-   "espnId": null,
-   "injury": null,
    "name": "Ty Robinson",
    "pos": "DT",
    "status": "Active"
@@ -312,15 +303,6 @@
    "espnId": 3929630,
    "injury": null,
    "name": "Saquon Barkley",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 2,
-   "depthPos": "RB",
-   "espnId": null,
-   "injury": null,
-   "name": "Elijah Mitchell",
    "pos": "RB",
    "status": "Active"
   },
@@ -469,15 +451,6 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "SS",
-   "espnId": null,
-   "injury": null,
-   "name": "Cole Wisniewski",
-   "pos": "DB",
-   "status": "Active"
-  },
-  {
    "depthOrder": 1,
    "depthPos": "SWR",
    "espnId": null,
@@ -606,11 +579,29 @@
   {
    "depthOrder": null,
    "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Wisniewski",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
    "espnId": 4423369,
    "injury": null,
    "name": "Duplicate Player",
    "pos": "CB",
    "status": "Inactive"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Elijah Mitchell",
+   "pos": "RB",
+   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -739,5 +730,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-09T07:00:49-05:00"
+ "updated": "2026-11-10T07:00:55-05:00"
 }

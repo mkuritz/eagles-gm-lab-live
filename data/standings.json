@@ -5,12 +5,12 @@
    "conf": "AFC",
    "l": 1,
    "name": "Buffalo Bills",
-   "pa": 181,
-   "pf": 233,
+   "pa": 187,
+   "pf": 256,
    "seed": "1",
-   "streak": "W3",
+   "streak": "W4",
    "t": 0,
-   "w": 6
+   "w": 7
   },
   {
    "abbr": "DEN",
@@ -205,25 +205,13 @@
    "w": 7
   },
   {
-   "abbr": "MIN",
-   "conf": "NFC",
-   "l": 1,
-   "name": "Minnesota Vikings",
-   "pa": 93,
-   "pf": 140,
-   "seed": "2",
-   "streak": "L1",
-   "t": 0,
-   "w": 6
-  },
-  {
    "abbr": "CHI",
    "conf": "NFC",
    "l": 2,
    "name": "Chicago Bears",
    "pa": 184,
    "pf": 241,
-   "seed": "5",
+   "seed": "2",
    "streak": "W4",
    "t": 0,
    "w": 7
@@ -235,8 +223,20 @@
    "name": "Detroit Lions",
    "pa": 189,
    "pf": 222,
-   "seed": "6",
+   "seed": "5",
    "streak": "W4",
+   "t": 0,
+   "w": 6
+  },
+  {
+   "abbr": "MIN",
+   "conf": "NFC",
+   "l": 2,
+   "name": "Minnesota Vikings",
+   "pa": 116,
+   "pf": 146,
+   "seed": "6",
+   "streak": "L2",
    "t": 0,
    "w": 6
   },
@@ -385,5 +385,5 @@
    "w": 2
   }
  ],
- "updated": "2026-11-09T07:00:45-05:00"
+ "updated": "2026-11-10T07:00:51-05:00"
 }
