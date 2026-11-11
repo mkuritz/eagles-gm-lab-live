@@ -1,20 +1,12 @@
 {
- "generated": "2026-11-10T20:50:00-05:00",
+ "generated": "2026-11-11T07:01:03-05:00",
  "seasons": {
   "nfl": 2026,
   "mlb": 2026,
   "nhl": 20262027
  },
- "checked": 77,
- "conflicts": [
-  {
-   "src": "roster.json",
-   "sport": "nfl",
-   "player": "Jaydon Blue",
-   "team": "PHI",
-   "why": "not on PHI live 2026 roster for 2026-11-10"
-  }
- ],
+ "checked": 76,
+ "conflicts": [],
  "unverified": [],
  "stale": [],
  "notes": []

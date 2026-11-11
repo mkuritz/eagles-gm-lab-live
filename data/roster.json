@@ -40,19 +40,6 @@
    "status": "Active"
   },
   {
-   "age": 22,
-   "espnId": "4685279",
-   "exp": 2,
-   "group": "offense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "30",
-   "name": "Jaydon Blue",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
    "age": 29,
    "espnId": "4241372",
    "exp": 8,
@@ -118,7 +105,7 @@
    "status": "Active"
   },
   {
-   "age": 35,
+   "age": 36,
    "espnId": "15835",
    "exp": 14,
    "group": "offense",
@@ -1002,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-09T18:17:44-05:00"
+ "updated": "2026-11-11T07:00:51-05:00"
 }

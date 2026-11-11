@@ -264,15 +264,6 @@
   {
    "depthOrder": 1,
    "depthPos": "QB",
-   "espnId": null,
-   "injury": null,
-   "name": "Joe Milton",
-   "pos": "QB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 2,
-   "depthPos": "QB",
    "espnId": 4040715,
    "injury": "IR",
    "name": "Jalen Hurts",
@@ -280,7 +271,7 @@
    "status": "Inactive"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 2,
    "depthPos": "QB",
    "espnId": null,
    "injury": null,
@@ -289,11 +280,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 3,
    "depthPos": "QB",
    "espnId": null,
    "injury": null,
    "name": "Cole Payton",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "QB",
+   "espnId": null,
+   "injury": null,
+   "name": "Joe Milton",
    "pos": "QB",
    "status": "Active"
   },
@@ -310,22 +310,13 @@
    "depthOrder": 3,
    "depthPos": "RB",
    "espnId": null,
-   "injury": null,
-   "name": "Jaydon Blue",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 4,
-   "depthPos": "RB",
-   "espnId": null,
    "injury": "IR",
    "name": "Tank Bigsby",
    "pos": "RB",
    "status": "Inactive"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 4,
    "depthPos": "RB",
    "espnId": null,
    "injury": "IR",
@@ -653,6 +644,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Jaydon Blue",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "John Ojukwu",
    "pos": "OT",
    "status": "Active"
@@ -730,5 +730,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-10T07:00:55-05:00"
+ "updated": "2026-11-11T07:00:55-05:00"
 }
