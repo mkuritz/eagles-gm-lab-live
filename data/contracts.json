@@ -43,20 +43,6 @@
    "years": 2
   },
   {
-   "apy": 26.0,
-   "apy_cap_pct": 0.086,
-   "gsis_id": "00-0037073",
-   "guaranteed": 38.938,
-   "is_active": true,
-   "otc_id": 10058,
-   "player": "Jordan Davis",
-   "position": "IDL",
-   "team": "Eagles",
-   "value": 78.0,
-   "year_signed": 2026,
-   "years": 3
-  },
-  {
    "apy": 25.0,
    "apy_cap_pct": 0.098,
    "gsis_id": "00-0036912",
@@ -221,20 +207,6 @@
    "position": "WR",
    "team": "Eagles",
    "value": 5.0,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 4.3,
-   "apy_cap_pct": 0.014,
-   "gsis_id": "00-0038116",
-   "guaranteed": 4.3,
-   "is_active": true,
-   "otc_id": 10083,
-   "player": "Arnold Ebiketie",
-   "position": "ED",
-   "team": "Eagles",
-   "value": 4.3,
    "year_signed": 2026,
    "years": 1
   },
@@ -799,7 +771,7 @@
    "years": 1
   },
   {
-   "apy": 0.33,
+   "apy": 0.368,
    "apy_cap_pct": 0.001,
    "gsis_id": "00-0036567",
    "guaranteed": 0.0,
@@ -808,7 +780,7 @@
    "player": "Elijah Mitchell",
    "position": "RB",
    "team": "Eagles",
-   "value": 0.33,
+   "value": 0.368,
    "year_signed": 2026,
    "years": 1
   },
@@ -857,6 +829,20 @@
   {
    "apy": 0.318,
    "apy_cap_pct": 0.001,
+   "gsis_id": "00-0040905",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 13388,
+   "player": "Cole Wisniewski",
+   "position": "S",
+   "team": "Eagles",
+   "value": 0.318,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 0.318,
+   "apy_cap_pct": 0.001,
    "gsis_id": "00-0040908",
    "guaranteed": 0.0,
    "is_active": true,
@@ -885,20 +871,6 @@
   {
    "apy": 0.283,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0040905",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 13388,
-   "player": "Cole Wisniewski",
-   "position": "S",
-   "team": "Eagles",
-   "value": 0.283,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.283,
-   "apy_cap_pct": 0.001,
    "gsis_id": "00-0041162",
    "guaranteed": 0.0,
    "is_active": true,
@@ -919,6 +891,20 @@
    "otc_id": 11092,
    "player": "Anfernee Orji",
    "position": "LB",
+   "team": "Eagles",
+   "value": 0.247,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 0.247,
+   "apy_cap_pct": 0.001,
+   "gsis_id": "00-0038616",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 11026,
+   "player": "Christian Braswell",
+   "position": "CB",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -1023,5 +1009,5 @@
    "years": 1
   }
  ],
- "updated": "2026-11-09T13:06:16-05:00"
+ "updated": "2026-11-12T12:04:16-05:00"
 }
