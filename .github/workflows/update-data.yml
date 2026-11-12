@@ -1,11 +1,7 @@
 name: Update live data
 
 on:
-  schedule:
-    # Primary schedule lives in the Cloudflare sl-scheduler (7 AM daily + every 3h on game days). Sparse daily backup:
-    - cron: "0 14 * * *"   # ~10 AM ET
-    # Hourly same-day injury statuses only (ESPN PHI roster), ~10 AM-7 PM ET; light run, no stats/performance rebuild
-    - cron: "5 15-23 * * *"
+  # (preview Nov 12) GitHub cron backup removed: the Cloudflare sl-scheduler is the only trigger (it dispatches this workflow; see sl-scheduler src/lean.js hubDue).
   workflow_dispatch:
     inputs:
       mode:
