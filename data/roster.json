@@ -716,7 +716,7 @@
    "status": "Active"
   },
   {
-   "age": 25,
+   "age": 26,
    "espnId": "4567123",
    "exp": 4,
    "group": "defense",
@@ -989,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-11T07:00:51-05:00"
+ "updated": "2026-11-12T07:12:36-05:00"
 }

@@ -111,10 +111,10 @@
   {
    "depthOrder": 2,
    "depthPos": "LOLB",
-   "espnId": 3916409,
+   "espnId": null,
    "injury": null,
-   "name": "Jonathan Greenard",
-   "pos": "DE",
+   "name": "Jalyx Hunt",
+   "pos": "DL",
    "status": "Active"
   },
   {
@@ -264,6 +264,15 @@
   {
    "depthOrder": 1,
    "depthPos": "QB",
+   "espnId": null,
+   "injury": null,
+   "name": "Joe Milton",
+   "pos": "QB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "QB",
    "espnId": 4040715,
    "injury": "IR",
    "name": "Jalen Hurts",
@@ -271,7 +280,7 @@
    "status": "Inactive"
   },
   {
-   "depthOrder": 2,
+   "depthOrder": 3,
    "depthPos": "QB",
    "espnId": null,
    "injury": null,
@@ -280,20 +289,11 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "QB",
-   "espnId": null,
-   "injury": null,
-   "name": "Cole Payton",
-   "pos": "QB",
-   "status": "Active"
-  },
-  {
    "depthOrder": 4,
    "depthPos": "QB",
    "espnId": null,
    "injury": null,
-   "name": "Joe Milton",
+   "name": "Cole Payton",
    "pos": "QB",
    "status": "Active"
   },
@@ -381,10 +381,10 @@
   {
    "depthOrder": 1,
    "depthPos": "ROLB",
-   "espnId": null,
+   "espnId": 3916409,
    "injury": null,
-   "name": "Jalyx Hunt",
-   "pos": "DL",
+   "name": "Jonathan Greenard",
+   "pos": "DE",
    "status": "Active"
   },
   {
@@ -644,15 +644,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Jaydon Blue",
-   "pos": "RB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "John Ojukwu",
    "pos": "OT",
    "status": "Active"
@@ -730,5 +721,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-11T07:00:55-05:00"
+ "updated": "2026-11-12T07:12:42-05:00"
 }
