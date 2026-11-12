@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T07:12:44-05:00",
+ "updated": "2026-11-12T10:00:48-05:00",
  "data": {
   "season": 2026,
   "window": [
@@ -491,7 +491,7 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tyuosakaiefa1pruil40",
-    "rank": 85,
+    "rank": 86,
     "of": 157,
     "pct": 46,
     "key": "kelee ringo"
@@ -576,9 +576,9 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mhemrhoiongplhqvrhdt",
-    "rank": 143,
+    "rank": 144,
     "of": 157,
-    "pct": 9,
+    "pct": 8,
     "key": "kenny moore"
    },
    {
@@ -635,9 +635,9 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dtvgbbw3jqdekkq155hl",
-    "rank": 149,
+    "rank": 148,
     "of": 157,
-    "pct": 5,
+    "pct": 6,
     "key": "jonathan jones"
    },
    {
@@ -965,7 +965,7 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xssxsqkbd4osqsrbtxr5",
-    "rank": 117,
+    "rank": 116,
     "of": 236,
     "pct": 51,
     "key": "charles harris"
@@ -1307,7 +1307,7 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dhostt4bqph1utq56oxc",
-    "rank": 15,
+    "rank": 16,
     "of": 185,
     "pct": 92,
     "key": "zack baun"
@@ -1626,9 +1626,9 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jia6cmwobjo9tbywt3ml",
-    "rank": 117,
+    "rank": 119,
     "of": 185,
-    "pct": 37,
+    "pct": 36,
     "key": "arnold ebiketie"
    },
    {
@@ -1820,6 +1820,25 @@
     "key": "jonathan greenard"
    },
    {
+    "name": "Markel Bell",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 393,
+    "sampleWin": 393,
+    "unit": "off_snaps",
+    "snapPct": 67,
+    "gp": 9,
+    "teamG": 9,
+    "availability": 1.0,
+    "injuryRisk": "Low",
+    "seasons": [
+     2026
+    ],
+    "key": "markel bell"
+   },
+   {
     "name": "Jordan Mailata",
     "team": "PHI",
     "pos": "OL",
@@ -1841,85 +1860,24 @@
     "key": "jordan mailata"
    },
    {
-    "name": "Drew Kendall",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 392,
-    "sampleWin": 481,
-    "unit": "off_snaps",
-    "snapPct": 86,
-    "gp": 14,
-    "teamG": 26,
-    "availability": 0.54,
-    "injuryRisk": "High",
-    "seasons": [
-     2025,
-     2026
-    ],
-    "key": "drew kendall"
-   },
-   {
-    "name": "Jack Driscoll",
-    "team": "PHI",
+    "name": "John Ojukwu",
+    "team": "TEN",
     "pos": "OL",
     "score": null,
     "note": "No free per-player OL blocking stats; availability & snap share only",
     "sampleCur": 0,
-    "sampleWin": 110,
+    "sampleWin": 361,
     "unit": "off_snaps",
     "snapPct": null,
     "gp": 13,
-    "teamG": 17,
-    "availability": 0.76,
-    "injuryRisk": "Moderate",
-    "seasons": [
-     2024
-    ],
-    "key": "jack driscoll"
-   },
-   {
-    "name": "Tyler Steen",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 559,
-    "sampleWin": 1884,
-    "unit": "off_snaps",
-    "snapPct": 97,
-    "gp": 43,
-    "teamG": 43,
-    "availability": 1.0,
-    "injuryRisk": "Low",
+    "teamG": 34,
+    "availability": 0.38,
+    "injuryRisk": "High",
     "seasons": [
      2024,
-     2025,
-     2026
+     2025
     ],
-    "key": "tyler steen"
-   },
-   {
-    "name": "Fred Johnson",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 24,
-    "sampleWin": 1131,
-    "unit": "off_snaps",
-    "snapPct": 5,
-    "gp": 41,
-    "teamG": 43,
-    "availability": 0.95,
-    "injuryRisk": "Low",
-    "seasons": [
-     2024,
-     2025,
-     2026
-    ],
-    "key": "fred johnson"
+    "key": "john ojukwu"
    },
    {
     "name": "Lane Johnson",
@@ -1943,80 +1901,44 @@
     "key": "lane johnson"
    },
    {
-    "name": "Willie Lampkin",
+    "name": "Fred Johnson",
     "team": "PHI",
     "pos": "OL",
     "score": null,
     "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 131,
-    "sampleWin": 131,
+    "sampleCur": 24,
+    "sampleWin": 1131,
     "unit": "off_snaps",
-    "snapPct": 23,
-    "gp": 9,
-    "teamG": 9,
-    "availability": 1.0,
+    "snapPct": 5,
+    "gp": 41,
+    "teamG": 43,
+    "availability": 0.95,
     "injuryRisk": "Low",
     "seasons": [
+     2024,
+     2025,
      2026
     ],
-    "key": "willie lampkin"
+    "key": "fred johnson"
    },
    {
-    "name": "Markel Bell",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 393,
-    "sampleWin": 393,
-    "unit": "off_snaps",
-    "snapPct": 67,
-    "gp": 9,
-    "teamG": 9,
-    "availability": 1.0,
-    "injuryRisk": "Low",
-    "seasons": [
-     2026
-    ],
-    "key": "markel bell"
-   },
-   {
-    "name": "Brett Toth",
+    "name": "Jack Driscoll",
     "team": "PHI",
     "pos": "OL",
     "score": null,
     "note": "No free per-player OL blocking stats; availability & snap share only",
     "sampleCur": 0,
-    "sampleWin": 363,
+    "sampleWin": 110,
     "unit": "off_snaps",
     "snapPct": null,
-    "gp": 17,
+    "gp": 13,
     "teamG": 17,
-    "availability": 1.0,
-    "injuryRisk": "Low",
+    "availability": 0.76,
+    "injuryRisk": "Moderate",
     "seasons": [
-     2025
+     2024
     ],
-    "key": "brett toth"
-   },
-   {
-    "name": "Jake Majors",
-    "team": "PHI",
-    "pos": "OL",
-    "score": null,
-    "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 126,
-    "sampleWin": 126,
-    "unit": "off_snaps",
-    "snapPct": 100,
-    "gp": 2,
-    "teamG": 9,
-    "availability": 0.22,
-    "injuryRisk": "High",
-    "seasons": [
-     2026
-    ],
-    "key": "jake majors"
+    "key": "jack driscoll"
    },
    {
     "name": "Kiran Amegadjie",
@@ -2038,24 +1960,25 @@
     "key": "kiran amegadjie"
    },
    {
-    "name": "John Ojukwu",
-    "team": "TEN",
+    "name": "Tyler Steen",
+    "team": "PHI",
     "pos": "OL",
     "score": null,
     "note": "No free per-player OL blocking stats; availability & snap share only",
-    "sampleCur": 0,
-    "sampleWin": 361,
+    "sampleCur": 559,
+    "sampleWin": 1884,
     "unit": "off_snaps",
-    "snapPct": null,
-    "gp": 13,
-    "teamG": 34,
-    "availability": 0.38,
-    "injuryRisk": "High",
+    "snapPct": 97,
+    "gp": 43,
+    "teamG": 43,
+    "availability": 1.0,
+    "injuryRisk": "Low",
     "seasons": [
      2024,
-     2025
+     2025,
+     2026
     ],
-    "key": "john ojukwu"
+    "key": "tyler steen"
    },
    {
     "name": "Evan Neal",
@@ -2096,6 +2019,83 @@
      2026
     ],
     "key": "landon dickerson"
+   },
+   {
+    "name": "Jake Majors",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 126,
+    "sampleWin": 126,
+    "unit": "off_snaps",
+    "snapPct": 100,
+    "gp": 2,
+    "teamG": 9,
+    "availability": 0.22,
+    "injuryRisk": "High",
+    "seasons": [
+     2026
+    ],
+    "key": "jake majors"
+   },
+   {
+    "name": "Willie Lampkin",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 131,
+    "sampleWin": 131,
+    "unit": "off_snaps",
+    "snapPct": 23,
+    "gp": 9,
+    "teamG": 9,
+    "availability": 1.0,
+    "injuryRisk": "Low",
+    "seasons": [
+     2026
+    ],
+    "key": "willie lampkin"
+   },
+   {
+    "name": "Drew Kendall",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 392,
+    "sampleWin": 481,
+    "unit": "off_snaps",
+    "snapPct": 86,
+    "gp": 14,
+    "teamG": 26,
+    "availability": 0.54,
+    "injuryRisk": "High",
+    "seasons": [
+     2025,
+     2026
+    ],
+    "key": "drew kendall"
+   },
+   {
+    "name": "Brett Toth",
+    "team": "PHI",
+    "pos": "OL",
+    "score": null,
+    "note": "No free per-player OL blocking stats; availability & snap share only",
+    "sampleCur": 0,
+    "sampleWin": 363,
+    "unit": "off_snaps",
+    "snapPct": null,
+    "gp": 17,
+    "teamG": 17,
+    "availability": 1.0,
+    "injuryRisk": "Low",
+    "seasons": [
+     2025
+    ],
+    "key": "brett toth"
    },
    {
     "name": "Braden Mann",
@@ -3563,9 +3563,9 @@
      }
     ],
     "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/shkjxggufymydgp6wk3p",
-    "rank": 63,
+    "rank": 62,
     "of": 165,
-    "pct": 62,
+    "pct": 63,
     "key": "marquise brown"
    },
    {
@@ -4052,14 +4052,14 @@
      "rank": 3
     },
     {
-     "name": "Bijan Robinson",
-     "team": "ATL",
+     "name": "Kenneth Walker III",
+     "team": "KC",
      "score": 82.0,
      "rank": 4
     },
     {
-     "name": "Kenneth Walker III",
-     "team": "KC",
+     "name": "Bijan Robinson",
+     "team": "ATL",
      "score": 82.0,
      "rank": 5
     },
@@ -4274,8 +4274,8 @@
      "rank": 9
     },
     {
-     "name": "Danielle Hunter",
-     "team": "HOU",
+     "name": "Chop Robinson",
+     "team": "MIA",
      "score": 84.0,
      "rank": 10
     }
