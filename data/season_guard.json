@@ -1,12 +1,27 @@
 {
- "generated": "2026-11-11T07:01:03-05:00",
+ "generated": "2026-11-13T17:05:47-05:00",
  "seasons": {
   "nfl": 2026,
   "mlb": 2026,
   "nhl": 20262027
  },
  "checked": 76,
- "conflicts": [],
+ "conflicts": [
+  {
+   "src": "roster.json",
+   "sport": "nfl",
+   "player": "Hollywood Brown",
+   "team": "PHI",
+   "why": "not on PHI live 2026 roster for 2026-11-13"
+  },
+  {
+   "src": "roster.json",
+   "sport": "nfl",
+   "player": "Fred Johnson",
+   "team": "PHI",
+   "why": "not on PHI live 2026 roster for 2026-11-13"
+  }
+ ],
  "unverified": [],
  "stale": [],
  "notes": []
