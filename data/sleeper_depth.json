@@ -127,7 +127,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 3,
    "depthPos": "LWR",
    "espnId": null,
    "injury": null,
@@ -136,7 +136,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 4,
    "depthPos": "LWR",
    "espnId": null,
    "injury": "Out",
@@ -415,7 +415,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 6,
+   "depthOrder": 5,
    "depthPos": "RWR",
    "espnId": null,
    "injury": "Out",
@@ -451,16 +451,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "SWR",
-   "espnId": 4241372,
-   "injury": null,
-   "name": "Marquise Brown",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 7,
+   "depthOrder": 6,
    "depthPos": "SWR",
    "espnId": null,
    "injury": "Out",
@@ -505,7 +496,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 9,
+   "depthOrder": 8,
    "depthPos": null,
    "espnId": null,
    "injury": "IR",
@@ -678,6 +669,15 @@
   {
    "depthOrder": null,
    "depthPos": null,
+   "espnId": 4241372,
+   "injury": null,
+   "name": "Marquise Brown",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
    "espnId": null,
    "injury": null,
    "name": "Mason Reiger",
@@ -721,5 +721,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-12T07:12:42-05:00"
+ "updated": "2026-11-13T07:00:56-05:00"
 }

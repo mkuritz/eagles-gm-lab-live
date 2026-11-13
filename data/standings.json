@@ -255,12 +255,12 @@
   {
    "abbr": "NYG",
    "conf": "NFC",
-   "l": 2,
+   "l": 3,
    "name": "New York Giants",
-   "pa": 172,
-   "pf": 182,
+   "pa": 196,
+   "pf": 203,
    "seed": "3",
-   "streak": "W2",
+   "streak": "L1",
    "t": 1,
    "w": 5
   },
@@ -319,9 +319,21 @@
    "name": "New Orleans Saints",
    "pa": 216,
    "pf": 185,
-   "seed": "11",
+   "seed": "12",
    "streak": "W1",
    "t": 0,
+   "w": 3
+  },
+  {
+   "abbr": "WSH",
+   "conf": "NFC",
+   "l": 5,
+   "name": "Washington Commanders",
+   "pa": 223,
+   "pf": 196,
+   "seed": "11",
+   "streak": "W1",
+   "t": 1,
    "w": 3
   },
   {
@@ -331,7 +343,7 @@
    "name": "Tampa Bay Buccaneers",
    "pa": 178,
    "pf": 202,
-   "seed": "12",
+   "seed": "13",
    "streak": "L1",
    "t": 0,
    "w": 3
@@ -343,7 +355,7 @@
    "name": "Atlanta Falcons",
    "pa": 223,
    "pf": 188,
-   "seed": "13",
+   "seed": "14",
    "streak": "L2",
    "t": 0,
    "w": 3
@@ -355,22 +367,10 @@
    "name": "Arizona Cardinals",
    "pa": 255,
    "pf": 178,
-   "seed": "14",
+   "seed": "15",
    "streak": "L1",
    "t": 0,
    "w": 3
-  },
-  {
-   "abbr": "WSH",
-   "conf": "NFC",
-   "l": 5,
-   "name": "Washington Commanders",
-   "pa": 202,
-   "pf": 172,
-   "seed": "15",
-   "streak": "L1",
-   "t": 1,
-   "w": 2
   },
   {
    "abbr": "PHI",
@@ -385,5 +385,5 @@
    "w": 2
   }
  ],
- "updated": "2026-11-10T07:00:51-05:00"
+ "updated": "2026-11-13T07:00:51-05:00"
 }
