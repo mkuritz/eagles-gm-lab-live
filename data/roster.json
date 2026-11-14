@@ -40,19 +40,6 @@
    "status": "Active"
   },
   {
-   "age": 29,
-   "espnId": "4241372",
-   "exp": 8,
-   "group": "offense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241372.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "0",
-   "name": "Hollywood Brown",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
    "age": 27,
    "espnId": "4241374",
    "exp": 5,
@@ -128,19 +115,6 @@
    "jersey": "88",
    "name": "Dallas Goedert",
    "pos": "TE",
-   "status": "Active"
-  },
-  {
-   "age": 29,
-   "espnId": "3915106",
-   "exp": 8,
-   "group": "offense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3915106.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "74",
-   "name": "Fred Johnson",
-   "pos": "OT",
    "status": "Active"
   },
   {
@@ -989,5 +963,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-12T07:12:36-05:00"
+ "updated": "2026-11-14T07:00:40-05:00"
 }

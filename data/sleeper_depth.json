@@ -183,15 +183,6 @@
   {
    "depthOrder": null,
    "depthPos": "OL",
-   "espnId": 3915106,
-   "injury": null,
-   "name": "Fred Johnson",
-   "pos": "T",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": "OL",
    "espnId": null,
    "injury": null,
    "name": "Jake Majors",
@@ -615,6 +606,15 @@
   {
    "depthOrder": null,
    "depthPos": null,
+   "espnId": 3915106,
+   "injury": null,
+   "name": "Fred Johnson",
+   "pos": "T",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
    "espnId": null,
    "injury": null,
    "name": "Gabe Hall",
@@ -669,15 +669,6 @@
   {
    "depthOrder": null,
    "depthPos": null,
-   "espnId": 4241372,
-   "injury": null,
-   "name": "Marquise Brown",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
    "espnId": null,
    "injury": null,
    "name": "Mason Reiger",
@@ -721,5 +712,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-13T07:00:56-05:00"
+ "updated": "2026-11-14T07:00:44-05:00"
 }
