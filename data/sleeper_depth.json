@@ -606,15 +606,6 @@
   {
    "depthOrder": null,
    "depthPos": null,
-   "espnId": 3915106,
-   "injury": null,
-   "name": "Fred Johnson",
-   "pos": "T",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
    "espnId": null,
    "injury": null,
    "name": "Gabe Hall",
@@ -712,5 +703,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-14T07:00:44-05:00"
+ "updated": "2026-11-15T07:00:52-05:00"
 }
