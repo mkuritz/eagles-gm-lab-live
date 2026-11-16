@@ -2,16 +2,16 @@
 
 Live-data edition of Eagles GM Lab (separate from `eagles-gm-lab`). Static single-page app on GitHub Pages.
 
-- `scripts/fetch_data.py` pulls ESPN (roster, standings, schedule), nflverse (injuries, depth charts, Over The Cap contracts) and Sleeper (depth backup, max once/day) into `data/*.json`. A failed source keeps its previous file.
+- `scripts/fetch_data.py` pulls public roster, standings, schedule, injuries, depth charts, contracts, and a second depth backup (max once/day) into `data/*.json`. A failed source keeps its previous file.
 - `.github/workflows/update-data.yml` runs daily ~7 AM ET, every 3h on Sun/Mon/Thu, or manually; commits only when data changes. Pages redeploys on push.
 - `index.html` loads `data/*.json` at startup and merges over the embedded Oct 7, 2026 snapshot (falls back to the snapshot on any failure). Live fields are tagged `prov: 'L'`.
 - **Manual:** `data/cap_manual.json` holds cap hits, dead money, extensions, cut candidates, draft picks, league cap, team cap space/needs. No free live source exists — edit by hand.
 
-Data credits: ESPN (unofficial API), nflverse, Over The Cap (via nflverse), Sleeper. Personal, non-commercial demo.
+Data from public stats. Personal, non-commercial demo.
 
 ## Performance Score (replaces subjective ratings)
-`scripts/performance.py` builds `data/performance.json` from free nflverse data (season player stats,
-PFR snap counts, PFR advanced defense). Per position it computes rate stats (e.g. CB: yards/target,
+`scripts/performance.py` builds `data/performance.json` from public stats (season player stats,
+snap counts, advanced defense). Per position it computes rate stats (e.g. CB: yards/target,
 completion % and passer rating allowed, PD+INT per snap, missed-tackle %), converts each to a percentile
 vs league peers with a minimum sample, and blends **50% Current** (this season) + **50% Talent**
 (3-season rates shrunk toward the position median by sample size). Availability is reported separately
@@ -21,7 +21,7 @@ Part of [Sports Labs](https://sportslabshq.com/).
 
 ## Cross-check sources (added Oct 2026)
 `scripts/eagles_xcheck.py` → `data/xcheck.json`, shown on `sources.html`. All free and keyless, and the step is `continue-on-error`.
-- nflverse Next Gen Stats (receiving, rushing, passing) and PFR advanced stats: efficiency beyond the box score
-- nflverse snap counts: snap-share trend over the last 3 games vs the season
-- ffopportunity (ffverse) expected points: whether production matches usage
-- Depth-chart agreement between ESPN/nflverse and Sleeper, the two existing sources, now compared with each other
+- Tracking data (receiving, rushing, passing) and advanced efficiency stats: efficiency beyond the box score
+- Snap counts: snap-share trend over the last 3 games vs the season
+- Expected points model: whether production matches usage
+- Depth-chart agreement between two independent public depth sources

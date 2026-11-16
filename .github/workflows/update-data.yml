@@ -35,7 +35,7 @@ jobs:
         env:
           ONLY: ${{ steps.m.outputs.light == '1' && 'injuries.json' || '' }}
         run: python scripts/fetch_data.py
-      - name: Performance scores (nflverse)
+      - name: Performance scores (public stats)
         if: steps.m.outputs.light != '1'
         run: python scripts/performance.py || echo "performance step failed; keeping previous file"
       - name: Cross-check free sources (optional)

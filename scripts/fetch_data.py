@@ -2,7 +2,7 @@
 """Fetch live Eagles/NFL data into data/*.json. Each source is independent:
 if one fails, its previous file is kept untouched. Cap data is NOT fetched
 (no free source); it lives in data/cap_manual.json and is edited by hand."""
-import csv, io, json, os, sys, urllib.request
+import csv, io, json, os, re, sys, urllib.request
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
@@ -189,14 +189,26 @@ def sleeper_depth():
 
 
 SOURCES = [
-    ("roster.json", "ESPN team roster", espn_roster),
-    ("standings.json", "ESPN standings", espn_standings),
-    ("schedule.json", "ESPN team schedule", espn_schedule),
-    ("injuries.json", "ESPN same-day injury statuses (+ official report notes)", espn_injuries),
-    ("depth.json", "nflverse depth charts", nflverse_depth),
-    ("contracts.json", "nflverse contracts (Over The Cap)", nflverse_contracts),
-    ("sleeper_depth.json", "Sleeper players (depth backup, max 1/day)", sleeper_depth),
+    ("roster.json", "League team roster", espn_roster),
+    ("standings.json", "League standings", espn_standings),
+    ("schedule.json", "League team schedule", espn_schedule),
+    ("injuries.json", "Same-day injury statuses (+ official report notes)", espn_injuries),
+    ("depth.json", "Public depth charts", nflverse_depth),
+    ("contracts.json", "Public contract data", nflverse_contracts),
+    ("sleeper_depth.json", "Second depth source (backup, max 1/day)", sleeper_depth),
 ]
+
+
+def _public_label(label):
+    """Public meta.json labels must not name a data vendor. Fail closed to 'public stats' if a name slips in."""
+    try:
+        from xlib import neutralize
+        out = neutralize(label)
+    except Exception:
+        out = label
+    if re.search(r"nflverse|\bPFR\b|Pro[- ]Football|ffverse|ffopportunity|\bSleeper\b|\bESPN\b|Over The Cap|\bNGS\b|Next Gen Stats", str(out), re.I):
+        return "public stats"
+    return out
 
 
 def main():
@@ -208,7 +220,7 @@ def main():
     for fname, label, fn in SOURCES:
         if only and fname not in only: continue
         s = meta["sources"].setdefault(fname, {})
-        s["label"] = label
+        s["label"] = _public_label(label)
         try:
             payload = fn()
             if payload is None:

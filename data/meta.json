@@ -3,7 +3,7 @@
  "sources": {
   "contracts.json": {
    "error": null,
-   "label": "nflverse contracts (Over The Cap)",
+   "label": "Public contract data",
    "lastAttempt": "2026-11-08T07:06:18-05:00",
    "lastChange": "2026-11-12T12:04:16-05:00",
    "lastSuccess": "2026-11-16T07:00:51-05:00",
@@ -11,7 +11,7 @@
   },
   "depth.json": {
    "error": null,
-   "label": "nflverse depth charts",
+   "label": "Public depth charts",
    "lastAttempt": "2026-11-08T07:04:18-05:00",
    "lastChange": "2026-11-16T07:00:50-05:00",
    "lastSuccess": "2026-11-16T07:00:50-05:00",
@@ -19,35 +19,35 @@
   },
   "injuries.json": {
    "error": null,
-   "label": "ESPN same-day injury statuses (+ official report notes)",
+   "label": "Same-day injury statuses (+ official report notes)",
    "lastChange": "2026-11-15T07:00:49-05:00",
    "lastSuccess": "2026-11-16T07:00:48-05:00",
    "ok": true
   },
   "roster.json": {
    "error": null,
-   "label": "ESPN team roster",
+   "label": "League team roster",
    "lastChange": "2026-11-15T07:00:48-05:00",
    "lastSuccess": "2026-11-16T07:00:47-05:00",
    "ok": true
   },
   "schedule.json": {
    "error": null,
-   "label": "ESPN team schedule",
+   "label": "League team schedule",
    "lastChange": "2026-11-09T16:05:43-05:00",
    "lastSuccess": "2026-11-16T07:00:47-05:00",
    "ok": true
   },
   "sleeper_depth.json": {
    "error": null,
-   "label": "Sleeper players (depth backup, max 1/day)",
+   "label": "Second depth source (backup, max 1/day)",
    "lastChange": "2026-11-15T07:00:52-05:00",
    "lastSuccess": "2026-11-16T07:00:52-05:00",
    "ok": true
   },
   "standings.json": {
    "error": null,
-   "label": "ESPN standings",
+   "label": "League standings",
    "lastChange": "2026-11-16T07:00:47-05:00",
    "lastSuccess": "2026-11-16T07:00:47-05:00",
    "ok": true
