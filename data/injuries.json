@@ -23,16 +23,6 @@
     "statusDate": "2026-11-09T21:32Z"
    },
    {
-    "espnId": "4372051",
-    "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
-    "name": "Chance Campbell",
-    "pos": "LB",
-    "practice": "",
-    "statusDate": "2026-10-11T05:31Z"
-   },
-   {
     "espnId": "4360238",
     "gameStatus": "Questionable",
     "gsisId": null,
@@ -160,7 +150,7 @@
     "name": "Will Shipley",
     "pos": "RB",
     "practice": "",
-    "statusDate": "2026-10-16T20:07Z"
+    "statusDate": "2026-11-16T20:55Z"
    },
    {
     "espnId": "3917657",
@@ -175,5 +165,5 @@
   ],
   "week": 9
  },
- "updated": "2026-11-15T07:00:49-05:00"
+ "updated": "2026-11-17T07:00:57-05:00"
 }

@@ -365,19 +365,6 @@
    "status": "Active"
   },
   {
-   "age": 27,
-   "espnId": "4372051",
-   "exp": 4,
-   "group": "defense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372051.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-10-11T05:31Z",
-   "jersey": "59",
-   "name": "Chance Campbell",
-   "pos": "LB",
-   "status": "Active"
-  },
-  {
    "age": 22,
    "espnId": "4685287",
    "exp": 2,
@@ -787,7 +774,7 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431545.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-10-16T20:07Z",
+   "injuryDate": "2026-11-16T20:55Z",
    "jersey": "28",
    "name": "Will Shipley",
    "pos": "RB",
@@ -833,6 +820,19 @@
    "status": "Practice Squad"
   },
   {
+   "age": 22,
+   "espnId": "4685279",
+   "exp": 2,
+   "group": "practiceSquad",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "30",
+   "name": "Jaydon Blue",
+   "pos": "RB",
+   "status": "Practice Squad"
+  },
+  {
    "age": 27,
    "espnId": "4257580",
    "exp": 3,
@@ -846,6 +846,19 @@
    "status": "Practice Squad"
   },
   {
+   "age": 27,
+   "espnId": "4372051",
+   "exp": 4,
+   "group": "practiceSquad",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372051.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "59",
+   "name": "Chance Campbell",
+   "pos": "LB",
+   "status": "Practice Squad"
+  },
+  {
    "age": 26,
    "espnId": "4362186",
    "exp": 4,
@@ -855,19 +868,6 @@
    "injuryDate": null,
    "jersey": "82",
    "name": "Erik Ezukanma",
-   "pos": "WR",
-   "status": "Practice Squad"
-  },
-  {
-   "age": 25,
-   "espnId": "4427278",
-   "exp": 4,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4427278.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "86",
-   "name": "Xavier Gipson",
    "pos": "WR",
    "status": "Practice Squad"
   },
@@ -924,6 +924,19 @@
    "status": "Practice Squad"
   },
   {
+   "age": 25,
+   "espnId": "4428396",
+   "exp": 1,
+   "group": "practiceSquad",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428396.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": null,
+   "name": "Hayden Rucci",
+   "pos": "TE",
+   "status": "Practice Squad"
+  },
+  {
    "age": 23,
    "espnId": "5344965",
    "exp": 0,
@@ -950,5 +963,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-15T07:00:48-05:00"
+ "updated": "2026-11-17T07:00:57-05:00"
 }

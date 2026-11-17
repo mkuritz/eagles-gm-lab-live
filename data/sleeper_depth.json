@@ -127,20 +127,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 3,
-   "depthPos": "LWR",
-   "espnId": null,
-   "injury": null,
-   "name": "Elijah Moore",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 4,
+   "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
    "injury": "Out",
    "name": "DeVonta Smith",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 5,
+   "depthPos": "LWR",
+   "espnId": null,
+   "injury": null,
+   "name": "Elijah Moore",
    "pos": "WR",
    "status": "Active"
   },
@@ -187,6 +187,15 @@
    "injury": null,
    "name": "Jake Majors",
    "pos": "OL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": null,
+   "injury": null,
+   "name": "John Ojukwu",
+   "pos": "OT",
    "status": "Active"
   },
   {
@@ -400,17 +409,17 @@
    "depthOrder": 2,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": null,
-   "name": "Darius Cooper",
+   "injury": "Out",
+   "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 4,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": "Out",
-   "name": "Dontayvion Wicks",
+   "injury": null,
+   "name": "Darius Cooper",
    "pos": "WR",
    "status": "Active"
   },
@@ -433,7 +442,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 1,
+   "depthOrder": 3,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -487,6 +496,15 @@
    "status": "Active"
   },
   {
+   "depthOrder": 5,
+   "depthPos": "TE",
+   "espnId": 15835,
+   "injury": null,
+   "name": "Zach Ertz",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
    "depthOrder": 8,
    "depthPos": null,
    "espnId": null,
@@ -530,6 +548,15 @@
    "name": "Brandon Brooks",
    "pos": "G",
    "status": "Inactive"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Chance Campbell",
+   "pos": "LB",
+   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -617,6 +644,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Hayden Rucci",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Jacob Sykes",
    "pos": "DE",
    "status": "Active"
@@ -626,8 +662,8 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "John Ojukwu",
-   "pos": "OT",
+   "name": "Jaydon Blue",
+   "pos": "RB",
    "status": "Active"
   },
   {
@@ -680,28 +716,10 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Xavier Gipson",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": 15835,
-   "injury": null,
-   "name": "Zach Ertz",
-   "pos": "TE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Zion Wilson",
    "pos": "DT",
    "status": "Active"
   }
  ],
- "updated": "2026-11-15T07:00:52-05:00"
+ "updated": "2026-11-17T07:01:00-05:00"
 }

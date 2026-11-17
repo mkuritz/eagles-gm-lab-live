@@ -97,26 +97,26 @@
    "w": 5
   },
   {
-   "abbr": "BAL",
-   "conf": "AFC",
-   "l": 5,
-   "name": "Baltimore Ravens",
-   "pa": 236,
-   "pf": 189,
-   "seed": "9",
-   "streak": "L4",
-   "t": 0,
-   "w": 4
-  },
-  {
    "abbr": "LV",
    "conf": "AFC",
    "l": 6,
    "name": "Las Vegas Raiders",
    "pa": 289,
    "pf": 251,
-   "seed": "10",
+   "seed": "9",
    "streak": "L2",
+   "t": 0,
+   "w": 4
+  },
+  {
+   "abbr": "BAL",
+   "conf": "AFC",
+   "l": 6,
+   "name": "Baltimore Ravens",
+   "pa": 259,
+   "pf": 209,
+   "seed": "10",
+   "streak": "L5",
    "t": 0,
    "w": 4
   },
@@ -157,13 +157,25 @@
    "w": 2
   },
   {
+   "abbr": "LAC",
+   "conf": "AFC",
+   "l": 8,
+   "name": "Los Angeles Chargers",
+   "pa": 239,
+   "pf": 144,
+   "seed": "14",
+   "streak": "W1",
+   "t": 0,
+   "w": 1
+  },
+  {
    "abbr": "MIA",
    "conf": "AFC",
    "l": 8,
    "name": "Miami Dolphins",
    "pa": 224,
    "pf": 148,
-   "seed": "14",
+   "seed": "15",
    "streak": "L3",
    "t": 0,
    "w": 1
@@ -175,22 +187,10 @@
    "name": "Tennessee Titans",
    "pa": 239,
    "pf": 167,
-   "seed": "15",
+   "seed": "16",
    "streak": "L3",
    "t": 0,
    "w": 1
-  },
-  {
-   "abbr": "LAC",
-   "conf": "AFC",
-   "l": 8,
-   "name": "Los Angeles Chargers",
-   "pa": 219,
-   "pf": 121,
-   "seed": "16",
-   "streak": "L8",
-   "t": 0,
-   "w": 0
   },
   {
    "abbr": "SF",
@@ -385,5 +385,5 @@
    "w": 2
   }
  ],
- "updated": "2026-11-16T07:00:47-05:00"
+ "updated": "2026-11-17T07:00:57-05:00"
 }
