@@ -197,20 +197,6 @@
    "years": 4
   },
   {
-   "apy": 5.0,
-   "apy_cap_pct": 0.017,
-   "gsis_id": "00-0035662",
-   "guaranteed": 5.0,
-   "is_active": true,
-   "otc_id": 7816,
-   "player": "Marquise Brown",
-   "position": "WR",
-   "team": "Eagles",
-   "value": 5.0,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
    "apy": 3.726,
    "apy_cap_pct": 0.013,
    "gsis_id": "00-0040708",
@@ -307,20 +293,6 @@
    "value": 8.893,
    "year_signed": 2026,
    "years": 4
-  },
-  {
-   "apy": 2.1,
-   "apy_cap_pct": 0.007,
-   "gsis_id": "00-0034951",
-   "guaranteed": 0.8,
-   "is_active": true,
-   "otc_id": 8092,
-   "player": "Fred Johnson",
-   "position": "RG",
-   "team": "Eagles",
-   "value": 2.1,
-   "year_signed": 2026,
-   "years": 1
   },
   {
    "apy": 2.0,
@@ -701,20 +673,6 @@
    "years": 4
   },
   {
-   "apy": 1.005,
-   "apy_cap_pct": 0.003,
-   "gsis_id": "00-0040586",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 12509,
-   "player": "Jaydon Blue",
-   "position": "RB",
-   "team": "Eagles",
-   "value": 1.005,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
    "apy": 0.993,
    "apy_cap_pct": 0.004,
    "gsis_id": "00-0040024",
@@ -1009,5 +967,5 @@
    "years": 1
   }
  ],
- "updated": "2026-11-12T12:04:16-05:00"
+ "updated": "2026-11-18T07:00:49-05:00"
 }

@@ -40,6 +40,19 @@
    "status": "Active"
   },
   {
+   "age": 22,
+   "espnId": "4685279",
+   "exp": 2,
+   "group": "offense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "30",
+   "name": "Jaydon Blue",
+   "pos": "RB",
+   "status": "Active"
+  },
+  {
    "age": 27,
    "espnId": "4241374",
    "exp": 5,
@@ -71,8 +84,8 @@
    "exp": 5,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3926231.png",
-   "injury": "Out",
-   "injuryDate": "2026-11-09T21:32Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-11-17T12:19Z",
    "jersey": "85",
    "name": "Britain Covey",
    "pos": "WR",
@@ -305,8 +318,8 @@
    "exp": 6,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
-   "injury": "Out",
-   "injuryDate": "2026-11-09T21:32Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-11-17T12:19Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -344,8 +357,8 @@
    "exp": 4,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
-   "injury": "Out",
-   "injuryDate": "2026-11-09T21:32Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-11-17T12:19Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -370,8 +383,8 @@
    "exp": 2,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685287.png",
-   "injury": "Out",
-   "injuryDate": "2026-11-09T21:32Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-11-17T12:19Z",
    "jersey": "11",
    "name": "Jihaad Campbell",
    "pos": "LB",
@@ -396,8 +409,8 @@
    "exp": 6,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240456.png",
-   "injury": "Out",
-   "injuryDate": "2026-11-09T21:32Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-11-17T12:19Z",
    "jersey": "35",
    "name": "Michael Carter II",
    "pos": "CB",
@@ -500,8 +513,8 @@
    "exp": 11,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2971027.png",
-   "injury": "Out",
-   "injuryDate": "2026-11-09T21:32Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-11-17T12:19Z",
    "jersey": "31",
    "name": "Jonathan Jones",
    "pos": "CB",
@@ -820,19 +833,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 22,
-   "espnId": "4685279",
-   "exp": 2,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "30",
-   "name": "Jaydon Blue",
-   "pos": "RB",
-   "status": "Practice Squad"
-  },
-  {
    "age": 27,
    "espnId": "4257580",
    "exp": 3,
@@ -869,6 +869,19 @@
    "jersey": "82",
    "name": "Erik Ezukanma",
    "pos": "WR",
+   "status": "Practice Squad"
+  },
+  {
+   "age": 28,
+   "espnId": "4035666",
+   "exp": 7,
+   "group": "practiceSquad",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035666.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": null,
+   "name": "Leki Fotu",
+   "pos": "DT",
    "status": "Practice Squad"
   },
   {
@@ -937,6 +950,19 @@
    "status": "Practice Squad"
   },
   {
+   "age": 24,
+   "espnId": "4613050",
+   "exp": 1,
+   "group": "practiceSquad",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4613050.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": null,
+   "name": "Quentin Skinner",
+   "pos": "WR",
+   "status": "Practice Squad"
+  },
+  {
    "age": 23,
    "espnId": "5344965",
    "exp": 0,
@@ -963,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-17T07:00:57-05:00"
+ "updated": "2026-11-18T07:00:45-05:00"
 }

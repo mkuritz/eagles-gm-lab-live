@@ -14,13 +14,13 @@
    },
    {
     "espnId": "3926231",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0037132",
     "injury": "Knee",
     "name": "Britain Covey",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-09T21:32Z"
+    "statusDate": "2026-11-17T12:19Z"
    },
    {
     "espnId": "4360238",
@@ -34,23 +34,23 @@
    },
    {
     "espnId": "4241478",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0036912",
     "injury": "Hamstring",
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-09T21:32Z"
+    "statusDate": "2026-11-17T12:19Z"
    },
    {
     "espnId": "4428850",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0038393",
     "injury": "Ankle",
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-09T21:32Z"
+    "statusDate": "2026-11-17T12:19Z"
    },
    {
     "espnId": "4040715",
@@ -64,13 +64,13 @@
    },
    {
     "espnId": "4685287",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0040708",
     "injury": "Hamstring",
     "name": "Jihaad Campbell",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-09T21:32Z"
+    "statusDate": "2026-11-17T12:19Z"
    },
    {
     "espnId": "4686104",
@@ -84,23 +84,23 @@
    },
    {
     "espnId": "2971027",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0032580",
     "injury": "Hamstring",
     "name": "Jonathan Jones",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-09T21:32Z"
+    "statusDate": "2026-11-17T12:19Z"
    },
    {
     "espnId": "4240456",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0036501",
     "injury": "Abdomen",
     "name": "Michael Carter II",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-09T21:32Z"
+    "statusDate": "2026-11-17T12:19Z"
    },
    {
     "espnId": "4429013",
@@ -165,5 +165,5 @@
   ],
   "week": 9
  },
- "updated": "2026-11-17T07:00:57-05:00"
+ "updated": "2026-11-18T07:00:46-05:00"
 }
