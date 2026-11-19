@@ -103,7 +103,7 @@
    "depthOrder": 1,
    "depthPos": "LOLB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Nolan Smith Jr.",
    "pos": "LB",
    "status": "Active"
@@ -169,6 +169,15 @@
    "injury": null,
    "name": "Ty Robinson",
    "pos": "DT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": "OL",
+   "espnId": null,
+   "injury": null,
+   "name": "Ajani Cornelius",
+   "pos": "OL",
    "status": "Active"
   },
   {
@@ -273,20 +282,20 @@
   {
    "depthOrder": 2,
    "depthPos": "QB",
-   "espnId": null,
-   "injury": null,
-   "name": "Tanner McKee",
-   "pos": "QB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "QB",
    "espnId": 4040715,
    "injury": "IR",
    "name": "Jalen Hurts",
    "pos": "QB",
    "status": "Inactive"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "QB",
+   "espnId": null,
+   "injury": null,
+   "name": "Tanner McKee",
+   "pos": "QB",
+   "status": "Active"
   },
   {
    "depthOrder": 4,
@@ -373,7 +382,7 @@
    "depthOrder": 1,
    "depthPos": "RILB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jihaad Campbell",
    "pos": "LB",
    "status": "Active"
@@ -716,10 +725,19 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Quentin Skinner",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Zion Wilson",
    "pos": "DT",
    "status": "Active"
   }
  ],
- "updated": "2026-11-18T07:00:49-05:00"
+ "updated": "2026-11-19T07:00:51-05:00"
 }

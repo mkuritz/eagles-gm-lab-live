@@ -19,7 +19,7 @@
     "injury": "Knee",
     "name": "Britain Covey",
     "pos": "WR",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-17T12:19Z"
    },
    {
@@ -39,8 +39,8 @@
     "injury": "Hamstring",
     "name": "DeVonta Smith",
     "pos": "WR",
-    "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-18T22:59Z"
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-18T20:19Z"
    },
    {
     "espnId": "4428850",
@@ -49,7 +49,7 @@
     "injury": "Ankle",
     "name": "Dontayvion Wicks",
     "pos": "WR",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-18T23:04Z"
    },
    {
@@ -79,7 +79,7 @@
     "injury": "Hamstring",
     "name": "Jonathan Jones",
     "pos": "CB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-17T12:19Z"
    },
    {
@@ -89,18 +89,18 @@
     "injury": "Abdomen",
     "name": "Michael Carter II",
     "pos": "CB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-17T12:19Z"
    },
    {
     "espnId": "4426331",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0039013",
+    "injury": "Illness",
     "name": "Nolan Smith Jr.",
     "pos": "LB",
-    "practice": "",
-    "statusDate": "2026-11-18T23:07Z"
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-19T01:40Z"
    },
    {
     "espnId": "4429013",
@@ -145,25 +145,25 @@
    {
     "espnId": "4431545",
     "gameStatus": "IR",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0039746",
+    "injury": "Foot",
     "name": "Will Shipley",
     "pos": "RB",
-    "practice": "",
+    "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-18T23:15Z"
    },
    {
     "espnId": "3917657",
     "gameStatus": "Questionable",
     "gsisId": "00-0036418",
-    "injury": "Shoulder",
+    "injury": "Back",
     "name": "Zack Baun",
     "pos": "LB",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-11-08T20:21Z"
+    "practice": "Did Not Participate In Practice",
+    "statusDate": "2026-11-19T01:34Z"
    }
   ],
-  "week": 9
+  "week": 11
  },
- "updated": "2026-11-18T19:05:53-05:00"
+ "updated": "2026-11-19T07:00:47-05:00"
 }
