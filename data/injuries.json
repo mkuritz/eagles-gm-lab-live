@@ -40,7 +40,7 @@
     "name": "DeVonta Smith",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-18T20:19Z"
+    "statusDate": "2026-11-18T22:59Z"
    },
    {
     "espnId": "4428850",
@@ -50,7 +50,7 @@
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-18T20:25Z"
+    "statusDate": "2026-11-18T23:04Z"
    },
    {
     "espnId": "4040715",
@@ -61,16 +61,6 @@
     "pos": "QB",
     "practice": "",
     "statusDate": "2026-10-19T14:18Z"
-   },
-   {
-    "espnId": "4685287",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0040708",
-    "injury": "Hamstring",
-    "name": "Jihaad Campbell",
-    "pos": "LB",
-    "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-17T12:19Z"
    },
    {
     "espnId": "4686104",
@@ -101,6 +91,16 @@
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
     "statusDate": "2026-11-17T12:19Z"
+   },
+   {
+    "espnId": "4426331",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Nolan Smith Jr.",
+    "pos": "LB",
+    "practice": "",
+    "statusDate": "2026-11-18T23:07Z"
    },
    {
     "espnId": "4429013",
@@ -150,7 +150,7 @@
     "name": "Will Shipley",
     "pos": "RB",
     "practice": "",
-    "statusDate": "2026-11-16T20:55Z"
+    "statusDate": "2026-11-18T23:15Z"
    },
    {
     "espnId": "3917657",
@@ -165,5 +165,5 @@
   ],
   "week": 9
  },
- "updated": "2026-11-18T17:05:38-05:00"
+ "updated": "2026-11-18T19:05:53-05:00"
 }
