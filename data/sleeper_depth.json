@@ -94,7 +94,7 @@
    "depthOrder": 2,
    "depthPos": "LILB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Smael Mondon Jr.",
    "pos": "LB",
    "status": "Active"
@@ -130,7 +130,7 @@
    "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
@@ -739,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-19T07:00:51-05:00"
+ "updated": "2026-11-20T07:00:50-05:00"
 }

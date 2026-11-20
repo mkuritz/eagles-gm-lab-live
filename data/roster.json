@@ -331,8 +331,8 @@
    "exp": 6,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-18T20:19Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -371,7 +371,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428850.png",
    "injury": "Questionable",
-   "injuryDate": "2026-11-18T23:04Z",
+   "injuryDate": "2026-11-19T22:46Z",
    "jersey": "13",
    "name": "Dontayvion Wicks",
    "pos": "WR",
@@ -565,8 +565,8 @@
    "exp": 2,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431573.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-11-19T23:31Z",
    "jersey": "42",
    "name": "Smael Mondon Jr.",
    "pos": "LB",
@@ -800,7 +800,7 @@
    "group": "injuredReserveOrOut",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431545.png",
    "injury": "Injured Reserve",
-   "injuryDate": "2026-11-18T23:15Z",
+   "injuryDate": "2026-11-19T22:51Z",
    "jersey": "28",
    "name": "Will Shipley",
    "pos": "RB",
@@ -1002,5 +1002,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-19T07:00:47-05:00"
+ "updated": "2026-11-20T07:00:45-05:00"
 }

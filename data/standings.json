@@ -97,13 +97,25 @@
    "w": 5
   },
   {
+   "abbr": "HOU",
+   "conf": "AFC",
+   "l": 6,
+   "name": "Houston Texans",
+   "pa": 222,
+   "pf": 259,
+   "seed": "9",
+   "streak": "W1",
+   "t": 0,
+   "w": 4
+  },
+  {
    "abbr": "LV",
    "conf": "AFC",
    "l": 6,
    "name": "Las Vegas Raiders",
    "pa": 289,
    "pf": 251,
-   "seed": "9",
+   "seed": "10",
    "streak": "L2",
    "t": 0,
    "w": 4
@@ -115,32 +127,20 @@
    "name": "Baltimore Ravens",
    "pa": 259,
    "pf": 209,
-   "seed": "10",
+   "seed": "11",
    "streak": "L5",
    "t": 0,
    "w": 4
   },
   {
-   "abbr": "HOU",
-   "conf": "AFC",
-   "l": 6,
-   "name": "Houston Texans",
-   "pa": 219,
-   "pf": 233,
-   "seed": "11",
-   "streak": "L1",
-   "t": 0,
-   "w": 3
-  },
-  {
    "abbr": "IND",
    "conf": "AFC",
-   "l": 7,
+   "l": 8,
    "name": "Indianapolis Colts",
-   "pa": 271,
-   "pf": 208,
+   "pa": 297,
+   "pf": 211,
    "seed": "12",
-   "streak": "W1",
+   "streak": "L1",
    "t": 0,
    "w": 3
   },
@@ -385,5 +385,5 @@
    "w": 2
   }
  ],
- "updated": "2026-11-17T07:00:57-05:00"
+ "updated": "2026-11-20T07:00:46-05:00"
 }
