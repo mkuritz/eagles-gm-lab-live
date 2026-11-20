@@ -33,16 +33,6 @@
     "statusDate": "2026-11-07T00:38Z"
    },
    {
-    "espnId": "4241478",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0036912",
-    "injury": "Hamstring",
-    "name": "DeVonta Smith",
-    "pos": "WR",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-19T19:41Z"
-   },
-   {
     "espnId": "4428850",
     "gameStatus": "Questionable",
     "gsisId": "00-0038393",
@@ -50,7 +40,7 @@
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-19T19:45Z"
+    "statusDate": "2026-11-19T22:46Z"
    },
    {
     "espnId": "4040715",
@@ -103,6 +93,16 @@
     "statusDate": "2026-11-19T01:40Z"
    },
    {
+    "espnId": "4431573",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0040013",
+    "injury": "Ankle",
+    "name": "Smael Mondon Jr.",
+    "pos": "LB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-11-19T23:31Z"
+   },
+   {
     "espnId": "4429013",
     "gameStatus": "IR",
     "gsisId": null,
@@ -150,7 +150,7 @@
     "name": "Will Shipley",
     "pos": "RB",
     "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-18T23:15Z"
+    "statusDate": "2026-11-19T22:51Z"
    },
    {
     "espnId": "3917657",
@@ -165,5 +165,5 @@
   ],
   "week": 11
  },
- "updated": "2026-11-19T16:05:37-05:00"
+ "updated": "2026-11-19T19:05:41-05:00"
 }
