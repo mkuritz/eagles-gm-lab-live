@@ -13,6 +13,16 @@
     "statusDate": "2026-09-01T03:46Z"
    },
    {
+    "espnId": "3926231",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0037132",
+    "injury": "Knee",
+    "name": "Britain Covey",
+    "pos": "WR",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-17T12:19Z"
+   },
+   {
     "espnId": "4360238",
     "gameStatus": "Questionable",
     "gsisId": null,
@@ -53,14 +63,44 @@
     "statusDate": "2026-08-22T21:59Z"
    },
    {
+    "espnId": "2971027",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0032580",
+    "injury": "Hamstring",
+    "name": "Jonathan Jones",
+    "pos": "CB",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-17T12:19Z"
+   },
+   {
+    "espnId": "4240456",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0036501",
+    "injury": "Abdomen",
+    "name": "Michael Carter II",
+    "pos": "CB",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-17T12:19Z"
+   },
+   {
+    "espnId": "4426331",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0039013",
+    "injury": "Illness",
+    "name": "Nolan Smith Jr.",
+    "pos": "LB",
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-19T01:40Z"
+   },
+   {
     "espnId": "4431573",
-    "gameStatus": "Doubtful",
+    "gameStatus": "Questionable",
     "gsisId": "00-0040013",
     "injury": "Ankle",
     "name": "Smael Mondon Jr.",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-20T21:23Z"
+    "statusDate": "2026-11-19T23:31Z"
    },
    {
     "espnId": "4429013",
@@ -110,20 +150,20 @@
     "name": "Will Shipley",
     "pos": "RB",
     "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-20T21:47Z"
+    "statusDate": "2026-11-19T22:51Z"
    },
    {
     "espnId": "3917657",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0036418",
     "injury": "Back",
     "name": "Zack Baun",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-20T21:22Z"
+    "statusDate": "2026-11-19T01:34Z"
    }
   ],
   "week": 11
  },
- "updated": "2026-11-20T17:05:47-05:00"
+ "updated": "2026-11-20T19:05:56-05:00"
 }
