@@ -67,7 +67,7 @@
    "depthOrder": 3,
    "depthPos": "LCB",
    "espnId": 2971027,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Jonathan Jones",
    "pos": "DB",
    "status": "Active"
@@ -85,7 +85,7 @@
    "depthOrder": 1,
    "depthPos": "LILB",
    "espnId": 3917657,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Zack Baun",
    "pos": "LB",
    "status": "Active"
@@ -94,7 +94,7 @@
    "depthOrder": 2,
    "depthPos": "LILB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Doubtful",
    "name": "Smael Mondon Jr.",
    "pos": "LB",
    "status": "Active"
@@ -103,7 +103,7 @@
    "depthOrder": 1,
    "depthPos": "LOLB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Nolan Smith Jr.",
    "pos": "LB",
    "status": "Active"
@@ -136,7 +136,7 @@
    "status": "Active"
   },
   {
-   "depthOrder": 5,
+   "depthOrder": 4,
    "depthPos": "LWR",
    "espnId": null,
    "injury": null,
@@ -424,20 +424,20 @@
    "status": "Active"
   },
   {
-   "depthOrder": 2,
-   "depthPos": "RWR",
-   "espnId": null,
-   "injury": "Questionable",
-   "name": "Dontayvion Wicks",
-   "pos": "WR",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 4,
+   "depthOrder": 3,
    "depthPos": "RWR",
    "espnId": null,
    "injury": null,
    "name": "Darius Cooper",
+   "pos": "WR",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 6,
+   "depthPos": "RWR",
+   "espnId": null,
+   "injury": "Out",
+   "name": "Dontayvion Wicks",
    "pos": "WR",
    "status": "Active"
   },
@@ -454,13 +454,13 @@
    "depthOrder": 2,
    "depthPos": "SS",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Michael Carter II",
    "pos": "CB",
    "status": "Active"
   },
   {
-   "depthOrder": 3,
+   "depthOrder": 2,
    "depthPos": "SWR",
    "espnId": null,
    "injury": null,
@@ -469,10 +469,10 @@
    "status": "Active"
   },
   {
-   "depthOrder": 6,
+   "depthOrder": 5,
    "depthPos": "SWR",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Britain Covey",
    "pos": "WR",
    "status": "Active"
@@ -739,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-20T07:00:50-05:00"
+ "updated": "2026-11-21T07:01:06-05:00"
 }
