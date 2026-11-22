@@ -552,8 +552,8 @@
    "exp": 3,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686273.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-11-22T20:56Z",
    "jersey": "27",
    "name": "Quinyon Mitchell",
    "pos": "CB",
@@ -1002,5 +1002,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-22T13:05:49-05:00"
+ "updated": "2026-11-22T16:06:06-05:00"
 }

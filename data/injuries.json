@@ -93,6 +93,16 @@
     "statusDate": "2026-11-22T16:33Z"
    },
    {
+    "espnId": "4686273",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Quinyon Mitchell",
+    "pos": "CB",
+    "practice": "",
+    "statusDate": "2026-11-22T20:56Z"
+   },
+   {
     "espnId": "4431573",
     "gameStatus": "Out",
     "gsisId": "00-0040013",
@@ -155,5 +165,5 @@
   ],
   "week": 11
  },
- "updated": "2026-11-22T12:05:44-05:00"
+ "updated": "2026-11-22T16:06:07-05:00"
 }

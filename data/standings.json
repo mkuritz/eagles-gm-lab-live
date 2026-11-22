@@ -17,12 +17,12 @@
    "conf": "AFC",
    "l": 2,
    "name": "Kansas City Chiefs",
-   "pa": 156,
-   "pf": 237,
+   "pa": 163,
+   "pf": 271,
    "seed": "2",
-   "streak": "W2",
+   "streak": "W3",
    "t": 0,
-   "w": 7
+   "w": 8
   },
   {
    "abbr": "JAX",
@@ -183,12 +183,12 @@
   {
    "abbr": "TEN",
    "conf": "AFC",
-   "l": 8,
+   "l": 9,
    "name": "Tennessee Titans",
-   "pa": 239,
-   "pf": 167,
+   "pa": 290,
+   "pf": 197,
    "seed": "16",
-   "streak": "L3",
+   "streak": "L4",
    "t": 0,
    "w": 1
   },
@@ -289,6 +289,18 @@
    "w": 5
   },
   {
+   "abbr": "DAL",
+   "conf": "NFC",
+   "l": 6,
+   "name": "Dallas Cowboys",
+   "pa": 312,
+   "pf": 337,
+   "seed": "10",
+   "streak": "W1",
+   "t": 0,
+   "w": 5
+  },
+  {
    "abbr": "CAR",
    "conf": "NFC",
    "l": 5,
@@ -297,18 +309,6 @@
    "pf": 219,
    "seed": "4",
    "streak": "W1",
-   "t": 0,
-   "w": 4
-  },
-  {
-   "abbr": "DAL",
-   "conf": "NFC",
-   "l": 6,
-   "name": "Dallas Cowboys",
-   "pa": 282,
-   "pf": 286,
-   "seed": "10",
-   "streak": "L1",
    "t": 0,
    "w": 4
   },
@@ -363,12 +363,12 @@
   {
    "abbr": "ARI",
    "conf": "NFC",
-   "l": 7,
+   "l": 8,
    "name": "Arizona Cardinals",
-   "pa": 289,
-   "pf": 184,
+   "pa": 323,
+   "pf": 191,
    "seed": "15",
-   "streak": "L2",
+   "streak": "L3",
    "t": 0,
    "w": 3
   },
@@ -385,5 +385,5 @@
    "w": 2
   }
  ],
- "updated": "2026-11-20T07:00:46-05:00"
+ "updated": "2026-11-22T16:06:06-05:00"
 }
