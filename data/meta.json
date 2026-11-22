@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-22T10:00:59-05:00",
+ "lastRun": "2026-11-22T12:05:44-05:00",
  "sources": {
   "contracts.json": {
    "error": null,
@@ -20,8 +20,8 @@
   "injuries.json": {
    "error": null,
    "label": "Same-day injury statuses (+ official report notes)",
-   "lastChange": "2026-11-22T07:01:01-05:00",
-   "lastSuccess": "2026-11-22T10:00:56-05:00",
+   "lastChange": "2026-11-22T12:05:44-05:00",
+   "lastSuccess": "2026-11-22T12:05:44-05:00",
    "ok": true
   },
   "roster.json": {
@@ -54,5 +54,5 @@
   }
  },
  "timezone": "America/New_York",
- "updated": "2026-11-22T07:01:04-05:00"
+ "updated": "2026-11-22T12:05:44-05:00"
 }

@@ -3,6 +3,16 @@
   "live": true,
   "players": [
    {
+    "espnId": "4696203",
+    "gameStatus": "Out",
+    "gsisId": null,
+    "injury": null,
+    "name": "Ajani Cornelius",
+    "pos": "OT",
+    "practice": "",
+    "statusDate": "2026-11-22T16:33Z"
+   },
+   {
     "espnId": "4250510",
     "gameStatus": "IR",
     "gsisId": null,
@@ -11,6 +21,16 @@
     "pos": "S",
     "practice": "",
     "statusDate": "2026-09-01T03:46Z"
+   },
+   {
+    "espnId": "4879250",
+    "gameStatus": "Out",
+    "gsisId": null,
+    "injury": null,
+    "name": "Cole Payton",
+    "pos": "QB",
+    "practice": "",
+    "statusDate": "2026-11-22T16:38Z"
    },
    {
     "espnId": "4360238",
@@ -33,6 +53,16 @@
     "statusDate": "2026-11-21T21:09Z"
    },
    {
+    "espnId": "4430814",
+    "gameStatus": "Out",
+    "gsisId": null,
+    "injury": null,
+    "name": "Jake Majors",
+    "pos": "C",
+    "practice": "",
+    "statusDate": "2026-11-22T16:33Z"
+   },
+   {
     "espnId": "4040715",
     "gameStatus": "IR",
     "gsisId": null,
@@ -53,14 +83,24 @@
     "statusDate": "2026-08-22T21:59Z"
    },
    {
+    "espnId": "4689651",
+    "gameStatus": "Out",
+    "gsisId": null,
+    "injury": null,
+    "name": "Mac McWilliams",
+    "pos": "CB",
+    "practice": "",
+    "statusDate": "2026-11-22T16:33Z"
+   },
+   {
     "espnId": "4431573",
-    "gameStatus": "Doubtful",
+    "gameStatus": "Out",
     "gsisId": "00-0040013",
     "injury": "Ankle",
     "name": "Smael Mondon Jr.",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-20T21:23Z"
+    "statusDate": "2026-11-22T16:40Z"
    },
    {
     "espnId": "4429013",
@@ -103,16 +143,6 @@
     "statusDate": "2026-10-10T02:19Z"
    },
    {
-    "espnId": "4431545",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0039746",
-    "injury": "Foot",
-    "name": "Will Shipley",
-    "pos": "RB",
-    "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-21T21:30Z"
-   },
-   {
     "espnId": "3917657",
     "gameStatus": "IR",
     "gsisId": "00-0036418",
@@ -125,5 +155,5 @@
   ],
   "week": 11
  },
- "updated": "2026-11-22T07:01:01-05:00"
+ "updated": "2026-11-22T12:05:44-05:00"
 }
