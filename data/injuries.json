@@ -83,6 +83,16 @@
     "statusDate": "2026-08-22T21:59Z"
    },
    {
+    "espnId": "2971027",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0032580",
+    "injury": "Hamstring",
+    "name": "Jonathan Jones",
+    "pos": "CB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-11-22T22:18Z"
+   },
+   {
     "espnId": "4689651",
     "gameStatus": "Out",
     "gsisId": null,
@@ -101,6 +111,16 @@
     "pos": "CB",
     "practice": "",
     "statusDate": "2026-11-22T20:56Z"
+   },
+   {
+    "espnId": "3929630",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0034844",
+    "injury": "Hamstring",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-11-22T22:41Z"
    },
    {
     "espnId": "4431573",
@@ -165,5 +185,5 @@
   ],
   "week": 11
  },
- "updated": "2026-11-22T16:06:07-05:00"
+ "updated": "2026-11-22T18:05:58-05:00"
 }
