@@ -193,7 +193,7 @@
    "completed": false,
    "date": "2026-11-22T18:00Z",
    "name": "PIT @ PHI",
-   "status": "Scheduled",
+   "status": "In Progress",
    "teams": [
     {
      "abbr": "PHI",
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-11-09T16:05:43-05:00"
+ "updated": "2026-11-22T13:05:49-05:00"
 }
