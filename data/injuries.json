@@ -24,13 +24,13 @@
    },
    {
     "espnId": "4428850",
-    "gameStatus": "Out",
+    "gameStatus": "IR",
     "gsisId": "00-0038393",
     "injury": "Ankle",
     "name": "Dontayvion Wicks",
     "pos": "WR",
     "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-20T20:58Z"
+    "statusDate": "2026-11-21T21:09Z"
    },
    {
     "espnId": "4040715",
@@ -104,26 +104,26 @@
    },
    {
     "espnId": "4431545",
-    "gameStatus": "IR",
+    "gameStatus": "Questionable",
     "gsisId": "00-0039746",
     "injury": "Foot",
     "name": "Will Shipley",
     "pos": "RB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-20T21:47Z"
+    "statusDate": "2026-11-21T21:30Z"
    },
    {
     "espnId": "3917657",
-    "gameStatus": "Out",
+    "gameStatus": "IR",
     "gsisId": "00-0036418",
     "injury": "Back",
     "name": "Zack Baun",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-21T00:16Z"
+    "statusDate": "2026-11-22T00:14Z"
    }
   ],
   "week": 11
  },
- "updated": "2026-11-21T07:01:03-05:00"
+ "updated": "2026-11-22T07:01:01-05:00"
 }

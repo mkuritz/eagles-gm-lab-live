@@ -82,13 +82,22 @@
    "status": "Active"
   },
   {
+   "depthOrder": 2,
+   "depthPos": "LDE",
+   "espnId": null,
+   "injury": null,
+   "name": "Gabe Hall",
+   "pos": "DT",
+   "status": "Active"
+  },
+  {
    "depthOrder": 1,
    "depthPos": "LILB",
    "espnId": 3917657,
-   "injury": "Out",
+   "injury": "IR",
    "name": "Zack Baun",
    "pos": "LB",
-   "status": "Active"
+   "status": "Inactive"
   },
   {
    "depthOrder": 2,
@@ -96,6 +105,15 @@
    "espnId": null,
    "injury": "Doubtful",
    "name": "Smael Mondon Jr.",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "LILB",
+   "espnId": null,
+   "injury": null,
+   "name": "Anfernee Orji",
    "pos": "LB",
    "status": "Active"
   },
@@ -319,8 +337,8 @@
    "depthOrder": 2,
    "depthPos": "RB",
    "espnId": null,
-   "injury": null,
-   "name": "Jaydon Blue",
+   "injury": "Questionable",
+   "name": "Will Shipley",
    "pos": "RB",
    "status": "Active"
   },
@@ -337,10 +355,10 @@
    "depthOrder": 5,
    "depthPos": "RB",
    "espnId": null,
-   "injury": "IR",
-   "name": "Will Shipley",
+   "injury": null,
+   "name": "Jaydon Blue",
    "pos": "RB",
-   "status": "Inactive"
+   "status": "Active"
   },
   {
    "depthOrder": 1,
@@ -436,10 +454,10 @@
    "depthOrder": 6,
    "depthPos": "RWR",
    "espnId": null,
-   "injury": "Out",
+   "injury": "IR",
    "name": "Dontayvion Wicks",
    "pos": "WR",
-   "status": "Active"
+   "status": "Inactive"
   },
   {
    "depthOrder": 1,
@@ -539,15 +557,6 @@
    "name": null,
    "pos": "DEF",
    "status": null
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Anfernee Orji",
-   "pos": "LB",
-   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -653,15 +662,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Gabe Hall",
-   "pos": "DT",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Hayden Rucci",
    "pos": "TE",
    "status": "Active"
@@ -739,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-21T07:01:06-05:00"
+ "updated": "2026-11-22T07:01:04-05:00"
 }
