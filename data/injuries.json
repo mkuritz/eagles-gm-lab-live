@@ -3,16 +3,6 @@
   "live": true,
   "players": [
    {
-    "espnId": "4696203",
-    "gameStatus": "Out",
-    "gsisId": null,
-    "injury": null,
-    "name": "Ajani Cornelius",
-    "pos": "OT",
-    "practice": "",
-    "statusDate": "2026-11-22T16:33Z"
-   },
-   {
     "espnId": "4250510",
     "gameStatus": "IR",
     "gsisId": null,
@@ -21,16 +11,6 @@
     "pos": "S",
     "practice": "",
     "statusDate": "2026-09-01T03:46Z"
-   },
-   {
-    "espnId": "4879250",
-    "gameStatus": "Out",
-    "gsisId": null,
-    "injury": null,
-    "name": "Cole Payton",
-    "pos": "QB",
-    "practice": "",
-    "statusDate": "2026-11-22T16:38Z"
    },
    {
     "espnId": "4360238",
@@ -51,16 +31,6 @@
     "pos": "WR",
     "practice": "Limited Participation in Practice",
     "statusDate": "2026-11-21T21:09Z"
-   },
-   {
-    "espnId": "4430814",
-    "gameStatus": "Out",
-    "gsisId": null,
-    "injury": null,
-    "name": "Jake Majors",
-    "pos": "C",
-    "practice": "",
-    "statusDate": "2026-11-22T16:33Z"
    },
    {
     "espnId": "4040715",
@@ -93,16 +63,6 @@
     "statusDate": "2026-11-22T22:18Z"
    },
    {
-    "espnId": "4689651",
-    "gameStatus": "Out",
-    "gsisId": null,
-    "injury": null,
-    "name": "Mac McWilliams",
-    "pos": "CB",
-    "practice": "",
-    "statusDate": "2026-11-22T16:33Z"
-   },
-   {
     "espnId": "4686273",
     "gameStatus": "Questionable",
     "gsisId": null,
@@ -130,7 +90,7 @@
     "name": "Smael Mondon Jr.",
     "pos": "LB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-22T16:40Z"
+    "statusDate": "2026-11-23T15:48Z"
    },
    {
     "espnId": "4429013",
@@ -185,5 +145,5 @@
   ],
   "week": 11
  },
- "updated": "2026-11-22T22:01:13-05:00"
+ "updated": "2026-11-23T11:05:44-05:00"
 }
