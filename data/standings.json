@@ -197,12 +197,12 @@
    "conf": "NFC",
    "l": 1,
    "name": "San Francisco 49ers",
-   "pa": 196,
-   "pf": 281,
+   "pa": 206,
+   "pf": 316,
    "seed": "1",
-   "streak": "W2",
+   "streak": "W3",
    "t": 0,
-   "w": 8
+   "w": 9
   },
   {
    "abbr": "DET",
@@ -231,12 +231,12 @@
   {
    "abbr": "MIN",
    "conf": "NFC",
-   "l": 2,
+   "l": 3,
    "name": "Minnesota Vikings",
-   "pa": 126,
-   "pf": 176,
+   "pa": 161,
+   "pf": 186,
    "seed": "6",
-   "streak": "W1",
+   "streak": "L1",
    "t": 0,
    "w": 7
   },
@@ -385,5 +385,5 @@
    "w": 3
   }
  ],
- "updated": "2026-11-22T22:01:12-05:00"
+ "updated": "2026-11-23T07:00:49-05:00"
 }

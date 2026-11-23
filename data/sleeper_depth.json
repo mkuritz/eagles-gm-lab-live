@@ -49,7 +49,7 @@
    "depthOrder": 1,
    "depthPos": "LCB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Quinyon Mitchell",
    "pos": "CB",
    "status": "Active"
@@ -67,7 +67,7 @@
    "depthOrder": 3,
    "depthPos": "LCB",
    "espnId": 2971027,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Jonathan Jones",
    "pos": "DB",
    "status": "Active"
@@ -103,7 +103,7 @@
    "depthOrder": 2,
    "depthPos": "LILB",
    "espnId": null,
-   "injury": "Doubtful",
+   "injury": "Out",
    "name": "Smael Mondon Jr.",
    "pos": "LB",
    "status": "Active"
@@ -175,7 +175,7 @@
    "depthOrder": 2,
    "depthPos": "NB",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Mac McWilliams",
    "pos": "CB",
    "status": "Active"
@@ -193,7 +193,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Ajani Cornelius",
    "pos": "OL",
    "status": "Active"
@@ -211,7 +211,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Jake Majors",
    "pos": "OL",
    "status": "Active"
@@ -319,7 +319,7 @@
    "depthOrder": 4,
    "depthPos": "QB",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Cole Payton",
    "pos": "QB",
    "status": "Active"
@@ -328,7 +328,7 @@
    "depthOrder": 1,
    "depthPos": "RB",
    "espnId": 3929630,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
@@ -337,7 +337,7 @@
    "depthOrder": 2,
    "depthPos": "RB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Will Shipley",
    "pos": "RB",
    "status": "Active"
@@ -739,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-22T07:01:04-05:00"
+ "updated": "2026-11-23T07:00:53-05:00"
 }
