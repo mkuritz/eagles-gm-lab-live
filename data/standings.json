@@ -13,28 +13,28 @@
    "w": 9
   },
   {
+   "abbr": "DEN",
+   "conf": "AFC",
+   "l": 2,
+   "name": "Denver Broncos",
+   "pa": 210,
+   "pf": 236,
+   "seed": "2",
+   "streak": "W6",
+   "t": 0,
+   "w": 8
+  },
+  {
    "abbr": "KC",
    "conf": "AFC",
    "l": 2,
    "name": "Kansas City Chiefs",
    "pa": 163,
    "pf": 271,
-   "seed": "2",
+   "seed": "5",
    "streak": "W3",
    "t": 0,
    "w": 8
-  },
-  {
-   "abbr": "JAX",
-   "conf": "AFC",
-   "l": 2,
-   "name": "Jacksonville Jaguars",
-   "pa": 144,
-   "pf": 269,
-   "seed": "3",
-   "streak": "W3",
-   "t": 0,
-   "w": 7
   },
   {
    "abbr": "CIN",
@@ -43,20 +43,20 @@
    "name": "Cincinnati Bengals",
    "pa": 193,
    "pf": 278,
-   "seed": "4",
+   "seed": "3",
    "streak": "W5",
    "t": 0,
    "w": 7
   },
   {
-   "abbr": "DEN",
+   "abbr": "JAX",
    "conf": "AFC",
-   "l": 2,
-   "name": "Denver Broncos",
-   "pa": 186,
-   "pf": 198,
-   "seed": "5",
-   "streak": "W5",
+   "l": 3,
+   "name": "Jacksonville Jaguars",
+   "pa": 167,
+   "pf": 287,
+   "seed": "4",
+   "streak": "L1",
    "t": 0,
    "w": 7
   },
@@ -111,12 +111,12 @@
   {
    "abbr": "LV",
    "conf": "AFC",
-   "l": 6,
+   "l": 7,
    "name": "Las Vegas Raiders",
-   "pa": 289,
-   "pf": 251,
+   "pa": 327,
+   "pf": 275,
    "seed": "10",
-   "streak": "L2",
+   "streak": "L3",
    "t": 0,
    "w": 4
   },
@@ -241,6 +241,18 @@
    "w": 7
   },
   {
+   "abbr": "NYG",
+   "conf": "NFC",
+   "l": 3,
+   "name": "New York Giants",
+   "pa": 214,
+   "pf": 226,
+   "seed": "3",
+   "streak": "W1",
+   "t": 1,
+   "w": 6
+  },
+  {
    "abbr": "GB",
    "conf": "NFC",
    "l": 4,
@@ -275,18 +287,6 @@
    "streak": "W4",
    "t": 0,
    "w": 6
-  },
-  {
-   "abbr": "NYG",
-   "conf": "NFC",
-   "l": 3,
-   "name": "New York Giants",
-   "pa": 196,
-   "pf": 203,
-   "seed": "3",
-   "streak": "L1",
-   "t": 1,
-   "w": 5
   },
   {
    "abbr": "CAR",
@@ -385,5 +385,5 @@
    "w": 3
   }
  ],
- "updated": "2026-11-22T19:05:58-05:00"
+ "updated": "2026-11-22T22:01:12-05:00"
 }
