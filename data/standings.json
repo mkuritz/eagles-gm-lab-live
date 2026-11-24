@@ -37,24 +37,24 @@
    "w": 8
   },
   {
-   "abbr": "CIN",
-   "conf": "AFC",
-   "l": 2,
-   "name": "Cincinnati Bengals",
-   "pa": 193,
-   "pf": 278,
-   "seed": "3",
-   "streak": "W5",
-   "t": 0,
-   "w": 7
-  },
-  {
    "abbr": "JAX",
    "conf": "AFC",
    "l": 3,
    "name": "Jacksonville Jaguars",
    "pa": 167,
    "pf": 287,
+   "seed": "3",
+   "streak": "L1",
+   "t": 0,
+   "w": 7
+  },
+  {
+   "abbr": "CIN",
+   "conf": "AFC",
+   "l": 3,
+   "name": "Cincinnati Bengals",
+   "pa": 215,
+   "pf": 298,
    "seed": "4",
    "streak": "L1",
    "t": 0,
@@ -317,12 +317,12 @@
    "conf": "NFC",
    "l": 5,
    "name": "Washington Commanders",
-   "pa": 223,
-   "pf": 196,
+   "pa": 243,
+   "pf": 218,
    "seed": "11",
-   "streak": "W1",
+   "streak": "W2",
    "t": 1,
-   "w": 3
+   "w": 4
   },
   {
    "abbr": "TB",
@@ -385,5 +385,5 @@
    "w": 3
   }
  ],
- "updated": "2026-11-23T07:00:49-05:00"
+ "updated": "2026-11-24T07:00:47-05:00"
 }

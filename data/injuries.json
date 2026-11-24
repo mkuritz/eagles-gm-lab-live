@@ -80,7 +80,7 @@
     "name": "Jonathan Jones",
     "pos": "CB",
     "practice": "Full Participation in Practice",
-    "statusDate": "2026-11-22T22:18Z"
+    "statusDate": "2026-11-24T00:10Z"
    },
    {
     "espnId": "4686273",
@@ -130,7 +130,7 @@
     "name": "Tanner McKee",
     "pos": "QB",
     "practice": "Full Participation in Practice",
-    "statusDate": "2026-11-23T22:14Z"
+    "statusDate": "2026-11-24T00:14Z"
    },
    {
     "espnId": "4259590",
@@ -170,7 +170,7 @@
     "name": "Will Shipley",
     "pos": "RB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-23T22:14Z"
+    "statusDate": "2026-11-24T00:21Z"
    },
    {
     "espnId": "3917657",
@@ -185,5 +185,5 @@
   ],
   "week": 11
  },
- "updated": "2026-11-23T19:05:57-05:00"
+ "updated": "2026-11-24T07:00:48-05:00"
 }

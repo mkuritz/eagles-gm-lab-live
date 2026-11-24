@@ -463,6 +463,20 @@
    "years": 1
   },
   {
+   "apy": 1.3,
+   "apy_cap_pct": 0.004,
+   "gsis_id": "00-0030061",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 112,
+   "player": "Zach Ertz",
+   "position": "TE",
+   "team": "Eagles",
+   "value": 1.3,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
    "apy": 1.215,
    "apy_cap_pct": 0.004,
    "gsis_id": "00-0037132",
@@ -475,6 +489,20 @@
    "value": 1.215,
    "year_signed": 2026,
    "years": 1
+  },
+  {
+   "apy": 1.202,
+   "apy_cap_pct": 0.004,
+   "gsis_id": "00-0038852",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 11366,
+   "player": "John Ojukwu",
+   "position": "RT",
+   "team": "Eagles",
+   "value": 2.405,
+   "year_signed": 2026,
+   "years": 2
   },
   {
    "apy": 1.19,
@@ -673,6 +701,20 @@
    "years": 4
   },
   {
+   "apy": 1.005,
+   "apy_cap_pct": 0.003,
+   "gsis_id": "00-0040586",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 12509,
+   "player": "Jaydon Blue",
+   "position": "RB",
+   "team": "Eagles",
+   "value": 1.005,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
    "apy": 0.993,
    "apy_cap_pct": 0.004,
    "gsis_id": "00-0040024",
@@ -715,20 +757,6 @@
    "years": 1
   },
   {
-   "apy": 0.514,
-   "apy_cap_pct": 0.002,
-   "gsis_id": "00-0030061",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 112,
-   "player": "Zach Ertz",
-   "position": "TE",
-   "team": "Eagles",
-   "value": 0.514,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
    "apy": 0.368,
    "apy_cap_pct": 0.001,
    "gsis_id": "00-0036567",
@@ -751,34 +779,6 @@
    "otc_id": 10052,
    "player": "Evan Neal",
    "position": "RT",
-   "team": "Eagles",
-   "value": 0.33,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.33,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0036559",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 9624,
-   "player": "Shaun Wade",
-   "position": "CB",
-   "team": "Eagles",
-   "value": 0.33,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.33,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0038496",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 11255,
-   "player": "Xavier Gipson",
-   "position": "WR",
    "team": "Eagles",
    "value": 0.33,
    "year_signed": 2026,
@@ -809,20 +809,6 @@
    "position": "ED",
    "team": "Eagles",
    "value": 0.318,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.297,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0038852",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 11366,
-   "player": "John Ojukwu",
-   "position": "RT",
-   "team": "Eagles",
-   "value": 0.297,
    "year_signed": 2026,
    "years": 1
   },
@@ -967,5 +953,5 @@
    "years": 1
   }
  ],
- "updated": "2026-11-18T07:00:49-05:00"
+ "updated": "2026-11-24T07:00:51-05:00"
 }

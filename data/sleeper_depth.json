@@ -11,6 +11,15 @@
   },
   {
    "depthOrder": null,
+   "depthPos": "DB",
+   "espnId": null,
+   "injury": null,
+   "name": "Christian Braswell",
+   "pos": "DB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
    "depthPos": "DL",
    "espnId": null,
    "injury": "Out",
@@ -82,15 +91,6 @@
    "status": "Active"
   },
   {
-   "depthOrder": 2,
-   "depthPos": "LDE",
-   "espnId": null,
-   "injury": null,
-   "name": "Gabe Hall",
-   "pos": "DT",
-   "status": "Active"
-  },
-  {
    "depthOrder": 1,
    "depthPos": "LILB",
    "espnId": 3917657,
@@ -105,15 +105,6 @@
    "espnId": null,
    "injury": "Out",
    "name": "Smael Mondon Jr.",
-   "pos": "LB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "LILB",
-   "espnId": null,
-   "injury": null,
-   "name": "Anfernee Orji",
    "pos": "LB",
    "status": "Active"
   },
@@ -310,7 +301,7 @@
    "depthOrder": 3,
    "depthPos": "QB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Tanner McKee",
    "pos": "QB",
    "status": "Active"
@@ -337,28 +328,28 @@
    "depthOrder": 2,
    "depthPos": "RB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Will Shipley",
    "pos": "RB",
    "status": "Active"
   },
   {
-   "depthOrder": 4,
-   "depthPos": "RB",
-   "espnId": null,
-   "injury": "IR",
-   "name": "Tank Bigsby",
-   "pos": "RB",
-   "status": "Inactive"
-  },
-  {
-   "depthOrder": 5,
+   "depthOrder": 3,
    "depthPos": "RB",
    "espnId": null,
    "injury": null,
    "name": "Jaydon Blue",
    "pos": "RB",
    "status": "Active"
+  },
+  {
+   "depthOrder": 5,
+   "depthPos": "RB",
+   "espnId": null,
+   "injury": "IR",
+   "name": "Tank Bigsby",
+   "pos": "RB",
+   "status": "Inactive"
   },
   {
    "depthOrder": 1,
@@ -427,7 +418,7 @@
    "depthOrder": 2,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Arnold Ebiketie",
    "pos": "DL",
    "status": "Active"
@@ -499,7 +490,7 @@
    "depthOrder": 1,
    "depthPos": "TE",
    "espnId": 3121023,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Dallas Goedert",
    "pos": "TE",
    "status": "Active"
@@ -516,6 +507,15 @@
   {
    "depthOrder": 3,
    "depthPos": "TE",
+   "espnId": 15835,
+   "injury": null,
+   "name": "Zach Ertz",
+   "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "TE",
    "espnId": null,
    "injury": null,
    "name": "Grant Calcaterra",
@@ -523,20 +523,11 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
+   "depthOrder": 5,
    "depthPos": "TE",
    "espnId": 3052096,
    "injury": null,
    "name": "Johnny Mundt",
-   "pos": "TE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 5,
-   "depthPos": "TE",
-   "espnId": 15835,
-   "injury": null,
-   "name": "Zach Ertz",
    "pos": "TE",
    "status": "Active"
   },
@@ -557,6 +548,15 @@
    "name": null,
    "pos": "DEF",
    "status": null
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Anfernee Orji",
+   "pos": "LB",
+   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -592,15 +592,6 @@
    "injury": null,
    "name": "Charles Walker",
    "pos": "DT",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Christian Braswell",
-   "pos": "DB",
    "status": "Active"
   },
   {
@@ -655,6 +646,15 @@
    "injury": null,
    "name": "Evan Neal",
    "pos": "OL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Gabe Hall",
+   "pos": "DT",
    "status": "Active"
   },
   {
@@ -739,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-23T07:00:53-05:00"
+ "updated": "2026-11-24T07:00:51-05:00"
 }
