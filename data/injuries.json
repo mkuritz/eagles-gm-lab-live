@@ -15,22 +15,12 @@
    {
     "espnId": "4257591",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0038116",
+    "injury": "Oblique",
     "name": "Arnold Ebiketie",
     "pos": "LB",
-    "practice": "",
-    "statusDate": "2026-11-23T22:13Z"
-   },
-   {
-    "espnId": "3121023",
-    "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
-    "name": "Dallas Goedert",
-    "pos": "TE",
-    "practice": "",
-    "statusDate": "2026-11-23T22:07Z"
+    "practice": "Did Not Participate In Practice",
+    "statusDate": "2026-11-25T02:19Z"
    },
    {
     "espnId": "4360238",
@@ -45,11 +35,11 @@
    {
     "espnId": "4428850",
     "gameStatus": "IR",
-    "gsisId": "00-0038393",
-    "injury": "Ankle",
+    "gsisId": null,
+    "injury": null,
     "name": "Dontayvion Wicks",
     "pos": "WR",
-    "practice": "Limited Participation in Practice",
+    "practice": "",
     "statusDate": "2026-11-21T21:09Z"
    },
    {
@@ -76,41 +66,31 @@
     "espnId": "2971027",
     "gameStatus": "Questionable",
     "gsisId": "00-0032580",
-    "injury": "Hamstring",
+    "injury": "Ankle",
     "name": "Jonathan Jones",
     "pos": "CB",
-    "practice": "Full Participation in Practice",
+    "practice": "Did Not Participate In Practice",
     "statusDate": "2026-11-24T00:10Z"
    },
    {
     "espnId": "4686273",
     "gameStatus": "Questionable",
-    "gsisId": null,
-    "injury": null,
+    "gsisId": "00-0039888",
+    "injury": "Hamstring",
     "name": "Quinyon Mitchell",
     "pos": "CB",
-    "practice": "",
-    "statusDate": "2026-11-22T20:56Z"
-   },
-   {
-    "espnId": "3929630",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0034844",
-    "injury": "Hamstring",
-    "name": "Saquon Barkley",
-    "pos": "RB",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-11-23T22:04Z"
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-25T01:05Z"
    },
    {
     "espnId": "4431573",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "gsisId": "00-0040013",
     "injury": "Ankle",
     "name": "Smael Mondon Jr.",
     "pos": "LB",
-    "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-23T15:48Z"
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-24T12:39Z"
    },
    {
     "espnId": "4429013",
@@ -121,16 +101,6 @@
     "pos": "RB",
     "practice": "",
     "statusDate": "2026-10-06T23:17Z"
-   },
-   {
-    "espnId": "4685201",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0038400",
-    "injury": "Rib",
-    "name": "Tanner McKee",
-    "pos": "QB",
-    "practice": "Full Participation in Practice",
-    "statusDate": "2026-11-24T00:14Z"
    },
    {
     "espnId": "4259590",
@@ -169,21 +139,21 @@
     "injury": "Foot",
     "name": "Will Shipley",
     "pos": "RB",
-    "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-24T00:21Z"
+    "practice": "Limited Participation in Practice",
+    "statusDate": "2026-11-25T01:04Z"
    },
    {
     "espnId": "3917657",
     "gameStatus": "IR",
-    "gsisId": "00-0036418",
-    "injury": "Back",
+    "gsisId": null,
+    "injury": null,
     "name": "Zack Baun",
     "pos": "LB",
-    "practice": "Did Not Participate In Practice",
+    "practice": "",
     "statusDate": "2026-11-22T00:14Z"
    }
   ],
-  "week": 11
+  "week": 12
  },
- "updated": "2026-11-24T07:00:48-05:00"
+ "updated": "2026-11-25T07:00:54-05:00"
 }

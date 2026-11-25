@@ -103,8 +103,17 @@
    "depthOrder": 2,
    "depthPos": "LILB",
    "espnId": null,
-   "injury": "Out",
+   "injury": "Questionable",
    "name": "Smael Mondon Jr.",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "LILB",
+   "espnId": null,
+   "injury": null,
+   "name": "Chance Campbell",
    "pos": "LB",
    "status": "Active"
   },
@@ -166,7 +175,7 @@
    "depthOrder": 2,
    "depthPos": "NB",
    "espnId": null,
-   "injury": "Out",
+   "injury": null,
    "name": "Mac McWilliams",
    "pos": "CB",
    "status": "Active"
@@ -184,7 +193,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": "Out",
+   "injury": null,
    "name": "Ajani Cornelius",
    "pos": "OL",
    "status": "Active"
@@ -196,15 +205,6 @@
    "injury": null,
    "name": "Drew Kendall",
    "pos": "C",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": "OL",
-   "espnId": null,
-   "injury": "Out",
-   "name": "Jake Majors",
-   "pos": "OL",
    "status": "Active"
   },
   {
@@ -301,7 +301,7 @@
    "depthOrder": 3,
    "depthPos": "QB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Tanner McKee",
    "pos": "QB",
    "status": "Active"
@@ -310,7 +310,7 @@
    "depthOrder": 4,
    "depthPos": "QB",
    "espnId": null,
-   "injury": "Out",
+   "injury": null,
    "name": "Cole Payton",
    "pos": "QB",
    "status": "Active"
@@ -319,7 +319,7 @@
    "depthOrder": 1,
    "depthPos": "RB",
    "espnId": 3929630,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
@@ -490,7 +490,7 @@
    "depthOrder": 1,
    "depthPos": "TE",
    "espnId": 3121023,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Dallas Goedert",
    "pos": "TE",
    "status": "Active"
@@ -498,18 +498,18 @@
   {
    "depthOrder": 2,
    "depthPos": "TE",
-   "espnId": null,
+   "espnId": 15835,
    "injury": null,
-   "name": "Eli Stowers",
+   "name": "Zach Ertz",
    "pos": "TE",
    "status": "Active"
   },
   {
    "depthOrder": 3,
    "depthPos": "TE",
-   "espnId": 15835,
+   "espnId": null,
    "injury": null,
-   "name": "Zach Ertz",
+   "name": "Eli Stowers",
    "pos": "TE",
    "status": "Active"
   },
@@ -575,15 +575,6 @@
    "name": "Brandon Brooks",
    "pos": "G",
    "status": "Inactive"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Chance Campbell",
-   "pos": "LB",
-   "status": "Active"
   },
   {
    "depthOrder": null,
@@ -680,6 +671,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Jake Majors",
+   "pos": "OL",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Joshua Weru",
    "pos": "DE",
    "status": "Active"
@@ -739,5 +739,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-24T07:00:51-05:00"
+ "updated": "2026-11-25T07:00:57-05:00"
 }

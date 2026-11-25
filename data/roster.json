@@ -6,8 +6,8 @@
    "exp": 9,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-23T22:04Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -136,8 +136,8 @@
    "exp": 9,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-23T22:07Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "88",
    "name": "Dallas Goedert",
    "pos": "TE",
@@ -196,26 +196,13 @@
    "status": "Active"
   },
   {
-   "age": 24,
-   "espnId": "4430814",
-   "exp": 1,
-   "group": "offense",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430814.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "75",
-   "name": "Jake Majors",
-   "pos": "C",
-   "status": "Active"
-  },
-  {
    "age": 26,
    "espnId": "4685201",
    "exp": 4,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685201.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-24T00:14Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "16",
    "name": "Tanner McKee",
    "pos": "QB",
@@ -332,7 +319,7 @@
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431545.png",
    "injury": "Questionable",
-   "injuryDate": "2026-11-24T00:21Z",
+   "injuryDate": "2026-11-25T01:04Z",
    "jersey": "28",
    "name": "Will Shipley",
    "pos": "RB",
@@ -375,6 +362,19 @@
    "jersey": "87",
    "name": "Eli Stowers",
    "pos": "TE",
+   "status": "Active"
+  },
+  {
+   "age": 27,
+   "espnId": "4372051",
+   "exp": 4,
+   "group": "defense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372051.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "59",
+   "name": "Chance Campbell",
+   "pos": "LB",
    "status": "Active"
   },
   {
@@ -436,7 +436,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4257591.png",
    "injury": "Questionable",
-   "injuryDate": "2026-11-23T22:13Z",
+   "injuryDate": "2026-11-25T02:19Z",
    "jersey": "17",
    "name": "Arnold Ebiketie",
    "pos": "LB",
@@ -553,7 +553,7 @@
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686273.png",
    "injury": "Questionable",
-   "injuryDate": "2026-11-22T20:56Z",
+   "injuryDate": "2026-11-25T01:05Z",
    "jersey": "27",
    "name": "Quinyon Mitchell",
    "pos": "CB",
@@ -565,8 +565,8 @@
    "exp": 2,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431573.png",
-   "injury": "Out",
-   "injuryDate": "2026-11-23T15:48Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-11-24T12:39Z",
    "jersey": "42",
    "name": "Smael Mondon Jr.",
    "pos": "LB",
@@ -885,19 +885,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 27,
-   "espnId": "4372051",
-   "exp": 4,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372051.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "59",
-   "name": "Chance Campbell",
-   "pos": "LB",
-   "status": "Practice Squad"
-  },
-  {
    "age": 26,
    "espnId": "4362186",
    "exp": 4,
@@ -1002,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-24T07:00:47-05:00"
+ "updated": "2026-11-25T07:00:53-05:00"
 }
