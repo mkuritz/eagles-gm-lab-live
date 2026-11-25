@@ -14,7 +14,7 @@
    },
    {
     "espnId": "4257591",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0038116",
     "injury": "Oblique",
     "name": "Arnold Ebiketie",
@@ -64,33 +64,13 @@
    },
    {
     "espnId": "2971027",
-    "gameStatus": "Questionable",
+    "gameStatus": "Out",
     "gsisId": "00-0032580",
     "injury": "Ankle",
     "name": "Jonathan Jones",
     "pos": "CB",
     "practice": "Did Not Participate In Practice",
-    "statusDate": "2026-11-24T00:10Z"
-   },
-   {
-    "espnId": "4686273",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0039888",
-    "injury": "Hamstring",
-    "name": "Quinyon Mitchell",
-    "pos": "CB",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-25T01:05Z"
-   },
-   {
-    "espnId": "4431573",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0040013",
-    "injury": "Ankle",
-    "name": "Smael Mondon Jr.",
-    "pos": "LB",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-24T12:39Z"
+    "statusDate": "2026-11-25T17:45Z"
    },
    {
     "espnId": "4429013",
@@ -133,16 +113,6 @@
     "statusDate": "2026-10-10T02:19Z"
    },
    {
-    "espnId": "4431545",
-    "gameStatus": "Questionable",
-    "gsisId": "00-0039746",
-    "injury": "Foot",
-    "name": "Will Shipley",
-    "pos": "RB",
-    "practice": "Limited Participation in Practice",
-    "statusDate": "2026-11-25T01:04Z"
-   },
-   {
     "espnId": "3917657",
     "gameStatus": "IR",
     "gsisId": null,
@@ -155,5 +125,5 @@
   ],
   "week": 12
  },
- "updated": "2026-11-25T14:05:55-05:00"
+ "updated": "2026-11-25T15:05:53-05:00"
 }
