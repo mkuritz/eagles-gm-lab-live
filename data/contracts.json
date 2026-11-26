@@ -703,6 +703,20 @@
   {
    "apy": 1.005,
    "apy_cap_pct": 0.003,
+   "gsis_id": "00-0037312",
+   "guaranteed": 0.0,
+   "is_active": true,
+   "otc_id": 10264,
+   "player": "Chance Campbell",
+   "position": "LB",
+   "team": "Eagles",
+   "value": 1.005,
+   "year_signed": 2026,
+   "years": 1
+  },
+  {
+   "apy": 1.005,
+   "apy_cap_pct": 0.003,
    "gsis_id": "00-0040586",
    "guaranteed": 0.0,
    "is_active": true,
@@ -713,6 +727,20 @@
    "value": 1.005,
    "year_signed": 2026,
    "years": 1
+  },
+  {
+   "apy": 0.998,
+   "apy_cap_pct": 0.004,
+   "gsis_id": "00-0040631",
+   "guaranteed": 0.03,
+   "is_active": true,
+   "otc_id": 12775,
+   "player": "Willie Lampkin",
+   "position": "RG",
+   "team": "Eagles",
+   "value": 2.995,
+   "year_signed": 2025,
+   "years": 3
   },
   {
    "apy": 0.993,
@@ -745,12 +773,12 @@
   {
    "apy": 0.885,
    "apy_cap_pct": 0.003,
-   "gsis_id": "00-0040422",
+   "gsis_id": "00-0039265",
    "guaranteed": 0.0,
    "is_active": true,
-   "otc_id": 12787,
-   "player": "Jake Majors",
-   "position": "C",
+   "otc_id": 11995,
+   "player": "Gabe Hall",
+   "position": "IDL",
    "team": "Eagles",
    "value": 0.885,
    "year_signed": 2026,
@@ -857,20 +885,6 @@
   {
    "apy": 0.247,
    "apy_cap_pct": 0.001,
-   "gsis_id": "00-0037312",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 10264,
-   "player": "Chance Campbell",
-   "position": "LB",
-   "team": "Eagles",
-   "value": 0.247,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.247,
-   "apy_cap_pct": 0.001,
    "gsis_id": "00-0038616",
    "guaranteed": 0.0,
    "is_active": true,
@@ -905,20 +919,6 @@
    "otc_id": 13397,
    "player": "Evan Beerntsen",
    "position": "LG",
-   "team": "Eagles",
-   "value": 0.247,
-   "year_signed": 2026,
-   "years": 1
-  },
-  {
-   "apy": 0.247,
-   "apy_cap_pct": 0.001,
-   "gsis_id": "00-0039265",
-   "guaranteed": 0.0,
-   "is_active": true,
-   "otc_id": 11995,
-   "player": "Gabe Hall",
-   "position": "IDL",
    "team": "Eagles",
    "value": 0.247,
    "year_signed": 2026,
@@ -1009,5 +1009,5 @@
    "years": 1
   }
  ],
- "updated": "2026-11-26T07:00:51-05:00"
+ "updated": "2026-11-26T13:05:56-05:00"
 }
