@@ -241,6 +241,18 @@
    "w": 7
   },
   {
+   "abbr": "LAR",
+   "conf": "NFC",
+   "l": 4,
+   "name": "Los Angeles Rams",
+   "pa": 200,
+   "pf": 274,
+   "seed": "7",
+   "streak": "W5",
+   "t": 0,
+   "w": 7
+  },
+  {
    "abbr": "NYG",
    "conf": "NFC",
    "l": 3,
@@ -250,18 +262,6 @@
    "seed": "3",
    "streak": "W1",
    "t": 1,
-   "w": 6
-  },
-  {
-   "abbr": "GB",
-   "conf": "NFC",
-   "l": 4,
-   "name": "Green Bay Packers",
-   "pa": 221,
-   "pf": 226,
-   "seed": "7",
-   "streak": "L1",
-   "t": 0,
    "w": 6
   },
   {
@@ -277,14 +277,14 @@
    "w": 6
   },
   {
-   "abbr": "LAR",
+   "abbr": "GB",
    "conf": "NFC",
-   "l": 4,
-   "name": "Los Angeles Rams",
-   "pa": 187,
-   "pf": 248,
+   "l": 5,
+   "name": "Green Bay Packers",
+   "pa": 247,
+   "pf": 239,
    "seed": "9",
-   "streak": "W4",
+   "streak": "L2",
    "t": 0,
    "w": 6
   },
@@ -385,5 +385,5 @@
    "w": 3
   }
  ],
- "updated": "2026-11-24T07:00:47-05:00"
+ "updated": "2026-11-26T07:00:48-05:00"
 }

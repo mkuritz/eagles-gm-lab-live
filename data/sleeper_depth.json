@@ -58,7 +58,7 @@
    "depthOrder": 1,
    "depthPos": "LCB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Quinyon Mitchell",
    "pos": "CB",
    "status": "Active"
@@ -76,7 +76,7 @@
    "depthOrder": 3,
    "depthPos": "LCB",
    "espnId": 2971027,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Jonathan Jones",
    "pos": "DB",
    "status": "Active"
@@ -103,7 +103,7 @@
    "depthOrder": 2,
    "depthPos": "LILB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Smael Mondon Jr.",
    "pos": "LB",
    "status": "Active"
@@ -186,6 +186,15 @@
    "espnId": null,
    "injury": null,
    "name": "Ty Robinson",
+   "pos": "DT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 2,
+   "depthPos": "NT",
+   "espnId": null,
+   "injury": null,
+   "name": "Gabe Hall",
    "pos": "DT",
    "status": "Active"
   },
@@ -328,7 +337,7 @@
    "depthOrder": 2,
    "depthPos": "RB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": null,
    "name": "Will Shipley",
    "pos": "RB",
    "status": "Active"
@@ -418,7 +427,7 @@
    "depthOrder": 2,
    "depthPos": "ROLB",
    "espnId": null,
-   "injury": "Questionable",
+   "injury": "Out",
    "name": "Arnold Ebiketie",
    "pos": "DL",
    "status": "Active"
@@ -429,6 +438,15 @@
    "espnId": 4240585,
    "injury": null,
    "name": "A.J. Epenesa",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 4,
+   "depthPos": "ROLB",
+   "espnId": null,
+   "injury": null,
+   "name": "Mason Reiger",
    "pos": "DE",
    "status": "Active"
   },
@@ -466,6 +484,15 @@
    "injury": null,
    "name": "Michael Carter II",
    "pos": "CB",
+   "status": "Active"
+  },
+  {
+   "depthOrder": 3,
+   "depthPos": "SS",
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Wisniewski",
+   "pos": "DB",
    "status": "Active"
   },
   {
@@ -588,15 +615,6 @@
   {
    "depthOrder": null,
    "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Cole Wisniewski",
-   "pos": "DB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
    "espnId": 4423369,
    "injury": null,
    "name": "Duplicate Player",
@@ -644,15 +662,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Gabe Hall",
-   "pos": "DT",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Hayden Rucci",
    "pos": "TE",
    "status": "Active"
@@ -664,15 +673,6 @@
    "injury": null,
    "name": "Jacob Sykes",
    "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
-   "name": "Jake Majors",
-   "pos": "OL",
    "status": "Active"
   },
   {
@@ -716,15 +716,6 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
-   "name": "Mason Reiger",
-   "pos": "DE",
-   "status": "Active"
-  },
-  {
-   "depthOrder": null,
-   "depthPos": null,
-   "espnId": null,
-   "injury": null,
    "name": "Quentin Skinner",
    "pos": "WR",
    "status": "Active"
@@ -739,5 +730,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-25T07:00:57-05:00"
+ "updated": "2026-11-26T07:00:52-05:00"
 }

@@ -318,8 +318,8 @@
    "exp": 3,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431545.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-25T01:04Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "28",
    "name": "Will Shipley",
    "pos": "RB",
@@ -435,8 +435,8 @@
    "exp": 5,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4257591.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-25T02:19Z",
+   "injury": "Out",
+   "injuryDate": "2026-11-25T22:25Z",
    "jersey": "17",
    "name": "Arnold Ebiketie",
    "pos": "LB",
@@ -526,8 +526,8 @@
    "exp": 11,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2971027.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-24T00:10Z",
+   "injury": "Out",
+   "injuryDate": "2026-11-25T22:23Z",
    "jersey": "31",
    "name": "Jonathan Jones",
    "pos": "CB",
@@ -552,8 +552,8 @@
    "exp": 3,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686273.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-25T01:05Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "27",
    "name": "Quinyon Mitchell",
    "pos": "CB",
@@ -565,8 +565,8 @@
    "exp": 2,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431573.png",
-   "injury": "Questionable",
-   "injuryDate": "2026-11-24T12:39Z",
+   "injury": null,
+   "injuryDate": null,
    "jersey": "42",
    "name": "Smael Mondon Jr.",
    "pos": "LB",
@@ -621,6 +621,19 @@
    "injuryDate": null,
    "jersey": "45",
    "name": "Anfernee Orji",
+   "pos": "LB",
+   "status": "Active"
+  },
+  {
+   "age": 24,
+   "espnId": "4691903",
+   "exp": 0,
+   "group": "defense",
+   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4691903.png",
+   "injury": null,
+   "injuryDate": null,
+   "jersey": "90",
+   "name": "Mason Reiger",
    "pos": "LB",
    "status": "Active"
   },
@@ -729,7 +742,7 @@
    "status": "Active"
   },
   {
-   "age": 28,
+   "age": 29,
    "espnId": "4035239",
    "exp": 7,
    "group": "specialTeam",
@@ -924,19 +937,6 @@
    "status": "Practice Squad"
   },
   {
-   "age": 24,
-   "espnId": "4691903",
-   "exp": 0,
-   "group": "practiceSquad",
-   "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4691903.png",
-   "injury": null,
-   "injuryDate": null,
-   "jersey": "90",
-   "name": "Mason Reiger",
-   "pos": "LB",
-   "status": "Practice Squad"
-  },
-  {
    "age": 25,
    "espnId": "4428396",
    "exp": 1,
@@ -989,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-25T07:00:53-05:00"
+ "updated": "2026-11-26T07:00:48-05:00"
 }
