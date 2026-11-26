@@ -3,6 +3,26 @@
   "live": true,
   "players": [
    {
+    "espnId": "4240585",
+    "gameStatus": "Out",
+    "gsisId": null,
+    "injury": null,
+    "name": "AJ Epenesa",
+    "pos": "DE",
+    "practice": "",
+    "statusDate": "2026-11-26T20:14Z"
+   },
+   {
+    "espnId": "4696203",
+    "gameStatus": "Out",
+    "gsisId": null,
+    "injury": null,
+    "name": "Ajani Cornelius",
+    "pos": "OT",
+    "practice": "",
+    "statusDate": "2026-11-26T20:14Z"
+   },
+   {
     "espnId": "4250510",
     "gameStatus": "IR",
     "gsisId": null,
@@ -23,6 +43,16 @@
     "statusDate": "2026-11-25T22:25Z"
    },
    {
+    "espnId": "4879250",
+    "gameStatus": "Out",
+    "gsisId": null,
+    "injury": null,
+    "name": "Cole Payton",
+    "pos": "QB",
+    "practice": "",
+    "statusDate": "2026-11-26T20:20Z"
+   },
+   {
     "espnId": "4360238",
     "gameStatus": "Questionable",
     "gsisId": null,
@@ -41,6 +71,16 @@
     "pos": "WR",
     "practice": "",
     "statusDate": "2026-11-21T21:09Z"
+   },
+   {
+    "espnId": "4241374",
+    "gameStatus": "Out",
+    "gsisId": null,
+    "injury": null,
+    "name": "Grant Calcaterra",
+    "pos": "TE",
+    "practice": "",
+    "statusDate": "2026-11-26T20:14Z"
    },
    {
     "espnId": "4040715",
@@ -125,5 +165,5 @@
   ],
   "week": 12
  },
- "updated": "2026-11-25T19:05:52-05:00"
+ "updated": "2026-11-26T16:05:49-05:00"
 }

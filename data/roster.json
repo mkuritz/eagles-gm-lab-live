@@ -58,8 +58,8 @@
    "exp": 5,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241374.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-11-26T20:14Z",
    "jersey": "81",
    "name": "Grant Calcaterra",
    "pos": "TE",
@@ -84,8 +84,8 @@
    "exp": 2,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4696203.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-11-26T20:14Z",
    "jersey": "65",
    "name": "Ajani Cornelius",
    "pos": "OT",
@@ -292,8 +292,8 @@
    "exp": 0,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4879250.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-11-26T20:20Z",
    "jersey": "18",
    "name": "Cole Payton",
    "pos": "QB",
@@ -448,8 +448,8 @@
    "exp": 7,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240585.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-11-26T20:14Z",
    "jersey": "57",
    "name": "AJ Epenesa",
    "pos": "DE",
@@ -989,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-26T07:00:48-05:00"
+ "updated": "2026-11-26T16:05:49-05:00"
 }
