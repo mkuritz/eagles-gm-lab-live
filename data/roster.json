@@ -136,8 +136,8 @@
    "exp": 9,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
-   "injury": "Out",
-   "injuryDate": "2026-11-26T23:03Z",
+   "injury": "Questionable",
+   "injuryDate": "2026-11-27T02:30Z",
    "jersey": "88",
    "name": "Dallas Goedert",
    "pos": "TE",
@@ -331,8 +331,8 @@
    "exp": 6,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-11-27T02:39Z",
    "jersey": "6",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -461,8 +461,8 @@
    "exp": 8,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139368.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-11-27T00:13Z",
    "jersey": "29",
    "name": "Marcus Epps",
    "pos": "S",
@@ -487,8 +487,8 @@
    "exp": 1,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429731.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-11-27T00:46Z",
    "jersey": "96",
    "name": "Gabe Hall",
    "pos": "DT",
@@ -989,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-26T19:06:14-05:00"
+ "updated": "2026-11-26T22:01:09-05:00"
 }

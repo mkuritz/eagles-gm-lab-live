@@ -211,22 +211,22 @@
    "week": 11
   },
   {
-   "completed": false,
+   "completed": true,
    "date": "2026-11-26T21:30Z",
    "name": "PHI @ DAL",
-   "status": "In Progress",
+   "status": "Final",
    "teams": [
     {
      "abbr": "DAL",
      "homeAway": "home",
-     "score": null,
-     "winner": null
+     "score": "38",
+     "winner": false
     },
     {
      "abbr": "PHI",
      "homeAway": "away",
-     "score": null,
-     "winner": null
+     "score": "39",
+     "winner": true
     }
    ],
    "week": 12
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-11-26T19:06:14-05:00"
+ "updated": "2026-11-26T22:01:09-05:00"
 }
