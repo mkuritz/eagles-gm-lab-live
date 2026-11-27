@@ -214,7 +214,7 @@
    "completed": false,
    "date": "2026-11-26T21:30Z",
    "name": "PHI @ DAL",
-   "status": "Scheduled",
+   "status": "In Progress",
    "teams": [
     {
      "abbr": "DAL",
@@ -358,5 +358,5 @@
    "week": 18
   }
  ],
- "updated": "2026-11-22T19:05:58-05:00"
+ "updated": "2026-11-26T19:06:14-05:00"
 }

@@ -6,8 +6,8 @@
    "exp": 9,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-11-26T22:49Z",
    "jersey": "26",
    "name": "Saquon Barkley",
    "pos": "RB",
@@ -136,8 +136,8 @@
    "exp": 9,
    "group": "offense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Out",
+   "injuryDate": "2026-11-26T23:03Z",
    "jersey": "88",
    "name": "Dallas Goedert",
    "pos": "TE",
@@ -422,8 +422,8 @@
    "exp": 3,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4682618.png",
-   "injury": null,
-   "injuryDate": null,
+   "injury": "Questionable",
+   "injuryDate": "2026-11-26T22:08Z",
    "jersey": "33",
    "name": "Cooper DeJean",
    "pos": "CB",
@@ -989,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-26T16:05:49-05:00"
+ "updated": "2026-11-26T19:06:14-05:00"
 }

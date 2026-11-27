@@ -53,6 +53,26 @@
     "statusDate": "2026-11-26T20:20Z"
    },
    {
+    "espnId": "4682618",
+    "gameStatus": "Questionable",
+    "gsisId": null,
+    "injury": null,
+    "name": "Cooper DeJean",
+    "pos": "CB",
+    "practice": "",
+    "statusDate": "2026-11-26T22:08Z"
+   },
+   {
+    "espnId": "3121023",
+    "gameStatus": "Out",
+    "gsisId": "00-0034351",
+    "injury": "Shin",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-11-26T23:03Z"
+   },
+   {
     "espnId": "4360238",
     "gameStatus": "Questionable",
     "gsisId": null,
@@ -113,6 +133,16 @@
     "statusDate": "2026-11-25T22:23Z"
    },
    {
+    "espnId": "3929630",
+    "gameStatus": "Questionable",
+    "gsisId": "00-0034844",
+    "injury": "Neck",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "practice": "Full Participation in Practice",
+    "statusDate": "2026-11-26T22:49Z"
+   },
+   {
     "espnId": "4429013",
     "gameStatus": "IR",
     "gsisId": null,
@@ -165,5 +195,5 @@
   ],
   "week": 12
  },
- "updated": "2026-11-26T16:05:49-05:00"
+ "updated": "2026-11-26T19:06:14-05:00"
 }

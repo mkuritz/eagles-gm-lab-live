@@ -205,26 +205,26 @@
    "w": 9
   },
   {
-   "abbr": "DET",
-   "conf": "NFC",
-   "l": 2,
-   "name": "Detroit Lions",
-   "pa": 220,
-   "pf": 288,
-   "seed": "2",
-   "streak": "W6",
-   "t": 0,
-   "w": 8
-  },
-  {
    "abbr": "CHI",
    "conf": "NFC",
    "l": 2,
    "name": "Chicago Bears",
-   "pa": 197,
-   "pf": 262,
+   "pa": 232,
+   "pf": 301,
+   "seed": "2",
+   "streak": "W6",
+   "t": 0,
+   "w": 9
+  },
+  {
+   "abbr": "DET",
+   "conf": "NFC",
+   "l": 3,
+   "name": "Detroit Lions",
+   "pa": 259,
+   "pf": 323,
    "seed": "5",
-   "streak": "W5",
+   "streak": "L1",
    "t": 0,
    "w": 8
   },
@@ -385,5 +385,5 @@
    "w": 3
   }
  ],
- "updated": "2026-11-26T07:00:48-05:00"
+ "updated": "2026-11-26T19:06:14-05:00"
 }
