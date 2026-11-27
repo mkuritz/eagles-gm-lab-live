@@ -5,12 +5,12 @@
    "conf": "AFC",
    "l": 1,
    "name": "Buffalo Bills",
-   "pa": 208,
-   "pf": 313,
+   "pa": 218,
+   "pf": 326,
    "seed": "1",
-   "streak": "W6",
+   "streak": "W7",
    "t": 0,
-   "w": 9
+   "w": 10
   },
   {
    "abbr": "DEN",
@@ -27,12 +27,12 @@
   {
    "abbr": "KC",
    "conf": "AFC",
-   "l": 2,
+   "l": 3,
    "name": "Kansas City Chiefs",
-   "pa": 163,
-   "pf": 271,
+   "pa": 176,
+   "pf": 281,
    "seed": "5",
-   "streak": "W3",
+   "streak": "L1",
    "t": 0,
    "w": 8
   },
@@ -385,5 +385,5 @@
    "w": 3
   }
  ],
- "updated": "2026-11-26T22:01:09-05:00"
+ "updated": "2026-11-27T07:00:57-05:00"
 }

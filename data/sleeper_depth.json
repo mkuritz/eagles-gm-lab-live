@@ -148,7 +148,7 @@
    "depthOrder": 1,
    "depthPos": "LWR",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Active"
@@ -166,7 +166,7 @@
    "depthOrder": 1,
    "depthPos": "NB",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Cooper DeJean",
    "pos": "DB",
    "status": "Active"
@@ -193,7 +193,7 @@
    "depthOrder": 2,
    "depthPos": "NT",
    "espnId": null,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Gabe Hall",
    "pos": "DT",
    "status": "Active"
@@ -202,7 +202,7 @@
    "depthOrder": null,
    "depthPos": "OL",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Ajani Cornelius",
    "pos": "OL",
    "status": "Active"
@@ -319,7 +319,7 @@
    "depthOrder": 4,
    "depthPos": "QB",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Cole Payton",
    "pos": "QB",
    "status": "Active"
@@ -328,7 +328,7 @@
    "depthOrder": 1,
    "depthPos": "RB",
    "espnId": 3929630,
-   "injury": null,
+   "injury": "Questionable",
    "name": "Saquon Barkley",
    "pos": "RB",
    "status": "Active"
@@ -436,7 +436,7 @@
    "depthOrder": 3,
    "depthPos": "ROLB",
    "espnId": 4240585,
-   "injury": null,
+   "injury": "Out",
    "name": "A.J. Epenesa",
    "pos": "DE",
    "status": "Active"
@@ -472,7 +472,7 @@
    "depthOrder": 1,
    "depthPos": "SS",
    "espnId": 3139368,
-   "injury": null,
+   "injury": "Out",
    "name": "Marcus Epps",
    "pos": "DB",
    "status": "Active"
@@ -517,7 +517,7 @@
    "depthOrder": 1,
    "depthPos": "TE",
    "espnId": 3121023,
-   "injury": null,
+   "injury": "Out",
    "name": "Dallas Goedert",
    "pos": "TE",
    "status": "Active"
@@ -544,7 +544,7 @@
    "depthOrder": 4,
    "depthPos": "TE",
    "espnId": null,
-   "injury": null,
+   "injury": "Out",
    "name": "Grant Calcaterra",
    "pos": "TE",
    "status": "Active"
@@ -730,5 +730,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-26T07:00:52-05:00"
+ "updated": "2026-11-27T07:01:01-05:00"
 }

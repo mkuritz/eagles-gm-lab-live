@@ -461,7 +461,7 @@
    "exp": 8,
    "group": "defense",
    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139368.png",
-   "injury": "Out",
+   "injury": "Questionable",
    "injuryDate": "2026-11-27T00:13Z",
    "jersey": "29",
    "name": "Marcus Epps",
@@ -989,5 +989,5 @@
    "status": "Practice Squad"
   }
  ],
- "updated": "2026-11-26T22:01:09-05:00"
+ "updated": "2026-11-27T07:00:57-05:00"
 }
