@@ -442,15 +442,6 @@
    "status": "Active"
   },
   {
-   "depthOrder": 4,
-   "depthPos": "ROLB",
-   "espnId": null,
-   "injury": null,
-   "name": "Mason Reiger",
-   "pos": "DE",
-   "status": "Active"
-  },
-  {
    "depthOrder": 3,
    "depthPos": "RWR",
    "espnId": null,
@@ -484,15 +475,6 @@
    "injury": null,
    "name": "Michael Carter II",
    "pos": "CB",
-   "status": "Active"
-  },
-  {
-   "depthOrder": 3,
-   "depthPos": "SS",
-   "espnId": null,
-   "injury": null,
-   "name": "Cole Wisniewski",
-   "pos": "DB",
    "status": "Active"
   },
   {
@@ -543,18 +525,18 @@
   {
    "depthOrder": 4,
    "depthPos": "TE",
-   "espnId": null,
-   "injury": "Out",
-   "name": "Grant Calcaterra",
+   "espnId": 3052096,
+   "injury": null,
+   "name": "Johnny Mundt",
    "pos": "TE",
    "status": "Active"
   },
   {
    "depthOrder": 5,
    "depthPos": "TE",
-   "espnId": 3052096,
-   "injury": null,
-   "name": "Johnny Mundt",
+   "espnId": null,
+   "injury": "Out",
+   "name": "Grant Calcaterra",
    "pos": "TE",
    "status": "Active"
   },
@@ -610,6 +592,15 @@
    "injury": null,
    "name": "Charles Walker",
    "pos": "DT",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
+   "name": "Cole Wisniewski",
+   "pos": "DB",
    "status": "Active"
   },
   {
@@ -716,6 +707,15 @@
    "depthPos": null,
    "espnId": null,
    "injury": null,
+   "name": "Mason Reiger",
+   "pos": "DE",
+   "status": "Active"
+  },
+  {
+   "depthOrder": null,
+   "depthPos": null,
+   "espnId": null,
+   "injury": null,
    "name": "Quentin Skinner",
    "pos": "WR",
    "status": "Active"
@@ -730,5 +730,5 @@
    "status": "Active"
   }
  ],
- "updated": "2026-11-27T07:01:01-05:00"
+ "updated": "2026-11-28T07:00:56-05:00"
 }

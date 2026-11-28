@@ -15,12 +15,12 @@
   {
    "abbr": "DEN",
    "conf": "AFC",
-   "l": 2,
+   "l": 3,
    "name": "Denver Broncos",
-   "pa": 210,
-   "pf": 236,
+   "pa": 237,
+   "pf": 241,
    "seed": "2",
-   "streak": "W6",
+   "streak": "L1",
    "t": 0,
    "w": 8
   },
@@ -61,26 +61,26 @@
    "w": 7
   },
   {
+   "abbr": "PIT",
+   "conf": "AFC",
+   "l": 4,
+   "name": "Pittsburgh Steelers",
+   "pa": 206,
+   "pf": 241,
+   "seed": "6",
+   "streak": "W1",
+   "t": 0,
+   "w": 7
+  },
+  {
    "abbr": "CLE",
    "conf": "AFC",
    "l": 4,
    "name": "Cleveland Browns",
    "pa": 220,
    "pf": 188,
-   "seed": "6",
-   "streak": "W1",
-   "t": 0,
-   "w": 6
-  },
-  {
-   "abbr": "PIT",
-   "conf": "AFC",
-   "l": 4,
-   "name": "Pittsburgh Steelers",
-   "pa": 201,
-   "pf": 214,
    "seed": "7",
-   "streak": "L2",
+   "streak": "W1",
    "t": 0,
    "w": 6
   },
@@ -385,5 +385,5 @@
    "w": 3
   }
  ],
- "updated": "2026-11-27T07:00:57-05:00"
+ "updated": "2026-11-28T07:00:53-05:00"
 }
